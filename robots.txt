@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /crm/
+Disallow: /preview.html
 
 Sitemap: https://opalradiant.com/sitemap.xml

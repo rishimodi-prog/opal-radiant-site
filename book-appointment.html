@@ -16,6 +16,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<meta name="robots" content="index, follow">
+<meta property="og:image" content="https://opalradiant.com/images/og-home.jpg">
+<meta name="twitter:title" content="Book Free Appointment | OPAL Radiant Aesthetic Clinic">
+<meta name="twitter:description" content="Book your free consultation at OPAL Radiant — women-only aesthetic clinic in Mumbai &amp; Thane. Call, WhatsApp, or fill the form.">
+<meta name="twitter:image" content="https://opalradiant.com/images/og-home.jpg">
+<meta property="og:site_name" content="OPAL Radiant Studio">
 </head>
 <body>
   <header class="header" role="banner">
@@ -24,14 +32,40 @@
       <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
       <nav class="nav" role="navigation" aria-label="Main navigation">
         <ul class="nav__list">
-          <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
-          <li class="nav__item nav__item--has-dropdown"><a href="/services/laser-hair-removal-mumbai.html" class="nav__link">Laser Hair Removal</a><div class="nav__dropdown"><a href="/services/laser-hair-removal-mumbai.html">Laser Hair Removal Mumbai</a><a href="/locations/laser-hair-removal-borivali.html">Laser Hair Removal Borivali</a><a href="/locations/laser-hair-removal-thane.html">Laser Hair Removal Thane</a><a href="/locations/laser-hair-removal-powai.html">Laser Hair Removal Powai</a></div></li>
-          <li class="nav__item nav__item--has-dropdown"><a href="/services/fat-freeze.html" class="nav__link">Fat Freeze</a><div class="nav__dropdown"><a href="/services/fat-freeze.html">Fat Freeze / Cryolipolysis</a><a href="/services/fat-freeze-cost-mumbai.html">Fat Freeze Cost Mumbai</a></div></li>
-          <li class="nav__item nav__item--has-dropdown"><a href="#" class="nav__link">Skin Treatments</a><div class="nav__dropdown"><a href="/services/carbon-laser-facial.html">Carbon Laser Facial</a><a href="/services/hydra-facial.html">Hydra Facial</a><a href="/services/chemical-peel.html">Chemical Peel</a><a href="/services/mnrf.html">MNRF</a></div></li>
-          <li class="nav__item nav__item--has-dropdown"><a href="#" class="nav__link">Face &amp; Body</a><div class="nav__dropdown"><a href="/services/hifu-face-lift.html">HIFU Face Lift</a><a href="/services/tattoo-removal.html">Tattoo Removal</a><a href="/services/body-contouring.html">Body Contouring</a></div></li>
-          <li class="nav__item"><a href="/about.html" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="/blog/" class="nav__link nav__link--active">Blog</a></li>
-          <li class="nav__item"><a href="/locations/" class="nav__link">Locations</a></li>
+          <li class="nav__item">
+            <a href="/" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="/services/laser-hair-removal-mumbai.html" class="nav__link">Treatments</a>
+            <div class="nav__dropdown">
+              <a href="/services/laser-hair-removal-mumbai.html">Laser Hair Removal</a>
+              <a href="/services/fat-freeze.html">Fat Freeze / Cryolipolysis</a>
+              <a href="/services/hifu-face-lift.html">HIFU Face Lift</a>
+              <a href="/services/carbon-laser-facial.html">Carbon Laser Facial</a>
+              <a href="/services/hydra-facial.html">Hydra Facial</a>
+              <a href="/services/chemical-peel.html">Chemical Peel</a>
+              <a href="/services/mnrf.html">MNRF</a>
+              <a href="/services/tattoo-removal.html">Tattoo Removal</a>
+            </div>
+          </li>
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="/locations/powai.html" class="nav__link">Locations</a>
+            <div class="nav__dropdown">
+              <a href="/locations/powai.html">Powai</a>
+              <a href="/locations/wadala.html">Wadala</a>
+              <a href="/locations/borivali.html">Borivali</a>
+              <a href="/locations/thane.html">Thane</a>
+            </div>
+          </li>
+          <li class="nav__item">
+            <a href="/pricing.html" class="nav__link">Pricing</a>
+          </li>
+          <li class="nav__item">
+            <a href="/about.html" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="/blog/" class="nav__link">Blog</a>
+          </li>
         </ul>
       </nav>
       <div class="header__cta"><a href="/book-appointment.html" class="btn btn--primary btn--sm">Book Free Appointment</a></div>
@@ -65,14 +99,14 @@
 
           <!-- Left: Contact Form -->
           <div>
-            <form action="#" id="booking-form" class="contact-form">
+            <form  id="booking-form" class="contact-form">
               <div class="form-group">
                 <label for="name" class="form-label">Full Name *</label>
                 <input type="text" id="name" name="name" class="form-input" required placeholder="Enter your full name">
               </div>
               <div class="form-group">
                 <label for="phone" class="form-label">Phone Number *</label>
-                <input type="tel" id="phone" name="phone" class="form-input" required placeholder="+91 XXXXX XXXXX">
+                <input type="tel" id="phone" name="phone" class="form-input" required placeholder="+91 XXXXX XXXXX" pattern="[6-9]\d{9}" title="Enter a valid 10-digit Indian mobile number starting with 6, 7, 8, or 9">
               </div>
               <div class="form-group">
                 <label for="email" class="form-label">Email Address</label>
@@ -106,11 +140,11 @@
               </div>
               <div class="form-group">
                 <label for="date" class="form-label">Preferred Date</label>
-                <input type="date" id="date" name="date" class="form-input">
+                <input type="date" id="date" name="preferred_date" class="form-input">
               </div>
               <div class="form-group">
                 <label for="message" class="form-label">Message (Optional)</label>
-                <textarea id="message" name="message" class="form-input" rows="4" placeholder="Tell us about your concerns or any questions you have..."></textarea>
+                <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Tell us about your concerns or any questions you have..."></textarea>
               </div>
               <button type="submit" class="btn btn--primary btn--block">Book My Free Consultation</button>
             </form>
@@ -152,38 +186,38 @@
     <section class="section section--alt">
       <div class="container">
         <h2 class="section__heading text-center">Our Locations</h2>
-        <div class="grid grid--3" style="gap:1.5rem;">
+        <div class="grid grid--2" style="gap:1.5rem;">
 
           <div class="card">
             <h3 class="card__title">Powai</h3>
-            <p class="card__subtitle">OPAL Radiant Studio - Powai</p>
-            <p>Hiranandani Gardens, Powai, Mumbai 400076</p>
-            <p class="text-muted">Near Galleria Mall</p>
-            <a href="#" class="btn btn--outline btn--sm" style="margin-top:1rem;">Get Directions</a>
+            <p class="card__subtitle">OPAL Radiant Studio &mdash; Powai</p>
+            <p>B1 203, Boomerang, Chandivali Farm Road, Powai, Mumbai 400072</p>
+            <p><a href="tel:+917703037070">+91 77030 37070</a></p>
+            <a href="https://maps.google.com/?q=Opal+Radiant+Powai+Boomerang+Chandivali" target="_blank" rel="noopener" class="btn btn--outline btn--sm" style="margin-top:1rem;">Get Directions</a>
           </div>
 
           <div class="card">
             <h3 class="card__title">Wadala</h3>
-            <p class="card__subtitle">OPAL Radiant Studio - Wadala</p>
+            <p class="card__subtitle">OPAL Radiant Studio &mdash; Wadala</p>
             <p>Wadala East, Mumbai 400037</p>
-            <p class="text-muted">Near Wadala Station</p>
-            <a href="#" class="btn btn--outline btn--sm" style="margin-top:1rem;">Get Directions</a>
+            <p><a href="tel:+917745005500">+91 77450 05500</a></p>
+            <a href="https://maps.google.com/?q=Opal+Radiant+Wadala+East+Mumbai" target="_blank" rel="noopener" class="btn btn--outline btn--sm" style="margin-top:1rem;">Get Directions</a>
           </div>
 
           <div class="card">
             <h3 class="card__title">Borivali</h3>
-            <p class="card__subtitle">OPAL Radiant Studio - Borivali</p>
+            <p class="card__subtitle">OPAL Radiant Studio &mdash; Borivali</p>
             <p>Borivali West, Mumbai 400092</p>
-            <p class="text-muted">Near Borivali Station</p>
-            <a href="#" class="btn btn--outline btn--sm" style="margin-top:1rem;">Get Directions</a>
+            <p><a href="tel:+919800498002">+91 98004 98002</a></p>
+            <a href="https://maps.google.com/?q=Opal+Radiant+Borivali+West+Mumbai" target="_blank" rel="noopener" class="btn btn--outline btn--sm" style="margin-top:1rem;">Get Directions</a>
           </div>
 
           <div class="card">
             <h3 class="card__title">Thane</h3>
-            <p class="card__subtitle">OPAL Radiant Studio - Thane</p>
-            <p>Thane West, Thane 400601</p>
-            <p class="text-muted">Near Viviana Mall</p>
-            <a href="#" class="btn btn--outline btn--sm" style="margin-top:1rem;">Get Directions</a>
+            <p class="card__subtitle">OPAL Radiant Studio &mdash; Thane</p>
+            <p>16th Floor, 1618, Hiranandani Solus, Thane West 400607</p>
+            <p><a href="tel:+918604410418">+91 86044 10418</a></p>
+            <a href="https://maps.google.com/?q=Opal+Radiant+Hiranandani+Solus+Thane" target="_blank" rel="noopener" class="btn btn--outline btn--sm" style="margin-top:1rem;">Get Directions</a>
           </div>
 
         </div>
@@ -212,6 +246,7 @@
             <li><a href="/services/tattoo-removal.html">Tattoo Removal</a></li>
             <li><a href="/services/chemical-peel.html">Chemical Peel</a></li>
             <li><a href="/services/hydra-facial.html">Hydra Facial</a></li>
+            <li><a href="/services/mnrf.html">MNRF</a></li>
           </ul>
         </div>
         <div>
@@ -220,8 +255,8 @@
             <li><a href="/about.html">About Us</a></li>
             <li><a href="/about.html#doctor">Our Dermatologist</a></li>
             <li><a href="/blog/">Blog</a></li>
-            <li><a href="/results.html">Before &amp; After</a></li>
-            <li><a href="/pre-post-care.html">Pre &amp; Post Care</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/pricing.html">Pricing</a></li>
             <li><a href="/privacy-policy.html">Privacy Policy</a></li>
           </ul>
         </div>
