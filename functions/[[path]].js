@@ -45,6 +45,17 @@ const BRANCH_QUERIES = [
 export async function onRequest(context) {
   const url = new URL(context.request.url);
 
+  if (isPrivatePath(url.pathname)) {
+    return new Response('Not Found', {
+      status: 404,
+      headers: {
+        'Cache-Control': 'no-store',
+        'Content-Type': 'text/plain; charset=utf-8',
+        'X-Robots-Tag': 'noindex',
+      },
+    });
+  }
+
   if (url.pathname === '/api/reviews') {
     if (context.request.method === 'OPTIONS') {
       return new Response(null, {
@@ -69,6 +80,14 @@ export async function onRequest(context) {
   }
 
   return context.next();
+}
+
+function isPrivatePath(pathname) {
+  return pathname === '/DEPLOY.md'
+    || pathname === '/recovery-report.json'
+    || pathname.startsWith('/crm/')
+    || pathname.startsWith('/scripts/')
+    || pathname.startsWith('/artifacts/');
 }
 
 async function handleReviews(context) {
