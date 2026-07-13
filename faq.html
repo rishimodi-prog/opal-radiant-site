@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-IN">
 <head>
+  <!-- Microsoft Clarity: deferred until after the page is usable -->
+  <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "uk6elnx25m");
+      }, 1500);
+    }, { once: true });
+  </script>
+
+  <!-- Google tag (gtag.js) — GA4 + Google Ads -->
+  <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var tag = document.createElement('script');
+        tag.async = true;
+        tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-S2T33WR4TY';
+        document.head.appendChild(tag);
+      }, 1500);
+    }, { once: true });
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S2T33WR4TY');
+    gtag('config', 'AW-18204959421', {'allow_enhanced_conversions': true});
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frequently Asked Questions | OPAL Radiant Aesthetic Clinic</title>
   <meta name="description" content="Answers to common questions about laser hair removal, fat freeze, skin treatments, and more at OPAL Radiant women-only clinics in Mumbai.">
-  <link rel="canonical" href="https://opalradiant.com/faq.html">
+  <link rel="canonical" href="https://opalradiant.com/faq">
   <meta property="og:title" content="Frequently Asked Questions | OPAL Radiant Aesthetic Clinic">
   <meta property="og:description" content="Answers to common questions about laser hair removal, fat freeze, skin treatments, and more at OPAL Radiant women-only clinics in Mumbai.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://opalradiant.com/faq.html">
+  <meta property="og:url" content="https://opalradiant.com/faq">
   <meta property="og:locale" content="en_IN">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/arimo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/oswald-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/style.css">
   <script type="application/ld+json">
   {
@@ -50,7 +81,7 @@
         "name": "What is the cost of full body laser hair removal?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Full body laser hair removal at OPAL Radiant starts at Rs 6,999 per session. We also offer a 6-session package at Rs 29,999. Visit our <a href="/pricing.html">pricing page</a> for detailed rates."
+          "text": "Full body laser hair removal at OPAL Radiant starts at Rs 6,999 per session. We also offer a 6-session package at Rs 29,999. Visit our pricing page for detailed rates."
         }
       },
       {
@@ -229,47 +260,72 @@
 
   <header class="header" role="banner">
     <div class="header__inner">
-      <a href="/" class="header__logo" aria-label="Opal Radiant — Home"><img src="/images/opal-logo.png" alt="OPAL Radiant Studio logo" width="140" height="45"></a>
-      <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <a href="/" class="header__logo" aria-label="Opal Radiant — Home">
+        <img src="/images/opal-logo.webp" alt="OPAL Radiant Studio logo" width="140" height="45">
+      </a>
+
+      <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
       <nav class="nav" role="navigation" aria-label="Main navigation">
         <ul class="nav__list">
           <li class="nav__item">
             <a href="/" class="nav__link">Home</a>
           </li>
-          <li class="nav__item nav__item--has-dropdown">
-            <a href="/services/laser-hair-removal-mumbai.html" class="nav__link">Treatments</a>
-            <div class="nav__dropdown">
-              <a href="/services/laser-hair-removal-mumbai.html">Laser Hair Removal</a>
-              <a href="/services/fat-freeze.html">Fat Freeze / Cryolipolysis</a>
-              <a href="/services/hifu-face-lift.html">HIFU Face Lift</a>
-              <a href="/services/carbon-laser-facial.html">Carbon Laser Facial</a>
-              <a href="/services/hydra-facial.html">Hydra Facial</a>
-              <a href="/services/chemical-peel.html">Chemical Peel</a>
-              <a href="/services/mnrf.html">MNRF</a>
-              <a href="/services/tattoo-removal.html">Tattoo Removal</a>
+          <li class="nav__item nav__item--has-dropdown nav__item--mega">
+            <a href="/services/" class="nav__link">Treatments</a>
+            <div class="nav__dropdown nav__mega">
+              <div class="nav__mega-col">
+                <span class="nav__mega-heading">Hair</span>
+                <a href="/services/laser-hair-removal-mumbai">Laser Hair Removal</a>
+                <a href="/services/hair-prp">Hair PRP</a>
+                <a href="/services/hair-fillers">Hair Fillers</a>
+              </div>
+              <div class="nav__mega-col">
+                <span class="nav__mega-heading">Skin Treatments</span>
+                <a href="/services/carbon-laser-facial">Carbon Laser Facial</a>
+                <a href="/services/hydra-facial">Hydra Facial</a>
+                <a href="/services/chemical-peel">Chemical Peel</a>
+                <a href="/services/mnrf">MNRF</a>
+                <a href="/services/hifu-face-lift">HIFU Face Lift</a>
+                <a href="/services/tattoo-removal">Tattoo Removal</a>
+              </div>
+              <div class="nav__mega-col">
+                <span class="nav__mega-heading">Face &amp; Body</span>
+                <a href="/services/fat-freeze">Fat Freeze / Cryolipolysis</a>
+                <a href="/services/hifem-body-toning">HIFEM Body Toning</a>
+                <a href="/services/jordi-shape">Jordi Shape</a>
+              </div>
             </div>
           </li>
           <li class="nav__item nav__item--has-dropdown">
-            <a href="/locations/powai.html" class="nav__link">Locations</a>
+            <a href="/locations/powai" class="nav__link">Locations</a>
             <div class="nav__dropdown">
-              <a href="/locations/powai.html">Powai</a>
-              <a href="/locations/wadala.html">Wadala</a>
-              <a href="/locations/borivali.html">Borivali</a>
-              <a href="/locations/thane.html">Thane</a>
+              <a href="/locations/powai">Powai</a>
+              <a href="/locations/wadala">Wadala</a>
+              <a href="/locations/borivali">Borivali</a>
+              <a href="/locations/thane">Thane</a>
             </div>
           </li>
           <li class="nav__item">
-            <a href="/pricing.html" class="nav__link">Pricing</a>
+            <a href="/pricing" class="nav__link">Pricing</a>
           </li>
           <li class="nav__item">
-            <a href="/about.html" class="nav__link">About</a>
+            <a href="/about" class="nav__link">About</a>
           </li>
           <li class="nav__item">
             <a href="/blog/" class="nav__link">Blog</a>
           </li>
+          <li class="nav__item">
+            <a href="/contact" class="nav__link">Contact</a>
+          </li>
         </ul>
       </nav>
-      <div class="header__cta"><a href="/book-appointment.html" class="btn btn--primary btn--sm">Book Free Appointment</a></div>
+
+      <div class="header__cta">
+        <a href="/book-appointment" class="btn btn--primary btn--sm">Book Free Appointment</a>
+      </div>
     </div>
     <div class="nav__overlay"></div>
   </header>
@@ -314,7 +370,7 @@
         <div class="faq__item">
           <h3 class="faq__question">What is the cost of full body laser hair removal?</h3>
           <div class="faq__answer">
-            <p>Full body <a href="/services/laser-hair-removal-mumbai.html">laser hair removal</a> at OPAL Radiant starts at Rs 6,999 per session. We also offer a 6-session package at Rs 29,999. Visit our <a href="/pricing.html">pricing page</a> for detailed rates.</p>
+            <p>Full body <a href="/services/laser-hair-removal-mumbai">laser hair removal</a> at OPAL Radiant starts at Rs 6,999 per session. We also offer a 6-session package at Rs 29,999. Visit our <a href="/pricing">pricing page</a> for detailed rates.</p>
           </div>
         </div>
 
@@ -332,12 +388,68 @@
           </div>
         </div>
 
+        <div class="faq__item">
+          <h3 class="faq__question">Is laser hair removal permanent?</h3>
+          <div class="faq__answer">
+            <p>Laser hair removal offers <strong>long-term permanent hair reduction</strong>. After a full course (typically 6&ndash;8 sessions), most women see 80&ndash;95% permanent reduction in the treated area. A few dormant follicles may reactivate over the years due to hormonal changes, so occasional maintenance sessions (once every 12&ndash;18 months) help sustain results. For a detailed read, see our blog article <a href="/blog/is-laser-hair-removal-permanent">Is Laser Hair Removal Permanent?</a></p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question">How long does a laser hair removal session take?</h3>
+          <div class="faq__answer">
+            <p>Session duration depends on the area treated. <strong>Small areas</strong> like underarms or upper lip take about 10&ndash;15 minutes. <strong>Medium areas</strong> like the face, bikini, or lower arms take about 20&ndash;30 minutes. <strong>Larger areas</strong> like full legs, back or full arms take 45&ndash;60 minutes. A <strong>full-body session</strong> typically takes 90&ndash;120 minutes including preparation.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question">What areas of the body can be treated with laser hair removal?</h3>
+          <div class="faq__answer">
+            <p>Almost any area with unwanted hair can be treated. Common areas include: <strong>underarms, arms, legs, bikini/Brazilian, face (upper lip, chin, sideburns), stomach, back, chest and full body</strong>. We do not treat the immediate area around the eyes (eyelids/eyebrow line). During your consultation the dermatologist will map the exact areas you want treated.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question">Is there any downtime after a laser hair removal session?</h3>
+          <div class="faq__answer">
+            <p>There is <strong>no downtime</strong>. You can return to work and normal daily activities immediately after your session. Some women experience mild redness or a warm sensation in the treated area for a few hours, similar to a mild sunburn. This settles on its own. Avoid hot showers, saunas, swimming, heavy workouts and sun exposure for 24&ndash;48 hours to protect the treated area.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question">Are there any side effects of laser hair removal?</h3>
+          <div class="faq__answer">
+            <p>Side effects are minimal and temporary when the procedure is performed correctly by a trained professional. You may experience <strong>mild redness, slight swelling around hair follicles, and a warm sensation</strong>, all of which typically resolve within a few hours to a day. Rare side effects include mild pigment changes, which usually normalise on their own. This is why patch testing and correct laser settings for Indian skin tones are critical &mdash; something we prioritise at Opal Radiant.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question">Can I shave between laser hair removal sessions?</h3>
+          <div class="faq__answer">
+            <p>Yes, <strong>shaving is the only recommended hair removal method between sessions</strong>. You must avoid waxing, threading, plucking or epilating, as these methods pull the hair from the root and disrupt the follicle cycle that the laser needs to target. Shave the treatment area 24 hours before your next session for best results.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question">Can I sunbathe or use tanning beds before or after laser hair removal?</h3>
+          <div class="faq__answer">
+            <p><strong>No</strong>. Sun exposure and tanning beds should be avoided for at least <strong>2 weeks before and 2 weeks after</strong> each session. Tanned or sunburnt skin has higher risk of pigment changes and burns during laser treatment. If you must be outdoors, apply broad-spectrum SPF 50+ sunscreen and cover the treated area. Self-tanners should be discontinued for 1&ndash;2 weeks before your session.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question">Are there any contraindications to laser hair removal?</h3>
+          <div class="faq__answer">
+            <p>Laser hair removal may not be suitable if you are <strong>pregnant or breastfeeding</strong>, have active skin infections or open wounds in the treatment area, are on photosensitising medications (some acne and antibiotic drugs), have a history of keloid scarring or vitiligo in the area, or have recently used oral retinoids (Isotretinoin/Accutane &mdash; wait at least 6 months). Our dermatologist reviews your full medical history during consultation to confirm safety.</p>
+          </div>
+        </div>
+
         <h2>Fat Freeze / Cryolipolysis</h2>
 
         <div class="faq__item">
           <h3 class="faq__question">What is fat freeze and how does it work?</h3>
           <div class="faq__answer">
-            <p><a href="/services/fat-freeze.html">Fat freeze</a> (cryolipolysis) is a non-invasive procedure that uses controlled cooling to freeze and destroy fat cells. Fat cells are more sensitive to cold than surrounding tissue, so they undergo apoptosis (natural cell death) while your skin and muscles remain unharmed. The body naturally eliminates the dead cells over 8-12 weeks.</p>
+            <p><a href="/services/fat-freeze">Fat freeze</a> (cryolipolysis) is a non-invasive procedure that uses controlled cooling to freeze and destroy fat cells. Fat cells are more sensitive to cold than surrounding tissue, so they undergo apoptosis (natural cell death) while your skin and muscles remain unharmed. The body naturally eliminates the dead cells over 8-12 weeks.</p>
           </div>
         </div>
 
@@ -365,7 +477,7 @@
         <div class="faq__item">
           <h3 class="faq__question">What is the cost of fat freeze at OPAL Radiant?</h3>
           <div class="faq__answer">
-            <p><a href="/services/fat-freeze.html#pricing">Fat freeze</a> starts at Rs 4,999 per body part. We offer a package of 5 body parts for Rs 19,999. A free consultation with Dr. Punit will help determine the best treatment plan for your goals.</p>
+            <p><a href="/services/fat-freeze#pricing">Fat freeze</a> starts at Rs 4,999 per body part. We offer a package of 5 body parts for Rs 19,999. A free consultation with Dr. Punit will help determine the best treatment plan for your goals.</p>
           </div>
         </div>
 
@@ -374,28 +486,28 @@
         <div class="faq__item">
           <h3 class="faq__question">What is a carbon laser facial?</h3>
           <div class="faq__answer">
-            <p>A <a href="/services/carbon-laser-facial.html">carbon laser facial</a> (also called a Hollywood Peel) involves applying a layer of liquid carbon to the skin, then using an Nd:YAG laser to gently heat and remove it. This deep-cleans pores, reduces oiliness, improves skin texture, and stimulates collagen production -- giving you an instant glow.</p>
+            <p>A <a href="/services/carbon-laser-facial">carbon laser facial</a> (also called a Hollywood Peel) involves applying a layer of liquid carbon to the skin, then using an Nd:YAG laser to gently heat and remove it. This deep-cleans pores, reduces oiliness, improves skin texture, and stimulates collagen production -- giving you an instant glow.</p>
           </div>
         </div>
 
         <div class="faq__item">
           <h3 class="faq__question">How often should I get a hydra facial?</h3>
           <div class="faq__answer">
-            <p>We recommend a <a href="/services/hydra-facial.html">hydra facial</a> every 4-6 weeks for optimal results. Each session cleanses, exfoliates, extracts impurities, and hydrates the skin using serums tailored to your skin type.</p>
+            <p>We recommend a <a href="/services/hydra-facial">hydra facial</a> every 4-6 weeks for optimal results. Each session cleanses, exfoliates, extracts impurities, and hydrates the skin using serums tailored to your skin type.</p>
           </div>
         </div>
 
         <div class="faq__item">
           <h3 class="faq__question">Which chemical peel is right for my skin?</h3>
           <div class="faq__answer">
-            <p>The right peel depends on your skin concern. Glycolic peels suit dull skin, salicylic peels target acne, and combination peels address pigmentation. During your consultation, Dr. Punit will assess your skin and recommend the most suitable <a href="/services/chemical-peel.html">chemical peel</a> type and strength.</p>
+            <p>The right peel depends on your skin concern. Glycolic peels suit dull skin, salicylic peels target acne, and combination peels address pigmentation. During your consultation, Dr. Punit will assess your skin and recommend the most suitable <a href="/services/chemical-peel">chemical peel</a> type and strength.</p>
           </div>
         </div>
 
         <div class="faq__item">
           <h3 class="faq__question">What is MNRF and what does it treat?</h3>
           <div class="faq__answer">
-            <p><a href="/services/mnrf.html">MNRF</a> (Micro-Needling Radio Frequency) combines tiny needles with radiofrequency energy to stimulate deep collagen production. It effectively treats acne scars, open pores, fine lines, and skin laxity. Most patients need 3-4 sessions spaced 4-6 weeks apart.</p>
+            <p><a href="/services/mnrf">MNRF</a> (Micro-Needling Radio Frequency) combines tiny needles with radiofrequency energy to stimulate deep collagen production. It effectively treats acne scars, open pores, fine lines, and skin laxity. Most patients need 3-4 sessions spaced 4-6 weeks apart.</p>
           </div>
         </div>
 
@@ -411,7 +523,7 @@
         <div class="faq__item">
           <h3 class="faq__question">What is HIFU and how does it lift the face?</h3>
           <div class="faq__answer">
-            <p><a href="/services/hifu-face-lift.html">HIFU</a> (High-Intensity Focused Ultrasound) delivers focused ultrasound energy to the deep structural layers of the skin (SMAS layer), stimulating collagen production and causing tissue tightening. It effectively lifts the jawline, reduces jowls, and tightens the neck and brow area -- all without surgery or injections.</p>
+            <p><a href="/services/hifu-face-lift">HIFU</a> (High-Intensity Focused Ultrasound) delivers focused ultrasound energy to the deep structural layers of the skin (SMAS layer), stimulating collagen production and causing tissue tightening. It effectively lifts the jawline, reduces jowls, and tightens the neck and brow area -- all without surgery or injections.</p>
           </div>
         </div>
 
@@ -441,14 +553,14 @@
         <div class="faq__item">
           <h3 class="faq__question">Where are OPAL Radiant clinics located?</h3>
           <div class="faq__answer">
-            <p>We have four <a href="/locations/">locations</a> across Mumbai and Thane -- <a href="/locations/powai.html">Powai</a>, Wadala, <a href="/locations/borivali.html">Borivali</a>, and <a href="/locations/thane.html">Thane</a>. All clinics are women-only, ensuring complete privacy and comfort.</p>
+            <p>We have four <a href="/contact">locations</a> across Mumbai and Thane -- <a href="/locations/powai">Powai</a>, Wadala, <a href="/locations/borivali">Borivali</a>, and <a href="/locations/thane">Thane</a>. All clinics are women-only, ensuring complete privacy and comfort.</p>
           </div>
         </div>
 
         <div class="faq__item">
           <h3 class="faq__question">What are the clinic timings?</h3>
           <div class="faq__answer">
-            <p>We are open Tuesday through Sunday, 11 AM to 8 PM. We are closed on Mondays. We recommend <a href="/book-appointment.html">booking in advance</a> to secure your preferred time slot.</p>
+            <p>We are open Tuesday through Sunday, 11 AM to 8 PM. We are closed on Mondays. We recommend <a href="/book-appointment">booking in advance</a> to secure your preferred time slot.</p>
           </div>
         </div>
 
@@ -462,7 +574,7 @@
         <div class="faq__item">
           <h3 class="faq__question">What should I expect during my first visit?</h3>
           <div class="faq__answer">
-            <p>Your first visit begins with a free consultation with our dermatologist, <a href="/about.html#doctor">Dr. Punit Sakhare</a>. He will assess your skin or body concerns, explain suitable treatment options, discuss expected results and timeline, and answer all your questions. There is no obligation to proceed with treatment on the same day.</p>
+            <p>Your first visit begins with a free consultation with our dermatologist, <a href="/about#doctor">Dr. Punit Sakhare</a>. He will assess your skin or body concerns, explain suitable treatment options, discuss expected results and timeline, and answer all your questions. There is no obligation to proceed with treatment on the same day.</p>
           </div>
         </div>
 
@@ -473,7 +585,7 @@
       <div class="container text-center">
         <h2>Still Have Questions?</h2>
         <p>Book a free consultation with Dr. Punit Sakhare and get personalised answers for your skin and body concerns.</p>
-        <a href="/book-appointment.html" class="btn btn--primary">Book Free Consultation</a>
+        <a href="/book-appointment" class="btn btn--primary">Book Free Consultation</a>
         <p style="margin-top:1rem;"><a href="https://wa.me/917703037070" target="_blank" rel="noopener">Or WhatsApp us at +91 7703037070</a></p>
       </div>
     </section>
@@ -482,53 +594,199 @@
   <footer class="footer" role="contentinfo">
     <div class="container">
       <div class="footer__grid">
-        <div>
-          <img src="/images/opal-logo.png" alt="OPAL Radiant" width="130" height="42" loading="lazy">
-          <p class="footer__brand-text">OPAL Radiant is a women-only aesthetic clinic in Mumbai &amp; Thane, led by Dr. Punit Sakhare (MD Dermatologist). We offer laser hair removal, fat freeze, skin treatments, and face lift procedures using FDA-approved technology in a luxurious, private setting.</p>
+
+        <!-- Brand -->
+        <div class="footer__brand">
+          <img src="/images/opal-logo.webp" alt="OPAL Radiant" width="130" height="42" loading="lazy">
+          <p class="footer__brand-text">OPAL Radiant is a women-only aesthetic clinic in Mumbai &amp; Thane, led by Dr. Punit Sakhare (MD Dermatologist). We offer laser hair removal, fat freeze, skin treatments and face lift procedures using clinically-tested aesthetic technology in a private, luxurious setting.</p>
           <div class="footer__social">
-            <a href="https://www.facebook.com/opalradiant" target="_blank" rel="noopener" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
-            <a href="https://www.instagram.com/opalradiant" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+            <a href="https://www.facebook.com/opalradiant" target="_blank" rel="noopener" aria-label="Opal Radiant on Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/opalradiant" target="_blank" rel="noopener" aria-label="Opal Radiant on Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
           </div>
         </div>
+
+        <!-- Treatments -->
         <div>
           <h4 class="footer__heading">Treatments</h4>
           <ul class="footer__links">
-            <li><a href="/services/laser-hair-removal-mumbai.html">Laser Hair Removal</a></li>
-            <li><a href="/services/fat-freeze.html">Fat Freeze</a></li>
-            <li><a href="/services/carbon-laser-facial.html">Carbon Laser Facial</a></li>
-            <li><a href="/services/hifu-face-lift.html">HIFU Face Lift</a></li>
-            <li><a href="/services/tattoo-removal.html">Tattoo Removal</a></li>
-            <li><a href="/services/chemical-peel.html">Chemical Peel</a></li>
-            <li><a href="/services/hydra-facial.html">Hydra Facial</a></li>
-            <li><a href="/services/mnrf.html">MNRF</a></li>
+            <li><a href="/services/laser-hair-removal-mumbai">Laser Hair Removal</a></li>
+            <li><a href="/services/fat-freeze">Fat Freeze</a></li>
+            <li><a href="/services/carbon-laser-facial">Carbon Laser Facial</a></li>
+            <li><a href="/services/hifu-face-lift">HIFU Face Lift</a></li>
+            <li><a href="/services/tattoo-removal">Tattoo Removal</a></li>
+            <li><a href="/services/chemical-peel">Chemical Peel</a></li>
+            <li><a href="/services/hydra-facial">Hydra Facial</a></li>
+            <li><a href="/services/mnrf">MNRF</a></li>
+            <li><a href="/services/hair-prp">Hair PRP</a></li>
+            <li><a href="/services/hair-fillers">Hair Fillers</a></li>
+            <li><a href="/services/hifem-body-toning">HIFEM Body Toning</a></li>
+            <li><a href="/services/jordi-shape">Jordi Shape</a></li>
           </ul>
         </div>
+
+        <!-- Company -->
         <div>
           <h4 class="footer__heading">Company</h4>
           <ul class="footer__links">
-            <li><a href="/about.html">About Us</a></li>
-            <li><a href="/about.html#doctor">Our Dermatologist</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/about#doctor">Our Dermatologist</a></li>
             <li><a href="/blog/">Blog</a></li>
-            <li><a href="/faq.html">FAQ</a></li>
-            <li><a href="/pricing.html">Pricing</a></li>
-            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="/care/">Pre &amp; Post Care</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
           </ul>
         </div>
+
+        <!-- Central Contact -->
         <div>
-          <h4 class="footer__heading">Contact Us</h4>
-          <div class="footer__contact-item"><span>&#x1F4DE;</span><a href="tel:+917703037070">+91 7703037070</a></div>
-          <div class="footer__contact-item"><span>&#x2709;</span><a href="mailto:info@opalradiant.com">info@opalradiant.com</a></div>
-          <div class="footer__contact-item"><span>&#x1F4AC;</span><a href="https://wa.me/917703037070" target="_blank" rel="noopener">WhatsApp Us</a></div>
-          <div class="footer__contact-item"><span>&#x1F55A;</span><span>Tue–Sun, 11 AM – 8 PM</span></div>
-          <a href="/book-appointment.html" class="btn btn--primary btn--block" style="margin-top:1rem;">Book Appointment</a>
+          <h4 class="footer__heading">Get in Touch</h4>
+          <div class="footer__contact-item">
+            <span><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <a href="tel:+917703037070">+91 77030 37070</a>
+          </div>
+          <div class="footer__contact-item">
+            <span><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
+            <a href="mailto:info@opalradiant.com">info@opalradiant.com</a>
+          </div>
+          <div class="footer__contact-item">
+            <span><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+            <a href="https://wa.me/917703037070" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+          <div class="footer__contact-item">
+            <span><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg></span>
+            <span>Tue&ndash;Sun, 11 AM &ndash; 8 PM</span>
+          </div>
+          <a href="/book-appointment" class="btn btn--primary btn--block" style="margin-top:1rem;">Book Free Appointment</a>
+        </div>
+
+      </div>
+
+      <!-- All Four Clinic Addresses -->
+      <div class="footer__branches">
+        <div class="footer__branches-head">
+          <span class="footer__branches-eyebrow">Visit Us</span>
+          <h4 class="footer__branches-heading">Our Clinics Across Mumbai &amp; Thane</h4>
+          <p class="footer__branches-lead">Four women-only studios &mdash; each led by a senior clinician trained by Dr. Punit Sakhare, all following the same clinical protocols.</p>
+        </div>
+        <div class="footer__branches-grid">
+          <article class="footer__branch">
+            <div class="footer__branch-pin" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <span class="footer__branch-eyebrow">Opal Radiant</span>
+            <h5 class="footer__branch-name"><a href="/locations/powai">Powai</a></h5>
+            <address class="footer__branch-addr">B1-203, 2nd Floor, Boomerang, Chandivali, Powai, Mumbai 400072</address>
+            <div class="footer__branch-actions">
+              <a href="tel:+917703037070" class="footer__branch-btn" aria-label="Call Powai clinic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Call</span>
+              </a>
+              <a href="https://maps.app.goo.gl/kgs/npEy38" target="_blank" rel="noopener" class="footer__branch-btn" aria-label="Directions to Powai clinic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                <span>Directions</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="footer__branch">
+            <div class="footer__branch-pin" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <span class="footer__branch-eyebrow">Opal Radiant</span>
+            <h5 class="footer__branch-name"><a href="/locations/wadala">Wadala</a></h5>
+            <address class="footer__branch-addr">Unit 212, Lodha Supremus, New Cuff Parade Wadala, Sion, Mumbai 400037</address>
+            <div class="footer__branch-actions">
+              <a href="tel:+917745005500" class="footer__branch-btn" aria-label="Call Wadala clinic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Call</span>
+              </a>
+              <a href="https://share.google/26EklOSmhufF9Ixp7" target="_blank" rel="noopener" class="footer__branch-btn" aria-label="Directions to Wadala clinic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                <span>Directions</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="footer__branch">
+            <div class="footer__branch-pin" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <span class="footer__branch-eyebrow">Opal Radiant</span>
+            <h5 class="footer__branch-name"><a href="/locations/borivali">Borivali</a></h5>
+            <address class="footer__branch-addr">Friends Business Bay, 1301, Lokmanya Tilak Rd, Borivali West, Mumbai 400092</address>
+            <div class="footer__branch-actions">
+              <a href="tel:+919800498002" class="footer__branch-btn" aria-label="Call Borivali clinic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Call</span>
+              </a>
+              <a href="https://share.google/0CcZQfsY6swbK2dzQ" target="_blank" rel="noopener" class="footer__branch-btn" aria-label="Directions to Borivali clinic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                <span>Directions</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="footer__branch">
+            <div class="footer__branch-pin" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <span class="footer__branch-eyebrow">Opal Radiant</span>
+            <h5 class="footer__branch-name"><a href="/locations/thane">Thane</a></h5>
+            <address class="footer__branch-addr">16th Floor, 1618, Hiranandani Solus, Hiranandani Estate, Thane West 400607</address>
+            <div class="footer__branch-actions">
+              <a href="tel:+918604410418" class="footer__branch-btn" aria-label="Call Thane clinic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Call</span>
+              </a>
+              <a href="https://share.google/zKrCeLAH18LdgGWRe" target="_blank" rel="noopener" class="footer__branch-btn" aria-label="Directions to Thane clinic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                <span>Directions</span>
+              </a>
+            </div>
+          </article>
         </div>
       </div>
+
       <div class="footer__bottom">
-        <p>&copy; 2026 Opal Radiant Studio. All rights reserved.</p>
-        <p><a href="/privacy-policy.html">Privacy Policy</a><span style="margin:0 0.5rem;">|</span><a href="/sitemap.xml">Sitemap</a></p>
+        <p>&copy; 2026 Opal Radiant Studio. All rights reserved. &middot; Results vary by individual. Consultation required to confirm suitability.</p>
+        <p>
+          <a href="/privacy-policy">Privacy Policy</a>
+          <span style="margin:0 0.5rem;">|</span>
+          <a href="/terms">Terms of Service</a>
+          <span style="margin:0 0.5rem;">|</span>
+          <a href="/sitemap.xml">Sitemap</a>
+        </p>
       </div>
     </div>
   </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a href="https://wa.me/917703037070?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
   <script src="/js/main.js" defer></script>
 

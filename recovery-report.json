@@ -1,0 +1,119 @@
+{
+  "source": "https://opalradiant.com/",
+  "recoveredAt": "2026-07-13T03:58:46.981Z",
+  "pages": 148,
+  "assets": 110,
+  "failures": [
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml"
+    },
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/laser-hair-removal-mumbai-1",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/locations/",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/services-opal-radiant",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/services/pre-wedding.html",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/services/pcos-hair-growth.html",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/services/anti-ageing.html",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/services/post-pregnancy-body.html",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/services/pigmentation-melasma.html",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/treatment-services",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "url": "https://opalradiant.com/services/laser-hair-removal.html",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "type": "asset",
+      "url": "https://opalradiant.com/images/blog/best-skin-laser-treatment-in-mumbai-complete-guide-to-laser-amp-aesthetic-clinic-services.webp",
+      "status": 404
+    },
+    {
+      "type": "asset",
+      "url": "https://opalradiant.com/images/blog/laser-hair-removal-a-complete-guide-to-safe-amp-long-term-hair-reduction.webp",
+      "status": 404
+    },
+    {
+      "type": "asset",
+      "url": "https://opalradiant.com/images/blog/underarm-laser-hair-removal-does-it-help-with-odour-sweat-amp-pigmentation.webp",
+      "status": 404
+    },
+    {
+      "type": "asset",
+      "url": "https://opalradiant.com/images/blog/does-laser-hair-removal-work-on-indian-skin-safety-results-amp-what-to-know.webp",
+      "status": 404
+    },
+    {
+      "type": "asset",
+      "url": "https://opalradiant.com/images/blog/pigmentation-amp-melasma-causes-treatments-amp-prevention.webp",
+      "status": 404
+    },
+    {
+      "type": "asset",
+      "url": "https://opalradiant.com/images/blog/q-switch-laser-for-indian-skin-safe-effective-or-overhyped.webp",
+      "status": 404
+    },
+    {
+      "type": "asset",
+      "url": "https://opalradiant.com/images/blog/acne-amp-acne-scars-treatments-that-actually-work.webp",
+      "status": 404
+    },
+    {
+      "type": "asset",
+      "url": "https://opalradiant.com/images/blog/hydrafacial-treatment-explained-benefits-process-amp-results.webp",
+      "status": 404
+    },
+    {
+      "type": "asset",
+      "url": "https://opalradiant.com/images/blog/laser-hair-removal-for-women-unwanted-hair.webp",
+      "status": 404
+    }
+  ]
+}
