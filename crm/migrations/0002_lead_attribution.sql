@@ -1,0 +1,7 @@
+ALTER TABLE leads ADD COLUMN utm_term TEXT;
+ALTER TABLE leads ADD COLUMN utm_content TEXT;
+ALTER TABLE leads ADD COLUMN gclid TEXT;
+ALTER TABLE leads ADD COLUMN gbraid TEXT;
+ALTER TABLE leads ADD COLUMN wbraid TEXT;
+ALTER TABLE leads ADD COLUMN ga_client_id TEXT;
+ALTER TABLE leads ADD COLUMN landing_page TEXT;

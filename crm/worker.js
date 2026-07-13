@@ -86,8 +86,12 @@ async function handleLeadSubmission(request, env) {
   const clean = (s) => s ? String(s).trim().slice(0, 500) : null;
 
   const result = await env.DB.prepare(`
-    INSERT INTO leads (name, phone, email, location, treatment, preferred_date, message, source_page, utm_source, utm_medium, utm_campaign)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    INSERT INTO leads (
+      name, phone, email, location, treatment, preferred_date, message, source_page,
+      utm_source, utm_medium, utm_campaign, utm_term, utm_content,
+      gclid, gbraid, wbraid, ga_client_id, landing_page
+    )
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `).bind(
     clean(data.name),
     phone,
@@ -99,7 +103,14 @@ async function handleLeadSubmission(request, env) {
     clean(data.source_page),
     clean(data.utm_source),
     clean(data.utm_medium),
-    clean(data.utm_campaign)
+    clean(data.utm_campaign),
+    clean(data.utm_term),
+    clean(data.utm_content),
+    clean(data.gclid),
+    clean(data.gbraid),
+    clean(data.wbraid),
+    clean(data.ga_client_id),
+    clean(data.landing_page)
   ).run();
 
   return jsonResponse({ success: true, id: result.meta.last_row_id }, 201);

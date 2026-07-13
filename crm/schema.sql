@@ -14,6 +14,13 @@ CREATE TABLE IF NOT EXISTS leads (
   utm_source TEXT,
   utm_medium TEXT,
   utm_campaign TEXT,
+  utm_term TEXT,
+  utm_content TEXT,
+  gclid TEXT,
+  gbraid TEXT,
+  wbraid TEXT,
+  ga_client_id TEXT,
+  landing_page TEXT,
   status TEXT DEFAULT 'new',        -- new | contacted | booked | completed | lost
   notes TEXT,
   created_at TEXT DEFAULT (datetime('now')),

@@ -75,6 +75,39 @@
   };
 })();
 
+/* ============================================================
+   First-touch attribution
+   Keeps campaign and ad click identifiers available when a visitor
+   moves from a landing page to the booking form.
+   ============================================================ */
+(function () {
+  var storageKey = 'opal-attribution-v1';
+  var keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'gbraid', 'wbraid'];
+  var stored = {};
+
+  try {
+    stored = JSON.parse(sessionStorage.getItem(storageKey) || '{}') || {};
+  } catch (e) {
+    stored = {};
+  }
+
+  var params = new URLSearchParams(window.location.search);
+  keys.forEach(function (key) {
+    var value = params.get(key);
+    if (value && !stored[key]) stored[key] = value.slice(0, 500);
+  });
+
+  if (!stored.landing_page && keys.some(function (key) { return Boolean(stored[key]); })) {
+    stored.landing_page = window.location.pathname;
+  }
+
+  try {
+    sessionStorage.setItem(storageKey, JSON.stringify(stored));
+  } catch (e) { /* private mode etc. */ }
+
+  window.__opalAttribution = stored;
+})();
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -542,11 +575,13 @@ document.addEventListener('DOMContentLoaded', () => {
         page_url: window.location.href
       };
 
-      var urlParams = new URLSearchParams(window.location.search);
-      ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'].forEach(function (key) {
-        var value = urlParams.get(key);
-        if (value) payload[key] = value;
+      var attribution = window.__opalAttribution || {};
+      ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'gbraid', 'wbraid', 'landing_page'].forEach(function (key) {
+        if (attribution[key]) payload[key] = attribution[key];
       });
+
+      var gaMatch = document.cookie.match(/(?:^|;\s*)_ga=GA\d+\.\d+\.(\d+\.\d+)/);
+      if (gaMatch) payload.ga_client_id = gaMatch[1];
 
       fetch('/api/lead', {
         method: 'POST',
@@ -557,6 +592,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(function (result) {
           if (result.ok) {
             showBanner('success', 'Thank you! We’ve received your request. Our team will call you within 24 hours to confirm your free consultation.');
+            window.__opalLeadSubmitted = true;
 
             // Snapshot the user data BEFORE we reset() the form so Enhanced
             // Conversions can hash it.
@@ -566,15 +602,19 @@ document.addEventListener('DOMContentLoaded', () => {
             form.reset();
 
             if (typeof gtag !== 'undefined') {
-              // Unique transaction_id de-duplicates conversions if browser retries/reloads
-              var txnId = (window.crypto && window.crypto.randomUUID) ? window.crypto.randomUUID()
-                        : ('lead-' + Date.now() + '-' + Math.floor(Math.random() * 1e6));
+              // The stored CRM lead ID provides stable cross-system deduplication.
+              var leadId = result.body && result.body.id;
+              var txnId = leadId ? ('lead-' + leadId)
+                        : ((window.crypto && window.crypto.randomUUID) ? window.crypto.randomUUID()
+                        : ('lead-' + Date.now() + '-' + Math.floor(Math.random() * 1e6)));
               var formId = form.id || form.getAttribute('data-source') || 'inline-lead-form';
-              var treatment = form.getAttribute('data-treatment') || 'general';
+              var leadTreatment = payload.treatment || 'general';
 
               gtag('event', 'generate_lead', {
                 form_id: formId,
-                treatment: treatment,
+                treatment: leadTreatment,
+                location: payload.location || 'unknown',
+                source_page: payload.source_page,
                 transaction_id: txnId,
                 value: 1,
                 currency: 'INR'
@@ -638,10 +678,19 @@ document.addEventListener('DOMContentLoaded', () => {
   document.body.classList.add('has-sticky-cta');
 })();
 
-/* ===== Google Ads click conversions (call + WhatsApp), site-wide ===== */
+/* ===== Contact and booking click tracking, site-wide ===== */
 (function () {
   var CALL_SEND_TO = 'AW-18204959421/FXBZCL2uwrccEL3F5uhD';
   var WA_SEND_TO   = 'AW-18204959421/-p03CLquwrccEL3F5uhD';
+
+  function placement(a) {
+    if (a.classList.contains('sticky-cta__btn')) return 'mobile_sticky_bar';
+    if (a.classList.contains('whatsapp-float')) return 'floating_button';
+    if (a.closest('.footer')) return 'footer';
+    if (a.closest('.header')) return 'header';
+    return 'page_content';
+  }
+
   document.addEventListener('click', function (e) {
     var a = e.target && e.target.closest ? e.target.closest('a') : null;
     if (!a || typeof gtag === 'undefined') return;
@@ -649,7 +698,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (href.indexOf('tel:') === 0) {
       gtag('event', 'conversion', { send_to: CALL_SEND_TO });
     } else if (href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp.com') !== -1) {
+      gtag('event', 'whatsapp_click', {
+        cta_placement: placement(a),
+        page_path: window.location.pathname,
+        link_url: href
+      });
       gtag('event', 'conversion', { send_to: WA_SEND_TO });
+    } else if (href.indexOf('book-appointment') !== -1) {
+      gtag('event', 'book_appointment_click', {
+        cta_placement: placement(a),
+        page_path: window.location.pathname,
+        link_url: href
+      });
     }
   }, true);
 })();
@@ -694,6 +754,7 @@ document.addEventListener('DOMContentLoaded', () => {
     var seenFocus = new WeakSet();
     var lastFocused = null;
     var formStarted = false;
+    var abandonSent = false;
 
     document.addEventListener('focusin', function (e) {
       var el = e.target;
@@ -714,7 +775,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Only fire "abandon" if the user opened a form field, didn't submit, and is leaving
     window.addEventListener('beforeunload', function () {
-      if (formStarted && !window.__opalLeadSubmitted && lastFocused) {
+      if (formStarted && !window.__opalLeadSubmitted && !abandonSent && lastFocused) {
+        abandonSent = true;
         gtag('event', 'form_abandon', {
           last_field: lastFocused,
           page_path: window.location.pathname,
@@ -722,14 +784,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
     });
-
-    // Successful form submit sets a flag so we don't report the same session as abandoned
-    document.addEventListener('submit', function (e) {
-      var f = e.target;
-      if (f && (f.classList.contains('opal-lead-form') || f.id === 'booking-form')) {
-        window.__opalLeadSubmitted = true;
-      }
-    }, true);
 
     /* ---- Sticky-CTA click tracking: measure whether the mobile bar earns its keep ---- */
     document.addEventListener('click', function (e) {
