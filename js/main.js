@@ -625,15 +625,15 @@ document.addEventListener('DOMContentLoaded', () => {
   var bar = document.createElement('div');
   bar.className = 'sticky-cta';
   bar.innerHTML =
-    '<a class="sticky-cta__btn sticky-cta__btn--call" href="tel:+917703037070">'
+    '<a class="sticky-cta__btn sticky-cta__btn--call sticky-cta__btn--icon" href="tel:+917703037070" aria-label="Call Opal Radiant">'
       + '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>'
-      + '<span>Call</span></a>'
-    + '<a class="sticky-cta__btn sticky-cta__btn--wa" href="https://wa.me/917703037070?text=Hi%2C%20I%27d%20like%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener">'
+      + '</a>'
+    + '<a class="sticky-cta__btn sticky-cta__btn--wa sticky-cta__btn--icon" href="https://wa.me/917703037070?text=Hi%2C%20I%27d%20like%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener" aria-label="WhatsApp Opal Radiant">'
       + '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/></svg>'
-      + '<span>WhatsApp</span></a>'
+      + '</a>'
     + '<a class="sticky-cta__btn sticky-cta__btn--book" href="/book-appointment.html">'
       + '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>'
-      + '<span>Book</span></a>';
+      + '<span>Book Free Dr. Appointment</span></a>';
   document.body.appendChild(bar);
   document.body.classList.add('has-sticky-cta');
 })();

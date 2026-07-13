@@ -1826,8 +1826,9 @@ nav.breadcrumb { display: none; }
 .footer__branch-name a {
   color: inherit;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
-.footer__branch-name a:hover { text-decoration: underline; }
+.footer__branch-name a:hover { color: #c9a862; }
 
 .footer__branch-addr {
   font-style: normal;
@@ -2605,7 +2606,7 @@ nav.breadcrumb { display: none; }
 @media (max-width: 768px) {
   .sticky-cta {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto 1fr;
     position: fixed;
     left: 0; right: 0; bottom: 0;
     z-index: 1200;
@@ -2614,6 +2615,7 @@ nav.breadcrumb { display: none; }
     box-shadow: 0 -4px 20px rgba(54, 48, 42, 0.12);
     padding: 0.4rem 0.4rem calc(0.4rem + env(safe-area-inset-bottom, 0));
     gap: 0.4rem;
+    align-items: center;
   }
   .sticky-cta__btn {
     display: flex;
@@ -2630,9 +2632,27 @@ nav.breadcrumb { display: none; }
     transition: background 0.15s ease, color 0.15s ease;
   }
   .sticky-cta__btn svg { width: 20px; height: 20px; }
+  .sticky-cta__btn--icon {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border-radius: 50%;
+    gap: 0;
+  }
+  .sticky-cta__btn--icon svg { width: 18px; height: 18px; }
   .sticky-cta__btn--call { color: var(--color-primary, #36302A); background: var(--color-bg-alt, #F6F3EC); }
   .sticky-cta__btn--wa   { color: #fff; background: #116D31; }
-  .sticky-cta__btn--book { color: #fff; background: var(--color-primary, #36302A); }
+  .sticky-cta__btn--book {
+    color: #fff;
+    background: var(--color-primary, #36302A);
+    flex-direction: row;
+    gap: 0.4rem;
+    padding: 0.7rem 0.6rem;
+    font-size: 0.85rem;
+    min-height: 42px;
+  }
+  .sticky-cta__btn--book svg { width: 16px; height: 16px; flex-shrink: 0; }
+  .sticky-cta__btn--book span { white-space: nowrap; }
   /* Hide the floating WhatsApp bubble on mobile — the bar covers it */
   .has-sticky-cta .whatsapp-float { display: none; }
   /* Keep footer content clear of the fixed bar */

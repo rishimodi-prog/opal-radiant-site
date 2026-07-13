@@ -1,4 +1,5 @@
-import { cp, mkdir, readdir, rm } from 'node:fs/promises';
+import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { basename, dirname, extname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -35,5 +36,25 @@ for (const entry of await readdir(root, { withFileTypes: true })) {
   await cp(join(root, entry.name), join(output, entry.name), { recursive: true });
 }
 
+const cssHash = createHash('sha256').update(await readFile(join(output, 'css/style.css'))).digest('hex').slice(0, 10);
+const jsHash = createHash('sha256').update(await readFile(join(output, 'js/main.js'))).digest('hex').slice(0, 10);
+
+async function versionHtml(directory) {
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    const path = join(directory, entry.name);
+    if (entry.isDirectory()) await versionHtml(path);
+    else if (entry.name.endsWith('.html')) {
+      const source = await readFile(path, 'utf8');
+      const versioned = source
+        .replace(/\/css\/style\.css(?:\?v=[^"']+)?/g, `/css/style.css?v=${cssHash}`)
+        .replace(/\/js\/main\.js(?:\?v=[^"']+)?/g, `/js/main.js?v=${jsHash}`);
+      if (versioned !== source) await writeFile(path, versioned);
+    }
+  }
+}
+
+await versionHtml(output);
+
 console.log(`Built Cloudflare Pages output at ${output}`);
+console.log(`Versioned CSS/JS as ${cssHash}/${jsHash}.`);
 console.log(`Excluded private/development paths such as crm/, scripts/, artifacts/, and recovery-report.json.`);
