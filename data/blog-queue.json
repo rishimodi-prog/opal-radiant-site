@@ -1,0 +1,306 @@
+{
+  "batch": 1,
+  "generated": "2026-07-15",
+  "posts": [
+    {
+      "slug": "does-laser-hair-removal-cause-cancer",
+      "publish_date": "2026-07-16",
+      "title": "Does Laser Hair Removal Cause Cancer? What the Physics and Research Actually Say",
+      "category": "Laser Hair Removal",
+      "meta_description": "A dermatologist-reviewed, evidence-based look at whether laser hair removal causes cancer — covering the physics of laser light, published safety data, and",
+      "image_alt": "Diode laser hair removal handpiece and protective eyewear on a clinic treatment bed, representing evidence-based laser hair removal safety",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "melasma-in-pregnancy-chloasma",
+      "publish_date": "2026-07-17",
+      "title": "Melasma in Pregnancy: What Causes the \"Mask of Pregnancy\" and What the Evidence Says About Treating It",
+      "category": "Melasma",
+      "meta_description": "What causes melasma dark patches on the face during pregnancy, the hormonal mechanism behind chloasma gravidarum, and which treatments are actually safe.",
+      "image_alt": "Skincare shelf with broad-spectrum sunscreen in a clinic setting, representing safe skincare choices for melasma during pregnancy",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "hydrafacial-what-the-evidence-shows",
+      "publish_date": "2026-07-18",
+      "title": "Hydrafacial: What the Treatment Actually Does to Your Skin, According to the Evidence",
+      "category": "Hydrafacial",
+      "meta_description": "A dermatologist-reviewed look at what Hydrafacial actually does to skin — the vortex-suction mechanism, published clinical and imaging data, and what results",
+      "image_alt": "Hydradermabrasion facial device handpiece on a clinic treatment bed, representing evidence-based Hydrafacial skin benefits",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "pcos-hair-loss-evidence-based-guide",
+      "publish_date": "2026-07-19",
+      "title": "PCOS and Hair Loss: The Evidence-Based Guide to Androgenic Alopecia in Women",
+      "category": "PCOS",
+      "meta_description": "Why PCOS causes scalp hair thinning, the DHT and 5-alpha reductase mechanism behind it, and what published research says about minoxidil, anti-androgens, and",
+      "image_alt": "Trichoscope and hairbrush on a clinic consultation desk, representing evidence-based evaluation of PCOS-related hair thinning",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "laser-hair-removal-side-effects-by-skin-type",
+      "publish_date": "2026-07-20",
+      "title": "Laser Hair Removal Side Effects: A Complete, Evidence-Based Review by Skin Type",
+      "category": "Laser Hair Removal",
+      "meta_description": "A dermatologist-reviewed breakdown of laser hair removal side effects — burns, pigment change, folliculitis, and paradoxical hypertrichosis — and how risk",
+      "image_alt": "Diode laser hair removal handpiece and cooling gel on a clinic treatment bed, representing skin-type-specific laser hair removal safety",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "what-deficiency-causes-dark-circles",
+      "publish_date": "2026-07-21",
+      "title": "What Deficiency Causes Dark Circles? Separating Nutrition Myths from Dermatology Evidence",
+      "category": "Dark Circles",
+      "meta_description": "An evidence-based look at whether a vitamin or mineral deficiency causes dark circles — what the dermatology and hematology literature actually supports.",
+      "image_alt": "Iron-rich foods and a dermatologist's loupe on a clinic counter, representing the evidence-based link between nutrition and under-eye dark circles",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "fitzpatrick-skin-type-indian-skin-laser-safety",
+      "publish_date": "2026-07-22",
+      "title": "Fitzpatrick Skin Typing: Why Indian Skin Needs Different Laser Settings (and How to Check Yours)",
+      "category": "Skin Science",
+      "meta_description": "How the Fitzpatrick I-VI skin scale works, why most Indian skin falls in type III-V, and how that determines safe laser wavelength and settings.",
+      "image_alt": "Skin-tone reference chart and colorimeter device on a clinic desk, representing Fitzpatrick skin type assessment before laser treatment",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "is-hifu-safe-clinical-evidence",
+      "publish_date": "2026-07-23",
+      "title": "Is HIFU Safe? What Clinical Studies Say About Ultrasound Skin Tightening",
+      "category": "HIFU",
+      "meta_description": "An evidence-based look at HIFU safety — the mechanism behind ultrasound skin tightening, what published clinical trials report on efficacy, and documented",
+      "image_alt": "HIFU ultrasound handpiece and transducer on a clinic treatment bed, representing evidence-based HIFU safety research",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "chemical-peel-purging-vs-breakout",
+      "publish_date": "2026-07-24",
+      "title": "Chemical Peel Purging vs. Breakout: How to Tell the Difference (and What Skin-Barrier Science Says)",
+      "category": "Chemical Peel",
+      "meta_description": "Skin purging after a chemical peel is not the same as a bad reaction. Learn the biology that separates the two, the timeline differences, and when to call",
+      "image_alt": "Chemical peel solution and applicator brush on a clinic treatment tray, representing evidence-based skin purging versus breakout guidance",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "hifu-vs-botox-evidence-comparison",
+      "publish_date": "2026-07-25",
+      "title": "HIFU vs Botox: Comparing the Evidence for Non-Surgical Face-Lifting",
+      "category": "HIFU",
+      "meta_description": "An evidence-based look at how HIFU and Botox actually work, what each is proven to treat well, and what published research shows about how long results last.",
+      "image_alt": "A HIFU ultrasound handpiece and an injection tray shown side by side on a clinic surface, representing an evidence-based comparison of HIFU and Botox for facial rejuvenation",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "fat-freeze-results-1-month-timeline",
+      "publish_date": "2026-07-26",
+      "title": "Fat Freeze Results at 1 Month: What's Realistic and What Fat-Cell Biology Predicts",
+      "category": "Fat Freeze",
+      "meta_description": "Why fat freeze results aren't visible at 1 month, explained through the actual biology of adipocyte apoptosis and the published clearance timeline.",
+      "image_alt": "Cryolipolysis fat freeze applicator on a clinic treatment bed beside a calendar, representing the weeks-long biological timeline of fat freeze results",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "can-melasma-be-cured-permanently",
+      "publish_date": "2026-07-27",
+      "title": "Can Melasma Be Cured Permanently? What Recurrence Studies Actually Show",
+      "category": "Melasma",
+      "meta_description": "An evidence-based look at whether melasma can be permanently cured, based on published recurrence and relapse-rate studies — and what actually keeps it from",
+      "image_alt": "Dermatology assessment chart and sunscreen on a clinic counter, representing evidence-based melasma recurrence and maintenance treatment",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "laser-hair-removal-and-pregnancy-safety",
+      "publish_date": "2026-07-28",
+      "title": "Laser Hair Removal and Pregnancy: Is It Safe? A Review of the Safety Data",
+      "category": "Laser Hair Removal",
+      "meta_description": "An evidence-based review of laser hair removal during pregnancy — hormonal changes, the research gap, and why clinics recommend waiting until postpartum.",
+      "image_alt": "Calm, empty aesthetic clinic treatment room in warm beige tones, representing a deferred laser hair removal plan during pregnancy",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "underarm-laser-whitening-evidence",
+      "publish_date": "2026-07-29",
+      "title": "Underarm Laser Whitening: What It Can and Can't Do, According to Dermatology",
+      "category": "Laser Hair Removal",
+      "meta_description": "What causes dark underarms, and what Q-switched Nd:YAG and picosecond lasers can actually do about it — plus why laser hair removal isn't the same treatment.",
+      "image_alt": "Two different laser handpieces on a clinic treatment bed, representing the distinction between laser hair removal and pigment-targeting laser treatment for underarm darkening",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "sunscreen-for-indian-skin-spf-guide",
+      "publish_date": "2026-07-30",
+      "title": "Sunscreen for Indian Skin: How Much SPF Do You Actually Need?",
+      "category": "Skin Science",
+      "meta_description": "Evidence-based guide to choosing SPF and PA-rated sunscreen for Fitzpatrick III-V Indian skin, and why UVA protection specifically matters for melasma and",
+      "image_alt": "Tinted mineral sunscreen and UV reference card on a clinic desk, representing sunscreen selection for Indian skin tones",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "tattoo-removal-how-many-sessions-science",
+      "publish_date": "2026-07-31",
+      "title": "Tattoo Removal: How Many Sessions Does Laser Actually Take? The Science of Ink Breakdown",
+      "category": "Tattoo Removal",
+      "meta_description": "How laser tattoo removal breaks down ink and why session counts vary so much — the photoacoustic mechanism, the Kirby-Desai scale, and what the published",
+      "image_alt": "Q-switched laser handpiece positioned over a fading tattoo during a laser tattoo removal session at a Mumbai clinic",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "pcos-hirsutism-hair-growth-evidence",
+      "publish_date": "2026-08-01",
+      "title": "PCOS and Excess Hair Growth (Hirsutism): What the Endocrinology Evidence Says About Long-Term Management",
+      "category": "PCOS",
+      "meta_description": "Why PCOS causes hirsutism, what the evidence says on the hyperandrogenism-insulin resistance link, and where laser fits into long-term medical management.",
+      "image_alt": "Clinical chart and laser hair removal handpiece on a consultation desk, representing the combination of endocrine assessment and cosmetic treatment for PCOS-related hirsutism",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "skin-whitening-injections-safety-data",
+      "publish_date": "2026-08-02",
+      "title": "Skin-Whitening Injections: What the Safety Data Actually Shows",
+      "category": "Skin Science",
+      "meta_description": "An evidence-based look at glutathione and other skin-whitening injections — the claimed mechanism, what published research and case reports actually show",
+      "image_alt": "Vial and syringe on a clinical tray, representing an evidence-based review of skin-whitening injection safety data",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "hydrafacial-side-effects-who-should-avoid",
+      "publish_date": "2026-08-03",
+      "title": "Hydrafacial Side Effects: Who Should Avoid It and Why",
+      "category": "Hydrafacial",
+      "meta_description": "An evidence-based look at Hydrafacial's documented side effects — mild redness and irritation — and who should delay or avoid treatment: active acne, rosacea",
+      "image_alt": "Skin-assessment clipboard and hydradermabrasion serum vial on a clinic counter, representing pre-treatment screening for Hydrafacial side effects and contraindications",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "laser-hair-removal-how-many-sessions-science",
+      "publish_date": "2026-08-04",
+      "title": "How Many Laser Hair Removal Sessions Do You Actually Need? The Hair-Growth-Cycle Science Explained",
+      "category": "Laser Hair Removal",
+      "meta_description": "Why laser hair removal takes 6-8+ sessions, not one — explained through the anagen/catagen/telogen hair growth cycle and published clinical data.",
+      "image_alt": "Laser hair removal treatment bed with handpiece, representing the multi-session treatment timeline required by the hair growth cycle",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "hifem-body-toning-evidence",
+      "publish_date": "2026-08-05",
+      "title": "HIFEM Body Toning: What Electromagnetic Muscle Stimulation Research Shows",
+      "category": "Body Contouring",
+      "meta_description": "An evidence-based look at HIFEM body toning — the electromagnetic muscle-contraction mechanism and what published clinical trials report.",
+      "image_alt": "HIFEM electromagnetic muscle toning applicator on a clinic treatment bed, representing evidence-based body contouring technology",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "hair-prp-for-hair-fall-evidence",
+      "publish_date": "2026-08-06",
+      "title": "Hair PRP for Hair Fall: What the Clinical Trial Evidence Shows About Platelet-Rich Plasma",
+      "category": "Hair PRP",
+      "meta_description": "How PRP works on hair follicles, what clinical trial meta-analyses show about efficacy, and the realistic PRP hair treatment results timeline.",
+      "image_alt": "Centrifuged platelet-rich plasma vial and sterile injection tray on a clinic treatment surface, representing evidence-based PRP hair treatment",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "post-inflammatory-hyperpigmentation-acne-treatment-ladder",
+      "publish_date": "2026-08-07",
+      "title": "Post-Inflammatory Hyperpigmentation After Acne: An Evidence-Based Treatment Ladder for Indian Skin",
+      "category": "Pigmentation",
+      "meta_description": "Why acne leaves dark marks on Indian skin, what causes post-inflammatory hyperpigmentation, and a stepwise, evidence-based treatment ladder from topicals to",
+      "image_alt": "Dermatologist's dermatoscope and skincare ampoules on a clinic tray, representing evidence-based treatment of post-inflammatory hyperpigmentation after acne",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "laser-hair-removal-vs-ipl-at-home-science",
+      "publish_date": "2026-08-08",
+      "title": "Laser Hair Removal vs. IPL at Home: What the Wavelength Science Says About the Difference",
+      "category": "Laser Hair Removal",
+      "meta_description": "A physics-based comparison of professional laser hair removal and at-home IPL devices — coherence, wavelength, fluence, and what the published research shows",
+      "image_alt": "Professional diode laser handpiece beside a compact at-home IPL device, representing the wavelength and fluence differences between the two technologies",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "is-laser-hair-removal-painful-pain-scores",
+      "publish_date": "2026-08-09",
+      "title": "Is Laser Hair Removal Painful? Pain Scores from Clinical Studies, by Body Area",
+      "category": "Laser Hair Removal",
+      "meta_description": "What clinical trials actually measured on pain scales during laser hair removal, why some body areas hurt more, and which pain-reduction techniques are",
+      "image_alt": "Laser hair removal handpiece with cooling tip and topical anesthetic cream on a clinic treatment bed, representing evidence-based pain management during laser sessions",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "mnrf-microneedling-rf-collagen-research",
+      "publish_date": "2026-08-10",
+      "title": "MNRF (Microneedling RF): What the Collagen-Remodeling Research Actually Shows",
+      "category": "MNRF",
+      "meta_description": "An evidence-based look at how MNRF (microneedling radiofrequency) triggers collagen remodeling, and what published clinical trials report for acne scars",
+      "image_alt": "Radiofrequency microneedling handpiece on a sterile clinic tray, representing evidence-based MNRF collagen-remodeling treatment",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "cryolipolysis-safety-fda-clinical-data",
+      "publish_date": "2026-08-11",
+      "title": "Cryolipolysis Safety: What the FDA and Clinical Trial Data Say About Fat-Freezing Risks",
+      "category": "Fat Freeze",
+      "meta_description": "An evidence-based look at cryolipolysis safety — real incidence rates for paradoxical adipose hyperplasia, common side effects, and what published clinical",
+      "image_alt": "Cryolipolysis fat-freezing applicator on a clinic treatment bed beside a consent form, representing evidence-based safety review of fat freeze treatment",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "carbon-laser-facial-science-explained",
+      "publish_date": "2026-08-12",
+      "title": "Carbon Laser Facial (Hollywood Peel): The Science Behind Photothermal Skin Resurfacing",
+      "category": "Carbon Laser Facial",
+      "meta_description": "How the carbon laser facial actually works — the photothermal and photoacoustic mechanism behind the 'Hollywood peel,' and what published studies show for",
+      "image_alt": "Carbon lotion and Q-switched Nd:YAG laser handpiece on a clinic tray, representing the carbon laser facial (Hollywood peel) treatment",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "how-dermatologists-evaluate-evidence-guide",
+      "publish_date": "2026-08-13",
+      "title": "How Dermatologists Actually Evaluate Evidence: A Plain-English Guide to Reading Aesthetic Medicine Research",
+      "category": "Evidence & Methodology",
+      "meta_description": "A plain-English guide to how dermatologists weigh medical evidence — study types, red flags for weak research, and the sourcing standard behind this site.",
+      "image_alt": "Open medical research journal and magnifying glass on a clinic desk, representing evidence-based dermatology methodology",
+      "published": false,
+      "published_at": null
+    },
+    {
+      "slug": "laser-hair-removal-regrowth-after-pregnancy-hormonal-change",
+      "publish_date": "2026-08-14",
+      "title": "Laser Hair Removal Regrowth After Pregnancy or Hormonal Change: What Triggers Hair to Come Back?",
+      "category": "Laser Hair Removal",
+      "meta_description": "Why hair can reappear after laser removal following pregnancy or PCOS — the hair-cycle biology behind true regrowth versus new hormonal activation.",
+      "image_alt": "Laser hair removal handpiece on a clinic treatment bed, representing evidence-based discussion of hormonal hair regrowth after pregnancy or PCOS",
+      "published": false,
+      "published_at": null
+    }
+  ]
+}

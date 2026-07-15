@@ -1,0 +1,56 @@
+name: Publish daily blog post
+
+# Deterministic daily publish for the pre-built 30-post content batch.
+# No LLM/AI calls happen in this workflow — every post's HTML, images,
+# sources and internal links were generated ahead of time and just sit
+# dormant (unlinked from blog/index.html and sitemap.xml) until their
+# scheduled day. This workflow's only job is to run the mechanical
+# publish script daily: it un-hides whatever post is due, commits, and
+# deploys. See scripts/publish_next.py for the actual logic.
+
+on:
+  schedule:
+    # 02:30 UTC = 08:00 IST, every day.
+    - cron: '30 2 * * *'
+  workflow_dispatch: {}  # allows manually triggering a run from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-daily
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node (for wrangler)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install wrangler
+        run: npm install -g wrangler
+
+      - name: Configure git identity
+        run: |
+          git config user.name "opal-content-bot"
+          git config user.email "actions@opalradiant.com"
+
+      - name: Publish whatever's due today
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_PAGES_PROJECT: opal-radiant-site
+        run: python3 scripts/publish_next.py

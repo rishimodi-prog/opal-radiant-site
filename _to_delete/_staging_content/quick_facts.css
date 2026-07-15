@@ -1,0 +1,49 @@
+
+/* ---------------------------------------------------------------
+   Quick Facts + See Also — added for the evidence-based blog batch
+   (2026-07 content batch). Matches the site's existing warm-neutral
+   card language (--color-bg-alt, --border-radius-lg, --shadow-sm).
+   --------------------------------------------------------------- */
+.quick-facts { padding: var(--space-lg) 0 0; }
+.quick-facts__card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-md) var(--space-lg);
+  box-shadow: var(--shadow-sm);
+}
+.quick-facts__title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  margin: 0 0 var(--space-sm);
+  color: var(--color-primary);
+}
+.quick-facts__list { margin: 0; }
+.quick-facts__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--color-border);
+}
+.quick-facts__row:first-child { border-top: none; }
+.quick-facts__label {
+  flex: 0 0 40%;
+  font-weight: 600;
+  color: var(--color-text-light);
+  margin: 0;
+}
+.quick-facts__value {
+  flex: 1 1 55%;
+  margin: 0;
+  color: var(--color-text);
+}
+@media (max-width: 560px) {
+  .quick-facts__row { flex-direction: column; gap: 0.15rem; }
+  .quick-facts__label { flex-basis: auto; }
+}
+
+.blog-seealso ul li[data-pending-link] {
+  color: var(--color-text-light);
+  opacity: 0.7;
+}
