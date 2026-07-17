@@ -12,3 +12,25 @@
 /peel /services/chemical-peel 301
 /hair-prp /services/hair-prp 301
 /laser-hair-removal-mumbai /services/laser-hair-removal-mumbai 301
+
+# Legacy opal-blog/ consolidation -- superseded by evidence-based /blog/ batch (2026-07-17)
+/opal-blog/ /blog/ 301
+/opal-blog /blog/ 301
+/opal-blog/does-laser-hair-removal-work-on-indian-skin-safety-results-amp-what-to-know/ /blog/fitzpatrick-skin-type-indian-skin-laser-safety 301
+/opal-blog/does-laser-hair-removal-work-on-indian-skin-safety-results-amp-what-to-know /blog/fitzpatrick-skin-type-indian-skin-laser-safety 301
+/opal-blog/pigmentation-amp-melasma-causes-treatments-amp-prevention/ /concerns/pigmentation-melasma 301
+/opal-blog/pigmentation-amp-melasma-causes-treatments-amp-prevention /concerns/pigmentation-melasma 301
+/opal-blog/underarm-laser-hair-removal-does-it-help-with-odour-sweat-amp-pigmentation/ /blog/underarm-laser-whitening-evidence 301
+/opal-blog/underarm-laser-hair-removal-does-it-help-with-odour-sweat-amp-pigmentation /blog/underarm-laser-whitening-evidence 301
+/opal-blog/hydrafacial-treatment-explained-benefits-process-amp-results/ /blog/hydrafacial-what-the-evidence-shows 301
+/opal-blog/hydrafacial-treatment-explained-benefits-process-amp-results /blog/hydrafacial-what-the-evidence-shows 301
+/opal-blog/laser-hair-removal-a-complete-guide-to-safe-amp-long-term-hair-reduction/ /services/laser-hair-removal-mumbai 301
+/opal-blog/laser-hair-removal-a-complete-guide-to-safe-amp-long-term-hair-reduction /services/laser-hair-removal-mumbai 301
+/opal-blog/laser-hair-removal-for-women-unwanted-hair/ /services/laser-hair-removal-mumbai 301
+/opal-blog/laser-hair-removal-for-women-unwanted-hair /services/laser-hair-removal-mumbai 301
+/opal-blog/acne-amp-acne-scars-treatments-that-actually-work/ /blog/post-inflammatory-hyperpigmentation-acne-treatment-ladder 301
+/opal-blog/acne-amp-acne-scars-treatments-that-actually-work /blog/post-inflammatory-hyperpigmentation-acne-treatment-ladder 301
+/opal-blog/best-skin-laser-treatment-in-mumbai-complete-guide-to-laser-amp-aesthetic-clinic-services/ /services/ 301
+/opal-blog/best-skin-laser-treatment-in-mumbai-complete-guide-to-laser-amp-aesthetic-clinic-services /services/ 301
+/opal-blog/q-switch-laser-for-indian-skin-safe-effective-or-overhyped/ /concerns/pigmentation-melasma 301
+/opal-blog/q-switch-laser-for-indian-skin-safe-effective-or-overhyped /concerns/pigmentation-melasma 301
