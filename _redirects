@@ -36,24 +36,24 @@
 /opal-blog/q-switch-laser-for-indian-skin-safe-effective-or-overhyped /concerns/pigmentation-melasma 301
 
 # Legacy pre-migration URLs still getting hits per GA4 404 check (2026-07-18)
-/pre-post-hair-prp /care/hair-prp-care 301
-/pre-post-hair-prp/ /care/hair-prp-care 301
+# NOTE: the "pre-post-*" pages below were WRONGLY redirected in an earlier commit --
+# they are real pre/post-care guides that still exist on the old Squarespace site and
+# have now been restored as real pages at their original URLs instead of redirected.
+# See pre-post-hair-prp.html, pre-post-chemical-peel.html, pre-post-laser-hair-removal.html,
+# pre-post-mnrf.html, pre-post-hydra-facial.html, pre-and-postcare-carbon-facial.html,
+# and laser-hair-removal-protocol.html.
 /prp-hair-fall /services/hair-prp 301
 /prp-hair-fall/ /services/hair-prp 301
-/body-contouring /services/jordi-shape 301
-/body-contouring/ /services/jordi-shape 301
+/body-contouring /services/hifem-body-toning 301
+/body-contouring/ /services/hifem-body-toning 301
 /faq-cryolipolysis /services/fat-freeze 301
 /faq-cryolipolysis/ /services/fat-freeze 301
-/laser-hair-removal-protocol /services/laser-hair-removal-mumbai 301
-/laser-hair-removal-protocol/ /services/laser-hair-removal-mumbai 301
 /permanent-tattoo-removal /services/tattoo-removal 301
 /permanent-tattoo-removal/ /services/tattoo-removal 301
-/pre-post-care-1/laser-hair-removal--pre-&-post-care /care/laser-hair-removal-care 301
-/pre-post-care-1/laser-hair-removal--pre-&-post-care/ /care/laser-hair-removal-care 301
+/pre-post-care-1/laser-hair-removal--pre-&-post-care /pre-post-laser-hair-removal 301
+/pre-post-care-1/laser-hair-removal--pre-&-post-care/ /pre-post-laser-hair-removal 301
 /pre-post-care-1/lash-extensions--pre-&-post-care /services/ 301
 /pre-post-care-1/lash-extensions--pre-&-post-care/ /services/ 301
-/pre-post-chemical-peel /care/chemical-peel-care 301
-/pre-post-chemical-peel/ /care/chemical-peel-care 301
 /pre-post-mesotherapy-hair-treatment /care/hair-prp-care 301
 /pre-post-mesotherapy-hair-treatment/ /care/hair-prp-care 301
 /slimming /services/fat-freeze 301
@@ -62,7 +62,3 @@
 /em-factloss-hifem/ /services/hifem-body-toning 301
 /laser-hair-removal-mum /services/laser-hair-removal-mumbai 301
 /laser-hair-removal-mum/ /services/laser-hair-removal-mumbai 301
-/pre-post-laser-hair-removal /care/laser-hair-removal-care 301
-/pre-post-laser-hair-removal/ /care/laser-hair-removal-care 301
-/pre-post-mnrf /care/mnrf-care 301
-/pre-post-mnrf/ /care/mnrf-care 301
