@@ -71,9 +71,9 @@ async function handleLeadSubmission(request, env) {
     return jsonResponse({ error: 'Invalid JSON' }, 400);
   }
 
-  // Validate required fields
-  if (!data.name || !data.phone || !data.location) {
-    return jsonResponse({ error: 'Name, phone, and location are required' }, 400);
+  // Validate required fields (location optional — captured on callback if omitted)
+  if (!data.name || !data.phone) {
+    return jsonResponse({ error: 'Name and phone are required' }, 400);
   }
 
   // Basic phone validation (Indian)
@@ -96,7 +96,7 @@ async function handleLeadSubmission(request, env) {
     clean(data.name),
     phone,
     clean(data.email),
-    clean(data.location),
+    clean(data.location) || 'Not specified',
     clean(data.treatment),
     clean(data.preferred_date),
     clean(data.message),
