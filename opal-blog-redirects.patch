@@ -1,0 +1,77 @@
+From 3694ce9d533c6d02bc3900bc5bc9c16591fe381d Mon Sep 17 00:00:00 2001
+From: Rishi Modi <rishimodi@rishimodi.com>
+Date: Fri, 17 Jul 2026 11:12:22 +0000
+Subject: [PATCH] Redirect legacy opal-blog/ posts to their new /blog/
+ equivalents
+
+Fixes the cannibalization risk flagged in the SEO review: the 9 old
+Squarespace-era opal-blog/ posts were orphaned (no nav links) but still
+indexed and overlapping topically with the new evidence-based batch.
+301-redirects each to its closest topical match (new blog post, or the
+relevant service/concern page where no single post matches), plus the
+opal-blog/ index to /blog/. Also drops all 10 opal-blog URLs from
+sitemap.xml so they stop being resubmitted for re-crawl.
+
+Old posts had zero ranking keywords per Ahrefs, so nothing lost by
+redirecting now; any residual link equity consolidates into the
+current pages instead.
+---
+ _redirects  | 22 ++++++++++++++++++++++
+ sitemap.xml | 11 -----------
+ 2 files changed, 22 insertions(+), 11 deletions(-)
+
+diff --git a/_redirects b/_redirects
+index 3bacb5f..49df05f 100644
+--- a/_redirects
++++ b/_redirects
+@@ -12,3 +12,25 @@
+ /peel /services/chemical-peel 301
+ /hair-prp /services/hair-prp 301
+ /laser-hair-removal-mumbai /services/laser-hair-removal-mumbai 301
++
++# Legacy opal-blog/ consolidation -- superseded by evidence-based /blog/ batch (2026-07-17)
++/opal-blog/ /blog/ 301
++/opal-blog /blog/ 301
++/opal-blog/does-laser-hair-removal-work-on-indian-skin-safety-results-amp-what-to-know/ /blog/fitzpatrick-skin-type-indian-skin-laser-safety 301
++/opal-blog/does-laser-hair-removal-work-on-indian-skin-safety-results-amp-what-to-know /blog/fitzpatrick-skin-type-indian-skin-laser-safety 301
++/opal-blog/pigmentation-amp-melasma-causes-treatments-amp-prevention/ /concerns/pigmentation-melasma 301
++/opal-blog/pigmentation-amp-melasma-causes-treatments-amp-prevention /concerns/pigmentation-melasma 301
++/opal-blog/underarm-laser-hair-removal-does-it-help-with-odour-sweat-amp-pigmentation/ /blog/underarm-laser-whitening-evidence 301
++/opal-blog/underarm-laser-hair-removal-does-it-help-with-odour-sweat-amp-pigmentation /blog/underarm-laser-whitening-evidence 301
++/opal-blog/hydrafacial-treatment-explained-benefits-process-amp-results/ /blog/hydrafacial-what-the-evidence-shows 301
++/opal-blog/hydrafacial-treatment-explained-benefits-process-amp-results /blog/hydrafacial-what-the-evidence-shows 301
++/opal-blog/laser-hair-removal-a-complete-guide-to-safe-amp-long-term-hair-reduction/ /services/laser-hair-removal-mumbai 301
++/opal-blog/laser-hair-removal-a-complete-guide-to-safe-amp-long-term-hair-reduction /services/laser-hair-removal-mumbai 301
++/opal-blog/laser-hair-removal-for-women-unwanted-hair/ /services/laser-hair-removal-mumbai 301
++/opal-blog/laser-hair-removal-for-women-unwanted-hair /services/laser-hair-removal-mumbai 301
++/opal-blog/acne-amp-acne-scars-treatments-that-actually-work/ /blog/post-inflammatory-hyperpigmentation-acne-treatment-ladder 301
++/opal-blog/acne-amp-acne-scars-treatments-that-actually-work /blog/post-inflammatory-hyperpigmentation-acne-treatment-ladder 301
++/opal-blog/best-skin-laser-treatment-in-mumbai-complete-guide-to-laser-amp-aesthetic-clinic-services/ /services/ 301
++/opal-blog/best-skin-laser-treatment-in-mumbai-complete-guide-to-laser-amp-aesthetic-clinic-services /services/ 301
++/opal-blog/q-switch-laser-for-indian-skin-safe-effective-or-overhyped/ /concerns/pigmentation-melasma 301
++/opal-blog/q-switch-laser-for-indian-skin-safe-effective-or-overhyped /concerns/pigmentation-melasma 301
+diff --git a/sitemap.xml b/sitemap.xml
+index dcdc7ec..e4a4458 100644
+--- a/sitemap.xml
++++ b/sitemap.xml
+@@ -38,17 +38,6 @@
+   <url><loc>https://opalradiant.com/blog/laser-hair-removal-vs-waxing</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://opalradiant.com/blog/is-laser-hair-removal-permanent</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://opalradiant.com/blog/cryolipolysis-complete-guide</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+-  <url><loc>https://opalradiant.com/opal-blog/</loc><lastmod>2026-07-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+-  <url><loc>https://opalradiant.com/opal-blog/best-skin-laser-treatment-in-mumbai-complete-guide-to-laser-amp-aesthetic-clinic-services/</loc><lastmod>2026-05-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+-  <url><loc>https://opalradiant.com/opal-blog/laser-hair-removal-a-complete-guide-to-safe-amp-long-term-hair-reduction/</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+-  <url><loc>https://opalradiant.com/opal-blog/q-switch-laser-for-indian-skin-safe-effective-or-overhyped/</loc><lastmod>2026-04-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+-  <url><loc>https://opalradiant.com/opal-blog/underarm-laser-hair-removal-does-it-help-with-odour-sweat-amp-pigmentation/</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+-  <url><loc>https://opalradiant.com/opal-blog/does-laser-hair-removal-work-on-indian-skin-safety-results-amp-what-to-know/</loc><lastmod>2026-02-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+-  <url><loc>https://opalradiant.com/opal-blog/pigmentation-amp-melasma-causes-treatments-amp-prevention/</loc><lastmod>2026-02-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+-  <url><loc>https://opalradiant.com/opal-blog/acne-amp-acne-scars-treatments-that-actually-work/</loc><lastmod>2026-02-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+-  <url><loc>https://opalradiant.com/opal-blog/hydrafacial-treatment-explained-benefits-process-amp-results/</loc><lastmod>2026-02-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+-  <url><loc>https://opalradiant.com/opal-blog/laser-hair-removal-for-women-unwanted-hair/</loc><lastmod>2019-05-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+-
+   <!-- Location × Service SEO pages -->
+   <url><loc>https://opalradiant.com/services/laser-hair-removal-powai</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+   <url><loc>https://opalradiant.com/services/laser-hair-removal-wadala</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+-- 
+2.43.0
+
