@@ -136,20 +136,24 @@ async function handleLeadSubmission(request, env) {
   return jsonResponse({ success: true, id: result.meta.last_row_id }, 201);
 }
 
-// ─── Lead Email Notification (Resend) ──────────────────────────
-// Env vars needed on the Pages project:
-//   RESEND_API_KEY    — secret, from resend.com
-//   LEAD_NOTIFY_TO    — recipient(s), comma-separated (e.g. "info@opalradiant.com,rishi@…")
-//   LEAD_NOTIFY_FROM  — optional, defaults to "Opal Leads <leads@opalradiant.com>"
-//                       (must be a Resend-verified domain address)
-// If RESEND_API_KEY or LEAD_NOTIFY_TO is unset, this no-ops and the lead is still saved.
+// ─── Lead Email Notification (Cloudflare Email Service) ────────
+// Uses Cloudflare's native Email Service via the EMAIL send_email binding.
+// Setup:
+//   1. Cloudflare dashboard → Compute → Email Service → Email Sending:
+//      onboard opalradiant.com (Cloudflare auto-adds MX/SPF/DKIM/DMARC).
+//   2. Add the binding to the Pages project (Settings → Functions → Bindings):
+//      send_email binding named "EMAIL".
+//   3. Set env vars on the Pages project:
+//      LEAD_NOTIFY_TO    — recipient(s), comma-separated (e.g. "info@opalradiant.com,rishi@…")
+//      LEAD_NOTIFY_FROM  — optional, sender on the onboarded domain
+//                          (defaults to "leads@opalradiant.com")
+// If the EMAIL binding or LEAD_NOTIFY_TO is unset, this no-ops and the lead is still saved.
 
 async function sendLeadNotification(env, lead) {
-  const apiKey = env.RESEND_API_KEY;
   const to = env.LEAD_NOTIFY_TO;
-  if (!apiKey || !to) return; // not configured yet — skip silently
+  if (!env.EMAIL || !to) return; // binding or recipient not configured — skip silently
 
-  const from = env.LEAD_NOTIFY_FROM || 'Opal Leads <leads@opalradiant.com>';
+  const from = env.LEAD_NOTIFY_FROM || 'leads@opalradiant.com';
   const recipients = String(to).split(',').map((s) => s.trim()).filter(Boolean);
 
   const waPhone = /^\d{10}$/.test(lead.phone) ? '91' + lead.phone : lead.phone;
@@ -181,16 +185,15 @@ async function sendLeadNotification(env, lead) {
   </div>`;
   const text = rows.map(([k, v]) => `${k}: ${v}`).join('\n') + `\n\nCall: ${lead.phone}  |  WhatsApp: https://wa.me/${waPhone}`;
 
-  const payload = { from, to: recipients, subject, html, text };
-  if (lead.email) payload.reply_to = lead.email;
-
-  const res = await fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify(payload),
-  });
-  if (!res.ok) {
-    console.error('Resend send failed:', res.status, await res.text());
+  // Send one message per recipient via Cloudflare Email Service. Each is guarded
+  // so a single bad address can't block the others — and the caller already
+  // wraps this whole call so any failure never blocks lead capture.
+  for (const rcpt of recipients) {
+    try {
+      await env.EMAIL.send({ to: rcpt, from, subject, html, text });
+    } catch (e) {
+      console.error('Cloudflare email send failed for', rcpt, e);
+    }
   }
 }
 
