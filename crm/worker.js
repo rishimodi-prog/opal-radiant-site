@@ -113,7 +113,85 @@ async function handleLeadSubmission(request, env) {
     clean(data.landing_page)
   ).run();
 
+  // Fire an email notification. Wrapped so a failure NEVER breaks lead capture —
+  // the lead is already safely saved in D1 by this point.
+  try {
+    await sendLeadNotification(env, {
+      id: result.meta.last_row_id,
+      name: clean(data.name),
+      phone,
+      email: clean(data.email),
+      location: clean(data.location) || 'Not specified',
+      treatment: clean(data.treatment),
+      message: clean(data.message),
+      source_page: clean(data.source_page),
+      utm_source: clean(data.utm_source),
+      utm_medium: clean(data.utm_medium),
+      utm_campaign: clean(data.utm_campaign),
+    });
+  } catch (err) {
+    console.error('Lead email notification failed (lead still saved):', err);
+  }
+
   return jsonResponse({ success: true, id: result.meta.last_row_id }, 201);
+}
+
+// ─── Lead Email Notification (Resend) ──────────────────────────
+// Env vars needed on the Pages project:
+//   RESEND_API_KEY    — secret, from resend.com
+//   LEAD_NOTIFY_TO    — recipient(s), comma-separated (e.g. "info@opalradiant.com,rishi@…")
+//   LEAD_NOTIFY_FROM  — optional, defaults to "Opal Leads <leads@opalradiant.com>"
+//                       (must be a Resend-verified domain address)
+// If RESEND_API_KEY or LEAD_NOTIFY_TO is unset, this no-ops and the lead is still saved.
+
+async function sendLeadNotification(env, lead) {
+  const apiKey = env.RESEND_API_KEY;
+  const to = env.LEAD_NOTIFY_TO;
+  if (!apiKey || !to) return; // not configured yet — skip silently
+
+  const from = env.LEAD_NOTIFY_FROM || 'Opal Leads <leads@opalradiant.com>';
+  const recipients = String(to).split(',').map((s) => s.trim()).filter(Boolean);
+
+  const waPhone = /^\d{10}$/.test(lead.phone) ? '91' + lead.phone : lead.phone;
+  const branch = lead.location && lead.location !== 'Not specified' ? ` · ${lead.location}` : '';
+  const subject = `New lead: ${lead.name} — ${lead.treatment || 'general'}${branch}`;
+
+  const utm = [lead.utm_source, lead.utm_medium, lead.utm_campaign].filter(Boolean).join(' / ');
+  const rows = [
+    ['Name', lead.name],
+    ['Phone', lead.phone],
+    ['Email', lead.email],
+    ['Treatment', lead.treatment],
+    ['Branch', lead.location],
+    ['Message', lead.message],
+    ['Page', lead.source_page],
+    ['Campaign', utm],
+  ].filter(([, v]) => v);
+
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const tableRows = rows.map(([k, v]) => `<tr><td style="padding:6px 12px;color:#574C3F;font-weight:600;white-space:nowrap">${k}</td><td style="padding:6px 12px;color:#36302A">${esc(v)}</td></tr>`).join('');
+  const html = `<div style="font-family:Arial,sans-serif;max-width:520px">
+    <h2 style="color:#36302A;margin:0 0 12px">New Opal Radiant lead #${lead.id}</h2>
+    <table style="border-collapse:collapse;background:#F6F3EC;border-radius:8px;width:100%">${tableRows}</table>
+    <p style="margin:16px 0 0">
+      <a href="tel:+${esc(waPhone)}" style="background:#36302A;color:#fff;padding:10px 18px;border-radius:6px;text-decoration:none;margin-right:8px">Call ${esc(lead.phone)}</a>
+      <a href="https://wa.me/${esc(waPhone)}" style="background:#25D366;color:#fff;padding:10px 18px;border-radius:6px;text-decoration:none">WhatsApp</a>
+    </p>
+    <p style="color:#9E8E7E;font-size:12px;margin-top:16px">View all leads at opalradiant.com/dashboard</p>
+  </div>`;
+  const text = rows.map(([k, v]) => `${k}: ${v}`).join('\n') + `\n\nCall: ${lead.phone}  |  WhatsApp: https://wa.me/${waPhone}`;
+
+  const payload = { from, to: recipients, subject, html, text };
+  if (lead.email) payload.reply_to = lead.email;
+
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) {
+    console.error('Resend send failed:', res.status, await res.text());
+  }
 }
 
 // ─── Dashboard Auth ─────────────────────────────────────────────
@@ -305,7 +383,7 @@ tr:hover td{background:#ECE4DA}
     <table>
       <thead>
         <tr>
-          <th>#</th><th>Date</th><th>Name</th><th>Phone</th><th>Email</th><th>Location</th><th>Treatment</th><th>Status</th><th>Notes</th>
+          <th>#</th><th>Date</th><th>Name</th><th>Phone</th><th>Email</th><th>Location</th><th>Treatment</th><th>Page</th><th>Status</th><th>Notes</th>
         </tr>
       </thead>
       <tbody id="leadsBody"></tbody>
@@ -376,7 +454,7 @@ async function loadLeads() {
 
 function renderLeads(leads) {
   const body = document.getElementById('leadsBody');
-  if (!leads.length) { body.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:2rem;color:#574C3F">No leads found</td></tr>'; return; }
+  if (!leads.length) { body.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:2rem;color:#574C3F">No leads found</td></tr>'; return; }
   body.innerHTML = leads.map(l => '<tr>' +
     '<td>' + l.id + '</td>' +
     '<td style="white-space:nowrap">' + (l.created_at || '').slice(0, 10) + '</td>' +
@@ -385,6 +463,7 @@ function renderLeads(leads) {
     '<td>' + esc(l.email || '—') + '</td>' +
     '<td>' + esc(l.location) + '</td>' +
     '<td>' + esc(l.treatment || '—') + '</td>' +
+    '<td style="font-size:.78rem;color:#574C3F;max-width:180px;word-break:break-word">' + esc(l.source_page || '—') + '</td>' +
     '<td class="actions"><select onchange="updateStatus(' + l.id + ',this.value)">' +
       ['new','contacted','booked','completed','lost'].map(s => '<option value="' + s + '"' + (s === l.status ? ' selected' : '') + '>' + s + '</option>').join('') +
     '</select></td>' +
