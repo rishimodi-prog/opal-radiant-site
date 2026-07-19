@@ -136,22 +136,25 @@ async function handleLeadSubmission(request, env) {
   return jsonResponse({ success: true, id: result.meta.last_row_id }, 201);
 }
 
-// ─── Lead Email Notification (Cloudflare Email Service) ────────
-// Uses Cloudflare's native Email Service via the EMAIL send_email binding.
-// Setup:
-//   1. Cloudflare dashboard → Compute → Email Service → Email Sending:
-//      onboard opalradiant.com (Cloudflare auto-adds MX/SPF/DKIM/DMARC).
-//   2. Add the binding to the Pages project (Settings → Functions → Bindings):
-//      send_email binding named "EMAIL".
-//   3. Set env vars on the Pages project:
-//      LEAD_NOTIFY_TO    — recipient(s), comma-separated (e.g. "info@opalradiant.com,rishi@…")
-//      LEAD_NOTIFY_FROM  — optional, sender on the onboarded domain
-//                          (defaults to "leads@opalradiant.com")
-// If the EMAIL binding or LEAD_NOTIFY_TO is unset, this no-ops and the lead is still saved.
+// ─── Lead Email Notification (Cloudflare Email Service REST API) ─
+// Sends via Cloudflare's Email Service REST API. The send_email BINDING is NOT
+// supported on Pages Functions (only Workers), and opalradiant.com runs as a
+// Pages project — so we call the REST API with a scoped API token instead.
+// Setup (all on the Pages project → Settings → Variables and Secrets):
+//   CF_ACCOUNT_ID     — your Cloudflare account ID (from any dashboard URL)
+//   CF_EMAIL_TOKEN    — secret: API token with "Send Email" permission
+//   LEAD_NOTIFY_TO    — recipient(s), comma-separated (e.g. "info@opalradiant.com,rishi@…")
+//   LEAD_NOTIFY_FROM  — optional, sender on the onboarded domain
+//                       (defaults to "leads@opalradiant.com")
+// Domain opalradiant.com must be onboarded in Email Service → Email Sending.
+// If any of CF_ACCOUNT_ID / CF_EMAIL_TOKEN / LEAD_NOTIFY_TO is unset, this
+// no-ops and the lead is still saved.
 
 async function sendLeadNotification(env, lead) {
+  const token = env.CF_EMAIL_TOKEN;
+  const account = env.CF_ACCOUNT_ID;
   const to = env.LEAD_NOTIFY_TO;
-  if (!env.EMAIL || !to) return; // binding or recipient not configured — skip silently
+  if (!token || !account || !to) return; // not configured yet — skip silently
 
   const from = env.LEAD_NOTIFY_FROM || 'leads@opalradiant.com';
   const recipients = String(to).split(',').map((s) => s.trim()).filter(Boolean);
@@ -185,15 +188,18 @@ async function sendLeadNotification(env, lead) {
   </div>`;
   const text = rows.map(([k, v]) => `${k}: ${v}`).join('\n') + `\n\nCall: ${lead.phone}  |  WhatsApp: https://wa.me/${waPhone}`;
 
-  // Send one message per recipient via Cloudflare Email Service. Each is guarded
-  // so a single bad address can't block the others — and the caller already
-  // wraps this whole call so any failure never blocks lead capture.
-  for (const rcpt of recipients) {
-    try {
-      await env.EMAIL.send({ to: rcpt, from, subject, html, text });
-    } catch (e) {
-      console.error('Cloudflare email send failed for', rcpt, e);
+  // POST to the Cloudflare Email Service REST API. The caller wraps this whole
+  // call in try/catch, so any failure here never blocks lead capture.
+  const res = await fetch(
+    `https://api.cloudflare.com/client/v4/accounts/${account}/email/sending/send`,
+    {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ to: recipients, from, subject, html, text }),
     }
+  );
+  if (!res.ok) {
+    console.error('Cloudflare Email Service send failed:', res.status, await res.text());
   }
 }
 
