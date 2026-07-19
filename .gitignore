@@ -6,3 +6,4 @@ site-audit.json
 *.patch
 _to_delete/
 .DS_Store
+.DS_Store
