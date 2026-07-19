@@ -62,3 +62,41 @@
 /em-factloss-hifem/ /services/hifem-body-toning 301
 /laser-hair-removal-mum /services/laser-hair-removal-mumbai 301
 /laser-hair-removal-mum/ /services/laser-hair-removal-mumbai 301
+
+# Old flat URLs still ranking page-1 in Google but returning 404 (GSC, 2026-07-19)
+# Google indexed these pre-migration slugs; 301 them to the live equivalents to
+# recover the ranking equity instead of leaking it to soft-404s.
+/jordi-shape /services/jordi-shape 301
+/jordi-shape/ /services/jordi-shape 301
+/opal-radiant-derma-studio-thane /locations/thane 301
+/opal-radiant-derma-studio-thane/ /locations/thane 301
+/opal-radiant-derma-studio-powai /locations/powai 301
+/opal-radiant-derma-studio-powai/ /locations/powai 301
+/opal-radiant-derma-studio-wadala /locations/wadala 301
+/opal-radiant-derma-studio-wadala/ /locations/wadala 301
+/opal-radiant-derma-borivali /locations/borivali 301
+/opal-radiant-derma-borivali/ /locations/borivali 301
+/laser-hair-removal /services/laser-hair-removal-mumbai 301
+/laser-hair-removal/ /services/laser-hair-removal-mumbai 301
+/laser-hair-removal-borivali /services/laser-hair-removal-borivali 301
+/laser-hair-removal-borivali/ /services/laser-hair-removal-borivali 301
+/laser-hair-removal-borivali-1 /services/laser-hair-removal-borivali 301
+/laser-hair-removal-borivali-1/ /services/laser-hair-removal-borivali 301
+/laser-hair-removal-powai /services/laser-hair-removal-powai 301
+/laser-hair-removal-powai/ /services/laser-hair-removal-powai 301
+/laser-hair-removal-wadala /services/laser-hair-removal-wadala 301
+/laser-hair-removal-wadala/ /services/laser-hair-removal-wadala 301
+/tattoo-removal /services/tattoo-removal 301
+/tattoo-removal/ /services/tattoo-removal 301
+/pre-post-tattoo-removal /services/tattoo-removal 301
+/pre-post-tattoo-removal/ /services/tattoo-removal 301
+/hifu /services/hifu-face-lift 301
+/hifu/ /services/hifu-face-lift 301
+/pre-post-hifu /care/hifu-face-lift-care 301
+/pre-post-hifu/ /care/hifu-face-lift-care 301
+/mnrf /services/mnrf 301
+/mnrf/ /services/mnrf 301
+/q-switch-photo-laser-facial /services/carbon-laser-facial 301
+/q-switch-photo-laser-facial/ /services/carbon-laser-facial 301
+/patient-reviews /contact 301
+/patient-reviews/ /contact 301
