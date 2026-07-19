@@ -140,21 +140,20 @@ async function handleLeadSubmission(request, env) {
 // Sends via Cloudflare's Email Service REST API. The send_email BINDING is NOT
 // supported on Pages Functions (only Workers), and opalradiant.com runs as a
 // Pages project — so we call the REST API with a scoped API token instead.
-// Setup (all on the Pages project → Settings → Variables and Secrets):
-//   CF_ACCOUNT_ID     — your Cloudflare account ID (from any dashboard URL)
-//   CF_EMAIL_TOKEN    — secret: API token with "Send Email" permission
-//   LEAD_NOTIFY_TO    — recipient(s), comma-separated (e.g. "info@opalradiant.com,rishi@…")
-//   LEAD_NOTIFY_FROM  — optional, sender on the onboarded domain
-//                       (defaults to "leads@opalradiant.com")
+// Reads the secrets already on the Pages project:
+//   CLOUDFLARE_ACCOUNT_ID   — Cloudflare account ID
+//   CLOUDFLARE_EMAIL_TOKEN  — API token with "Send Email" permission
+// Optional overrides:
+//   LEAD_NOTIFY_TO    — recipient(s), comma-separated (default: info@opalradiant.com)
+//   LEAD_NOTIFY_FROM  — sender on the onboarded domain (default: leads@opalradiant.com)
 // Domain opalradiant.com must be onboarded in Email Service → Email Sending.
-// If any of CF_ACCOUNT_ID / CF_EMAIL_TOKEN / LEAD_NOTIFY_TO is unset, this
-// no-ops and the lead is still saved.
+// If the account ID or token is unset, this no-ops and the lead is still saved.
 
 async function sendLeadNotification(env, lead) {
-  const token = env.CF_EMAIL_TOKEN;
-  const account = env.CF_ACCOUNT_ID;
-  const to = env.LEAD_NOTIFY_TO;
-  if (!token || !account || !to) return; // not configured yet — skip silently
+  const token = env.CLOUDFLARE_EMAIL_TOKEN || env.CF_EMAIL_TOKEN;
+  const account = env.CLOUDFLARE_ACCOUNT_ID || env.CF_ACCOUNT_ID;
+  const to = env.LEAD_NOTIFY_TO || 'info@opalradiant.com';
+  if (!token || !account) return; // not configured yet — skip silently
 
   const from = env.LEAD_NOTIFY_FROM || 'leads@opalradiant.com';
   const recipients = String(to).split(',').map((s) => s.trim()).filter(Boolean);
