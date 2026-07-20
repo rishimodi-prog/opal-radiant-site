@@ -100,3 +100,15 @@
 /q-switch-photo-laser-facial/ /services/carbon-laser-facial 301
 /patient-reviews /contact 301
 /patient-reviews/ /contact 301
+
+# Policy cleanup: substance-heavy blog posts 301'd to clean equivalents (2026-07-20)
+/blog/skin-whitening-injections-safety-data /concerns/pigmentation-melasma 301
+/blog/skin-whitening-injections-safety-data/ /concerns/pigmentation-melasma 301
+/blog/hifu-vs-botox-evidence-comparison /blog/hifu-everything-you-need-to-know 301
+/blog/hifu-vs-botox-evidence-comparison/ /blog/hifu-everything-you-need-to-know 301
+/blog/is-hifu-safe-clinical-evidence /blog/hifu-everything-you-need-to-know 301
+/blog/is-hifu-safe-clinical-evidence/ /blog/hifu-everything-you-need-to-know 301
+/blog/how-dermatologists-evaluate-evidence-guide /blog/ 301
+/blog/how-dermatologists-evaluate-evidence-guide/ /blog/ 301
+/blog/what-deficiency-causes-dark-circles /blog/under-eye-dark-circles-treatments 301
+/blog/what-deficiency-causes-dark-circles/ /blog/under-eye-dark-circles-treatments 301
