@@ -49,8 +49,8 @@
       "category": "Laser Hair Removal",
       "meta_description": "A dermatologist-reviewed breakdown of laser hair removal side effects — burns, pigment change, folliculitis, and paradoxical hypertrichosis — and how risk",
       "image_alt": "Diode laser hair removal handpiece and cooling gel on a clinic treatment bed, representing skin-type-specific laser hair removal safety",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-07-20"
     },
     {
       "slug": "what-deficiency-causes-dark-circles",
