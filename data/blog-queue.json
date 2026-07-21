@@ -59,8 +59,8 @@
       "category": "Dark Circles",
       "meta_description": "An evidence-based look at whether a vitamin or mineral deficiency causes dark circles — what the dermatology and hematology literature actually supports.",
       "image_alt": "Iron-rich foods and a dermatologist's loupe on a clinic counter, representing the evidence-based link between nutrition and under-eye dark circles",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-07-21"
     },
     {
       "slug": "fitzpatrick-skin-type-indian-skin-laser-safety",
