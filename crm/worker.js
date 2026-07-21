@@ -133,7 +133,82 @@ async function handleLeadSubmission(request, env) {
     console.error('Lead email notification failed (lead still saved):', err);
   }
 
+  // Mirror the lead into the Opal CRM (Supabase) with its source resolved
+  // (Google Ads vs Organic vs Direct). Wrapped exactly like the email above so
+  // a CRM outage NEVER breaks website lead capture — the lead is already in D1.
+  try {
+    await forwardLeadToCrm(env, {
+      name: clean(data.name),
+      phone,
+      email: clean(data.email),
+      location: clean(data.location),
+      treatment: clean(data.treatment),
+      message: clean(data.message),
+      source_page: clean(data.source_page),
+      utm_source: clean(data.utm_source),
+      utm_medium: clean(data.utm_medium),
+      utm_campaign: clean(data.utm_campaign),
+      gclid: clean(data.gclid),
+      gbraid: clean(data.gbraid),
+      wbraid: clean(data.wbraid),
+      source: deriveLeadSource(data),
+    });
+  } catch (err) {
+    console.error('CRM forward failed (lead still saved in D1):', err);
+  }
+
   return jsonResponse({ success: true, id: result.meta.last_row_id }, 201);
+}
+
+// ─── Lead source resolution (Google Ads vs Organic vs Direct) ───────────
+// A Google click id (gclid/gbraid/wbraid) or a paid medium => Google Ads.
+// utm_medium=organic or a search-engine source => Organic Search. Any other
+// known utm_source keeps its name (e.g. Facebook). Otherwise Direct.
+function deriveLeadSource(data) {
+  const medium = String(data.utm_medium || '').toLowerCase();
+  const src    = String(data.utm_source || '').toLowerCase();
+  if (data.gclid || data.gbraid || data.wbraid) return 'Google Ads';
+  if (['cpc', 'ppc', 'paid', 'paidsearch', 'paid_search'].includes(medium)) return 'Google Ads';
+  if (medium === 'organic' || src === 'google' || src === 'bing' || src === 'duckduckgo') return 'Organic Search';
+  if (src) return src.charAt(0).toUpperCase() + src.slice(1);
+  return 'Website (Direct)';
+}
+
+// ─── Forward a captured lead to the Opal CRM intake webhook ─────────────
+// Token-gated, INSERT-only endpoint — the CRM's service-role key never lives
+// here. Token is a Pages secret (OPAL_CRM_INGEST_TOKEN); if unset this no-ops
+// so the site keeps working before the secret is added.
+async function forwardLeadToCrm(env, lead) {
+  const token = env.OPAL_CRM_INGEST_TOKEN;
+  if (!token) return; // not configured yet → skip silently
+  const endpoint = env.OPAL_CRM_INTAKE_URL || 'https://crm.opalradiant.com/api/webhooks/lead-intake';
+  const VALID_BRANCHES = ['Powai', 'Thane', 'Borivali', 'Wadala'];
+  const utm = [lead.utm_source, lead.utm_medium, lead.utm_campaign].filter(Boolean).join(' / ');
+  const googleId = lead.gclid || lead.gbraid || lead.wbraid;
+  const notes = [
+    lead.treatment   ? `Treatment: ${lead.treatment}`   : null,
+    lead.message     ? `Message: ${lead.message}`       : null,
+    lead.source_page ? `Page: ${lead.source_page}`      : null,
+    utm              ? `UTM: ${utm}`                    : null,
+    googleId         ? `Google click id: ${googleId}`   : null,
+  ].filter(Boolean).join('\n');
+
+  const res = await fetch(endpoint, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+    body: JSON.stringify({
+      name:     lead.name,
+      phone:    lead.phone,
+      email:    lead.email || undefined,
+      branch:   VALID_BRANCHES.includes(lead.location) ? lead.location : undefined,
+      source:   lead.source,                 // "Google Ads" | "Organic Search" | ...
+      campaign: lead.utm_campaign || undefined,
+      notes:    notes || undefined,
+    }),
+  });
+  if (!res.ok) {
+    throw new Error(`CRM intake ${res.status}: ${(await res.text().catch(() => '')).slice(0, 200)}`);
+  }
 }
 
 // ─── Lead Email Notification (Cloudflare Email Service REST API) ─
