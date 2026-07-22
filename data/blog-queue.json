@@ -69,8 +69,8 @@
       "category": "Skin Science",
       "meta_description": "How the Fitzpatrick I-VI skin scale works, why most Indian skin falls in type III-V, and how that determines safe laser wavelength and settings.",
       "image_alt": "Skin-tone reference chart and colorimeter device on a clinic desk, representing Fitzpatrick skin type assessment before laser treatment",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-07-22"
     },
     {
       "slug": "is-hifu-safe-clinical-evidence",
