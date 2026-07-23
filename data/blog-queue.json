@@ -79,8 +79,8 @@
       "category": "HIFU",
       "meta_description": "An evidence-based look at HIFU safety — the mechanism behind ultrasound skin tightening, what published clinical trials report on efficacy, and documented",
       "image_alt": "HIFU ultrasound handpiece and transducer on a clinic treatment bed, representing evidence-based HIFU safety research",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-07-23"
     },
     {
       "slug": "chemical-peel-purging-vs-breakout",
