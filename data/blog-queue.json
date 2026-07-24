@@ -89,8 +89,8 @@
       "category": "Chemical Peel",
       "meta_description": "Skin purging after a chemical peel is not the same as a bad reaction. Learn the biology that separates the two, the timeline differences, and when to call",
       "image_alt": "Chemical peel solution and applicator brush on a clinic treatment tray, representing evidence-based skin purging versus breakout guidance",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-07-24"
     },
     {
       "slug": "hifu-vs-botox-evidence-comparison",
