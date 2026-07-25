@@ -99,8 +99,8 @@
       "category": "HIFU",
       "meta_description": "An evidence-based look at how HIFU and Botox actually work, what each is proven to treat well, and what published research shows about how long results last.",
       "image_alt": "A HIFU ultrasound handpiece and an injection tray shown side by side on a clinic surface, representing an evidence-based comparison of HIFU and Botox for facial rejuvenation",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-07-25"
     },
     {
       "slug": "fat-freeze-results-1-month-timeline",
