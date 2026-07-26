@@ -109,8 +109,8 @@
       "category": "Fat Freeze",
       "meta_description": "Why fat freeze results aren't visible at 1 month, explained through the actual biology of adipocyte apoptosis and the published clearance timeline.",
       "image_alt": "Cryolipolysis fat freeze applicator on a clinic treatment bed beside a calendar, representing the weeks-long biological timeline of fat freeze results",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-07-26"
     },
     {
       "slug": "can-melasma-be-cured-permanently",
