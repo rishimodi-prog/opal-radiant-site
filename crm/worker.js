@@ -71,6 +71,41 @@ async function handleLeadSubmission(request, env) {
     return jsonResponse({ error: 'Invalid JSON' }, 400);
   }
 
+  // ── Two-step enrichment ────────────────────────────────────────────────
+  // The book-appointment form captures name + phone first (so a lead is never
+  // lost), then optionally reveals Branch & Service. When the visitor confirms
+  // those, the page re-POSTs here with `enrich_phone` set. We UPDATE the lead
+  // just created for that phone rather than inserting a duplicate. Fully
+  // guarded: only runs when enrich_phone is present, never inserts, and never
+  // returns an error that would break the visitor's experience.
+  if (data.enrich_phone) {
+    const ePhone = String(data.enrich_phone).replace(/[\s\-\+]/g, '');
+    if (!/^(91)?[6-9]\d{9}$/.test(ePhone)) {
+      return jsonResponse({ error: 'Invalid phone' }, 400);
+    }
+    const trim = (s) => (s ? String(s).trim().slice(0, 500) : null);
+    const loc = trim(data.location);
+    const treat = trim(data.treatment);
+    if (!loc && !treat) {
+      return jsonResponse({ success: true, enriched: false }, 200);
+    }
+    try {
+      const recent = await env.DB.prepare(
+        `SELECT id FROM leads WHERE phone = ? AND created_at >= datetime('now', '-60 minutes') ORDER BY id DESC LIMIT 1`
+      ).bind(ePhone).first();
+      if (recent && recent.id) {
+        await env.DB.prepare(
+          `UPDATE leads SET location = COALESCE(?, location), treatment = COALESCE(?, treatment), updated_at = datetime('now') WHERE id = ?`
+        ).bind(loc, treat, recent.id).run();
+        return jsonResponse({ success: true, enriched: true, id: recent.id }, 200);
+      }
+      return jsonResponse({ success: true, enriched: false }, 200);
+    } catch (err) {
+      console.error('Lead enrichment failed (non-fatal):', err);
+      return jsonResponse({ success: true, enriched: false }, 200);
+    }
+  }
+
   // Validate required fields (location optional — captured on callback if omitted)
   if (!data.name || !data.phone) {
     return jsonResponse({ error: 'Name and phone are required' }, 400);

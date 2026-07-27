@@ -169,6 +169,13 @@
                 <textarea id="message" name="message" class="form-textarea" rows="3" placeholder="Tell us anything you'd like us to know"></textarea>
               </div>
 
+              <button type="submit" class="btn btn--primary btn--block">Send</button>
+              <p style="margin-top:.75rem; font-size:.9rem; color:#6b6b6b; text-align:center;">Just your name &amp; number — we'll call you within 2 hours.</p>
+            </form>
+
+            <!-- Step 2: optional Branch & Service, revealed only after the lead is captured -->
+            <div id="opal-step2" hidden style="margin-top:1.75rem; padding-top:1.5rem; border-top:1px solid #eee;">
+              <p style="font-weight:600; margin-bottom:1rem;">Thank you — we've got your details. <span style="font-weight:700;">One optional step:</span> tell us where and what for, so we can prep before we call.</p>
               <fieldset class="form-group form-radios">
                 <legend class="form-label">Branch <span class="form-optional">(optional)</span></legend>
                 <label class="form-radio"><input type="radio" name="location" value="Powai"> Powai</label>
@@ -187,8 +194,8 @@
                 <label class="form-radio"><input type="radio" name="treatment" value="other"> Other / Not Sure</label>
               </fieldset>
 
-              <button type="submit" class="btn btn--primary btn--block">Send</button>
-            </form>
+              <button type="button" id="opal-step2-confirm" class="btn btn--primary btn--block">Confirm</button>
+            </div>
           </div>
 
           <!-- Right: Alternative Contact -->
@@ -464,5 +471,67 @@
 
   <a href="https://wa.me/917703037070?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
   <script src="/js/main.js" defer></script>
+  <script>
+  /* Two-step booking: capture name+phone on step 1 (main.js handles the POST +
+     GA4/Google Ads conversion), then reveal optional Branch & Service and
+     enrich the SAME lead — no duplicate row, no duplicate conversion. */
+  (function () {
+    var form = document.getElementById('booking-form');
+    var step2 = document.getElementById('opal-step2');
+    if (!form || !step2) return;
+
+    // Stash the phone before main.js resets the form on a successful submit.
+    var savedPhone = '';
+    form.addEventListener('submit', function () {
+      var p = form.querySelector('input[name="phone"]');
+      if (p) savedPhone = (p.value || '').trim();
+    }, true);
+
+    // main.js sets window.__opalLeadSubmitted = true once the lead is saved.
+    var revealed = false;
+    var poll = setInterval(function () {
+      if (window.__opalLeadSubmitted && !revealed) {
+        revealed = true;
+        clearInterval(poll);
+        step2.hidden = false;
+        try { step2.scrollIntoView({ behavior: 'smooth', block: 'center' }); } catch (e) {}
+      }
+    }, 300);
+    setTimeout(function () { clearInterval(poll); }, 180000);
+
+    function done(msg) {
+      step2.innerHTML = '<div class="card" style="text-align:center;"><p style="margin:0;font-weight:600;">' + msg + '</p></div>';
+    }
+
+    var btn = document.getElementById('opal-step2-confirm');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var locEl = step2.querySelector('input[name="location"]:checked');
+      var trEl = step2.querySelector('input[name="treatment"]:checked');
+      var loc = locEl ? locEl.value : '';
+      var tr = trEl ? trEl.value : '';
+      if ((!loc && !tr) || !savedPhone) {
+        done('Thanks! We have your details and will call you within 2 hours.');
+        return;
+      }
+      btn.disabled = true;
+      btn.textContent = 'Saving…';
+      fetch('/api/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ enrich_phone: savedPhone, location: loc, treatment: tr, source_page: window.location.pathname })
+      }).then(function (r) { return r.json().catch(function () { return {}; }); })
+        .then(function () {
+          done('Perfect — noted your preferred branch and service. Our team will call you within 2 hours.');
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'lead_enriched', { branch: loc || 'unspecified', treatment: tr || 'unspecified', page_path: window.location.pathname });
+          }
+        })
+        .catch(function () {
+          done('Thanks! We have your details and will call you within 2 hours.');
+        });
+    });
+  })();
+  </script>
 </body>
 </html>
