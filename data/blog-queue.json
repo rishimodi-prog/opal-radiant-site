@@ -119,8 +119,8 @@
       "category": "Melasma",
       "meta_description": "An evidence-based look at whether melasma can be permanently cured, based on published recurrence and relapse-rate studies — and what actually keeps it from",
       "image_alt": "Dermatology assessment chart and sunscreen on a clinic counter, representing evidence-based melasma recurrence and maintenance treatment",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-07-27"
     },
     {
       "slug": "laser-hair-removal-and-pregnancy-safety",
