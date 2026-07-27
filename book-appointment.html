@@ -55,8 +55,24 @@
 <meta name="twitter:description" content="Book your free consultation at OPAL Radiant — women-only aesthetic clinic in Mumbai &amp; Thane. Call, WhatsApp, or fill the form.">
 <meta name="twitter:image" content="https://opalradiant.com/images/og-home.jpg">
 <meta property="og:site_name" content="OPAL Radiant Studio">
+<style>
+  /* Compact layout — scoped to this page only — so the whole form sits above the fold */
+  body.book-page .breadcrumb-bar { display: none; }
+  body.book-page .section--hero-sm { padding: 1.25rem 0 .5rem; }
+  body.book-page .section--hero-sm h1 { font-size: clamp(1.7rem, 4.5vw, 2.4rem); margin-bottom: .3rem; }
+  body.book-page .section--hero-sm .subtitle { font-size: .95rem; margin: 0; }
+  body.book-page main > .section:not(.section--hero-sm):not(.section--alt) { padding: 1rem 0 1.75rem; }
+  body.book-page .contact-form .form-group { margin-bottom: .8rem; }
+  body.book-page .contact-form .form-label { margin-bottom: .3rem; }
+  body.book-page .contact-form .form-input,
+  body.book-page .contact-form .form-textarea { padding: .6rem .75rem; }
+  @media (max-width: 1120px) {
+    body.book-page .section--hero-sm { padding: 1rem 0 .35rem; }
+    body.book-page .grid--2 { gap: 1.25rem !important; }
+  }
+</style>
 </head>
-<body>
+<body class="book-page">
   <header class="header" role="banner">
     <div class="header__inner">
       <a href="/" class="header__logo" aria-label="Opal Radiant — Home">
@@ -166,7 +182,7 @@
               </div>
               <div class="form-group">
                 <label for="message" class="form-label">Message <span class="form-optional">(optional)</span></label>
-                <textarea id="message" name="message" class="form-textarea" rows="3" placeholder="Tell us anything you'd like us to know"></textarea>
+                <textarea id="message" name="message" class="form-textarea" rows="2" placeholder="Tell us anything you'd like us to know"></textarea>
               </div>
 
               <button type="submit" class="btn btn--primary btn--block">Book Free Appointment</button>
