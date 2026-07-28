@@ -192,8 +192,7 @@
 
             <!-- Step 2: optional Branch & Service (dropdowns), revealed only after the lead is captured -->
             <div id="opal-step2" hidden style="margin-top:1.75rem; padding-top:1.5rem; border-top:1px solid #eee;">
-              <h2 class="card__title" style="margin-bottom:.35rem;">Tell us what you prefer <span class="form-optional">(optional)</span></h2>
-              <p style="margin-bottom:1rem; color:#6b6b6b;">Thank you — we've got your details. Choose a branch and service if you already know. You can also skip this and our team will help you decide.</p>
+              <h2 class="card__title" style="margin-bottom:1.1rem; font-size:2.1rem; line-height:1.15;">Tell us what you prefer <span class="form-optional" style="font-size:.85rem; font-weight:400;">(optional)</span></h2>
               <div class="form-group">
                 <label for="opal-branch" class="form-label">Preferred branch</label>
                 <select id="opal-branch" name="location" class="form-input">
@@ -217,7 +216,7 @@
                 </select>
               </div>
               <div style="display:flex; gap:1.25rem; align-items:center; margin-top:.25rem;">
-                <button type="button" id="opal-step2-confirm" class="btn btn--primary">Save preferences</button>
+                <button type="button" id="opal-step2-confirm" class="btn btn--primary">SUBMIT</button>
                 <a href="#" id="opal-step2-skip" style="text-decoration:underline; font-weight:600;">Skip for now</a>
               </div>
             </div>
@@ -545,7 +544,9 @@
         clearInterval(poll);
         dropDuplicatePanels();
         step2.hidden = false;
-        try { step2.scrollIntoView({ behavior: 'smooth', block: 'center' }); } catch (e) {}
+        // Deliberately no scrollIntoView here — main.js already scrolls the
+        // success banner into view, and a second scroll pushed the page down
+        // so the confirmation message was cut off.
         // the stale script may inject late — sweep again shortly after
         setTimeout(dropDuplicatePanels, 400);
         setTimeout(dropDuplicatePanels, 1200);
