@@ -5,3 +5,5 @@
 .hero__quickform button{flex:1 1 100%;white-space:nowrap}
 .hero__quickform__note{flex:1 1 100%;font-size:.82rem;opacity:.85;margin:.1rem 0 0}
 @media(min-width:640px){.hero__quickform button{flex:0 0 auto}}
+
+.card:not(:has(> .card__body)){padding:var(--space-lg)}
