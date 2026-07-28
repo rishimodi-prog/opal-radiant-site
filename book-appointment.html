@@ -66,6 +66,7 @@
   body.book-page .contact-form .form-label { margin-bottom: .3rem; }
   body.book-page .contact-form .form-input,
   body.book-page .contact-form .form-textarea { padding: .6rem .75rem; }
+  body.book-page .container { padding-left: 2rem; padding-right: 2rem; }
   @media (max-width: 1120px) {
     body.book-page .section--hero-sm { padding: 1rem 0 .35rem; }
     body.book-page .grid--2 { gap: 1.25rem !important; }
@@ -189,28 +190,36 @@
               <p style="margin-top:.75rem; font-size:.9rem; color:#6b6b6b; text-align:center;">Just your name &amp; number — we'll call you within 2 hours.</p>
             </form>
 
-            <!-- Step 2: optional Branch & Service, revealed only after the lead is captured -->
+            <!-- Step 2: optional Branch & Service (dropdowns), revealed only after the lead is captured -->
             <div id="opal-step2" hidden style="margin-top:1.75rem; padding-top:1.5rem; border-top:1px solid #eee;">
-              <p style="font-weight:600; margin-bottom:1rem;">Thank you — we've got your details. <span style="font-weight:700;">One optional step:</span> tell us where and what for, so we can prep before we call.</p>
-              <fieldset class="form-group form-radios">
-                <legend class="form-label">Branch <span class="form-optional">(optional)</span></legend>
-                <label class="form-radio"><input type="radio" name="location" value="Powai"> Powai</label>
-                <label class="form-radio"><input type="radio" name="location" value="Wadala"> Wadala</label>
-                <label class="form-radio"><input type="radio" name="location" value="Borivali"> Borivali</label>
-                <label class="form-radio"><input type="radio" name="location" value="Thane"> Thane</label>
-              </fieldset>
-
-              <fieldset class="form-group form-radios">
-                <legend class="form-label">Service I'm looking for <span class="form-optional">(optional)</span></legend>
-                <label class="form-radio"><input type="radio" name="treatment" value="laser-hair-removal"> Laser Hair Removal</label>
-                <label class="form-radio"><input type="radio" name="treatment" value="fat-freeze"> Fat Freeze</label>
-                <label class="form-radio"><input type="radio" name="treatment" value="facial"> Facials</label>
-                <label class="form-radio"><input type="radio" name="treatment" value="hifu-face-lift"> HIFU / Anti-Ageing</label>
-                <label class="form-radio"><input type="radio" name="treatment" value="hair-prp"> Hair PRP</label>
-                <label class="form-radio"><input type="radio" name="treatment" value="other"> Other / Not Sure</label>
-              </fieldset>
-
-              <button type="button" id="opal-step2-confirm" class="btn btn--primary btn--block">Confirm</button>
+              <h2 class="card__title" style="margin-bottom:.35rem;">Tell us what you prefer <span class="form-optional">(optional)</span></h2>
+              <p style="margin-bottom:1rem; color:#6b6b6b;">Thank you — we've got your details. Choose a branch and service if you already know. You can also skip this and our team will help you decide.</p>
+              <div class="form-group">
+                <label for="opal-branch" class="form-label">Preferred branch</label>
+                <select id="opal-branch" name="location" class="form-input">
+                  <option value="">Select a branch</option>
+                  <option value="Powai">Powai</option>
+                  <option value="Wadala">Wadala</option>
+                  <option value="Borivali">Borivali</option>
+                  <option value="Thane">Thane</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="opal-service" class="form-label">Service of interest</label>
+                <select id="opal-service" name="treatment" class="form-input">
+                  <option value="">Select a service</option>
+                  <option value="laser-hair-removal">Laser Hair Removal</option>
+                  <option value="fat-freeze">Fat Freeze</option>
+                  <option value="facial">Facials</option>
+                  <option value="hifu-face-lift">HIFU / Anti-Ageing</option>
+                  <option value="hair-prp">Hair PRP</option>
+                  <option value="other">Other / Not Sure</option>
+                </select>
+              </div>
+              <div style="display:flex; gap:1.25rem; align-items:center; margin-top:.25rem;">
+                <button type="button" id="opal-step2-confirm" class="btn btn--primary">Save preferences</button>
+                <a href="#" id="opal-step2-skip" style="text-decoration:underline; font-weight:600;">Skip for now</a>
+              </div>
             </div>
           </div>
 
@@ -519,11 +528,17 @@
       step2.innerHTML = '<div class="card" style="text-align:center;"><p style="margin:0;font-weight:600;">' + msg + '</p></div>';
     }
 
+    var skip = document.getElementById('opal-step2-skip');
+    if (skip) skip.addEventListener('click', function (e) {
+      e.preventDefault();
+      done('Thanks! We have your details and will call you within 2 hours.');
+    });
+
     var btn = document.getElementById('opal-step2-confirm');
     if (!btn) return;
     btn.addEventListener('click', function () {
-      var locEl = step2.querySelector('input[name="location"]:checked');
-      var trEl = step2.querySelector('input[name="treatment"]:checked');
+      var locEl = document.getElementById('opal-branch');
+      var trEl = document.getElementById('opal-service');
       var loc = locEl ? locEl.value : '';
       var tr = trEl ? trEl.value : '';
       if ((!loc && !tr) || !savedPhone) {
