@@ -452,8 +452,13 @@ def render(post):
         "url": f"https://opalradiant.com/blog/{slug}",
     }, indent=4)
 
+    # Optional per-post language override (e.g. "hi-IN" for Hindi posts).
+    # Defaults to en-IN so every existing post renders exactly as before.
+    page_lang = post.get('lang', 'en-IN')
+    og_locale = page_lang.replace('-', '_')
+
     html_out = f'''<!DOCTYPE html>
-<html lang="en-IN">
+<html lang="{page_lang}">
 <head>
 {ANALYTICS_HEAD}
 
@@ -467,7 +472,7 @@ def render(post):
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://opalradiant.com/blog/{slug}">
   <meta property="og:image" content="https://opalradiant.com/images/blog/{slug}.jpg">
-  <meta property="og:locale" content="en_IN">
+  <meta property="og:locale" content="{og_locale}">
   <meta property="og:site_name" content="OPAL Radiant Studio">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{esc(title)}">
