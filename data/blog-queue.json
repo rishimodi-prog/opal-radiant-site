@@ -129,8 +129,8 @@
       "category": "Laser Hair Removal",
       "meta_description": "An evidence-based review of laser hair removal during pregnancy — hormonal changes, the research gap, and why clinics recommend waiting until postpartum.",
       "image_alt": "Calm, empty aesthetic clinic treatment room in warm beige tones, representing a deferred laser hair removal plan during pregnancy",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-07-28"
     },
     {
       "slug": "underarm-laser-whitening-evidence",
