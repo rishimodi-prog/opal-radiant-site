@@ -112,3 +112,16 @@
 /blog/how-dermatologists-evaluate-evidence-guide/ /blog/ 301
 /blog/what-deficiency-causes-dark-circles /blog/under-eye-dark-circles-treatments 301
 /blog/what-deficiency-causes-dark-circles/ /blog/under-eye-dark-circles-treatments 301
+
+# Phase 0 index recovery (2026-07-28)
+# Deleted substance pages still sitting in Google's index with no rule — they are
+# the pages Google Ads reviewers keep seeing on a stale crawl. Point them at clean
+# equivalents so Google drops the substance content and the appeal can pass.
+/pre-post-glutathione-iv /concerns/pigmentation-melasma 301
+/pre-post-glutathione-iv/ /concerns/pigmentation-melasma 301
+/pre-post-dermal-filler /services/ 301
+/pre-post-dermal-filler/ /services/ 301
+/glutathione-iv /concerns/pigmentation-melasma 301
+/glutathione-iv/ /concerns/pigmentation-melasma 301
+/dermal-filler /services/ 301
+/dermal-filler/ /services/ 301
