@@ -512,14 +512,44 @@
       if (p) savedPhone = (p.value || '').trim();
     }, true);
 
+    /* Defensive de-duplication.
+       A stale cached script from the pre-migration site injects its own
+       "Tell us what you prefer" panel after submit, which rendered alongside
+       this one. This removes any such panel that is not ours, so exactly one
+       (the functional one, wired to /api/lead) is ever shown. Harmless no-op
+       once the old cached asset expires everywhere. */
+    function dropDuplicatePanels() {
+      var heads = document.querySelectorAll('h1,h2,h3,h4,h5,legend,strong,b');
+      for (var i = 0; i < heads.length; i++) {
+        var h = heads[i];
+        if (!/tell us what you prefer/i.test(h.textContent || '')) continue;
+        if (step2.contains(h)) continue;               // that's ours — keep it
+        var node = h;
+        for (var j = 0; j < 6; j++) {
+          var p = node.parentElement;
+          if (!p || p === document.body || p === document.documentElement) break;
+          node = p;
+          if (node.querySelector('select') || /save preferences/i.test(node.textContent || '')) break;
+        }
+        if (node && node !== document.body && node !== document.documentElement && !node.contains(step2)) {
+          node.parentNode && node.parentNode.removeChild(node);
+        }
+      }
+    }
+
     // main.js sets window.__opalLeadSubmitted = true once the lead is saved.
     var revealed = false;
     var poll = setInterval(function () {
       if (window.__opalLeadSubmitted && !revealed) {
         revealed = true;
         clearInterval(poll);
+        dropDuplicatePanels();
         step2.hidden = false;
         try { step2.scrollIntoView({ behavior: 'smooth', block: 'center' }); } catch (e) {}
+        // the stale script may inject late — sweep again shortly after
+        setTimeout(dropDuplicatePanels, 400);
+        setTimeout(dropDuplicatePanels, 1200);
+        setTimeout(dropDuplicatePanels, 2500);
       }
     }, 300);
     setTimeout(function () { clearInterval(poll); }, 180000);
