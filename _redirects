@@ -125,3 +125,15 @@
 /glutathione-iv/ /concerns/pigmentation-melasma 301
 /dermal-filler /services/ 301
 /dermal-filler/ /services/ 301
+
+# Duplicate aftercare consolidation -- these already canonical to /care/*
+/pre-post-chemical-peel /care/chemical-peel-care 301
+/pre-post-chemical-peel/ /care/chemical-peel-care 301
+/pre-post-hair-prp /care/hair-prp-care 301
+/pre-post-hair-prp/ /care/hair-prp-care 301
+/pre-post-hydra-facial /care/hydra-facial-care 301
+/pre-post-hydra-facial/ /care/hydra-facial-care 301
+/pre-post-laser-hair-removal /care/laser-hair-removal-care 301
+/pre-post-laser-hair-removal/ /care/laser-hair-removal-care 301
+/pre-post-mnrf /care/mnrf-care 301
+/pre-post-mnrf/ /care/mnrf-care 301
