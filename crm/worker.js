@@ -264,7 +264,10 @@ function deriveLeadSource(data) {
 // human-readable label the CRM shows as a chip. Unknown slugs get a generic
 // title-case so a new service page still produces a readable tag.
 function treatmentLabel(raw) {
-  const slug = String(raw).trim().toLowerCase();
+  // Accept both slugs ("laser-hair-removal") and labels ("Laser Hair Removal")
+  // — the two-step form sends the readable label. Normalise to hyphenated
+  // lowercase for the MAP lookup, then title-case as fallback.
+  const slug = String(raw).trim().toLowerCase().replace(/\s+/g, '-');
   const MAP = {
     'laser-hair-removal': 'Laser Hair Removal',
     'laser-hair-removal-mumbai': 'Laser Hair Removal',
@@ -288,7 +291,10 @@ function treatmentLabel(raw) {
     'other': 'General Enquiry',
   };
   if (MAP[slug]) return MAP[slug];
-  return slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ').slice(0, 60);
+  const ACRO = new Set(['hifu', 'mnrf', 'prp', 'hifem']);
+  return slug.split('-')
+    .map((w) => ACRO.has(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ').slice(0, 60);
 }
 
 async function forwardLeadToCrm(env, lead) {
