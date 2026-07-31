@@ -68,13 +68,45 @@ cd crm
 # just "/book-appointment".
 wrangler d1 execute opal-crm --remote --file=migrations/0003_lead_journey.sql
 
-# Then redeploy the worker so it writes and displays the new columns:
+# Optional — keeps the standalone worker in sync. This is NOT what ships the
+# change to opalradiant.com; see the section below.
 wrangler deploy
 ```
 
-**Both commands are required.** The site itself deploys automatically from
-git, but the Worker and the D1 schema do not — until `wrangler deploy` runs,
-the new fields are collected in the browser and silently dropped on insert.
+### Which deploy actually serves the site — read before deploying
+
+`functions/[[path]].js` imports `crm/worker.js` directly and delegates
+`/api/lead`, `/api/dashboard/*` and `/dashboard` to it:
+
+```js
+import crmWorker from '../crm/worker.js';
+// ...
+return crmWorker.fetch(context.request, context.env);
+```
+
+So on **opalradiant.com those routes run inside the Cloudflare Pages
+deployment**, using the copy of `crm/worker.js` bundled at Pages build time.
+
+- **Worker code changes go live when Pages rebuilds from git** — normally
+  automatic on push to `main`. No wrangler command is involved.
+- `wrangler deploy` publishes the *standalone* worker at
+  `opal-crm.opal-rishimodi.workers.dev`. The live site does not use it for
+  these routes. Deploying is harmless and keeps the two in sync, but it is not
+  what ships a change to opalradiant.com.
+- **D1 migrations are the exception — never automatic.** A schema change must
+  be applied by hand with `wrangler d1 execute ... --remote`.
+
+**Order matters.** Apply the migration *before* the dependent code reaches
+production. If new code lands first, every INSERT referencing a missing column
+fails and leads are lost silently. Schema first, then let Pages build.
+
+To confirm a Pages build has actually shipped a commit, request something that
+only exists in it:
+
+```bash
+curl -sI https://opalradiant.com/js/lead-journey.js | head -1    # 200 = shipped
+curl -s  https://opalradiant.com/dashboard | grep -c "Came from" # 1   = new worker live
+```
 - Form submissions: POST to `/api/lead`
 - Dashboard: `/dashboard`
 
