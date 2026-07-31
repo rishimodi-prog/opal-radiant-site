@@ -238,6 +238,10 @@ async function forwardLeadToCrm(env, lead) {
       branch:   VALID_BRANCHES.includes(lead.location) ? lead.location : undefined,
       source:   lead.source,                 // "Google Ads" | "Organic Search" | ...
       campaign: lead.utm_campaign || undefined,
+      // Treatment as a TAG so it shows as a chip on the lead card in the CRM
+      // (and is filterable under Groups) — e.g. "Laser Hair Removal", "HIFU
+      // Face Lift", "Fat Freeze". Also kept in notes below for the full story.
+      tags:     lead.treatment ? [String(lead.treatment).trim().slice(0, 60)] : undefined,
       notes:    notes || undefined,
     }),
   });
