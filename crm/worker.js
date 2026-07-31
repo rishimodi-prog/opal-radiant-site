@@ -133,7 +133,7 @@ async function handleLeadSubmission(request, env) {
     'Laser Hair Removal': 'laser-hair-removal',
     'Fat Freeze': 'fat-freeze',
     'Hydra Facial': 'hydra-facial',
-    'Carbon Laser Facial': 'carbon-facial',
+    'Carbon Laser Facial': 'carbon-laser-facial',
     'Chemical Peel': 'chemical-peel',
     'HIFU Face Lift': 'hifu-face-lift',
     'Hair PRP': 'hair-prp',
@@ -280,6 +280,12 @@ function treatmentLabel(raw) {
     'chemical-peel': 'Chemical Peel',
     'tattoo-removal': 'Tattoo Removal',
     'general': 'General Enquiry',
+    // Legacy slugs from the original schema vocabulary — older rows and the
+    // book-appointment dropdown still use these, so keep them mapping cleanly.
+    'carbon-facial': 'Carbon Laser Facial',
+    'hifu': 'HIFU Face Lift',
+    'facial': 'Facial',
+    'other': 'General Enquiry',
   };
   if (MAP[slug]) return MAP[slug];
   return slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ').slice(0, 60);
