@@ -307,10 +307,17 @@ async function forwardLeadToCrm(env, lead) {
   // Sales-relevant notes ONLY. The full analytics trail (journey, UTM, click
   // ids, referrer, form page) stays in D1 + the info@ email for marketing —
   // the sales team's lead notes carry just what helps them make the call:
-  // the customer's own words, when they want to come in, and what page they
-  // were reading (a natural call opener). Treatment is already the tag chip;
-  // attribution is already the structured source/campaign fields.
-  const reading = lead.previous_title || lead.previous_page || null;
+  // the customer's own words, when they want to come in, and what they were
+  // reading. NO raw site paths or SEO titles ever reach the team — the page
+  // is converted to a clean name ("HIFU Face Lift"), and the line is dropped
+  // when it would just repeat the treatment chip.
+  let reading = null;
+  if (lead.previous_page) {
+    const seg = String(lead.previous_page).split('/').filter(Boolean).pop() || '';
+    const label = treatmentLabel(seg.replace(/\.html?$/i, ''));
+    const tagLabel = lead.treatment ? treatmentLabel(lead.treatment) : null;
+    if (label && label !== tagLabel) reading = label;
+  }
   const notes = [
     lead.message        ? `Message: ${lead.message}`               : null,
     lead.preferred_date ? `Preferred date: ${lead.preferred_date}` : null,
