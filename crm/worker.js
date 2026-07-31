@@ -213,6 +213,31 @@ function deriveLeadSource(data) {
 // Token-gated, INSERT-only endpoint — the CRM's service-role key never lives
 // here. Token is a Pages secret (OPAL_CRM_INGEST_TOKEN); if unset this no-ops
 // so the site keeps working before the secret is added.
+// Form treatment values are slugs ("laser-hair-removal") — map to the
+// human-readable label the CRM shows as a chip. Unknown slugs get a generic
+// title-case so a new service page still produces a readable tag.
+function treatmentLabel(raw) {
+  const slug = String(raw).trim().toLowerCase();
+  const MAP = {
+    'laser-hair-removal': 'Laser Hair Removal',
+    'laser-hair-removal-mumbai': 'Laser Hair Removal',
+    'hifu-face-lift': 'HIFU Face Lift',
+    'fat-freeze': 'Fat Freeze',
+    'hair-prp': 'Hair PRP',
+    'hair-fillers': 'Hair Fillers',
+    'hifem-body-toning': 'HIFEM Body Toning',
+    'jordi-shape': 'Jordi Shape',
+    'mnrf': 'MNRF',
+    'carbon-laser-facial': 'Carbon Laser Facial',
+    'hydra-facial': 'Hydra Facial',
+    'chemical-peel': 'Chemical Peel',
+    'tattoo-removal': 'Tattoo Removal',
+    'general': 'General Enquiry',
+  };
+  if (MAP[slug]) return MAP[slug];
+  return slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ').slice(0, 60);
+}
+
 async function forwardLeadToCrm(env, lead) {
   const token = env.OPAL_CRM_INGEST_TOKEN;
   if (!token) return; // not configured yet → skip silently
@@ -241,7 +266,7 @@ async function forwardLeadToCrm(env, lead) {
       // Treatment as a TAG so it shows as a chip on the lead card in the CRM
       // (and is filterable under Groups) — e.g. "Laser Hair Removal", "HIFU
       // Face Lift", "Fat Freeze". Also kept in notes below for the full story.
-      tags:     lead.treatment ? [String(lead.treatment).trim().slice(0, 60)] : undefined,
+      tags:     lead.treatment ? [treatmentLabel(lead.treatment)] : undefined,
       notes:    notes || undefined,
     }),
   });
