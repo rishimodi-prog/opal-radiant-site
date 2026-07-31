@@ -194,6 +194,7 @@ async function handleLeadSubmission(request, env) {
       location: finalLocation,
       treatment: finalTreatment,
       message: clean(data.message),
+      preferred_date: clean(data.preferred_date),
       source_page: clean(data.source_page),
       utm_source: clean(data.utm_source),
       utm_medium: clean(data.utm_medium),
@@ -302,23 +303,17 @@ async function forwardLeadToCrm(env, lead) {
   if (!token) return; // not configured yet → skip silently
   const endpoint = env.OPAL_CRM_INTAKE_URL || 'https://crm.opalradiant.com/api/webhooks/lead-intake';
   const VALID_BRANCHES = ['Powai', 'Thane', 'Borivali', 'Wadala'];
-  const utm = [lead.utm_source, lead.utm_medium, lead.utm_campaign].filter(Boolean).join(' / ');
-  const googleId = lead.gclid || lead.gbraid || lead.wbraid;
-  const cameFrom = lead.previous_title && lead.previous_page
-    ? `${lead.previous_title} (${lead.previous_page})`
-    : (lead.previous_page || null);
-  const interest = [lead.intent_treatment, lead.intent_branch].filter(Boolean).join(' · ') || null;
-
+  // Sales-relevant notes ONLY. The full analytics trail (journey, UTM, click
+  // ids, referrer, form page) stays in D1 + the info@ email for marketing —
+  // the sales team's lead notes carry just what helps them make the call:
+  // the customer's own words, when they want to come in, and what page they
+  // were reading (a natural call opener). Treatment is already the tag chip;
+  // attribution is already the structured source/campaign fields.
+  const reading = lead.previous_title || lead.previous_page || null;
   const notes = [
-    lead.treatment   ? `Treatment: ${lead.treatment}`   : null,
-    interest         ? `Looking at: ${interest}`        : null,
-    cameFrom         ? `Came from: ${cameFrom}`         : null,
-    lead.message     ? `Message: ${lead.message}`       : null,
-    lead.page_journey? `Journey: ${lead.page_journey}`  : null,
-    lead.referrer    ? `Referrer: ${lead.referrer}`     : null,
-    lead.source_page ? `Form page: ${lead.source_page}` : null,
-    utm              ? `UTM: ${utm}`                    : null,
-    googleId         ? `Google click id: ${googleId}`   : null,
+    lead.message        ? `Message: ${lead.message}`               : null,
+    lead.preferred_date ? `Preferred date: ${lead.preferred_date}` : null,
+    reading             ? `Was reading: ${reading}`                : null,
   ].filter(Boolean).join('\n');
 
   const res = await fetch(endpoint, {
