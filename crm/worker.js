@@ -221,6 +221,7 @@ async function handleLeadSubmission(request, env) {
       location: finalLocation === 'Not specified' ? null : finalLocation,
       treatment: finalTreatment,
       message: clean(data.message),
+      preferred_date: clean(data.preferred_date),
       source_page: clean(data.source_page),
       utm_source: clean(data.utm_source),
       utm_medium: clean(data.utm_medium),
