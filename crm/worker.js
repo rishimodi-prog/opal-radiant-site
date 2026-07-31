@@ -120,19 +120,48 @@ async function handleLeadSubmission(request, env) {
   // Sanitize
   const clean = (s) => s ? String(s).trim().slice(0, 500) : null;
 
+  // Intent derived from what the visitor browsed before reaching the form.
+  // Used only as a fallback — an explicit choice by the visitor always wins.
+  const intentTreatment = clean(data.intent_treatment);
+  const intentBranch = clean(data.intent_branch);
+
+  // The form's own dropdown submits slugs ("laser-hair-removal"), while the
+  // derived intent is a readable label ("Laser Hair Removal"). Normalise the
+  // fallback to the slug vocabulary so the treatment column stays filterable;
+  // the readable version is preserved separately in intent_treatment.
+  const TREATMENT_SLUGS = {
+    'Laser Hair Removal': 'laser-hair-removal',
+    'Fat Freeze': 'fat-freeze',
+    'Hydra Facial': 'hydra-facial',
+    'Carbon Laser Facial': 'carbon-facial',
+    'Chemical Peel': 'chemical-peel',
+    'HIFU Face Lift': 'hifu-face-lift',
+    'Hair PRP': 'hair-prp',
+    'Hair Fillers': 'hair-prp',
+    'MNRF': 'mnrf',
+    'Tattoo Removal': 'tattoo-removal',
+    'HIFEM Body Toning': 'hifem-body-toning',
+    'Jordi Shape': 'jordi-shape',
+  };
+  const intentSlug = intentTreatment ? (TREATMENT_SLUGS[intentTreatment] || 'other') : null;
+  const finalTreatment = clean(data.treatment) || intentSlug;
+  const finalLocation = clean(data.location) || intentBranch || 'Not specified';
+
   const result = await env.DB.prepare(`
     INSERT INTO leads (
       name, phone, email, location, treatment, preferred_date, message, source_page,
       utm_source, utm_medium, utm_campaign, utm_term, utm_content,
-      gclid, gbraid, wbraid, ga_client_id, landing_page
+      gclid, gbraid, wbraid, ga_client_id, landing_page,
+      previous_page, previous_title, page_journey, referrer,
+      intent_treatment, intent_branch
     )
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `).bind(
     clean(data.name),
     phone,
     clean(data.email),
-    clean(data.location) || 'Not specified',
-    clean(data.treatment),
+    finalLocation,
+    finalTreatment,
     clean(data.preferred_date),
     clean(data.message),
     clean(data.source_page),
@@ -145,7 +174,13 @@ async function handleLeadSubmission(request, env) {
     clean(data.gbraid),
     clean(data.wbraid),
     clean(data.ga_client_id),
-    clean(data.landing_page)
+    clean(data.landing_page),
+    clean(data.previous_page),
+    clean(data.previous_title),
+    clean(data.page_journey),
+    clean(data.referrer),
+    intentTreatment,
+    intentBranch
   ).run();
 
   // Fire an email notification. Wrapped so a failure NEVER breaks lead capture —
@@ -156,13 +191,19 @@ async function handleLeadSubmission(request, env) {
       name: clean(data.name),
       phone,
       email: clean(data.email),
-      location: clean(data.location) || 'Not specified',
-      treatment: clean(data.treatment),
+      location: finalLocation,
+      treatment: finalTreatment,
       message: clean(data.message),
       source_page: clean(data.source_page),
       utm_source: clean(data.utm_source),
       utm_medium: clean(data.utm_medium),
       utm_campaign: clean(data.utm_campaign),
+      previous_page: clean(data.previous_page),
+      previous_title: clean(data.previous_title),
+      page_journey: clean(data.page_journey),
+      referrer: clean(data.referrer),
+      intent_treatment: intentTreatment,
+      intent_branch: intentBranch,
     });
   } catch (err) {
     console.error('Lead email notification failed (lead still saved):', err);
@@ -176,8 +217,8 @@ async function handleLeadSubmission(request, env) {
       name: clean(data.name),
       phone,
       email: clean(data.email),
-      location: clean(data.location),
-      treatment: clean(data.treatment),
+      location: finalLocation === 'Not specified' ? null : finalLocation,
+      treatment: finalTreatment,
       message: clean(data.message),
       source_page: clean(data.source_page),
       utm_source: clean(data.utm_source),
@@ -186,6 +227,12 @@ async function handleLeadSubmission(request, env) {
       gclid: clean(data.gclid),
       gbraid: clean(data.gbraid),
       wbraid: clean(data.wbraid),
+      previous_page: clean(data.previous_page),
+      previous_title: clean(data.previous_title),
+      page_journey: clean(data.page_journey),
+      referrer: clean(data.referrer),
+      intent_treatment: intentTreatment,
+      intent_branch: intentBranch,
       source: deriveLeadSource(data),
     });
   } catch (err) {
@@ -245,10 +292,19 @@ async function forwardLeadToCrm(env, lead) {
   const VALID_BRANCHES = ['Powai', 'Thane', 'Borivali', 'Wadala'];
   const utm = [lead.utm_source, lead.utm_medium, lead.utm_campaign].filter(Boolean).join(' / ');
   const googleId = lead.gclid || lead.gbraid || lead.wbraid;
+  const cameFrom = lead.previous_title && lead.previous_page
+    ? `${lead.previous_title} (${lead.previous_page})`
+    : (lead.previous_page || null);
+  const interest = [lead.intent_treatment, lead.intent_branch].filter(Boolean).join(' · ') || null;
+
   const notes = [
     lead.treatment   ? `Treatment: ${lead.treatment}`   : null,
+    interest         ? `Looking at: ${interest}`        : null,
+    cameFrom         ? `Came from: ${cameFrom}`         : null,
     lead.message     ? `Message: ${lead.message}`       : null,
-    lead.source_page ? `Page: ${lead.source_page}`      : null,
+    lead.page_journey? `Journey: ${lead.page_journey}`  : null,
+    lead.referrer    ? `Referrer: ${lead.referrer}`     : null,
+    lead.source_page ? `Form page: ${lead.source_page}` : null,
     utm              ? `UTM: ${utm}`                    : null,
     googleId         ? `Google click id: ${googleId}`   : null,
   ].filter(Boolean).join('\n');
@@ -302,14 +358,26 @@ async function sendLeadNotification(env, lead) {
   const subject = `New lead: ${lead.name} — ${lead.treatment || 'general'}${branch}`;
 
   const utm = [lead.utm_source, lead.utm_medium, lead.utm_campaign].filter(Boolean).join(' / ');
+
+  // What the visitor was actually reading before they filled the form. This is
+  // the intent signal — source_page is nearly always just /book-appointment.
+  const cameFrom = lead.previous_title && lead.previous_page
+    ? `${lead.previous_title} (${lead.previous_page})`
+    : (lead.previous_page || null);
+  const interest = [lead.intent_treatment, lead.intent_branch].filter(Boolean).join(' · ') || null;
+
   const rows = [
     ['Name', lead.name],
     ['Phone', lead.phone],
     ['Email', lead.email],
     ['Treatment', lead.treatment],
     ['Branch', lead.location],
+    ['Came from', cameFrom],
+    ['Looking at', interest],
     ['Message', lead.message],
-    ['Page', lead.source_page],
+    ['Journey', lead.page_journey],
+    ['Referrer', lead.referrer],
+    ['Form page', lead.source_page],
     ['Campaign', utm],
   ].filter(([, v]) => v);
 
@@ -530,7 +598,7 @@ tr:hover td{background:#ECE4DA}
     <table>
       <thead>
         <tr>
-          <th>#</th><th>Date</th><th>Name</th><th>Phone</th><th>Email</th><th>Location</th><th>Treatment</th><th>Page</th><th>Status</th><th>Notes</th>
+          <th>#</th><th>Date</th><th>Name</th><th>Phone</th><th>Email</th><th>Location</th><th>Treatment</th><th>Came from</th><th>Status</th><th>Notes</th>
         </tr>
       </thead>
       <tbody id="leadsBody"></tbody>
@@ -599,6 +667,18 @@ async function loadLeads() {
   renderPagination(res.pages || 1);
 }
 
+// What the visitor was reading before they filled the form. Falls back to the
+// form page for older leads captured before journey tracking existed.
+function cameFromCell(l) {
+  const interest = [l.intent_treatment, l.intent_branch].filter(Boolean).join(' · ');
+  const label = l.previous_title || l.previous_page || l.source_page || '';
+  if (!interest && !label) return '—';
+  let out = '';
+  if (interest) out += '<strong>' + esc(interest) + '</strong>';
+  if (label) out += (out ? '<br>' : '') + '<span style="opacity:.75">' + esc(label) + '</span>';
+  return out;
+}
+
 function renderLeads(leads) {
   const body = document.getElementById('leadsBody');
   if (!leads.length) { body.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:2rem;color:#574C3F">No leads found</td></tr>'; return; }
@@ -610,7 +690,7 @@ function renderLeads(leads) {
     '<td>' + esc(l.email || '—') + '</td>' +
     '<td>' + esc(l.location) + '</td>' +
     '<td>' + esc(l.treatment || '—') + '</td>' +
-    '<td style="font-size:.78rem;color:#574C3F;max-width:180px;word-break:break-word">' + esc(l.source_page || '—') + '</td>' +
+    '<td style="font-size:.78rem;color:#574C3F;max-width:230px;word-break:break-word" title="' + esc(l.page_journey || '') + '">' + cameFromCell(l) + '</td>' +
     '<td class="actions"><select onchange="updateStatus(' + l.id + ',this.value)">' +
       ['new','contacted','booked','completed','lost'].map(s => '<option value="' + s + '"' + (s === l.status ? ' selected' : '') + '>' + s + '</option>').join('') +
     '</select></td>' +

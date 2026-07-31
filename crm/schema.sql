@@ -21,6 +21,12 @@ CREATE TABLE IF NOT EXISTS leads (
   wbraid TEXT,
   ga_client_id TEXT,
   landing_page TEXT,
+  previous_page TEXT,               -- last non-form page before submit, e.g. /services/laser-hair-removal-thane
+  previous_title TEXT,              -- that page's title, for readability
+  page_journey TEXT,                -- up to 8 recent paths, " > " joined
+  referrer TEXT,                    -- external referrer for the session
+  intent_treatment TEXT,            -- treatment inferred from browsing, e.g. "Laser Hair Removal"
+  intent_branch TEXT,               -- branch inferred from browsing, e.g. "Thane"
   status TEXT DEFAULT 'new',        -- new | contacted | booked | completed | lost
   notes TEXT,
   created_at TEXT DEFAULT (datetime('now')),

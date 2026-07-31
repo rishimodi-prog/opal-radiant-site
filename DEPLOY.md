@@ -48,6 +48,33 @@ wrangler deploy
 ```
 
 The CRM will be at: `https://opal-crm.opalradiant.workers.dev`
+
+## Step 3b: Database migrations
+
+`crm/schema.sql` is the full schema for a **fresh** database. An existing
+database is updated by running the migration files in `crm/migrations/` in
+order. Each one is additive (`ALTER TABLE ... ADD COLUMN`), so re-running a
+migration that has already been applied fails harmlessly with
+"duplicate column name" — no data is affected.
+
+```bash
+cd crm
+
+# Applied already:
+#   0002_lead_attribution.sql   utm_term/content, gclid/gbraid/wbraid, ga_client_id, landing_page
+
+# Lead intent capture — records which page the visitor was on before
+# submitting, so the team sees "came from the Thane laser page" instead of
+# just "/book-appointment".
+wrangler d1 execute opal-crm --remote --file=migrations/0003_lead_journey.sql
+
+# Then redeploy the worker so it writes and displays the new columns:
+wrangler deploy
+```
+
+**Both commands are required.** The site itself deploys automatically from
+git, but the Worker and the D1 schema do not — until `wrangler deploy` runs,
+the new fields are collected in the browser and silently dropped on insert.
 - Form submissions: POST to `/api/lead`
 - Dashboard: `/dashboard`
 
