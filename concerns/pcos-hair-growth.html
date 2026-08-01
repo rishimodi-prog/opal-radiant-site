@@ -16,14 +16,29 @@
 
   <!-- Google tag (gtag.js) — GA4 + Google Ads -->
   <script>
-    window.addEventListener('load', function () {
-      setTimeout(function () {
+    /* Load gtag.js on the first user interaction, or 1500ms after load —
+       whichever comes first. The old version waited the full 1500ms, so a
+       visitor who tapped WhatsApp or Call straight away switched to that app
+       before gtag.js existed to drain dataLayer, and the conversion was lost.
+       Conversion hits themselves use transport_type:'beacon' (see main.js). */
+    (function () {
+      var loaded = false;
+      function loadGtag() {
+        if (loaded) return;
+        loaded = true;
         var tag = document.createElement('script');
         tag.async = true;
         tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-S2T33WR4TY';
         document.head.appendChild(tag);
-      }, 1500);
-    }, { once: true });
+        ['pointerdown', 'touchstart', 'keydown'].forEach(function (e) {
+          window.removeEventListener(e, loadGtag, true);
+        });
+      }
+      ['pointerdown', 'touchstart', 'keydown'].forEach(function (e) {
+        window.addEventListener(e, loadGtag, { capture: true, passive: true });
+      });
+      window.addEventListener('load', function () { setTimeout(loadGtag, 1500); }, { once: true });
+    })();
   </script>
   <script>
     window.dataLayer = window.dataLayer || [];
