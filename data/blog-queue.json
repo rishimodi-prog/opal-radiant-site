@@ -169,8 +169,8 @@
       "category": "PCOS",
       "meta_description": "Why PCOS causes hirsutism, what the evidence says on the hyperandrogenism-insulin resistance link, and where laser fits into long-term medical management.",
       "image_alt": "Clinical chart and laser hair removal handpiece on a consultation desk, representing the combination of endocrine assessment and cosmetic treatment for PCOS-related hirsutism",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-08-01"
     },
     {
       "slug": "hydrafacial-side-effects-who-should-avoid",
