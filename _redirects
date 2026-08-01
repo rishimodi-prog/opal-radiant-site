@@ -137,3 +137,29 @@
 /pre-post-laser-hair-removal/ /care/laser-hair-removal-care 301
 /pre-post-mnrf /care/mnrf-care 301
 /pre-post-mnrf/ /care/mnrf-care 301
+
+# Pre-migration service URLs -- these lived at the root before the site
+# moved everything under /services/. Google Ads final URLs and sitelinks
+# still point at some of them; without these they 404 and the PMax asset
+# group gets a "Destination not working" policy limitation.
+/carbon-laser-facial /services/carbon-laser-facial 301
+/carbon-laser-facial/ /services/carbon-laser-facial 301
+/chemical-peel /services/chemical-peel 301
+/chemical-peel/ /services/chemical-peel 301
+/fat-freeze /services/fat-freeze 301
+/fat-freeze/ /services/fat-freeze 301
+/hair-fillers /services/hair-fillers 301
+/hair-fillers/ /services/hair-fillers 301
+/hair-prp/ /services/hair-prp 301
+/hifem-body-toning /services/hifem-body-toning 301
+/hifem-body-toning/ /services/hifem-body-toning 301
+/hifu-face-lift /services/hifu-face-lift 301
+/hifu-face-lift/ /services/hifu-face-lift 301
+/hydra-facial/ /services/hydra-facial 301
+/laser-hair-removal-mumbai/ /services/laser-hair-removal-mumbai 301
+/laser-hair-removal-cost-mumbai /services/laser-hair-removal-cost-mumbai 301
+/laser-hair-removal-cost-mumbai/ /services/laser-hair-removal-cost-mumbai 301
+/fat-freeze-cost-mumbai /services/fat-freeze-cost-mumbai 301
+/fat-freeze-cost-mumbai/ /services/fat-freeze-cost-mumbai 301
+/hifu-face-lift-cost-mumbai /services/hifu-face-lift-cost-mumbai 301
+/hifu-face-lift-cost-mumbai/ /services/hifu-face-lift-cost-mumbai 301
