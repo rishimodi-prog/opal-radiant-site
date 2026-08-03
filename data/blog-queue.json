@@ -179,8 +179,8 @@
       "category": "Hydrafacial",
       "meta_description": "An evidence-based look at Hydrafacial's documented side effects — mild redness and irritation — and who should delay or avoid treatment: active acne, rosacea",
       "image_alt": "Skin-assessment clipboard and hydradermabrasion serum vial on a clinic counter, representing pre-treatment screening for Hydrafacial side effects and contraindications",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-08-03"
     },
     {
       "slug": "laser-hair-removal-how-many-sessions-science",
