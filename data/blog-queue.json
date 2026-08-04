@@ -189,8 +189,8 @@
       "category": "Laser Hair Removal",
       "meta_description": "Why laser hair removal takes 6-8+ sessions, not one — explained through the anagen/catagen/telogen hair growth cycle and published clinical data.",
       "image_alt": "Laser hair removal treatment bed with handpiece, representing the multi-session treatment timeline required by the hair growth cycle",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-08-04"
     },
     {
       "slug": "hifem-body-toning-evidence",
