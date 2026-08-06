@@ -209,8 +209,8 @@
       "category": "Hair PRP",
       "meta_description": "How PRP works on hair follicles, what clinical trial meta-analyses show about efficacy, and the realistic PRP hair treatment results timeline.",
       "image_alt": "Centrifuged platelet-rich plasma vial and sterile injection tray on a clinic treatment surface, representing evidence-based PRP hair treatment",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-08-06"
     },
     {
       "slug": "post-inflammatory-hyperpigmentation-acne-treatment-ladder",
