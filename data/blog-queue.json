@@ -229,8 +229,8 @@
       "category": "Laser Hair Removal",
       "meta_description": "A physics-based comparison of professional laser hair removal and at-home IPL devices — coherence, wavelength, fluence, and what the published research shows",
       "image_alt": "Professional diode laser handpiece beside a compact at-home IPL device, representing the wavelength and fluence differences between the two technologies",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-08-08"
     },
     {
       "slug": "is-laser-hair-removal-painful-pain-scores",
