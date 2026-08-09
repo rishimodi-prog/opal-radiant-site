@@ -239,8 +239,8 @@
       "category": "Laser Hair Removal",
       "meta_description": "What clinical trials actually measured on pain scales during laser hair removal, why some body areas hurt more, and which pain-reduction techniques are",
       "image_alt": "Laser hair removal handpiece with cooling tip and topical anesthetic cream on a clinic treatment bed, representing evidence-based pain management during laser sessions",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-08-09"
     },
     {
       "slug": "mnrf-microneedling-rf-collagen-research",
