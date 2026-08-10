@@ -249,8 +249,8 @@
       "category": "MNRF",
       "meta_description": "An evidence-based look at how MNRF (microneedling radiofrequency) triggers collagen remodeling, and what published clinical trials report for acne scars",
       "image_alt": "Radiofrequency microneedling handpiece on a sterile clinic tray, representing evidence-based MNRF collagen-remodeling treatment",
-      "published": false,
-      "published_at": null
+      "published": true,
+      "published_at": "2026-08-10"
     },
     {
       "slug": "cryolipolysis-safety-fda-clinical-data",
