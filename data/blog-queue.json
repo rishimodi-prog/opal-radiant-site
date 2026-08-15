@@ -289,7 +289,8 @@
       "category": "Hydra Facial",
       "meta_description": "Which hydra facial benefits hold up to published research and which don't — hydration and extraction are supported, collagen and pore shrinkage are not.",
       "image_alt": "Hydradermabrasion handpiece and sealed serum canisters on a clinic counter, representing an evidence-based review of hydra facial benefits",
-      "published": false
+      "published": true,
+      "published_at": "2026-08-15"
     },
     {
       "slug": "hydra-facial-price-in-india-what-it-actually-costs",
