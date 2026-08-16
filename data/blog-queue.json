@@ -299,7 +299,8 @@
       "category": "Hydra Facial",
       "meta_description": "Hydra facial prices in India run from about ₹1,500 to ₹13,000. What each tier buys, why the machines cost ₹7,000 to ₹5.5 lakh, and what to ask before booking.",
       "image_alt": "Clinic price list beside a sealed single-use treatment tip and labelled serum canister, representing what determines hydra facial price in India",
-      "published": false
+      "published": true,
+      "published_at": "2026-08-16"
     },
     {
       "slug": "hydra-facial-steps-what-actually-happens",
