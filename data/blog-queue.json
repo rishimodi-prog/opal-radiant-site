@@ -309,7 +309,8 @@
       "category": "Hydra Facial",
       "meta_description": "The manufacturer publishes 3, 5 and 7 steps for the same treatment. Here's what the device actually does at each stage — and which steps are priced add-ons.",
       "image_alt": "Hydradermabrasion handpiece with spiral tip beside three sequenced serum canisters, representing the step-by-step hydra facial protocol",
-      "published": false
+      "published": true,
+      "published_at": "2026-08-17"
     },
     {
       "slug": "hydra-facial-ke-fayde-hindi",
