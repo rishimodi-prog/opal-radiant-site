@@ -1,0 +1,173 @@
+{
+  "slug": "microneedling-vs-laser-acne-scars",
+  "title": "Microneedling for Acne Scars vs Laser: What the Head-to-Head Trials Found",
+  "meta_description": "Microneedling for acne scars versus laser: the head-to-head RCT numbers, pigmentation risk in Indian skin, session counts, and what neither can do.",
+  "category": "Acne Scars",
+  "publish_date": "2026-09-28",
+  "read_time": "12 min read",
+  "primary_keyword": "microneedling for acne scars",
+  "image_prompt": "Editorial clinical photograph, soft natural diffused light, treatment room of a modern women-only aesthetic clinic in Mumbai. Overhead composition on a pale linen surface: a sterile stainless steel tray holding a microneedling cartridge tip beside a fractional laser handpiece, folded white gauze and a small glass dish, warm beige and muted gold tones, no visible faces, no people, no text, no logos, no brand markings, calm and clinical, high-end minimalist aesthetic, shallow depth of field.",
+  "image_alt": "Carbon lotion and a Q-switched Nd:YAG laser handpiece on a clinic tray, illustrating microneedling vs laser for acne scars",
+  "quick_facts": [
+    {
+      "label": "What the head-to-head evidence is",
+      "value": "Four randomised split-face trials (n=15, n=30, n=30 completers, plus pooled data) and one 2026 meta-analysis of 8 RCTs totalling 249 patients, nearly all comparing radiofrequency microneedling with fractional CO2 laser."
+    },
+    {
+      "label": "Efficacy verdict",
+      "value": "Three of the four randomised trials found the two modalities equivalent. The pooled meta-analysis found a small advantage for fractional CO2: mean difference 0.31 (95% CI 0.13-0.48, p=0.0005)."
+    },
+    {
+      "label": "Pigmentation verdict",
+      "value": "The same meta-analysis found a relative risk of 4.44 (95% CI 2.39-8.26, p<0.00001) for post-inflammatory hyperpigmentation with fractional CO2 versus radiofrequency microneedling. Two larger network meta-analyses found no significant difference between modalities."
+    },
+    {
+      "label": "Pain",
+      "value": "Genuinely contradictory. The meta-analysis reported pain 2.14 points higher with CO2; a 15-patient blinded split-face RCT reported the opposite, VAS 7.0 for RF microneedling versus 5.5 for ablative laser (p=0.009)."
+    },
+    {
+      "label": "Sessions and improvement",
+      "value": "Three sessions at 8-week intervals in the most recent randomised trial produced roughly 44% and 42% reductions in ECCA scar score for RF microneedling and fractional CO2 respectively, in 30 patients."
+    },
+    {
+      "label": "What one session buys",
+      "value": "A median one-point improvement on a ten-point texture scale after a single session of either device, under blinded assessment, in 15 patients. Best responders reached three points in only 10% of treated areas."
+    }
+  ],
+  "intro": "<p>Two devices dominate the acne scar consultation: one that injures the skin mechanically, and one that injures it thermally. <strong>Microneedling for acne scars</strong> creates columns of controlled mechanical injury with fine needles, triggering a wound-healing response that lays down new collagen. Fractional laser does the same job with heat, vaporising or coagulating microscopic columns of tissue and leaving untreated skin between them to speed healing. Both are sold as the answer to the same problem, often in the same clinic.</p><p>Four randomised split-face trials and a 2026 meta-analysis of eight RCTs have now compared them directly, and the picture is narrower than the marketing around either. On efficacy the two are close to equivalent, with a small statistical edge to fractional CO2. On pigmentation risk in deeper skin the gap is far larger and runs the other way. On pain the published evidence openly contradicts itself. And needling used alone was the weakest configuration in the largest network meta-analysis of the question. What follows is what each trial measured, how many people it enrolled, and where the numbers stop. This article is educational information and not medical advice; whether any procedure suits your skin requires in-person assessment by a qualified dermatologist.</p>",
+  "sections": [
+    {
+      "heading": "What Microneedling and Fractional Laser Actually Do to a Scar",
+      "html": "<p>Microneedling drives an array of fine needles into the skin to a set depth, typically 0.5 mm to 2.5 mm for scar work, creating thousands of narrow channels of mechanical injury. Nothing is removed and nothing is heated. The controlled trauma initiates the wound-healing cascade, and the collagen laid down during repair is what may lift the floor of a depressed scar. Radiofrequency microneedling adds a second, separate injury: the needles are insulated along the shaft so energy is released only from the tips, depositing heat at a chosen dermal depth while largely sparing the epidermis above.</p><p>Fractional laser works differently. Rather than a continuous beam, the energy is split into a grid of microscopic treatment columns, so only a fraction of the surface is treated and the untreated bridges between columns supply the cells that drive healing. Ablative fractional lasers, of which carbon dioxide is the archetype, vaporise tissue within each column. Non-ablative fractional lasers heat the dermis without breaking the epidermal barrier.</p><p>That difference sets the trade-off. The more epidermal disruption a device causes, the more remodelling it produces and the more it provokes the pigment-producing cells at the base of the epidermis. A 2022 review of energy-based devices in skin of colour puts it plainly: non-ablative fractional lasers have been considered first line in darker skin for their better safety profile, \"however, they are less efficacious and require more treatments compared to ablative lasers\" (Teymour et al., 2022). That is a narrative review, so it carries consensus weight rather than measured effect sizes.</p>"
+    },
+    {
+      "heading": "Microneedling for Acne Scars as a Standalone Treatment: The Weakest Configuration Tested",
+      "html": "<p>Microneedling for acne scars used on its own has a consistent, modest evidence signature. A 2017 systematic review covering ten years of literature pooled eight microneedling studies and reported that all patients achieved some degree of improvement, across a range of 31% to 62%. Its authors concluded that \"further trials with a larger number of patients are necessary in order to reach more concrete conclusions regarding their efficacy\" (Kravvas and Al-Niaimi, 2017).</p><p>The more pointed finding comes from a 2024 network meta-analysis restricted to randomised controlled trials: 24 studies, 1,546 participants. It ranked microneedling combined with chemical peels highest on degree of improvement, patient satisfaction and efficacy, ahead of microneedling with hyaluronic acid, with botulinum toxin, with platelet-rich plasma, and ahead of laser therapy. Its summary was that \"the results for MN combined with additional treatments were obviously better than for MN alone\" (Li et al., 2024). Needling by itself was the weakest arrangement in the network.</p><p>Microneedling's real advantage is tolerability: in a 2025 network meta-analysis of 68 RCTs and 4,480 patients it ranked most tolerable for pain, SUCRA 72.6% (Wu et al., 2025). If a peel is added, and in Indian skin it often is, that peel carries its own quantified risk. A 2018 review of 473 superficial peels in Fitzpatrick III to VI skin found an overall complication rate of 3.8%, with Fitzpatrick VI carrying an odds ratio of 5.14 (95% CI 1.21-21.8) for any adverse event; crusting was commonest at 2.3%, hyperpigmentation and erythema tied at 1.9%, all resolved within eight months, and side effects were significantly less common in winter (Vemula et al., 2018). Those numbers belong in any discussion of a <a href=\"/services/chemical-peel\">peel-based combination</a>.</p>"
+    },
+    {
+      "heading": "The Head-to-Head Trials: Radiofrequency Microneedling Versus Fractional CO2",
+      "html": "<p>The head-to-head literature is almost entirely about radiofrequency microneedling versus fractional CO2 laser, not plain mechanical microneedling versus laser. That matters before reading any of the numbers: the needling arm in these trials is the heated version, which sits closer to laser on the injury spectrum than a needling pen does.</p><p>The pooled result comes from a 2026 meta-analysis of eight randomised controlled trials, 249 patients in total. It found acne scar improvement favouring fractional CO2 by a mean difference of 0.31 (95% CI 0.13-0.48, p=0.0005) and satisfaction favouring it by 0.32 (95% CI 0.10-0.44, p=0.005). Both are statistically significant and both are small. The authors concluded that fractional CO2 offers superior efficacy while RF microneedling offers better tolerability, and that the choice \"should be individualized, considering patient-specific factors such as skin type\" (Argobi et al., 2026).</p><p>The individual trials mostly found no difference at all. A 2026 evaluator-blinded split-face trial, described by its own authors as exploratory, treated 30 completers with three sessions at 8-week intervals: ECCA scar score fell from 54.73 to 30.53 on the RF microneedling side, about 44%, and from 53.67 to 31.03 on the fractional CO2 side, about 42%, with no significant between-treatment difference (Li et al., 2026). A 2025 randomised split-face pilot in 30 patients, using one session per side and VISIA complexion analysis, also found comparable efficacy (p>0.05), with roughly 95% of subjects satisfied (Qu et al., 2025). A 2023 split-face trial with blinded response evaluation in 15 patients found equal efficacy, a median one-point texture improvement on a ten-point scale for both at three months (Hendel et al., 2023). Three of four found equivalence; the pooled analysis found a small edge.</p>"
+    },
+    {
+      "heading": "The Pigmentation Number That Decides It in Indian Skin",
+      "html": "<p>Efficacy is not where the two devices separate. Pigmentation is. In the same 2026 meta-analysis of eight RCTs, post-inflammatory hyperpigmentation was 4.44 times more likely with fractional CO2 than with radiofrequency microneedling (95% CI 2.39-8.26, p<0.00001), and erythema lasted 1.72 days longer (95% CI 1.43-2.02, p<0.00001) (Argobi et al., 2026). Set that beside the efficacy figure and the asymmetry is decisive: the CO2 advantage is a mean difference of 0.31, while the pigmentary penalty is a relative risk of 4.44.</p><p>Two independent lines of evidence point the same way. The 2025 split-face pilot instrumented pigmentation rather than counting it by eye, and found significantly increased red-area value, melanin index and erythema index on the CO2 side at one and two months (p<0.05) (Qu et al., 2025). A Bayesian network meta-analysis of six photoelectric therapies across 11 studies and 405 patients ranked hyperpigmentation probability lowest for microneedling fractional RF and highest of the six for fractional CO2 (Wang et al., 2023).</p><p>The starkest figure is older and much smaller. In an open, single-arm study of nine Chinese patients with Fitzpatrick III and IV skin, one full-face fractional ablative CO2 treatment was followed by post-inflammatory hyperpigmentation in 55.5% at one month, still present in 11.1% at six months, and the authors called for the modality's role in Asians to be reviewed (Chan et al., 2010). Nine uncontrolled patients cannot establish a population incidence, but the direction matches everything above.</p><p>Consistent, but not unanimous. The two largest network meta-analyses could not detect the difference at all: the 68-RCT, 4,480-patient analysis reported \"no strong evidence suggesting a treatment reduced the risk of erythema nor post-inflammatory hyperpigmentation compared to the other treatments\" (Wu et al., 2025), and the 24-RCT, 1,546-patient analysis found those side effects \"showed no significant differences across all treatments assessed\" (Li et al., 2024). That conflict is real and unresolved. Anyone who says the pigment question is settled is choosing a side of it.</p>"
+    },
+    {
+      "heading": "Pain and Downtime: Where the Evidence Contradicts Itself Outright",
+      "html": "<p>Pain is the claim most often made for radiofrequency microneedling over laser, and it is the claim the literature least supports. Two sources point one way: the 2026 meta-analysis found pain scores 2.14 points higher with fractional CO2 (95% CI 1.90-2.37, p<0.00001) (Argobi et al., 2026), and the 2025 split-face pilot also reported pain as more marked on the CO2 side (Qu et al., 2025).</p><p>Two point the other way. The 2023 split-face trial in 15 patients, using a standardised multilayer technique on both sides, recorded patients rating RF microneedling as significantly more painful than the ablative laser: VAS 7.0 versus 5.5, p=0.009 (Hendel et al., 2023). The six-modality network meta-analysis ranked microneedling fractional RF second-most painful of the six, and ranked it last of six on both dermatologist-rated efficacy and patient satisfaction, concluding that it \"has not given expression on absolute predominance for the present\" (Wang et al., 2023).</p><p>The coherent reading is that radiofrequency microneedling is the pigment-safer option rather than the more comfortable or the more effective one, and that pain depends heavily on settings, needle depth, energy and anaesthesia protocol, which differ between these trials more than the device categories do. Plain microneedling and radiofrequency microneedling are also not interchangeable here: the 68-RCT analysis that ranked microneedling most pain-tolerable assessed needling without radiofrequency (Wu et al., 2025).</p><p>Downtime differs by degree rather than kind. The measured difference in erythema duration was 1.72 days (Argobi et al., 2026), and every controlled trial located reports erythema, oedema, pain or scab formation after both devices. Recovery is shorter with one than the other, absent from neither, and varies between individuals.</p>"
+    },
+    {
+      "heading": "Sessions, and How Much Improvement the Trials Actually Recorded",
+      "html": "<p>Published protocols cluster tightly. The most recent randomised split-face comparison used three sessions at 8-week intervals (Li et al., 2026); two other head-to-head trials used a single session per side, so one treatment's effect could be isolated (Hendel et al., 2023; Qu et al., 2025). Across the wider literature, courses of three to five sessions spaced two to eight weeks apart are the norm, and individual requirements vary with scar depth, extent and healing response.</p><p>The improvement figures from controlled work are sober. A full three-session course produced ECCA reductions of about 44% and 42% for radiofrequency microneedling and fractional CO2 respectively, in 30 patients (Li et al., 2026), broadly in line with the 31% to 62% range pooled for microneedling in the 2017 systematic review (Kravvas and Al-Niaimi, 2017).</p><p>The single-session number most directly contradicts advertising. Under blinded assessment, one session of either ablative fractional laser or radiofrequency microneedling produced a median improvement of one point on a ten-point texture scale. Best responders reached three points, in only three test areas, 10% of all treated areas. Median satisfaction was 6 out of 10, interquartile range 5 to 7 (Hendel et al., 2023). No study in this comparison reports complete resolution of atrophic acne scarring, and the longest follow-up in any of the four head-to-head trials was six months (Qu et al., 2025).</p>"
+    },
+    {
+      "heading": "What the Comparative Trials Do Not Tell You: Scar Subtype",
+      "html": "<p>None of the four head-to-head trials reported outcomes separated by scar morphology. They measured ECCA scores, texture scales and physician-rated improvement across whichever mixture of ice pick, rolling and boxcar scars each participant happened to have (Hendel et al., 2023; Qu et al., 2025; Li et al., 2026), and the meta-analysis pooling eight such trials inherited that limitation (Argobi et al., 2026). So \"this device is best for boxcar scars\" is an inference from mechanism, not a finding from these trials.</p><p>That matters because morphology governs response more than device branding does. Narrow, deep ice pick tracts extend beyond the reach of a needle array or a fractional column at typical depths, and generalised dermal remodelling addresses them poorly; they are usually approached with focal techniques instead. Rolling scars are held down by fibrous tethering, a mechanical problem a resurfacing device does not release, which is why <a href=\"/blog/subcision-for-rolling-scars-evidence\">subcision</a> exists as a separate procedure. Boxcar scars have the thinnest evidence base of the atrophic three.</p><p>The practical consequence is that a course built around one device, chosen before anyone has classified the scars on your face, is chosen on availability rather than evidence. Mapping the mix by <a href=\"/blog/types-of-acne-scars-and-treatment\">scar type</a> comes first. The most reproducible finding across the network meta-analyses in this field is that combinations outperform single modalities (Li et al., 2024; Wu et al., 2025) — another way of saying no single device covers the range.</p>"
+    },
+    {
+      "heading": "What the Evidence Does Not Support",
+      "html": "<p>Several claims routinely made for these treatments are contradicted by the studies above rather than merely unproven.</p><ul><li><strong>\"Radiofrequency microneedling is more effective than fractional CO2 laser.\"</strong> The pooled meta-analysis found the opposite (MD 0.31 favouring CO2, p=0.0005), and a network meta-analysis of six modalities ranked RF microneedling last on physician-rated efficacy and satisfaction (Argobi et al., 2026; Wang et al., 2023).</li><li><strong>\"RF microneedling is virtually painless, or less painful than laser.\"</strong> Directly contradicted in a blinded split-face RCT where patients rated it more painful than ablative laser, VAS 7.0 versus 5.5, p=0.009 (Hendel et al., 2023).</li><li><strong>\"One session delivers dramatic results.\"</strong> A single blinded-assessed session of either device produced a median one-point change on a ten-point scale (Hendel et al., 2023).</li><li><strong>\"Microneedling alone gives excellent scar improvement.\"</strong> Monotherapy was the weakest configuration in a 24-RCT, 1,546-patient network meta-analysis; the published improvement range is 31% to 62% (Li et al., 2024; Kravvas and Al-Niaimi, 2017).</li><li><strong>\"Our protocol eliminates the risk of hyperpigmentation.\"</strong> Two network meta-analyses covering 4,480 and 1,546 patients found no treatment significantly reduced hyperpigmentation risk relative to others (Wu et al., 2025; Li et al., 2024). No tested protocol eliminates it.</li><li><strong>\"Collagen keeps remodelling for twelve months\", and quoted percentage collagen increases.</strong> No trial in this comparison measured collagen quantitatively or followed patients that long; the longest follow-up was six months (Qu et al., 2025).</li><li><strong>\"Proven safe in Fitzpatrick V and VI skin.\"</strong> The skin-of-colour review states that studies of radiofrequency microneedling for acne scarring in skin of colour \"are limited\" and calls for head-to-head work in phototypes V-VI (Teymour et al., 2022). The 2025 and 2026 split-face trials ran in East Asian populations, closer to III-IV.</li><li><strong>\"Home rollers give clinic results.\"</strong> No located study compares consumer-grade home devices against clinical microneedling for acne scars.</li></ul>"
+    },
+    {
+      "heading": "How the Choice Actually Gets Made, and What to Ask",
+      "html": "<p>Choosing between microneedling and laser for acne scars is not a contest one device wins. Active acne is controlled first, because new lesions produce new scars faster than any resurfacing course closes old ones, and because treating over active inflammation raises pigmentary risk in deeper skin. Timing relative to oral isotretinoin is an individualised decision to take with your treating doctor, since the product information and specialist consensus statements do not agree on the required interval.</p><p>After that, the scars are classified by morphology and the device chosen for the mix. Where scarring is diffuse and atrophic and the skin is Fitzpatrick IV to VI, the pigment arithmetic argues for the lower-risk option: a 0.31 mean-difference efficacy gain is a poor trade for a 4.44-fold relative risk of hyperpigmentation, even allowing for the two analyses that could not detect that difference. Where a focal or tethered component dominates, a resurfacing device is the wrong tool for it.</p><p>Four questions are worth asking before agreeing to a course. What proportion of my scars are ice pick, rolling and boxcar, and which does this device address. What phototype am I being treated as, and what settings, density in particular, are reduced because of it. How many sessions are planned, on what published protocol, and what did the trial behind it record. And what is the plan if pigmentation occurs, since across these studies it is a documented outcome rather than a remote one.</p><p>Both microneedling and fractional laser may improve the appearance of atrophic acne scars, by amounts clustering around 40% to 60% on validated scales after a full course in controlled studies. Neither clears scarring, neither has been shown to last indefinitely, and the trials behind both are small. To have your own scar pattern mapped before a device is chosen, you can <a href=\"/book-appointment\">book a consultation</a>, or read more about <a href=\"/concerns/acne-scars\">acne scarring</a> and how <a href=\"/services/mnrf\">radiofrequency microneedling</a> is delivered. This article is educational information and is not medical advice; consult a qualified dermatologist about your own skin.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "text": "Argobi Y, Tobeigei F, Alasiri FI. \"Fractional CO2 Laser Versus Micro Needling Radiofrequency for Post Acne Scarring: A Meta-Analysis of RCTs.\" <em>Journal of Cosmetic Dermatology</em>. 2026 Mar;25(3):e70765.",
+      "url": "https://doi.org/10.1111/jocd.70765"
+    },
+    {
+      "text": "Li W, Zheng C, Yuan X, et al. \"Comparative efficacy, recovery, and pigmentary safety of radiofrequency microneedling and fractional carbon dioxide laser for facial atrophic acne scars: a prospective randomized split-face trial.\" Journal of Dermatological Treatment. 2026;37(1):2687842.",
+      "url": "https://doi.org/10.1080/09546634.2026.2687842"
+    },
+    {
+      "text": "Qu L, Sha S, He C, Chen HD, Wu Y. \"Comparison of Non-insulated Microneedle Fractional Radiofrequency and Ablative Fractional Carbon Dioxide Laser for the Treatment of Facial Atrophic Acne Scarring: A Pilot Randomized Split-face Clinical Study.\" Acta Dermato-Venereologica. 2025;105:adv43611.",
+      "url": "https://doi.org/10.2340/actadv.v105.43611"
+    },
+    {
+      "text": "Hendel K, Karmisholt K, Hedelund L, Haedersdal M. \"Fractional CO2-laser versus microneedle radiofrequency for acne scars: A randomized, single treatment, split-face trial.\" <em>Lasers in Surgery and Medicine</em>. 2023 Apr;55(4):335-343.",
+      "url": "https://doi.org/10.1002/lsm.23655"
+    },
+    {
+      "text": "Wang Y, Sun Z, Cai L, Zhang F. \"Comparative efficacy and safety of six photoelectric therapies for the atrophic acne scars: A network meta-analysis.\" Indian Journal of Dermatology, Venereology and Leprology. 2023;89(3):353-362.",
+      "url": "https://doi.org/10.25259/IJDVL_572_2021"
+    },
+    {
+      "text": "Li H, Jia B, Zhang X. \"Comparing the efficacy and safety of microneedling and its combination with other treatments in patients with acne scars: a network meta-analysis of randomized controlled trials.\" Archives of Dermatological Research. 2024;316(8):505.",
+      "url": "https://doi.org/10.1007/s00403-024-03256-x"
+    },
+    {
+      "text": "Wu B, Gao M, Zhang Y, Bai X. \"Optimal treatment options for acne scars in patients with historic acne: a systematic review and network meta-analysis.\" PeerJ. 2025;13:e19938.",
+      "url": "https://doi.org/10.7717/peerj.19938"
+    },
+    {
+      "text": "Kravvas G, Al-Niaimi F. \"A systematic review of treatments for acne scarring. Part 1: Non-energy-based techniques.\" <em>Scars, Burns &amp; Healing</em>. 2017 Mar 30;3:2059513117695312.",
+      "url": "https://doi.org/10.1177/2059513117695312"
+    },
+    {
+      "text": "Teymour S, Kania B, Lal K, Goldberg D. \"Energy-based devices in the treatment of acne scars in skin of color.\" Journal of Cosmetic Dermatology. 2022;22(4):1177-1184.",
+      "url": "https://doi.org/10.1111/jocd.15572"
+    },
+    {
+      "text": "Chan NPY, Ho SGY, Yeung CK, Shek SYN, Chan HH. \"Fractional ablative carbon dioxide laser resurfacing for skin rejuvenation and acne scars in Asians.\" Lasers in Surgery and Medicine. 2010;42(9):615-623.",
+      "url": "https://doi.org/10.1002/lsm.20974"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is microneedling for acne scars better than laser?",
+      "a": "On the direct evidence, no, and not worse either. Three of the four randomised split-face trials comparing radiofrequency microneedling with fractional CO2 laser found the two equivalent on scar improvement. A 2026 meta-analysis pooling eight RCTs and 249 patients found a small but statistically significant advantage for fractional CO2, a mean difference of 0.31 (95% CI 0.13-0.48, p=0.0005), alongside a mean difference of 0.32 favouring it on patient satisfaction. The efficacy gap is small; the safety gap in deeper skin is larger and runs the other way."
+    },
+    {
+      "q": "Which is safer for Indian skin, microneedling or laser?",
+      "a": "The pooled meta-analysis found post-inflammatory hyperpigmentation 4.44 times more likely with fractional CO2 than with radiofrequency microneedling (95% CI 2.39-8.26, p<0.00001), and a split-face pilot using instrument-measured melanin and erythema indices found objectively higher pigmentation on the CO2 side at one and two months. A network meta-analysis of six modalities ranked fractional CO2 highest of the six for hyperpigmentation probability. Two larger network meta-analyses, however, could not detect a significant difference in hyperpigmentation risk between any of the treatments they compared, so this is not a settled question. Studies including Fitzpatrick VI patients remain scarce, which is a stated limitation of the skin-of-colour literature itself."
+    },
+    {
+      "q": "How many sessions of microneedling or laser are needed for acne scars?",
+      "a": "The most recent randomised split-face comparison used three sessions at 8-week intervals for both devices in 30 patients. Across the wider literature, published courses run three to five sessions spaced two to eight weeks apart depending on modality. Two of the head-to-head trials deliberately used a single session per side to isolate one treatment's effect. Individual requirements vary with scar depth, extent, phototype and healing response, and no protocol has been validated as the correct number for a given person."
+    },
+    {
+      "q": "Does microneedling hurt less than laser?",
+      "a": "The evidence contradicts itself. A 2026 meta-analysis of eight RCTs found pain scores 2.14 points higher with fractional CO2, and a 2025 split-face pilot agreed. But a blinded split-face RCT in 15 patients found the reverse, with patients rating radiofrequency microneedling at VAS 7.0 against 5.5 for ablative laser (p=0.009), and a network meta-analysis ranked microneedling fractional radiofrequency second-most painful of six modalities. Plain microneedling without radiofrequency did rank most pain-tolerable in a 68-RCT analysis, so the type of needling matters. Pain also depends heavily on settings, depth and the anaesthesia used."
+    },
+    {
+      "q": "Can microneedling alone improve acne scars, or does it need to be combined?",
+      "a": "Microneedling alone does produce measurable improvement. A systematic review pooling eight microneedling studies reported that all patients improved to some degree, across a range of 31% to 62%. But in a network meta-analysis of 24 randomised trials and 1,546 participants, microneedling monotherapy was the weakest configuration tested, and every combination assessed outperformed it, with microneedling plus chemical peels ranking highest. Combination beating monotherapy is the most reproducible finding across the network meta-analyses in this field."
+    },
+    {
+      "q": "Can microneedling or laser remove acne scars completely?",
+      "a": "No study in this comparison reports complete resolution of atrophic acne scarring with either device. Controlled trials record reductions of roughly 40% to 60% on validated grading scales after a full course, and a single session of either device produced a median one-point improvement on a ten-point texture scale under blinded assessment. The longest follow-up in any of the four head-to-head trials was six months, so long-term durability has not been established for either. Treatments may improve the appearance of scarring; they are not shown to clear it."
+    }
+  ],
+  "related_services": [
+    {
+      "label": "MNRF (Radiofrequency Microneedling)",
+      "url": "/services/mnrf"
+    },
+    {
+      "label": "Acne Scars",
+      "url": "/concerns/acne-scars"
+    },
+    {
+      "label": "Chemical Peel",
+      "url": "/services/chemical-peel"
+    }
+  ],
+  "see_also": [
+    {
+      "label": "Types of Acne Scars and Treatment: What the Evidence Supports for Each of the Four",
+      "url": "/blog/types-of-acne-scars-and-treatment"
+    },
+    {
+      "label": "Subcision Treatment for Rolling Acne Scars: What the Evidence Shows",
+      "url": "/blog/subcision-for-rolling-scars-evidence"
+    },
+    {
+      "label": "MNRF and Microneedling RF: What the Collagen Research Actually Shows",
+      "url": "/blog/mnrf-microneedling-rf-collagen-research"
+    }
+  ],
+  "image_source": "carbon-laser-facial-science-explained"
+}

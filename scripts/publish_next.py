@@ -54,13 +54,15 @@ def save_ledger(ledger):
 
 def make_card_html(post):
     slug = post['slug']
+    # posts that reuse an existing photograph point at it rather than a copy
+    img = post.get('image_source') or slug
     title = post['title']
     excerpt = post['meta_description']
     category = post['category']
     month_year = datetime.datetime.strptime(post['publish_date'], '%Y-%m-%d').strftime('%B %Y')
     return f'''          <article class="blog-card">
             <a href="/blog/{slug}" class="blog-card__image">
-              <img src="/images/blog/{slug}.jpg" alt="{post['image_alt']}" width="400" height="250" loading="lazy" style="object-fit:cover;">
+              <img src="/images/blog/{img}.jpg" alt="{post['image_alt']}" width="400" height="250" loading="lazy" style="object-fit:cover;">
             </a>
             <div class="blog-card__body">
               <span class="blog-card__category">{category}</span>

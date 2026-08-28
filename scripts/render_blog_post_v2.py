@@ -422,7 +422,18 @@ def render_see_also(links):
     <!-- /OPAL_BLOG_SEEALSO_V1 -->'''
 
 
+def image_slug(post):
+    """Which file this post's hero actually lives in.
+
+    Posts that reuse one of the existing photographs carry `image_source`; the
+    file is not duplicated under the post's own slug. Posts with their own
+    original image omit the field and fall back to the slug.
+    """
+    return post.get('image_source') or post['slug']
+
+
 def render(post):
+    img = image_slug(post)
     slug = post['slug']
     title = post['title']
     meta_description = post['meta_description']
@@ -454,7 +465,7 @@ def render(post):
         "datePublished": publish_date,
         "dateModified": publish_date,
         "mainEntityOfPage": f"https://opalradiant.com/blog/{slug}",
-        "image": f"https://opalradiant.com/images/blog/{slug}.jpg",
+        "image": f"https://opalradiant.com/images/blog/{img}.jpg",
     }, indent=4)
 
     speakable_schema = json.dumps({
@@ -486,13 +497,13 @@ def render(post):
   <meta property="og:description" content="{esc(meta_description)}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://opalradiant.com/blog/{slug}">
-  <meta property="og:image" content="https://opalradiant.com/images/blog/{slug}.jpg">
+  <meta property="og:image" content="https://opalradiant.com/images/blog/{img}.jpg">
   <meta property="og:locale" content="{og_locale}">
   <meta property="og:site_name" content="OPAL Radiant Studio">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{esc(title)}">
   <meta name="twitter:description" content="{esc(meta_description)}">
-  <meta name="twitter:image" content="https://opalradiant.com/images/blog/{slug}.jpg">
+  <meta name="twitter:image" content="https://opalradiant.com/images/blog/{img}.jpg">
   <meta name="robots" content="index, follow">
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -532,8 +543,8 @@ def render(post):
 
         <figure class="blog-post__hero">
           <picture>
-            <source srcset="/images/blog/{slug}.webp" type="image/webp">
-            <img src="/images/blog/{slug}.jpg" alt="{esc(post['image_alt'])}"
+            <source srcset="/images/blog/{img}.webp" type="image/webp">
+            <img src="/images/blog/{img}.jpg" alt="{esc(post['image_alt'])}"
                  width="1200" height="800" loading="eager" decoding="async"
                  fetchpriority="high">
           </picture>

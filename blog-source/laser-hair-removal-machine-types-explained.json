@@ -1,0 +1,173 @@
+{
+  "slug": "laser-hair-removal-machine-types-explained",
+  "title": "Laser Hair Removal Machine Types Explained: Alexandrite, Diode, Nd:YAG and IPL",
+  "meta_description": "Every laser hair removal machine is defined by its wavelength. What alexandrite, diode, Nd:YAG and IPL do in Indian skin, and what the trials measured.",
+  "category": "Laser Hair Removal",
+  "publish_date": "2026-08-31",
+  "read_time": "12 min read",
+  "primary_keyword": "laser hair removal machine",
+  "image_prompt": "Editorial clinical photograph, soft natural daylight, three professional laser handpieces and a flashlamp applicator arranged on a pale stone counter in a modern women-only aesthetic clinic in Mumbai, coiled cables and sapphire cooling tips visible, warm beige and muted gold tones, no visible faces, no text or branding on the devices, calm and clinical, high-end minimalist composition, shallow depth of field.",
+  "image_alt": "Two different laser handpieces side by side on a clinic treatment bed, illustrating the machines behind the treatment, and why the type matters",
+  "quick_facts": [
+    {
+      "label": "What defines the machine",
+      "value": "Wavelength. Alexandrite 755 nm, diode 800–810 nm and Nd:YAG 1064 nm are single coherent wavelengths; IPL is a filtered flashlamp emitting roughly 590–1200 nm."
+    },
+    {
+      "label": "Most used type in India",
+      "value": "Diode. Grand View Research put diode at 53.66% of India's 2025 laser hair removal market revenue — an analyst estimate with undisclosed methodology."
+    },
+    {
+      "label": "Hardware price spread",
+      "value": "Devices sold in India as laser hair removal machines are listed from about ₹75,000 to ₹8,90,000 — roughly twelve-fold, with no common performance standard (supplier listings, August 2026)."
+    },
+    {
+      "label": "Best Indian measured result",
+      "value": "810 nm diode, 40 women, 108 sites, mean 5.4 sessions, blinded algorithmic counting: median 60% side locks, 53.9% axilla, 24.1% upper lip, 14.9% chin (Pai 2021)."
+    },
+    {
+      "label": "Pain by machine type",
+      "value": "Ranked across 104 publications, most to least painful: Nd:YAG, then alexandrite, then IPL, then diode (Mallat 2023)."
+    },
+    {
+      "label": "Total long-term evidence",
+      "value": "Five randomised trials and 223 patients — the entire world literature with follow-up of at least one full hair growth cycle (Krasniqi 2022)."
+    }
+  ],
+  "intro": "<p>A <strong>laser hair removal machine</strong> is defined by one number: its wavelength. Alexandrite emits 755 nm, diode 800–810 nm, Nd:YAG 1064 nm. Intense pulsed light (IPL) emits no single wavelength at all — it is a filtered flashlamp throwing out roughly 590–1200 nm. That one specification decides how deep the light travels, how much of it your epidermis absorbs on the way down, how much it hurts, and which skin types can be treated with an acceptable margin of safety. The brand name is downstream of it.</p><p>This matters in India, because hardware sold here under that one label spans roughly ₹75,000 to ₹8,90,000 in supplier listings retrieved in August 2026 — a twelve-fold spread with no common performance standard. What follows is what each machine type does, what the trials measured in Fitzpatrick IV–VI skin, and where the evidence runs out. This is information, not medical advice: device selection belongs with a qualified dermatologist.</p>",
+  "sections": [
+    {
+      "heading": "What a Laser Hair Removal Machine Actually Is",
+      "html": "<p>Every hair removal laser and IPL system runs on one principle, published in 1983: <strong>selective photothermolysis</strong>. Anderson and Parrish, in <em>Science</em>, showed that a brief pulse of selectively absorbed light damages a pigmented structure without destroying what surrounds it. In hair removal the target is melanin in the hair shaft and follicle: the follicle is not vaporised, it is heated through its own pigment.</p><p>Four settings decide whether that works. <strong>Wavelength</strong> governs two things at once: how deep the light penetrates, and how strongly the melanin in your <em>epidermis</em> competes for it. Longer wavelength means deeper penetration and less epidermal absorption — the entire reason skin type dictates machine choice. <strong>Pulse duration</strong> must heat the follicle without spilling heat outward. <strong>Fluence</strong> (J/cm²) is the dose: too low does nothing, too high burns. <strong>Cooling</strong> protects the epidermis so a useful fluence can reach the follicle.</p><p>The word \"laser\" guarantees none of this. In a within-subject controlled study of 15 volunteers, a 694 nm ruby laser at 0.5 ms, 20 J/cm² and a 2 mm spot — correct physics, wrong parameters — produced no detectable difference between treated and untreated skin twelve weeks on. When you assess a clinic's <a href=\"/services/laser-hair-removal-mumbai\">laser hair removal</a>, the device and its settings are one question, not two.</p>"
+    },
+    {
+      "heading": "Alexandrite, 755 nm: Strongest Absorption, Strongest Paradoxical-Hair Signal",
+      "html": "<p>The alexandrite laser at 755 nm is the shortest hair-removal wavelength and the most strongly absorbed by melanin — efficient on light skin with dark hair, and less forgiving as skin darkens, because epidermal melanin absorbs it too. Its efficacy data is good. In the strongest comparative trial in the field, Davoudi and colleagues ran an assessor-blinded randomised within-participant study in Fitzpatrick III–IV skin (15 completers) with <strong>18 months of follow-up</strong> after four leg sessions: <strong>75.9% ± 19.0%</strong> reduction for alexandrite at a 12 mm spot, <strong>84.3% ± 12.4%</strong> at 18 mm, and <strong>73.6% ± 11.4%</strong> for Nd:YAG, with no statistically significant difference between arms (P &gt; .05). Fifteen completers at one centre is small; it is also the best long-follow-up randomised evidence in existence.</p><p>Alexandrite is used cautiously in Indian skin for a second reason: it carries the strongest association with <strong>paradoxical hypertrichosis</strong>, laser treatment provoking more hair rather than less. Inoue and colleagues reviewed 7,381 patients — the largest denominator available — and found 25 cases (0.34%), of which <strong>24 had been treated with alexandrite (P &lt; .01)</strong>, despite alexandrite being only 70% of the caseload. A 2025 prospective Jordanian study of facial alexandrite found it in <strong>16.2%</strong> of women, rising to <strong>33.3% with PCOS versus 14.1% without (P &lt; 0.001)</strong>. A 2021 meta-analysis of 9,733 patients pooled it at 3% (95% CI 1–6, I² = 97%). Estimates span 0.34% to 16.2%, and the prospective studies — the ones that actively looked — report the highest rates.</p>"
+    },
+    {
+      "heading": "Diode, 800–810 nm: The Machine Most Indian Clinics Own",
+      "html": "<p>The diode laser at 800–810 nm is the workhorse of Indian aesthetic practice, and the best Indian efficacy data sits here. Grand View Research put diode at <strong>53.66% of India's 2025 laser hair removal market revenue</strong> — an analyst estimate with undisclosed methodology, so read it as direction, not fact. Clinically, 810 nm sits far enough from the melanin absorption peak to be usable in Fitzpatrick IV–V skin while staying efficient in a realistic session count.</p><p>Puri's three-arm randomised study of 30 Indian women (10 per arm) reported <strong>40% reduction after two sessions, 64% after four and 92% after eight</strong> with diode, against 35% / 62% / 90% for Nd:YAG and 10% / 48% / 70% for IPL. That 92% is the origin of most \"90%+\" marketing in India, and it should carry its caveats: ten patients per arm, a subjective four-point scale, single centre, no blinding described and <strong>no long-term follow-up</strong> — an end-of-course figure, not a durable one.</p><p>Better-designed Indian data tempers it. Pai and colleagues at Kasturba Medical College, Manipal, measured 40 Indian women across 108 sites using blinded algorithmic hair counting, after a mean of 5.4 sessions at 16–29 J/cm²: median improvement <strong>60% on side locks, 53.9% on the axilla, 24.1% on the upper lip and 14.9% on the chin</strong>. Those facial figures are the most honest available for Indian skin and sit far below what is commonly advertised. The same study recorded the costs: <strong>epidermolysis in 5 of 40 patients and paradoxical hypertrichosis in 5 of 40 — 12.5% each</strong>. A separate two-year series of 55 patients at KEM Hospital, Pune, recorded <strong>61.25% average terminal hair reduction after three sessions</strong>.</p><p>Puri names why the diode needs care: it has a <strong>narrow margin of safety</strong>, so \"proper pre and post-procedure cooling is recommended.\" Cooling is what makes the wavelength usable at treatment fluences in pigmented skin, and why <a href=\"/concerns/pigmentation-melasma\">post-inflammatory pigmentation</a> after laser is mostly a consequence of overtreatment rather than an inevitable feature of deeper skin.</p>"
+    },
+    {
+      "heading": "Nd:YAG, 1064 nm: The Longest Wavelength, the Deepest Skin, the Most Pain",
+      "html": "<p>The Nd:YAG laser at 1064 nm is the longest wavelength in routine use and the least absorbed by epidermal melanin, which makes it the conventional choice for Fitzpatrick V and VI skin. Fayne and colleagues, in the anchor 2018 review of hair reduction in Fitzpatrick IV–VI, concluded that <strong>longer wavelengths are the key element</strong>, and that Nd:YAG, diode, alexandrite and some IPL can all be used in these skin types \"so long as energy settings and wavelengths are appropriate.\" It also states its most important finding plainly: <strong>most published studies exclude patients with darkly pigmented skin</strong> — the largest hole in this field.</p><p>Nanda and Bansal followed 200 Indian women (160 Fitzpatrick IV, 40 Fitzpatrick V) through six long-pulsed Nd:YAG sessions with a cooled sapphire tip: six months later, more than 50% improvement in <strong>89.69% of chin cases, 68.7% of lower face and 59% of upper lip</strong>. It ran inside a commercial clinic chain and used a coarse ordinal outcome rather than hair counts, so read it as a practice audit. A 2025 Sudanese study of 55 women with Fitzpatrick IV, V and VI skin found <strong>fluence significantly affected outcome (p = 0.039), with 25 J/cm² already effective</strong>, while <strong>skin type, age and geography were not significant predictors (p &gt; 0.05)</strong> — one of only two datasets here including Fitzpatrick VI.</p><p>Nd:YAG's two drawbacks are rarely advertised. It is the <strong>most painful</strong> modality: a 2023 review of 104 publications ranked pain highest to lowest as Nd:YAG, alexandrite, IPL, diode. And in the only randomised head-to-head in Fitzpatrick V–VI skin — 70 patients at JIPMER, Pondicherry, over five sessions — Nd:YAG was <strong>not significantly more effective than IPL</strong>, while causing a burning sensation in <strong>59% of patients versus 32.3% (P &lt; 0.023)</strong>.</p>"
+    },
+    {
+      "heading": "IPL and SHR: A Filtered Flashlamp Is Not a Laser",
+      "html": "<p>Intense pulsed light is not a laser, and the distinction is technical rather than semantic. A laser emits a single coherent wavelength; IPL is a <strong>broad-spectrum, non-coherent flashlamp emitting roughly 590–1200 nm</strong>, filtered rather than tuned. Because the source is not monochromatic, part of that band is absorbed usefully by follicular melanin and the rest by epidermal melanin, haemoglobin and water, adding heat where it is not wanted. \"SHR\" (super hair removal) is a delivery mode — low-fluence pulses stacked while the handpiece moves — not a light source, and it exists on both diode and IPL platforms.</p><p>The efficacy evidence points one way. The 2006 Cochrane review — 11 randomised trials, 444 patients — found roughly 50% reduction with alexandrite and diode up to six months, and stated that <strong>\"little evidence was obtained for an effect of intense pulsed light, neodymium:YAG or ruby lasers.\"</strong> The 2022 systematic review of trials followed for at least one full hair growth cycle reported long-term reduction of <strong>27–52.7% for IPL against 35–84.25% for alexandrite and 32.5–69.2% for diode</strong>. In a randomised split-face trial of 38 women, alexandrite gave <strong>52% reduction at one month against 21% for IPL (P &lt; 0.001)</strong>, with a hair-free interval of seven weeks versus two.</p><p>The safety signal in deep skin matters more. Goh's randomised split-body comparison gave 11 patients with Fitzpatrick IV–VI skin one IPL session on one side and Nd:YAG on the other. Six weeks later, <strong>64% of subjects had under 20% reduction on the IPL side and 73% on the Nd:YAG side</strong> — an argument against any claim of visible results from one session in dark skin. The complications were one-sided: <strong>post-inflammatory pigmentation occurred only on IPL-treated sides, and 3 of 11 patients blistered there.</strong></p>"
+    },
+    {
+      "heading": "The Parts of the Machine That Are Not in the Brochure",
+      "html": "<p>Wavelength is the headline specification, but four less-advertised variables decide whether a machine can treat Fitzpatrick IV–VI skin safely at a useful dose.</p><ul><li><strong>Cooling.</strong> Every study here reporting good safety in dark skin used active cooling — sapphire contact cooling or a chilled tip; cryogen-cooled platforms spray refrigerant milliseconds before each pulse instead. Cooling is not risk-free: the 2023 adverse-event review lists <strong>frostbite from the cooling system</strong> among documented complications. No trial has compared cooling against no cooling in Fitzpatrick IV–VI skin, and that trial would not be ethical, so this is established practice rather than proven practice.</li><li><strong>Spot size.</strong> Larger spots scatter less at the surface and deliver more energy to depth: in Davoudi's trial the 18 mm alexandrite spot gave 84.3% against 75.9% at 12 mm, though not significantly so.</li><li><strong>Fluence.</strong> The Indian diode studies used 16–29 J/cm²; the Sudanese Nd:YAG study found the lower end of 25–40 J/cm² already effective. Higher is not automatically better, and in pigmented skin fluence is the variable most likely to cause a burn.</li><li><strong>Pulse duration.</strong> Heavily marketed, weakly evidenced. A split-face evaluator-blinded study of 10 women with Fitzpatrick IV–V skin comparing submillisecond and long-pulse 1064 nm Nd:YAG found <strong>no statistically significant difference</strong>.</li></ul><p>One economic detail is widely misunderstood. Diode platforms have a <strong>rated shot life, not a per-session disposable</strong> — vendor tiers run from 500,000–2 million shots on entry handpieces to 10–20 million on professional units — so the marginal consumable cost of a diode session is near zero. Cryogen-cooled platforms and IPL are the exceptions, consuming refrigerant canisters and flashlamps; the genuinely single-use items are pre-shave blades, gel and eyewear liners, not the handpiece.</p>"
+    },
+    {
+      "heading": "What the Hardware Costs in India, and Why the Price Gap Exists",
+      "html": "<p>Indian supplier listings retrieved in August 2026 put devices sold as hair removal lasers into four rough bands: entry portable units at <strong>₹75,000–1,60,000</strong>; mid-market diode platforms, where most clinics sit, at <strong>₹1,85,000–4,00,000</strong>; high-power units at <strong>₹4,20,000–7,00,000</strong>; and premium multi-wavelength platforms from <strong>₹8,90,000</strong> upward, with internationally branded systems typically quoted rather than listed. Treat listed figures as asking prices.</p><p>That twelve-fold spread is the mechanical reason a very cheap offer and a much more expensive clinic session can both exist honestly — they are not the same procedure on the same hardware. Capital cost determines which wavelengths and power a device offers; the wavelengths determine who can be treated with an acceptable margin of safety; that determines whether a physician must be present and how long a session takes; and chair time drives cost. Our <a href=\"/pricing\">pricing page</a> states prices inclusive of applicable taxes, and pricing in this market moves.</p><p>One regulatory fact is worth knowing as a buyer of the treatment. On 26 July 2021 India's CDSCO classified laser surgical instruments — devices that cut, destroy or remove tissue using light energy — as <strong>Class C, higher-moderate risk</strong> under the Medical Devices Rules 2017. A clinic should be able to name its platform and confirm the device is licensed; \"it's an imported machine\" is not an answer.</p>"
+    },
+    {
+      "heading": "What the Evidence Does Not Support About Machine Types",
+      "html": "<p>Several machine claims common in Indian marketing are unsupported or contradicted by the studies that looked.</p><p><strong>That any machine achieves permanent hair removal.</strong> The 2006 Cochrane review concluded that <strong>\"long-term hair removal was not documented with any treatment.\"</strong> The regulatory term is <em>permanent hair reduction</em>, defined in the US FDA's 510(k) documentation as \"the long-term, stable reduction in the number of hairs regrowing when measured at 6, 9, and 12 months after the completion of a treatment regime\" — a reduction in the <em>number</em> of hairs at twelve months, not elimination. India's IADVL guideline mandates the phrase \"long-term hair reduction\".</p><p><strong>That a multi-wavelength or combination machine outperforms a single-wavelength one.</strong> This was tested directly. In Davoudi's 18-month randomised trial, combining alexandrite and Nd:YAG gave 77.8% reduction against 75.9–84.3% for alexandrite alone and 73.6% for Nd:YAG alone — no efficacy gain — while causing <strong>significantly more hyperpigmentation and significantly more pain (P = .001)</strong>.</p><p><strong>That \"US FDA-approved\" machines deliver superior outcomes.</strong> Hair removal devices are 510(k) <em>cleared</em>, not approved: the manufacturer showed substantial equivalence to a predicate device rather than passing a new efficacy trial. Clearance is a regulatory pathway, not comparative proof.</p><p><strong>That any machine is proven safe for all skin types.</strong> Only two datasets in this literature include Fitzpatrick VI at all — the 11-patient Singapore study and the 55-patient Sudanese one — and <strong>there is no Indian dataset for Fitzpatrick VI</strong>. \"Safe for all skin types\" is an extrapolation from studies that mostly excluded dark skin. Nor does any machine work on white, grey or blonde hair: selective photothermolysis needs a pigmented target.</p><p><strong>That the field is well studied at all.</strong> The 2022 systematic review that admitted only randomised trials followed for at least one complete hair growth cycle found the entire qualifying world literature amounted to <strong>five trials and 223 patients</strong>, and Cochrane judged none of its 11 trials to be of high methodological quality. Two Indian gaps deserve stating: <strong>no published Indian study compares salon-tier IPL or SHR against clinic-tier diode</strong>, and no randomised trial in Indian skin has compared named commercial platforms head to head.</p>"
+    },
+    {
+      "heading": "Who Holds the Handpiece Matters More Than the Badge on the Machine",
+      "html": "<p>The strongest evidence about who gets hurt in laser hair removal is not clinical — it is legal. A 2024 review of Turkish Supreme Court decisions found <strong>laser epilation was the most frequently litigated minimally invasive cosmetic procedure (85.7% of cases)</strong>, <strong>burns the most prevalent complication (77.6%)</strong>, and <strong>94.7% of burns — 36 of 38 — occurring in beauty centres rather than medical clinics</strong>. The dominant risk factor was not the wavelength; it was the setting and the operator.</p><p>The clinical literature agrees. The 2023 review of 104 publications — cataloguing burns, folliculitis, leukotrichia, pigmentary change, cooling-system frostbite and ocular injuries including uveitis, iris atrophy and cataract — concludes that cutaneous complications \"are usually related to <strong>professional errors</strong> and patient characteristics.\" A 2012 case series documented anterior uveitis, iris damage and glaucoma after laser hair reduction around the eyebrow, which is why wavelength-specific eye protection is not optional. India's own IJDVL laser-room guideline sets physical requirements — room size, an online UPS, 18–22 °C ambient temperature, wavelength-specific goggles, a resuscitation kit — and states that <strong>independent working by non-dermatologist operators is not recommended</strong>, with final responsibility for the procedure resting with the physician.</p><p>The practical version: the machine type tells you what is physically possible on your skin, and the operator determines whether it happens safely. Ask which wavelength will be used on you and why, what cooling the device provides, who will operate it and under whose supervision, and what happens if your skin reacts badly. A clinic that answers those four questions specifically tells you more than any brand name does. To have that assessed for your own skin and hair, <a href=\"/book-appointment\">book a consultation</a> with a qualified dermatologist. This article is information, not medical advice, and no substitute for an in-person examination.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "text": "Anderson RR, Parrish JA. \"Selective photothermolysis: precise microsurgery by selective absorption of pulsed radiation.\" <em>Science</em>. 1983;220(4596):524-527.",
+      "url": "https://doi.org/10.1126/science.6836297"
+    },
+    {
+      "text": "Haedersdal M, Gøtzsche PC. \"Laser and photoepilation for unwanted hair growth.\" <em>Cochrane Database of Systematic Reviews</em>. 2006;2006(4):CD004684.",
+      "url": "https://doi.org/10.1002/14651858.CD004684.pub2"
+    },
+    {
+      "text": "Krasniqi A, McClurg DP, Gillespie KJ, Rajpara S. \"Efficacy of lasers and light sources in long-term hair reduction: a systematic review.\" <em>Journal of Cosmetic and Laser Therapy</em>. 2022;24(1-5):1-8.",
+      "url": "https://doi.org/10.1080/14764172.2022.2075899"
+    },
+    {
+      "text": "Haedersdal M, Beerwerth F, Nash JF. \"Laser and intense pulsed light hair removal technologies: from professional to home use.\" <em>British Journal of Dermatology</em>. 2011;165 Suppl 3:31-36.",
+      "url": "https://doi.org/10.1111/j.1365-2133.2011.10736.x"
+    },
+    {
+      "text": "Fayne RA, Perper M, Eber AE, Aldahan AS, Nouri K. \"Laser and Light Treatments for Hair Reduction in Fitzpatrick Skin Types IV-VI: A Comprehensive Review of the Literature.\" <em>American Journal of Clinical Dermatology</em>. 2018;19(2):237-252.",
+      "url": "https://doi.org/10.1007/s40257-017-0316-7"
+    },
+    {
+      "text": "Davoudi SM, Behnia F, Gorouhi F, Keshavarz S, Nassiri Kashani M, Rashighi Firoozabadi M, Firooz A. \"Comparison of long-pulsed alexandrite and Nd:YAG lasers, individually and in combination, for leg hair reduction: an assessor-blinded, randomized trial with 18 months of follow-up.\" <em>Archives of Dermatology</em>. 2008;144(10):1323-1327.",
+      "url": "https://doi.org/10.1001/archderm.144.10.1323"
+    },
+    {
+      "text": "Puri N. \"Comparative Study of Diode Laser Versus Neodymium-Yttrium Aluminum: Garnet Laser Versus Intense Pulsed Light for the Treatment of Hirsutism.\" <em>Journal of Cutaneous and Aesthetic Surgery</em>. 2015;8(2):97-101.",
+      "url": "https://doi.org/10.4103/0974-2077.158445"
+    },
+    {
+      "text": "Pai SB, Suvarna P, Shetty VM, Pathan S. \"Efficacy of 810 nm diode laser in hair reduction in Indian subpopulation using a novel Gabor filter-based detection software and hair algorithm.\" <em>Journal of Cosmetic Dermatology</em>. 2021;21(3):1004-1012.",
+      "url": "https://doi.org/10.1111/jocd.14671"
+    },
+    {
+      "text": "Inoue Y, Nishioka H, Inukai M, Shimizu Y, Kimura M, Akita H, Okumoto T. \"What are the Factors That Induce Paradoxical Hypertrichosis After Laser Hair Removal?\" <em>Aesthetic Surgery Journal</em>. 2024;44(5):NP347-NP353.",
+      "url": "https://doi.org/10.1093/asj/sjae018"
+    },
+    {
+      "text": "Mallat F, Chaaya C, Aoun M, Soutou B, Helou J. \"Adverse Events of Light-Assisted Hair Removal: An Updated Review.\" <em>Journal of Cutaneous Medicine and Surgery</em>. 2023;27(4):375-387.",
+      "url": "https://doi.org/10.1177/12034754231174852"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which laser hair removal machine type is best for Indian skin?",
+      "a": "There is no single answer, and no adequately powered randomised trial has compared all three wavelengths in Fitzpatrick V–VI skin with long-term follow-up. The defensible position is that the 800–810 nm diode carries the best Indian efficacy data for Fitzpatrick IV–V skin, and 1064 nm Nd:YAG is the conventional choice for Fitzpatrick V–VI because epidermal melanin absorbs it least — though in the one Indian randomised trial conducted in Fitzpatrick V–VI skin (70 patients, JIPMER), Nd:YAG was not significantly more effective than IPL and caused a burning sensation in 59% of patients versus 32.3%."
+    },
+    {
+      "q": "Is a multi-wavelength machine better than a single-wavelength one?",
+      "a": "Not on the available evidence. In an 18-month assessor-blinded randomised trial, combining alexandrite and Nd:YAG gave 77.8% hair reduction versus 75.9–84.3% for alexandrite alone and 73.6% for Nd:YAG alone — no statistically significant difference — while causing significantly more hyperpigmentation and significantly more pain (P = .001). A machine offering more wavelengths gives a clinician more options across different patients; it does not mean firing more than one wavelength at the same patient produces a better result."
+    },
+    {
+      "q": "Does a US FDA-cleared machine guarantee better results?",
+      "a": "No. Hair removal lasers are 510(k) cleared, not approved, meaning the manufacturer demonstrated substantial equivalence to an existing predicate device rather than passing a new efficacy trial. Clearance is a safety and marketing pathway, not comparative proof of performance. In India the applicable regulator is CDSCO, which classified laser surgical instruments as Class C — higher-moderate risk — on 26 July 2021 under the Medical Devices Rules 2017."
+    },
+    {
+      "q": "Is IPL the same treatment as laser?",
+      "a": "No. A laser emits one coherent wavelength; IPL is a broad-spectrum non-coherent flashlamp emitting roughly 590–1200 nm. The 2006 Cochrane review found roughly 50% reduction at six months with alexandrite and diode but \"little evidence\" of an effect for intense pulsed light. In a randomised split-face trial of 38 women, alexandrite gave 52% reduction at one month against 21% for IPL (P < 0.001). In an 11-patient split-body study in Fitzpatrick IV–VI skin, post-inflammatory pigmentation occurred only on the IPL-treated sides and 3 of 11 patients blistered there."
+    },
+    {
+      "q": "How do I find out what machine a clinic is actually using?",
+      "a": "Ask directly, and ask for the wavelength rather than the brand name: 755 nm, 810 nm, 1064 nm, or a filtered flashlamp (IPL). Then ask which wavelength will be used on your skin type and why, what fluence range and cooling method the device provides, who will operate it and under whose supervision, and whether the device is CDSCO-licensed. Those answers tell you more than the model name."
+    },
+    {
+      "q": "Does a more expensive machine mean a better outcome?",
+      "a": "Capital cost buys wavelength options, power, cooling capability and spot size, all of which widen the range of patients who can be treated safely, so it is not irrelevant. But no head-to-head randomised trial in Indian skin has compared named commercial platforms, and studies of specific premium branded devices in Indian patients are retrospective, uncontrolled and manufacturer co-authored. Settings and operator competence are better-evidenced determinants of your result than the purchase price of the hardware."
+    }
+  ],
+  "related_services": [
+    {
+      "label": "Laser Hair Removal in Mumbai",
+      "url": "/services/laser-hair-removal-mumbai"
+    },
+    {
+      "label": "Treatment Pricing",
+      "url": "/pricing"
+    },
+    {
+      "label": "Book a Consultation",
+      "url": "/book-appointment"
+    }
+  ],
+  "see_also": [
+    {
+      "label": "Diode Laser Hair Removal: How It Works, and Why Clinics Use It on Indian Skin",
+      "url": "/blog/diode-laser-hair-removal-how-it-works"
+    },
+    {
+      "label": "Laser Hair Removal vs. IPL at Home: What the Wavelength Science Says",
+      "url": "/blog/laser-hair-removal-vs-ipl-at-home-science"
+    },
+    {
+      "label": "Fitzpatrick Skin Type and Indian Skin: What It Means for Laser Safety",
+      "url": "/blog/fitzpatrick-skin-type-indian-skin-laser-safety"
+    }
+  ],
+  "image_source": "underarm-laser-whitening-evidence"
+}

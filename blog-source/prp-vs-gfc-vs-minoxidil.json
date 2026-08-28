@@ -1,0 +1,173 @@
+{
+  "slug": "prp-vs-gfc-vs-minoxidil",
+  "title": "PRP vs GFC vs Minoxidil: Comparing the Evidence Behind GFC Treatment for Hair",
+  "meta_description": "PRP, GFC treatment for hair and minoxidil compared against the actual trial data: where the evidence is strong, where it is weak, and where it is absent.",
+  "category": "Hair PRP",
+  "publish_date": "2026-10-01",
+  "read_time": "12 min read",
+  "primary_keyword": "gfc treatment for hair",
+  "image_prompt": "Editorial clinical photograph, soft natural light, a dermatology treatment room at a modern women-only aesthetic clinic in Mumbai. Three items arranged on a clean white tray: a centrifuge tube of golden plasma, a sealed preparation vial, and a topical solution bottle with a dropper, warm beige and muted gold tones, shallow depth of field, no visible faces, no readable branding or labels, calm and clinical, high-end minimalist aesthetic.",
+  "image_alt": "A centrifuged platelet-rich plasma vial and a sterile injection tray, illustrating pRP, GFC or minoxidil: comparing the evidence",
+  "quick_facts": [
+    {
+      "label": "Evidence base size",
+      "value": "Minoxidil: 47 randomised trials, 5,290 participants (Cochrane 2016). PRP: 43 randomised trials, 1,877 participants. GFC: three PubMed records, 47 patients in total."
+    },
+    {
+      "label": "Randomised GFC trials",
+      "value": "Zero. As of August 2026 no randomised controlled trial of GFC against placebo or against PRP exists in any population."
+    },
+    {
+      "label": "Minoxidil effect size",
+      "value": "Pooled across 8 trials and 1,242 participants, topical minoxidil gave 13.18 more hairs per cm² than placebo (95% CI 10.92-15.44)."
+    },
+    {
+      "label": "PRP versus placebo",
+      "value": "A 9-RCT meta-analysis of 238 patients found PRP raised hair density versus placebo, but raised hair count and diameter only versus baseline, not versus placebo."
+    },
+    {
+      "label": "Head-to-head result",
+      "value": "In a 64-man randomised trial at JIPMER, 56% responded to minoxidil versus 38% to PRP (P = 0.124), with adverse events in 53% of the PRP arm versus 37% on minoxidil."
+    },
+    {
+      "label": "Indian skin data gap",
+      "value": "No trial in the entire PRP or GFC literature reports Fitzpatrick phototype. Indian randomised PRP evidence totals three trials and 219 patients."
+    }
+  ],
+  "intro": "<p>Three things get offered for pattern hair loss in an Indian clinic: topical minoxidil, platelet-rich plasma (PRP), and growth factor concentrate (GFC). They are usually presented as a ladder, with GFC at the top as the newest option and minoxidil at the bottom as the old bottle you gave up on. Ranked by the controlled human data behind them, that ladder is upside down. Minoxidil is supported by a Cochrane review of 47 randomised trials and 5,290 participants. PRP has around 43 randomised trials totalling 1,877 participants, of uneven quality. GFC treatment for hair has three records in PubMed covering 47 patients between them, none randomised, none blinded, none placebo-controlled.</p><p>That gap between marketing order and evidence order is the subject of this article — including the four trials that put PRP directly against minoxidil and the two placebo-controlled trials in which PRP did nothing. This summarises published evidence and is not medical advice; several causes of hair loss look identical from the outside, and only a qualified dermatologist who has examined your scalp can tell you which one you have.</p>",
+  "sections": [
+    {
+      "heading": "How much evidence sits behind each of the three treatments",
+      "html": "<p>Minoxidil, PRP and GFC are three different kinds of thing. <strong>Minoxidil</strong> is a drug applied to the scalp daily, indefinitely. <strong>PRP</strong> is the patient's own blood spun in a centrifuge, with the platelet-rich fraction separated and injected into the scalp over several sessions. <strong>GFC</strong> is a further kit-based step on that same draw: platelets are made to release their growth factors and the cellular material is discarded, leaving a cell-free supernatant that is injected. The controlled evidence behind each differs by roughly two orders of magnitude:</p><table><tr><th>Treatment</th><th>Largest synthesis</th><th>Participants</th><th>Placebo-controlled data?</th></tr><tr><td>Topical minoxidil</td><td>Cochrane review, 47 RCTs (2016)</td><td>5,290</td><td>Yes, extensively</td></tr><tr><td>PRP</td><td>Meta-analysis of 43 RCTs (2025)</td><td>1,877</td><td>Yes, in many trials</td></tr><tr><td>GFC</td><td>Three PubMed records in total</td><td>47</td><td>No — none</td></tr></table><p>That is the short answer to most questions about which of the three to choose.</p>"
+    },
+    {
+      "heading": "Minoxidil: the only one of the three with Cochrane-grade evidence",
+      "html": "<p>Topical minoxidil is the only one of these three treatments with a Cochrane systematic review behind it. Van Zuuren and colleagues' 2016 review pooled 47 randomised trials and 5,290 participants, and is candid about their quality: only 5 trials were at low risk of bias, 26 unclear, 16 high.</p><p>Against placebo, participant-rated moderate-to-marked regrowth occurred in 157 of 593 people on minoxidil versus 77 of 555 on placebo, RR 1.93 (95% CI 1.51-2.47), graded moderate-quality. On the objective endpoint, 8 trials and 1,242 participants gave a mean difference of <strong>13.18 more hairs per cm² than placebo (95% CI 10.92-15.44)</strong>, graded low-quality. Adverse events were not significantly raised (RR 1.24, 95% CI 0.82-1.87).</p><p>Two negative findings in that review matter as much. Five percent is not better than 2% on hair count: across 4 trials and 1,006 participants the mean difference was -2.12 (95% CI -5.47 to 1.23). The one large trial where 5% did win — a 48-week, 381-woman, placebo-controlled study — found the advantage only on <em>patients' own assessment of benefit</em>, and recorded more pruritus, irritation and hypertrichosis. And finasteride 1 mg was no better than placebo in women across 3 studies: RR 0.95 (95% CI 0.66-1.37).</p><p>Minoxidil is not comfortable for everyone, and one Indian caveat is worth noting: a 2018 uncontrolled study of 120 pattern hair loss patients at a Mumbai teaching hospital found 40.8% had low follicular sulfotransferase activity — the enzyme that activates minoxidil. Three of its authors were affiliated with a company selling a minoxidil-response test, so treat it as a hypothesis, not a fact.</p>"
+    },
+    {
+      "heading": "PRP: real density gains that do not consistently beat placebo",
+      "html": "<p>Platelet-rich plasma has a substantial randomised literature, and it produces a split finding. A 2023 meta-analysis pooling 9 randomised trials and 238 patients with androgenetic alopecia found that PRP increased hair <em>density</em> at 3 and 6 months versus placebo (P &lt; .05) — but increased hair <em>count</em> and <em>diameter</em> versus baseline and <strong>not versus placebo</strong> (P &gt; .05). The distinction between 'better than where you started' and 'better than a saline injection' is the most important line in this literature, and it is rarely drawn.</p><p>A second 2023 meta-analysis, 10 RCTs and 555 treatment units, put the density gain at 25.09 hairs per cm² (95% CI 9.03-41.15, P = 0.002) while diameter was not significant (SMD 0.57, P = 0.16) — and found density gains significantly larger in trials with fewer than 30 participants (P = 0.0004), the signature of small-study bias.</p><p>Then there are the trials that found nothing. A 2020 randomised placebo-controlled pilot gave 20 men five PRP treatments at 4-6 week intervals — more intensive than most clinic protocols — against 10 men on saline, assessed by TrichoScan and a blinded reviewer , concluding that 'PRP as a monotherapy does not improve hair growth in men with androgenetic alopecia.' A 2016 double-blind, saline-controlled trial in women found hair mass index and hair count did not differ significantly between groups; only 13.3% of treated women versus 0% on placebo reported substantial improvement — an advantage, its authors wrote, 'as perceived by patients but not according to hair count'.</p><p>The largest synthesis, 43 RCTs and 1,877 participants published in 2025, reported that activated PRP raised density and that PRP did not significantly affect hair thickness — but all three authors are employed by a company selling a plasma-preparation system, so it is not independent evidence. On durability, the 2015 half-head trial most often quoted <em>in favour</em> of PRP records 4 of its 20 analysed patients losing hair again by 12 months and needing re-treatment, and no PRP trial has follow-up beyond two years. That is the realistic frame for <a href=\"/services/hair-prp\">PRP for hair fall</a>: an add-on with a density signal and an unproven ceiling.</p>"
+    },
+    {
+      "heading": "GFC treatment for hair: what the published literature actually contains",
+      "html": "<p>GFC treatment for hair has, as of August 2026, exactly three records in PubMed under 'growth factor concentrate' and hair. It is worth going through all three.</p><p>The first is a 2025 paper in Dermatologic Surgery from centres in Chandigarh and Mumbai comparing PRP with GFC. It is <strong>retrospective</strong>, n = 42, <strong>non-randomised</strong>, unblinded, with unequal arms — 25 patients on PRP, 17 on GFC — and no control group. GFC led on total hair count, shaft diameter and global aesthetic improvement score, with significant hair-count improvement after the second session (P &lt; .05). But by 6 months PRP had the better hair diameter and global scores. An effect that reverses direction between month two and month six in 42 retrospectively reviewed charts is what noise looks like — and it is the sole published basis for the claim that GFC outperforms PRP.</p><p>The second is a 2024 case series in Cureus: <strong>five patients</strong>, eight weeks of follow-up, no control, no randomisation, no blinding, indexed by PubMed under 'Case Reports'. It cannot support an efficacy claim of any kind. The third is a 2026 editorial commentary containing no patient data.</p><p>Beyond those three, a 2026 systematic review pooled 12 studies and 745 patients across PRP, PRGF and GFC together. Its GFC figures — density rising from 19.6 hairs/cm² at 1 month to 57.1 at 12 months, and 94.3% patient satisfaction — are the numbers most often lifted into marketing copy. The authors' own limitations are that randomised trials 'had a high risk of bias, and non-randomized studies showed serious to critical bias', that heterogeneity exceeded <strong>I² &gt; 90%</strong>, and that findings are 'hypothesis-generating'. An I² above 90% means the pooled studies are statistically incompatible; pooling them yields a number, not a finding. Its GFC-versus-PRP comparison is also indirect, made across studies rather than head-to-head.</p>"
+    },
+    {
+      "heading": "Head-to-head: what happened when PRP was compared directly with minoxidil",
+      "html": "<p>Four trials have compared PRP with minoxidil directly, enrolling roughly 239 patients. Across all four, PRP did not significantly outperform minoxidil on any objective endpoint.</p><p>The most relevant to Indian patients is a 2023 randomised open-label trial at JIPMER, Puducherry, in 64 men with Norwood III-IV loss: 5% topical minoxidil for six months versus three monthly PRP sessions. <strong>56% responded to minoxidil versus 38% to PRP (P = 0.124, not significant)</strong>, with no significant between-group difference in hair count or density. Adverse events affected 53% of the PRP arm versus 37% on minoxidil. The authors wrote that PRP is effective 'although perhaps not different from minoxidil. Side effects occur more frequently with PRP.'</p><p>A 2020 randomised crossover trial at the Mayo Clinic tested both in 20 women. After PRP, hair count (P = .002) and vellus density (P = .009) improved. After minoxidil, hair count, vellus density, <strong>terminal hair density (P = .004) and cumulative hair thickness (P = .004)</strong> all improved — minoxidil moved two endpoints PRP did not touch. Quality-of-life scores inverted the finding, improving after PRP but not after minoxidil. The authors concluded PRP is effective 'although not as effective as minoxidil'.</p><p>The other two comparisons point at combination rather than substitution. A 2020 four-arm placebo-controlled trial of 80 men at BHU Varanasi found the density ordering PRP + minoxidil &gt; PRP alone &gt; minoxidil alone &gt; saline. A 2025 three-arm RCT at PGIMER randomised 75 patients to oral minoxidil, topical minoxidil, or PRP plus topical: on one-grade improvement in severity the results were 25%, 10% and 25%, <strong>P = 0.62, not significant</strong>, while on terminal hair density PRP plus topical beat oral (P = 0.03) and topical alone (P = 0.02). Two endpoints from one trial, disagreeing. For anyone working out what their own <a href=\"/concerns/hair-fall-thinning\">hair fall and thinning</a> needs, the defensible reading is that PRP is an addition to medical treatment, not a replacement for it.</p>"
+    },
+    {
+      "heading": "What the evidence does not support",
+      "html": "<p>These claims circulate widely in hair-clinic marketing and the published literature does not sustain them.</p><ul><li><strong>'GFC is clinically proven.'</strong> The whole indexed literature is 47 patients across a retrospective review, a case series and a commentary. No randomised trial of GFC against placebo or against PRP exists in any population.</li><li><strong>'GFC has three times the growth factors of PRP.'</strong> No independent published measurement of growth-factor concentration in commercial Indian GFC kits versus same-patient PRP exists — there is nothing to cite for that number.</li><li><strong>'PRP thickens each hair shaft.'</strong> Thickness is the endpoint PRP most consistently fails: SMD 0.57 (95% CI -0.23 to 1.38, P = 0.16) in the 10-RCT meta-analysis, and no significant effect in the 43-RCT synthesis.</li><li><strong>'It is painless, with no downtime.'</strong> In the PGIMER randomised trial, transient pain was recorded in <strong>100%</strong> of PRP patients, bleeding in 15% and dizziness in 5%. No comparative pain or downtime data for GFC versus PRP exists.</li><li><strong>'Our premium kit produces better plasma.'</strong> A three-arm randomised trial in 30 women compared proprietary PRP tubes at 3,500 rpm against ordinary laboratory tubes at 1,000 rpm and saline; both PRP arms beat placebo and <strong>were indistinguishable from each other</strong>.</li><li><strong>'FDA-approved' or 'CDSCO-approved' PRP or GFC for hair loss.</strong> Neither holds a regulatory approval for androgenetic alopecia anywhere, and registering a preparation kit as a device is not approval of a treatment claim.</li><li><strong>'Three to four sessions is the evidence-based protocol.'</strong> That figure originates as a recommendation inside a 2020 review whose authors state heterogeneity across their 19 studies prevented any comparison between protocols. No dose-finding trial exists for either treatment.</li></ul><p>One more finding belongs here because it is uncomfortable rather than convenient. A 2025 trial randomised 40 patients to PRP injection versus <em>microneedling alone</em>; hair count rose 62.4% with PRP and 88.4% with bare microneedling, with no significant difference between groups. It is small and had no placebo arm, but it is consistent with part of the observed 'PRP effect' being needle injury rather than plasma.</p>"
+    },
+    {
+      "heading": "Side effects, pain, and the safety points that get skipped",
+      "html": "<p>None of these three treatments is free of adverse effects. For PRP, the PGIMER trial recorded transient pain in 100% of patients, bleeding in 15% and dizziness in 5%. A 2025 randomised split-scalp trial at Memorial Sloan Kettering in 27 breast cancer survivors found no significant difference between treated and untreated sides on global assessment or density, and separately reported that in <strong>2 of 12 circulating-tumour-cell assays, malignant cells were detected within the PRP preparation itself</strong>, alongside grade 1-3 scalp pain. No seeding events were observed, but this is a real consideration for anyone with active or recent malignancy.</p><p>For minoxidil, the PGIMER trial recorded scalp itching or dryness in 75% of topical users. For low-dose oral minoxidil, a 2021 retrospective study of 1,404 patients recorded hypertrichosis in 15.1% and discontinuation for adverse events in 1.7% — reassuring, but an uncontrolled dataset that says nothing about efficacy. For GFC there is no published adverse-event dataset at all: five patients over eight weeks and 17 in a chart review do not constitute a safety profile.</p>"
+    },
+    {
+      "heading": "What is missing for Indian and Fitzpatrick IV-VI patients",
+      "html": "<p>Several gaps in this evidence base are specific to patients in India. First, <strong>no trial in the entire PRP or GFC literature reports Fitzpatrick phototype</strong>, let alone stratifies outcomes or adverse events by it. Most readers of this article are Fitzpatrick IV-VI, and for other procedures phototype demonstrably changes risk: a 2018 review of 473 superficial chemical peels in Fitzpatrick III-VI skin found an overall complication rate of 3.8%, with Fitzpatrick VI carrying an odds ratio of 5.14 (95% CI 1.21-21.8) for any adverse event. That is a different procedure, quoted only to show that phototype-stratified data is obtainable, and absent here.</p><p>Second, the total randomised PRP evidence for androgenetic alopecia conducted in India is <strong>three trials and 219 patients</strong> — 80 at BHU Varanasi, 64 at JIPMER and 75 at PGIMER — and for GFC it is one retrospective review of 42 charts. Third, there is no population-based prevalence study of pattern hair loss in India for either sex. The nearest South Asian data is a 2000 community survey of 254 men in Singapore, which found 63% affected overall and 87% among ethnic Indians versus 61% among ethnic Chinese — ethnic Indians in Singapore, not a sample from India. Any percentage quoted for Indian women is extrapolated, which is why our <a href=\"/blog/female-pattern-hair-loss-india\">guide to female pattern hair loss in India</a> declines to quote a prevalence figure.</p>"
+    },
+    {
+      "heading": "How to choose between them, and what a good consultation establishes",
+      "html": "<p>Choosing between these three is a sequencing exercise that starts with a diagnosis rather than a treatment. Diffuse shedding after an illness, pregnancy or a crash diet is a different condition from androgenetic pattern loss, and scarring alopecias are different again. PRP has exactly one randomised trial in telogen effluvium, of 30 women. GFC has none.</p><p>Two facts shape expectations. Untreated pattern loss progresses: pooled five-year placebo arms from two replicate randomised trials in men found a loss of 239 hairs from the target area, a 26.3% decline in density (P &lt; 0.001), with 75% rated visibly worse. And injections do not rescue advanced loss: a randomised intra-patient controlled pilot in men with Norwood grade 4-6 baldness found terminal hairs went from 87 to 85 over six months.</p><p>The defensible sequence is therefore to establish the diagnosis, begin with the treatment carrying the strongest controlled evidence — topical minoxidil, with a pooled gain of about 13 hairs per cm² over placebo — and consider PRP as an addition rather than a substitute, since every positive comparative trial shows the combination beating either component alone. GFC may yet perform as well as PRP; the point is that nobody has demonstrated it, and it should be described that way when it is offered. Where loss is advanced, the honest conversation is about surgical restoration or <a href=\"/services/hair-fillers\">other scalp treatments</a>, not a longer course of injections.</p><p>Treatment for pattern hair loss is ongoing rather than one-time, results vary between individuals, and no clinic can promise an outcome. This article summarises published evidence and is not medical advice — please consult a qualified dermatologist before starting any of these treatments. If you would like that assessment, you can <a href=\"/book-appointment\">book a consultation</a> at one of our Mumbai clinics.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "text": "van Zuuren EJ, Fedorowicz Z, Schoones J. \"Interventions for female pattern hair loss.\" <em>Cochrane Database of Systematic Reviews</em>. 2016;2016(5):CD007628.",
+      "url": "https://doi.org/10.1002/14651858.CD007628.pub4"
+    },
+    {
+      "text": "Lucky AW, Piacquadio DJ, Ditre CM, Dunlap F, Kantor I, Pandya AG, Savin RC, Tharp MD. \"A randomized, placebo-controlled trial of 5% and 2% topical minoxidil solutions in the treatment of female pattern hair loss.\" <em>Journal of the American Academy of Dermatology</em>. 2004;50(4):541-553.",
+      "url": "https://doi.org/10.1016/j.jaad.2003.06.014"
+    },
+    {
+      "text": "Zhang X, Ji Y, Zhou M, Zhou X, et al. \"Platelet-Rich Plasma for Androgenetic Alopecia: A Systematic Review and Meta-analysis of Randomized Controlled Trials.\" <em>Journal of Cutaneous Medicine and Surgery</em>. 2023;27(5):504-508.",
+      "url": "https://doi.org/10.1177/12034754231191461"
+    },
+    {
+      "text": "Li M, Qu K, Lei Q, Chen M, Bian D. \"Effectiveness of Platelet-Rich Plasma in the Treatment of Androgenic Alopecia: A Meta-analysis.\" <em>Aesthetic Plastic Surgery</em>. 2023;48(5):977-984.",
+      "url": "https://doi.org/10.1007/s00266-023-03603-9"
+    },
+    {
+      "text": "Gressenberger P, Pregartner G, Gary T, Wolf P, Kopera D. \"Platelet-rich Plasma for Androgenetic Alopecia Treatment: A Randomized Placebo-controlled Pilot Study.\" <em>Acta Dermato-Venereologica</em>. 2020;100(15):adv00247.",
+      "url": "https://doi.org/10.2340/00015555-3609"
+    },
+    {
+      "text": "Puig CJ, Reese R, Peters M. \"Double-Blind, Placebo-Controlled Pilot Study on the Use of Platelet-Rich Plasma in Women With Female Androgenetic Alopecia.\" <em>Dermatologic Surgery</em>. 2016;42(11):1243-1247.",
+      "url": "https://doi.org/10.1097/DSS.0000000000000883"
+    },
+    {
+      "text": "Balasundaram M, Kumari R, Ramassamy S. \"Efficacy of autologous platelet-rich plasma therapy versus topical minoxidil in men with moderate androgenetic alopecia: a randomized open-label trial.\" <em>Journal of Dermatological Treatment</em>. 2023;34(1):2182618.",
+      "url": "https://doi.org/10.1080/09546634.2023.2182618"
+    },
+    {
+      "text": "Bruce AJ, Pincelli TP, Heckman MG, Desmond CM, Arthurs JR, Diehl NN, Douglass EJ, Bruce CJ, Shapiro SA. \"A Randomized, Controlled Pilot Trial Comparing Platelet-Rich Plasma to Topical Minoxidil Foam for Treatment of Androgenic Alopecia in Women.\" <em>Dermatologic Surgery</em>. 2020;46(6):826-832.",
+      "url": "https://doi.org/10.1097/DSS.0000000000002168"
+    },
+    {
+      "text": "Garg S, Thirumalaiswamy A. \"Clinical and Trichoscopic Analysis of PRP Versus GFC Used for Male and Female Pattern Hair Loss.\" <em>Dermatologic Surgery</em>. 2025;52(1):48-54.",
+      "url": "https://doi.org/10.1097/DSS.0000000000004741"
+    },
+    {
+      "text": "Alali A, Alahmadi M, Alsisi G, Alghamdi S, Elmehallawy G, Albelowi L, Altouri H, Albejawi L. \"The Efficacy of Growth Factor Injection in Androgenic Alopecia: A Systematic Review and Meta-Analysis.\" <em>Aesthetic Plastic Surgery</em>. 2026;50(13):5351-5379.",
+      "url": "https://doi.org/10.1007/s00266-026-05910-3"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is GFC treatment for hair better than PRP?",
+      "a": "No trial has established that. The only published comparison is a retrospective, non-randomised, unblinded review of 42 charts with unequal arms, in which GFC led on hair count and global score early but PRP had the better hair diameter and global score by 6 months. The single meta-analysis that includes GFC reports heterogeneity above I² 90% and describes its own findings as hypothesis-generating."
+    },
+    {
+      "q": "Is GFC backed by randomised controlled trials?",
+      "a": "No. As of August 2026 the entire PubMed literature on growth factor concentrate for hair is one 42-patient retrospective chart review, one five-patient case series indexed as Case Reports, and one editorial commentary — 47 patients in total, none randomised, none blinded, none placebo-controlled."
+    },
+    {
+      "q": "How many PRP or GFC sessions are actually needed?",
+      "a": "No dose-finding trial has been done for either. The widely quoted three-to-four-session protocol originates as a recommendation inside a 2020 review article whose authors stated that heterogeneity across the 19 studies they examined prevented any statistical comparison between protocols."
+    },
+    {
+      "q": "Can PRP or GFC replace minoxidil?",
+      "a": "The four published head-to-head comparisons of PRP and minoxidil, totalling around 239 patients, do not support substitution. In women, minoxidil improved terminal hair density and cumulative thickness where PRP did not; in 64 Indian men, 56% responded to minoxidil versus 38% to PRP, with more adverse events on PRP. Where combinations were tested, PRP added to minoxidil outperformed either alone."
+    },
+    {
+      "q": "Do these injections hurt, and is there downtime?",
+      "a": "In the PGIMER randomised trial, transient pain was recorded in 100% of PRP patients, with bleeding in 15% and dizziness in 5%. Describing either PRP or GFC as painless is not supported by the evidence, and no comparative pain or downtime data for GFC against PRP has been published."
+    },
+    {
+      "q": "Will PRP or GFC help advanced baldness?",
+      "a": "The available evidence says no. A randomised intra-patient controlled trial in men with Norwood grade 4-6 pattern loss found terminal hairs went from 87 to 85 over six months, and the authors concluded PRP was not effective at those grades. Injections do not create follicles where follicles are gone."
+    }
+  ],
+  "related_services": [
+    {
+      "label": "Hair PRP Treatment in Mumbai",
+      "url": "/services/hair-prp"
+    },
+    {
+      "label": "Hair Fillers",
+      "url": "/services/hair-fillers"
+    },
+    {
+      "label": "Book a Consultation",
+      "url": "/book-appointment"
+    }
+  ],
+  "see_also": [
+    {
+      "label": "Hair PRP for Hair Fall: What the Clinical Trial Evidence Shows",
+      "url": "/blog/hair-prp-for-hair-fall-evidence"
+    },
+    {
+      "label": "Female Pattern Hair Loss in India: What the Data Does and Does Not Show",
+      "url": "/blog/female-pattern-hair-loss-india"
+    },
+    {
+      "label": "PCOS and Hair Loss: The Evidence-Based Guide",
+      "url": "/blog/pcos-hair-loss-evidence-based-guide"
+    }
+  ],
+  "image_source": "hair-prp-for-hair-fall-evidence"
+}

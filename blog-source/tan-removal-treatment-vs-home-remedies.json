@@ -1,0 +1,173 @@
+{
+  "slug": "tan-removal-treatment-vs-home-remedies",
+  "title": "Tan Removal Treatment vs Home Remedies: What the Evidence Shows",
+  "meta_description": "No controlled trial has measured a tan removal treatment against no treatment. What the evidence on tanning, peels, lemon juice and sunscreen shows.",
+  "category": "Pigmentation",
+  "publish_date": "2026-09-24",
+  "read_time": "12 min read",
+  "primary_keyword": "tan removal treatment",
+  "image_prompt": "Editorial clinical photograph, soft natural window light falling across a woman's forearm and shoulder showing a clear sun-exposure line, muted warm neutral tones, shallow depth of field, no visible faces, no text, no branding, calm documentary style",
+  "image_alt": "Tinted mineral sunscreen and a UV reference card on a clinic desk, illustrating tan removal: clinic treatment vs the home remedies",
+  "quick_facts": [
+    {
+      "label": "Trials with tanning as the endpoint",
+      "value": "None located in the indexed medical literature"
+    },
+    {
+      "label": "Distinct pigment responses to sun",
+      "value": "Three: immediate darkening, persistent darkening, delayed tanning"
+    },
+    {
+      "label": "Glycolic acid 35% peel, 90 Indian patients",
+      "value": "62.36% MASI reduction at 12 weeks - but the endpoint was melasma, and every arm was primed with hydroquinone and tretinoin"
+    },
+    {
+      "label": "Superficial peels in Fitzpatrick III-VI",
+      "value": "3.8% complication rate across 473 treatments; Fitzpatrick VI odds ratio 5.14"
+    },
+    {
+      "label": "Iron-oxide sunscreen vs UV-only sunscreen",
+      "value": "15% greater MASI improvement in a 68-patient double-blind trial"
+    },
+    {
+      "label": "Topical steroids used on the face, 12 Indian centres",
+      "value": "Adverse effects in 392 of 433 users (90.5%)"
+    }
+  ],
+  "intro": "<p>A <strong>tan removal treatment</strong> is one of the few things an aesthetic clinic sells where the endpoint has never actually been measured. Searching the indexed medical literature for a controlled trial of a de-tan facial, a tan removal peel or a tan removal laser - with tanning itself as the defined outcome - returns nothing. Not a weak trial, not a small one. No trial. Meanwhile the home remedies offered as the cheaper alternative, lemon juice above all, do have a published literature, and most of it consists of case reports of harm rather than trials of benefit.</p><p>That leaves two options with a similar evidentiary standing and very different price tags. This post sets out what a tan physically is, what the adjacent research on peels, lasers and topicals actually measured, why \"it faded after my treatment\" cannot be read as proof that the treatment did it, and how to tell whether the darkening on your face is a tan at all. None of this is medical advice. Pigment that has been sitting in the same patch for months is not a tan, and it should be examined by a qualified dermatologist rather than self-treated.</p>",
+  "sections": [
+    {
+      "heading": "A tan is three separate pigment responses, not one",
+      "html": "<p>Sun-induced darkening is not a single event. The 2013 review by Sklar and colleagues in <em>Photochemical &amp; Photobiological Sciences</em> separates three distinct pigmentary responses, and the distinction decides what any treatment could plausibly do. <strong>Immediate pigment darkening</strong> is driven by UVA and involves the oxidation and redistribution of melanin that is already in the skin - no new pigment is made, and it fades quickly. <strong>Persistent pigment darkening</strong> is also UVA-driven and lasts somewhat longer. <strong>Delayed tanning</strong> is the only one of the three that represents new melanogenesis; it follows UVB-induced redness and also follows UVA.</p><p>Two things follow. First, most of what people call a tan on day two is redistributed melanin, not new pigment, and it was going to go anyway. Second, delayed tanning sits in keratinocytes that the epidermis is already in the process of shedding, which is why a tan is self-limiting in a way that melasma and post-inflammatory hyperpigmentation are not. The same review makes a point that matters far more at Fitzpatrick IV-VI than most sunscreen marketing admits: <strong>visible light induces both redness and a tanning response in dark skin, but not in fair skin.</strong> Grade it honestly: Sklar 2013 is a narrative review with no control group, and the visible-light finding traces to small experimental irradiation studies rather than a large trial. It is foundational physiology, not a treatment result.</p>"
+    },
+    {
+      "heading": "What a tan removal treatment is measured against - and why that is the whole problem",
+      "html": "<p>A tan removal treatment has no controlled trial behind it because tanning has never been used as a study endpoint. That is a stronger statement than \"the evidence is weak\": weak evidence would mean small or uncontrolled trials exist. Here a search of the indexed literature for a de-tan facial, tan removal peel or tan removal laser, with tanning as the defined outcome, locates none.</p><p>The reason this matters is a design problem rather than a marketing one. Delayed tanning resolves on its own as the epidermis turns over. So a clinic that photographs a face, performs four weekly sessions and photographs it again over the following six weeks will reliably see the tan fade - and so would an untreated face over the same six weeks. Separating the treatment effect from natural fading requires a no-treatment comparator arm, and no published study of any de-tan protocol has run one. This is clinical reasoning rather than a trial result, and it should be labelled as such - but it is reasoning nobody promoting the treatment has answered. Until someone runs the untreated arm, \"my tan went after the package\" and \"my tan went\" are the same sentence.</p><p>None of this means the procedures do nothing. Chemical peels, low-fluence lasers and topical depigmenting agents have real trial data - it was simply collected against a different problem.</p>"
+    },
+    {
+      "heading": "What the evidence does not support",
+      "html": "<p>Four claims in this category are made routinely in Indian aesthetic marketing, and each has published evidence pointing the other way.</p><ul><li><strong>\"This de-tan treatment removes your tan.\"</strong> No controlled trial with tanning as the endpoint exists in the indexed literature, and no study has compared any de-tan protocol against no treatment over the same period. The claim is not disproved; it is untested, which for a paid medical service is not a better position.</li><li><strong>\"Stronger settings clear the pigment faster.\"</strong> The cleanest Indian data says the opposite. Kar, Gupta and Chauhan randomised 75 Indian patients across three arms in the <em>Indian Journal of Dermatology, Venereology and Leprology</em> in 2012: high-fluence Q-switched Nd:YAG performed <strong>significantly worse</strong> than low-fluence Q-switched Nd:YAG (p &lt; 0.005) and worse than a glycolic acid peel (p &lt; 0.05). Turning the energy up bought side effects, not results.</li><li><strong>\"Lemon juice lifts a tan.\"</strong> No trial of lemon, lime, curd, gram flour, potato or tomato as a tan intervention was located. What is published about citrus on skin is the harm: furocoumarins in lime juice and peel plus UVA produce phytophotodermatitis, a phototoxic reaction that resolves leaving hyperpigmentation behind. A 2025 case report in <em>Case Reports in Dermatology</em> describes a 25-year-old woman who developed a striking linear hyperpigmented lesion on her forearm after spilling a lime-based cocktail on it in the sun. A single case report is the weakest publishable design and establishes only that the reaction happens, not how often.</li><li><strong>\"Peels and lasers outperform creams.\"</strong> The largest systematic review in the pigment field, McKesey, Tovar-Garza and Pandya's 2020 evidence-based review of <strong>113 studies and 6,897 participants</strong>, concluded that chemical peels and laser or light devices were <strong>equal or inferior to topical treatment and carried higher adverse-effect risk</strong>. That review covered melasma, not tanning, which is the recurring problem with this whole topic.</li></ul>"
+    },
+    {
+      "heading": "The clinic side: peels and lasers have data, but for a different condition",
+      "html": "<p>Chemical peels are the most-used professional intervention marketed for tan, and there is genuinely good Indian data on them - for melasma. Sarkar and colleagues randomised <strong>90 Indian patients</strong> across three peel arms in <em>Dermatologic Surgery</em> in 2016. At 12 weeks, MASI fell <strong>62.36% with 35% glycolic acid, 60.98% with a salicylic-mandelic combination and 44.71% with phytic acid</strong>. Glycolic and salicylic-mandelic both beat phytic acid (p = 0.00) and did not differ from each other (p = 0.876). The authors judged salicylic-mandelic better tolerated and more suitable for Indian skin.</p><p>Three caveats decide how much of that transfers to a tan. First, every arm was primed for four weeks with 4% hydroquinone and 0.05% tretinoin, so these are not peel-alone results - part of the 62.36% belongs to the creams. Second, hydroquinone has been a prescription-only Schedule H drug in India since 1 April 2019 and cannot lawfully be sold over the counter, so the priming regimen in that trial is not something a reader can replicate at home. Third and most important, the endpoint was melasma severity. Nobody measured a tan.</p><p>The network meta-analysis by Liu and colleagues in <em>Frontiers in Medicine</em> in 2021 pooled <strong>59 randomised controlled trials</strong> and is useful for the adverse-effect side of the ledger. In arms with more than 80 participants, side-effect rates ran <strong>tretinoin 10.1%, oral tranexamic acid 17.6%, hydroquinone 18.2%, Q-switched Nd:YAG 21.5%, triple combination cream 25.7%, chemical peels 38.0% and microneedling 52.3%</strong>. Microneedling had the highest adverse-event rate of any modality studied. That analysis also ranked short-term pigment reduction only; it did not measure how long anything lasted. If you are weighing a course of <a href=\"/services/chemical-peel\">chemical peels</a> or a <a href=\"/services/carbon-laser-facial\">carbon laser facial</a> for sun-related dullness, those percentages are the honest counterweight to the before-and-after photographs.</p>"
+    },
+    {
+      "heading": "Home remedies: what is actually published, and what is simply absent",
+      "html": "<p>Home remedies for tan occupy an evidence position that is worth stating precisely, because it is not the position their critics usually claim. There is no published trial showing that lemon juice, curd, gram flour, sandalwood, potato or tomato reduces a tan. There is also no published trial showing that they do not. The category has essentially never been studied with tanning as an endpoint, which is exactly the same gap that sits under the professional de-tan menu. On the specific question \"does this remove my tan\", the clinic and the kitchen are both arguing from absence.</p><p>Where they differ is in the risk they carry, and here there is a mechanism worth taking seriously. Anything that irritates the skin - a strong acid such as undiluted lemon juice, an abrasive scrub, a paste left on too long - can produce inflammation, and inflammation in Fitzpatrick IV-VI skin can produce post-inflammatory hyperpigmentation. That is a trade a tan does not justify, because PIH is substantially harder to shift than the tan was.</p><p>The 2024 systematic review by Mar and colleagues in the <em>Journal of Cutaneous Medicine and Surgery</em> pooled <strong>48 studies covering 1,356 people with skin of colour</strong> and shows how thin the options are. Topical retinoids, the most-used intervention, gave partial improvement in <strong>85%</strong> of cases; laser therapy gave partial improvement in <strong>66%</strong> and was the only modality producing complete resolution in a subgroup, at <strong>26%</strong> - while also generating reported cases of PIH being made worse by the laser. The authors' own conclusion is the sentence to hold onto: their results show <em>\"a lack of robust efficacy across all treatment modalities\"</em>. A tan clears itself. A patch of post-inflammatory pigment may take months and may never fully clear.</p>"
+    },
+    {
+      "heading": "The one home remedy category with hard Indian data - and it is a warning",
+      "html": "<p>One class of self-applied product does have solid Indian evidence behind it, and it argues strongly against unsupervised use. Saraswat and colleagues screened <strong>2,926 patients with facial dermatoses across 12 Indian centres</strong> for the <em>Indian Journal of Dermatology, Venereology and Leprology</em> in 2011. <strong>433 of them (14.8%) were applying topical corticosteroids to the face.</strong> The single commonest reason for use was cosmetic skin-lightening (126 patients, 29%). <strong>Adverse effects were present in 392 of the 433 users - 90.5%.</strong> Nearly 60% were using steroid combinations, and 59.3% had acted on a recommendation from someone who was not a doctor, with 90.3% of those recommendations being for potent or super-potent steroids.</p><p>That study reframes the whole clinic-versus-home question. The meaningful divide is not professional versus household, or synthetic versus natural. It is supervised versus unsupervised, and it is whether anyone diagnosed the pigment before treating it. A steroid-containing cream bought on a pharmacist's suggestion is a home remedy in every practical sense, and it is the one with a documented 90.5% adverse-effect rate.</p><p>Two regulatory points belong here. Hydroquinone became a Schedule H prescription-only drug in India on 1 April 2019, so any product offering it over the counter is being sold outside the rules. And the Advertising Standards Council of India's 2014 guidelines on skin-lightening advertising prohibit framing darker skin as unattractive or as a social or professional barrier. This post is about treating a diagnosed pigmentary condition and evening out sun-driven change, not about complexion.</p>"
+    },
+    {
+      "heading": "Fitzpatrick IV-VI changes the arithmetic",
+      "html": "<p>Most readers of this page have Fitzpatrick IV-VI skin, and the risk figures for pigment procedures are skin-type dependent in a way that generic advice hides. The most useful dataset is Vemula and colleagues' 2018 retrospective analysis in the <em>Journal of the American Academy of Dermatology</em>, covering <strong>473 superficial chemical peels in Fitzpatrick III-VI skin</strong>. The overall complication rate was <strong>3.8%</strong> - reassuringly low for a superficial peel. The commonest complication was crusting at 2.3%, with post-inflammatory hyperpigmentation and erythema tied at 1.9%. Every side effect resolved within eight months and all were on the face.</p><p>The stratified result is the one that matters. <strong>Fitzpatrick VI carried an odds ratio of 5.14 for any adverse event (95% CI 1.21-21.8, p = 0.0118)</strong> compared with lighter skin in the adjusted model. Note the width of that confidence interval - it spans from a modest increase to a twenty-fold one, which tells you the study did not have the numbers to pin the effect down precisely. It is a single-centre retrospective analysis, and the authors say so. One seasonal finding is directly relevant in Mumbai: side effects were significantly less common in winter, which is when de-tan packages sell least.</p><p>Set that against the 52.3% microneedling adverse-event rate from Liu 2021 and a pattern emerges: superficial, low-energy, well-spaced interventions have modest complication rates in deeper skin, and aggressive ones do not - without buying better pigment outcomes, which is what Kar's 75-patient trial showed with fluence. If you are working through options for stubborn facial pigment rather than a seasonal tan, the <a href=\"/concerns/pigmentation-melasma\">pigmentation and melasma</a> pathway is the more useful starting point.</p>"
+    },
+    {
+      "heading": "Photoprotection is the only step here with a controlled trial behind it",
+      "html": "<p>The single intervention in this whole discussion that has a properly designed randomised trial supporting it is the least glamorous one. Castanedo-Cazares and colleagues ran a double-blind randomised trial published in <em>Photodermatology, Photoimmunology &amp; Photomedicine</em> in 2014: <strong>68 patients randomised, 61 completed, eight weeks</strong>. Both arms received 4% hydroquinone. The only difference between them was the sunscreen - one arm received an iron-oxide-containing sunscreen covering UV and visible light, the other a UV-only sunscreen, both at SPF 50 or above.</p><p>The UV-plus-visible-light arm improved <strong>15% more on MASI, 28% more on colorimetry and 4% more on histological melanin</strong> than the UV-only arm. Read those three numbers together rather than picking the largest. The colorimetric difference is respectable; the histological difference of 4% is modest, and the trial was small and single-centre. It establishes that blocking visible light as well as ultraviolet measurably changes the outcome in pigment-prone skin - which fits the physiology from Sklar 2013, where visible light provokes a tanning response in dark skin specifically.</p><p>The practical translation is unromantic. A tinted or iron-oxide-containing sunscreen at SPF 50 or above, reapplied, acts on the input rather than the output, and it carries none of the post-inflammatory hyperpigmentation risk that peels, lasers and improvised acids carry in Fitzpatrick IV-VI skin. It will not undo an existing tan faster than the epidermis would have; nothing has been shown to do that. It changes how much pigment gets made in the first place.</p>"
+    },
+    {
+      "heading": "How to tell whether it is a tan at all",
+      "html": "<p>Deciding between a tan removal treatment and a home remedy is often the wrong question, because a good proportion of the darkening that prompts it is not a tan. The distinguishing features are structural rather than subtle. <strong>A tan is diffuse, confined to sun-exposed skin, and reverses when exposure stops</strong>, because the pigmented keratinocytes are shed on the normal epidermal cycle - this follows directly from the delayed-tanning mechanism described by Sklar 2013. It respects the edges of your sleeves and neckline.</p><p>Melasma and post-inflammatory hyperpigmentation behave differently. They are patterned rather than diffuse, they occupy defined patches with an anatomy or a history behind them, and they do not resolve merely by staying indoors. Mar 2024's systematic review found <strong>89% of PIH cases in skin of colour were precipitated by an inflammatory condition and 83% were facial</strong> - which is to say, PIH follows something that happened to that specific patch of skin, whether acne, a reaction, a shave or a previous procedure. Melasma typically sits symmetrically across the cheeks, upper lip and forehead and follows hormonal and light exposure over years.</p><p>The pigment's depth also predicts what will work. Pigment sitting in the epidermis appears tan to dark brown; pigment that has dropped into the dermis appears blue-grey and responds poorly to anything applied on the surface. That is a clinical assessment rather than a self-assessment.</p><p>Three situations warrant a dermatologist rather than a package: pigment that has not moved after several months out of the sun; pigment in a defined patch rather than across sun-exposed areas; and any single dark spot that is new, changing, or unlike the others around it. That last one is not a cosmetic question at all. If you want the pigment on your face examined and named before anything is done to it, <a href=\"/book-appointment\">book a consultation</a> with a dermatologist. <strong>This article is information, not medical advice - decisions about your skin should be made with a qualified dermatologist who has examined it.</strong></p>"
+    }
+  ],
+  "sources": [
+    {
+      "text": "Sklar LR, Almutawa F, Lim HW, Hamzavi I. \"Effects of ultraviolet radiation, visible light, and infrared radiation on erythema and pigmentation: a review.\" <em>Photochemical & Photobiological Sciences</em>. 2013;12(1):54–64.",
+      "url": "https://doi.org/10.1039/c2pp25152c"
+    },
+    {
+      "text": "Sarkar R, Garg V, Bansal S, Sethi S, Gupta C. \"Comparative Evaluation of Efficacy and Tolerability of Glycolic Acid, Salicylic Mandelic Acid, and Phytic Acid Combination Peels in Melasma.\" <em>Dermatologic Surgery</em>. 2016;42(3):384&ndash;391.",
+      "url": "https://doi.org/10.1097/DSS.0000000000000642"
+    },
+    {
+      "text": "Kar HK, Gupta L, Chauhan A. \"A comparative study on efficacy of high and low fluence Q-switched Nd:YAG laser and glycolic acid peel in melasma.\" <em>Indian Journal of Dermatology, Venereology and Leprology</em>. 2012;78(2):165-171.",
+      "url": "https://doi.org/10.4103/0378-6323.93633"
+    },
+    {
+      "text": "McKesey J, Tovar-Garza A, Pandya AG. \"Melasma Treatment: An Evidence-Based Review.\" <em>American Journal of Clinical Dermatology</em>. 2020;21(2):173-225.",
+      "url": "https://doi.org/10.1007/s40257-019-00488-w"
+    },
+    {
+      "text": "Liu Y, Wu S, Wu H, Liang X, Guo D, Zhuo F. \"Comparison of the Efficacy of Melasma Treatments: A Network Meta-Analysis of Randomized Controlled Trials.\" <em>Frontiers in Medicine</em>. 2021;8:713554.",
+      "url": "https://doi.org/10.3389/fmed.2021.713554"
+    },
+    {
+      "text": "Castanedo-Cazares JP, Hernandez-Blanco D, Carlos-Ortega B, Fuentes-Ahumada C, Torres-Alvarez B. \"Near-visible light and UV photoprotection in the treatment of melasma: a double-blind randomized trial.\" <em>Photodermatology, Photoimmunology &amp; Photomedicine</em>. 2014;30(1):35-42.",
+      "url": "https://doi.org/10.1111/phpp.12086"
+    },
+    {
+      "text": "Vemula S, Maymone MBC, Secemsky EA, Widjajahakim R, Patzelt NM, Saade D, Vashi NA. \"Assessing the safety of superficial chemical peels in darker skin: A retrospective study.\" <em>Journal of the American Academy of Dermatology</em>. 2018;79(3):508&ndash;513.",
+      "url": "https://doi.org/10.1016/j.jaad.2018.02.064"
+    },
+    {
+      "text": "Saraswat A, Lahiri K, Chatterjee M, Barua S, Coondoo A, Mittal A, Panda S, Rajagopalan M, Sharma R, Abraham A, Verma SB, Srinivas CR. \"Topical corticosteroid abuse on the face: a prospective, multicenter study of dermatology outpatients.\" <em>Indian Journal of Dermatology, Venereology and Leprology</em>. 2011;77(2):160–166.",
+      "url": "https://doi.org/10.4103/0378-6323.77455"
+    },
+    {
+      "text": "Mar K, Khalid B, Maazi M, Ahmed R, Wang OJE, Khosravi-Hafshejani T. \"Treatment of Post-Inflammatory Hyperpigmentation in Skin of Colour: A Systematic Review.\" <em>Journal of Cutaneous Medicine and Surgery</em>. 2024;28(5):473–480.",
+      "url": "https://doi.org/10.1177/12034754241265716"
+    },
+    {
+      "text": "Aleksiev T. \"Mojito-Induced Phytophotodermatitis: A Case of Lime-Triggered Skin Reaction.\" Case Reports in Dermatology. 2025;17(1):397-401.",
+      "url": "https://doi.org/10.1159/000547675"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there a tan removal treatment that has been proven to work?",
+      "a": "No. A search of the indexed medical literature finds no controlled trial of a de-tan facial, tan removal peel or tan removal laser with tanning as the defined endpoint. The procedures involved - superficial peels, low-fluence lasers, topical depigmenting agents - do have trial data, but it was collected in melasma and post-inflammatory hyperpigmentation, not tanning. Because a tan fades as the epidermis turns over, and no study has included a no-treatment comparison arm, no published result can separate a de-tan effect from natural fading."
+    },
+    {
+      "q": "Does lemon juice remove a tan?",
+      "a": "There is no trial showing that it does. What is published about citrus on skin is the harm: furocoumarins in lime juice and peel, combined with UVA exposure, cause phytophotodermatitis, a phototoxic reaction that resolves leaving hyperpigmentation behind. A 2025 case report documents a linear hyperpigmented forearm lesion after a lime-based drink was spilled on skin in the sun. The trade is a poor one - a tan resolves on its own, whereas post-inflammatory pigment in Fitzpatrick IV-VI skin can take months."
+    },
+    {
+      "q": "How long does a tan take to fade by itself?",
+      "a": "No study has quantified this by Fitzpatrick type, and any clinic quoting a specific number is going beyond the evidence. What the physiology supports is that immediate and persistent pigment darkening, which are redistributions of existing melanin driven by UVA, fade relatively quickly, while delayed tanning represents new pigment in keratinocytes that are shed on the normal epidermal cycle. The practical implication is that a tan is self-limiting provided the exposure that caused it stops."
+    },
+    {
+      "q": "Are de-tan facials and peels safe for Indian skin?",
+      "a": "Superficial peels have a reasonable safety profile in deeper skin, but not an unqualified one. A retrospective analysis of 473 superficial peels in Fitzpatrick III-VI skin found an overall complication rate of 3.8%, with crusting at 2.3% and post-inflammatory hyperpigmentation and erythema tied at 1.9%; all resolved within eight months. Fitzpatrick VI carried an odds ratio of 5.14 for any adverse event (95% CI 1.21-21.8), though that confidence interval is wide. Complications were significantly less common in winter."
+    },
+    {
+      "q": "Can a laser remove a tan faster than a peel?",
+      "a": "There is no head-to-head trial with tanning as the endpoint, so the question has not been answered. What Indian data does exist points against turning the energy up: in a three-arm trial of 75 Indian patients, high-fluence Q-switched Nd:YAG performed significantly worse than low-fluence Q-switched Nd:YAG (p < 0.005) and worse than a glycolic acid peel (p < 0.05) for facial pigment. More aggressive settings produced more side effects rather than better clearance."
+    },
+    {
+      "q": "How do I tell a tan apart from melasma or post-inflammatory pigmentation?",
+      "a": "A tan is diffuse, sits only on sun-exposed skin, respects the line where clothing ended, and reverses when exposure stops. Melasma is patterned and symmetrical, usually across cheeks, upper lip and forehead, and persists indoors. Post-inflammatory hyperpigmentation follows something that happened to that patch of skin - a systematic review of 1,356 people with skin of colour found 89% of cases were precipitated by an inflammatory condition and 83% were facial. Pigment that has not shifted after several months out of the sun is not a tan and should be assessed."
+    }
+  ],
+  "related_services": [
+    {
+      "label": "Chemical Peel",
+      "url": "/services/chemical-peel"
+    },
+    {
+      "label": "Carbon Laser Facial",
+      "url": "/services/carbon-laser-facial"
+    },
+    {
+      "label": "Hydra Facial",
+      "url": "/services/hydra-facial"
+    }
+  ],
+  "see_also": [
+    {
+      "label": "Sunscreen for Indian Skin: How Much SPF Do You Actually Need?",
+      "url": "/blog/sunscreen-for-indian-skin-spf-guide"
+    },
+    {
+      "label": "Best Treatment for Melasma on Face: The Ladder, Ranked by Evidence",
+      "url": "/blog/best-treatment-for-melasma-on-face"
+    },
+    {
+      "label": "Skin-Whitening Injections: What the Safety Data Actually Shows",
+      "url": "/blog/skin-whitening-injections-safety-data"
+    }
+  ],
+  "image_source": "sunscreen-for-indian-skin-spf-guide"
+}

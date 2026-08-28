@@ -1,0 +1,173 @@
+{
+  "slug": "laser-hair-removal-burns-causes-prevention",
+  "title": "Laser Hair Removal Burns: Why They Happen and How to Avoid One",
+  "meta_description": "Laser hair removal burns: what causes them, why Fitzpatrick IV-VI skin carries more risk, and what the published evidence does and does not show.",
+  "category": "Laser Hair Removal",
+  "publish_date": "2026-09-18",
+  "read_time": "12 min read",
+  "primary_keyword": "laser hair removal burns",
+  "image_prompt": "Editorial clinical photograph, soft natural light, a treatment room in a modern women-only aesthetic clinic in Mumbai. Close-up of a gloved clinician's hand resting a sapphire-tipped diode laser handpiece beside a chilled gel pack and wavelength-specific safety goggles on a clean white treatment bed, warm beige and muted gold tones, no visible faces, calm and clinical, high-end minimalist aesthetic, shallow depth of field.",
+  "image_alt": "A diode laser handpiece and cooling gel on a clinic treatment bed, illustrating laser hair removal burns: why they happen and how to avoid one",
+  "quick_facts": [
+    {
+      "label": "Where burns cluster",
+      "value": "In a 10-year review of Turkish Supreme Court decisions, 36 of 38 burns (94.7%) occurred in beauty centres rather than medical clinics, and 26.5% of the procedures were performed by an unauthorised person."
+    },
+    {
+      "label": "Most litigated procedure",
+      "value": "Laser epilation accounted for 85.7% of minimally invasive cosmetic cases reaching that court, and burns were the complication in 77.6% of them."
+    },
+    {
+      "label": "Reported epidermal injury",
+      "value": "0% to 12.5% across small uncontrolled Fitzpatrick IV-VI series totalling roughly 250 patients. No reliable incidence rate exists."
+    },
+    {
+      "label": "Highest published Indian figure",
+      "value": "Epidermolysis in 5 of 40 women (12.5%) treated with 810 nm diode at 16-29 J/cm2, Fitzpatrick III-V, Manipal, 2021."
+    },
+    {
+      "label": "Dose is the lever",
+      "value": "In 55 Fitzpatrick IV-VI women treated with 1064 nm Nd:YAG, fluence was the only significant predictor of outcome (P = 0.039) and 25 J/cm2 was effective, with no adverse events reported."
+    },
+    {
+      "label": "Regulatory reports",
+      "value": "1,257 device injury reports to the FDA MAUDE database between 1991 and 2013, including burns, blistering and scarring. Reporting is voluntary, so no rate can be calculated from it."
+    }
+  ],
+  "intro": "<p>Laser hair removal burns are the most frequently reported complication of the most frequently litigated cosmetic procedure. A retrospective review of Turkish Supreme Court decisions between 2013 and 2023 found that laser epilation made up 85.7% of the minimally invasive cosmetic cases reaching the court, that burns were the complication in 77.6% of them, and that 36 of the 38 burns — 94.7% — occurred in beauty centres rather than medical clinics. That last number reframes the question most people are asking. The risk is real, but it is not spread evenly across every device, every skin type or every room the procedure is performed in.</p><p>What follows is the mechanism by which laser energy injures skin, what the published incidence figures are and why no reliable rate exists, which settings and skin types raise the risk, and which repeated safety claims the evidence does not support. Opal Radiant Studio is a women-only clinic in Mumbai led by Dr Punit Sakhare, MD Dermatologist. This article is general information, not medical advice — consult a qualified dermatologist about your own skin.</p>",
+  "sections": [
+    {
+      "heading": "What actually burns during a laser session",
+      "html": "<p>Every hair-removal laser works by <strong>selective photothermolysis</strong>, the principle Anderson and Parrish published in <em>Science</em> in 1983: brief pulses of selectively absorbed light damage pigmented structures without precise aiming, because the tissue's own optical and thermal properties do the targeting. That was a physics and tissue study, not a therapeutic trial, but it underpins every laser in this field.</p><p>The intended target is melanin inside the hair shaft and follicular epithelium. But melanin also sits in the epidermis, the layer the beam must cross, and in Fitzpatrick IV-VI skin there is a great deal of it. Epidermal melanin absorbs energy meant for the follicle, heats up, and when the dose exceeds what the tissue can dissipate the epidermis separates. Clinically that is <strong>epidermolysis</strong> — splitting or loss of the outer skin layer — appearing as a blister, a weeping patch or a crust in the shape of the laser spot.</p><p>Two consequences follow. A burn is a dose problem, not bad luck: it is the predictable result of delivering more energy to pigmented skin than that skin can shed. And the pigment change people fear most is downstream of the burn, not a separate event. <strong>Post-inflammatory hyperpigmentation</strong> is the melanocyte's response to epidermal inflammation, which is why it is commoner in deeper skin and largely a consequence of overtreatment rather than an inevitability — worth knowing if you are prone to <a href=\"/concerns/pigmentation-melasma\">pigmentation and melasma</a>. A 2023 review of 104 publications on light-assisted hair removal catalogues what has been reported: pain, burns, blistering, folliculitis, pigmentary change, changes in moles, herpes reactivation and frostbite from the cooling system itself.</p>"
+    },
+    {
+      "heading": "How often do laser hair removal burns actually happen?",
+      "html": "<p>There is no reliable incidence figure for burns after laser hair removal, and a clinic quoting a precise percentage is quoting something nobody has measured. The studies reporting denominators in Fitzpatrick IV-VI skin are small, uncontrolled and inconsistent. A 2021 study at Kasturba Medical College, Manipal, assessed 40 Indian women across 108 sites with an 810 nm diode at 16-29 J/cm2 using blinded algorithmic hair counting, and recorded epidermolysis in 5 — 12.5% of the cohort. A 2025 study of 55 Sudanese women treated on the chin with 1064 nm Nd:YAG at 25-40 J/cm2 reported no adverse events at all. A parallel 10-patient study using an 808 nm diode at 8-9 J/cm2 recorded one mild superficial blister at the higher fluence, which did not recur after the dose was reduced.</p><p>Those series total roughly 250 patients, nearly all uncontrolled. The defensible published statement is that epidermal injury has been reported in 0% to 12.5% of patients, and the width of that band is itself the finding.</p><p>Regulatory data does not narrow it either. An analysis of the FDA's MAUDE post-market surveillance database found 1,257 device injury reports between 1991 and December 2013, including blistering, burns, scarring, dyschromia and nerve palsy, with radiofrequency devices, diode lasers and IPL systems most commonly named. MAUDE reporting is voluntary and has no denominator, and the authors acknowledge underreporting, so 1,257 reports across 22 years cannot be converted into a rate. These sources establish firmly that burns occur and are formally recorded. They establish nothing about how often.</p>"
+    },
+    {
+      "heading": "Who gets burnt: the room and the operator, more than the machine",
+      "html": "<p>The strongest real-world signal on who is injured during light-based hair removal comes from a legal record rather than a clinical one. Reviewing Turkish Supreme Court decisions from 2013 to 2023, researchers found laser epilation was the most litigated minimally invasive cosmetic procedure at 85.7% of cases; burns the most prevalent complication at 77.6%; 94.7% of burns (36 of 38) occurred in beauty centres rather than medical clinics; and 26.5% were performed by an unauthorised person. A litigation database is not a trial and cannot give an incidence rate — it counts only injuries that reached a courtroom — but it is unusually good at showing where they cluster.</p><p>The clinical literature points the same way. The 2023 review of 104 publications concluded that cutaneous complications are \"usually related to professional errors and patient characteristics\", and named laser physics knowledge and operator training as its key recommendations. It also catalogues ocular incidents — anterior uveitis, iritis, iris atrophy, anterior subcapsular cataract — which it judges systematically avoidable, which is why wavelength-specific eye protection is not optional.</p><p>India has its own version of this. A 2025 editorial in <em>CosmoDerma</em> on unregulated cosmetology clinics reported that Indian dermatology association members have documented at least five deaths and numerous cases of disfigurement nationwide, and that no dedicated bodies regularly inspect these centres, with enforcement \"virtually nonexistent\". An editorial carries no data and no denominator — read it as expert alarm, not measurement. But a court record from one country and a specialist editorial from another point the same way: the most modifiable risk factor in <a href=\"/services/laser-hair-removal-mumbai\">laser hair reduction</a> is who holds the handpiece.</p>"
+    },
+    {
+      "heading": "Why Fitzpatrick IV-VI skin carries more risk",
+      "html": "<p>Most Indian patients are Fitzpatrick IV-VI, which changes the arithmetic of a laser session. A 2018 review in the <em>American Journal of Clinical Dermatology</em> covering hair reduction in these skin types states the problem directly: the higher melanin content of the skin interferes with the proposed mechanism of laser-induced selective photothermolysis. It also admits something that deserves more attention: most studies exclude patients with darkly pigmented skin as a high-risk group. The population most exposed to burn risk is the one least represented in the evidence.</p><p>The physics is a single trade-off. Longer wavelengths penetrate deeper and are absorbed less by epidermal melanin; shorter ones are absorbed more strongly by melanin of every kind, including melanin in skin you did not intend to treat. That relationship is the whole reason skin type dictates device choice, and the review concludes that longer wavelengths are the key element, with Nd:YAG, diode, alexandrite, ruby and some IPL systems all usable in Fitzpatrick IV-VI \"so long as energy settings and wavelengths are appropriate\". Note the conditional. It is doing all the work in that sentence.</p><p>Being a narrative review, it pools no numbers, and no adequately powered trial has compared wavelengths in Fitzpatrick V-VI skin with long-term follow-up. What can be said confidently is mechanistic: deeper skin carries more competing chromophore, so the margin between an effective dose and an injurious one is narrower, and settings safe on Fitzpatrick II are not safe on Fitzpatrick V. Our guide to <a href=\"/blog/fitzpatrick-skin-type-indian-skin-laser-safety\">Fitzpatrick skin typing and Indian skin</a> covers how that assessment is made before a first session.</p>"
+    },
+    {
+      "heading": "Fluence and cooling: the two dials that decide whether skin blisters",
+      "html": "<p>Fluence, the energy dose in joules per square centimetre, is the setting that most directly separates a treated follicle from a burnt one. In the 2025 study of 55 Sudanese women with Fitzpatrick IV-VI skin treated on the chin with 1064 nm Nd:YAG, fluence was the only variable significantly affecting outcome (P = 0.039), while skin type, age and location were not (P > 0.05) — and 25 J/cm2, the low end of the range tested, was effective. In the companion 10-patient diode study, the sole blister occurred at the higher of two fluences and did not recur once the dose was lowered.</p><p>That is a coherent story and the rationale for conservative settings in deeper skin. It is not proof: two small uncontrolled studies from one research group, combined n = 65, with no blinding and no control site. The mechanism is well established; the dose-response claim rests on thin data. Either way, a clinic treating \"more power\" as a selling point has misunderstood the physics.</p><p>Cooling is the second lever. It sinks heat out of the epidermis so the follicle can be dosed adequately without the surface paying for it, and every study here reporting good safety in dark skin used active cooling, commonly a sapphire contact tip. No trial has randomised cooling against no cooling in Fitzpatrick IV-VI skin, and such a trial would not be ethical, so this is established practice rather than proven fact. Cooling is not risk-free either: the 2023 review lists frostbite from the cooling system among documented complications. Skin can be injured by too much heat and by too much cold, and both are dose errors.</p>"
+    },
+    {
+      "heading": "Tattoos, moles, tanned skin and stubble",
+      "html": "<p>Some burns are not about the general settings at all, but about something in the treatment field that absorbs the pulse far more greedily than surrounding skin.</p><p><strong>Tattoos.</strong> Tattoo pigment is a dense exogenous chromophore that soaks up laser or IPL energy and converts it to heat in the dermis. A 2013 case report in <em>Photodermatology, Photoimmunology and Photomedicine</em> documents a second-degree burn confined precisely to tattooed skin after IPL epilation. That is a single case, the lowest tier of evidence, and no trial has tested firing over tattoos — nor should one. The mechanism is not in doubt; the rule is to shield tattooed skin or leave a margin. <a href=\"/services/tattoo-removal\">Tattoo removal</a> is a separate treatment with a separate laser and protocol.</p><p><strong>Moles.</strong> The evidence base is effectively empty: a PubMed search for laser hair removal safety over melanocytic naevi returns two records. Shielding moles and never firing over an undiagnosed or atypical pigmented lesion is consensus and medico-legal prudence with no trial behind it. Nobody has measured the risk, which is precisely why the rule is conservative.</p><p><strong>Recent tanning.</strong> A tan is extra epidermal melanin, so a narrower safety margin at any given fluence. That is mechanistic reasoning, not a trial finding.</p><p><strong>Unshaved hair.</strong> Surface hair absorbs the pulse and singes, delivering heat at the skin surface rather than the follicle. Shave before a session; do not wax, thread or pluck for several weeks beforehand, because those remove the intra-follicular shaft the laser aims at. No trial has compared shaving with not shaving — this is mechanical necessity, not evidence.</p>"
+    },
+    {
+      "heading": "Device by device: where burn risk actually sits",
+      "html": "<p>Comparing devices honestly means separating what is physically established from what has been measured.</p><table><tr><th>Device</th><th>Burn-risk profile in deeper skin</th></tr><tr><td><strong>Nd:YAG 1064 nm</strong></td><td>Longest wavelength, least absorbed by epidermal melanin, generally preferred for Fitzpatrick V-VI. A 55-patient Fitzpatrick IV-VI series reported no adverse events at 25-40 J/cm2. Trade-off: ranked the most painful of the four in the 2023 review.</td></tr><tr><td><strong>Diode 800-810 nm</strong></td><td>The workhorse for Fitzpatrick IV-V and the source of most Indian efficacy data, but also behind the highest epidermal-injury figure here: 12.5% epidermolysis in the 40-patient Manipal series at 16-29 J/cm2. Diode lasers were among the most commonly named devices in MAUDE reports.</td></tr><tr><td><strong>Alexandrite 755 nm</strong></td><td>Shortest of the three wavelengths and most strongly absorbed by melanin: efficient on lighter skin with dark hair, less forgiving as skin type deepens.</td></tr><tr><td><strong>IPL</strong></td><td>Not a laser: a broad-spectrum filtered flashlamp rather than a single tuned wavelength, so selectivity is inherently poorer. IPL systems were among the most commonly reported devices in MAUDE, and the documented tattoo-site burn involved IPL — its authors judged IPL to carry a worse risk-benefit profile than laser for epilation.</td></tr></table><p>Two caveats belong with that table. None of these figures come from head-to-head randomised comparisons of burn rates; they are separate small series with different fluences, cooling systems and operators, so the gaps may say more about protocol than wavelength. And no adequately powered trial has compared wavelengths in Fitzpatrick V-VI skin with long-term follow-up. The device matters, but less than the dose and considerably less than the operator.</p>"
+    },
+    {
+      "heading": "What the evidence does not support",
+      "html": "<p>Several claims routinely made in this category are unmeasured or contradicted outright.</p><ul><li><strong>\"Completely safe, no side effects, zero risk.\"</strong> Contradicted by 1,257 FDA MAUDE device injury reports between 1991 and 2013 and a 104-publication review cataloguing burns, blistering, scarring, pigmentary change, ocular injury and frostbite. Side effects are usually mild and temporary; serious complications are uncommon but possible.</li><li><strong>Any precise burn rate, in either direction.</strong> \"Less than 1% risk\" and \"burns are common\" are equally unsupported. Published Fitzpatrick IV-VI series span 0% to 12.5% across roughly 250 patients, and MAUDE has no denominator.</li><li><strong>\"Painless.\"</strong> The 2023 review documents pain as a universal complication and ranks Nd:YAG — the wavelength most used on deeper skin — most painful, ahead of alexandrite, IPL and diode. Anaesthetic cream and cooling make it tolerable, not painless.</li><li><strong>\"Higher fluence gives better results.\"</strong> In the one study testing fluence as a predictor in Fitzpatrick IV-VI skin, 25 J/cm2 was effective, and the single blister in the companion study occurred at the higher of two doses.</li><li><strong>\"Our cooling system makes burns impossible.\"</strong> Cooling reduces epidermal heating and is standard practice, but no trial has randomised cooling against no cooling, and frostbite from cooling heads is itself documented.</li><li><strong>\"A patch test guarantees you will not burn.\"</strong> A patch tells you how one area responded to one setting on one day — a reasonable precaution, not a guarantee, and Indian guideline documents do not treat it as mandatory.</li></ul><p>The broader point: the safety literature in skin of colour is thin. Roughly 250 patients across a few small uncontrolled series is no foundation for confident percentages, and the reason is the one the 2018 review named — most studies excluded darkly pigmented skin as high risk.</p>"
+    },
+    {
+      "heading": "Reducing your risk, and what to do if you think you have been burnt",
+      "html": "<p>The evidence converts into a short list of things within your control.</p><ul><li><strong>Treat the setting as the main variable.</strong> Burns cluster where the procedure happens outside medical supervision — 94.7% of litigated burns in beauty centres.</li><li><strong>Have your skin type assessed and the fluence set to it</strong>, not to a standard protocol. Ask which wavelength is used and why.</li><li><strong>Avoid sun and tanning before a session</strong>, and use daily sun protection through the course.</li><li><strong>Declare tattoos, moles, recent isotretinoin, photosensitising medication and any history of keloids or herpes</strong>, and insist both are shielded.</li><li><strong>Wear wavelength-specific goggles for the whole pulse sequence.</strong> Documented ocular injuries include uveitis, iritis and iris atrophy.</li></ul><p>If something does go wrong, the response is unglamorous. Cool the area with a clean cool compress; do not pop a blister, apply ice directly, or use an unprescribed steroid or home remedy. Photograph it and have it assessed by a dermatologist promptly. Strict sun protection over the healing area is the most useful single thing you can do to limit post-inflammatory hyperpigmentation, the commonest sequel to epidermal injury in Fitzpatrick IV-VI skin. Epidermal injuries in the series discussed here were reported as short-term rather than permanent — but those are small uncontrolled cohorts, scarring is documented in the wider literature, and no article can tell you what your skin will do.</p><p>Laser hair reduction is a reasonable procedure with a real and manageable risk profile, which is not the same as a safe one. To have your skin assessed before starting a course, you can <a href=\"/book-appointment\">book a consultation</a> at one of our four Mumbai branches. This article is general information and not medical advice; decisions about your treatment belong with a qualified dermatologist who has examined your skin.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "text": "Anderson RR, Parrish JA. \"Selective photothermolysis: precise microsurgery by selective absorption of pulsed radiation.\" <em>Science</em>. 1983;220(4596):524-527.",
+      "url": "https://doi.org/10.1126/science.6836297"
+    },
+    {
+      "text": "Fayne RA, Perper M, Eber AE, Aldahan AS, Nouri K. \"Laser and Light Treatments for Hair Reduction in Fitzpatrick Skin Types IV-VI: A Comprehensive Review of the Literature.\" <em>American Journal of Clinical Dermatology</em>. 2018;19(2):237-252.",
+      "url": "https://doi.org/10.1007/s40257-017-0316-7"
+    },
+    {
+      "text": "Mallat F, Chaaya C, Aoun M, Soutou B, Helou J. \"Adverse Events of Light-Assisted Hair Removal: An Updated Review.\" <em>Journal of Cutaneous Medicine and Surgery</em>. 2023;27(4):375-387.",
+      "url": "https://doi.org/10.1177/12034754231174852"
+    },
+    {
+      "text": "Yıldırım MŞ, Koç Yıldırım S. \"Insights From the Supreme Court Decisions: Undesirable Consequences After Minimally Invasive Cosmetic Interventions in Türkiye.\" <em>Journal of Cosmetic Dermatology</em>. 2024;24(1):e16588.",
+      "url": "https://doi.org/10.1111/jocd.16588"
+    },
+    {
+      "text": "Tremaine AM, Avram MM. \"FDA MAUDE data on complications with lasers, light sources, and energy-based devices.\" <em>Lasers in Surgery and Medicine</em>. 2015;47(2):133-140.",
+      "url": "https://doi.org/10.1002/lsm.22328"
+    },
+    {
+      "text": "Pai SB, Suvarna P, Shetty VM, Pathan S. \"Efficacy of 810 nm diode laser in hair reduction in Indian subpopulation using a novel Gabor filter-based detection software and hair algorithm.\" <em>Journal of Cosmetic Dermatology</em>. 2021;21(3):1004-1012.",
+      "url": "https://doi.org/10.1111/jocd.14671"
+    },
+    {
+      "text": "Mahmoud EEA, Elbasheer OA, Marouf AAS. \"Efficacy and safety of 1064 nm Nd:YAG laser for hair removal in Sudanese women: A study on Fitzpatrick skin types IV-VI.\" <em>Lasers in Medical Science</em>. 2025;40(1):349.",
+      "url": "https://doi.org/10.1007/s10103-025-04606-5"
+    },
+    {
+      "text": "Mohammed RMA, Yousif SM, Marouf AAS. \"Efficacy and safety of 808 nm diode laser hair reduction in Sudanese women with Fitzpatrick skin types IV-VI.\" <em>Lasers in Medical Science</em>. 2025;40(1):362.",
+      "url": "https://doi.org/10.1007/s10103-025-04634-1"
+    },
+    {
+      "text": "Riml S, Larcher L, Grohmann M, Kompatscher P. \"Second-degree burn within a tattoo after intense-pulsed-light epilation.\" <em>Photodermatology, Photoimmunology &amp; Photomedicine</em>. 2013;29(4):218-220.",
+      "url": "https://doi.org/10.1111/phpp.12039"
+    },
+    {
+      "text": "Thappa DM. \"Unregulated cosmetology clinics in India.\" <em>CosmoDerma</em>. 2025.",
+      "url": "https://doi.org/10.25259/CSDM_151_2025"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can laser hair removal actually burn your skin?",
+      "a": "Yes. Burns, blistering and epidermolysis are documented complications, catalogued in a 2023 review of 104 publications and represented among 1,257 device injury reports to the FDA MAUDE database between 1991 and 2013. They are not the expected outcome of a correctly dosed session, but they are a real and recognised risk, particularly in Fitzpatrick IV-VI skin."
+    },
+    {
+      "q": "How common are laser hair removal burns on Indian skin?",
+      "a": "No reliable rate exists. Small uncontrolled series in Fitzpatrick IV-VI skin report epidermal injury in 0% to 12.5% of patients, across a combined total of roughly 250 people. The highest figure comes from a 40-patient Manipal study using an 810 nm diode at 16-29 J/cm2, where 5 patients developed epidermolysis. Anyone quoting a precise burn percentage is quoting something that has not been measured."
+    },
+    {
+      "q": "What does a laser burn look like after hair removal?",
+      "a": "Redness and follicular swelling in the first hours are expected. A burn goes further: blistering, weeping, crusting or a pale or darkened patch shaped like the laser spot, often with pain out of proportion to a normal session. Anything beyond transient redness should be assessed by a dermatologist rather than watched at home."
+    },
+    {
+      "q": "Is IPL safer than laser for avoiding burns?",
+      "a": "There is no evidence that it is. IPL is a broad-spectrum filtered flashlamp rather than a single tuned wavelength, so its selectivity is inherently poorer. IPL systems were among the most commonly reported devices in FDA MAUDE injury reports, and the published case of a second-degree burn within a tattoo followed IPL epilation, with the authors judging IPL to carry a worse risk-benefit profile than laser."
+    },
+    {
+      "q": "Do laser hair removal burns leave permanent scars?",
+      "a": "In the small published series discussed here, reported epidermal injuries were described as short-term rather than permanent, and the single blister in one 10-patient study resolved once the fluence was reduced. Scarring and dyschromia are nonetheless documented in the wider adverse-event literature. Prompt assessment and strict sun protection give the best chance of limiting lasting pigment change, but no outcome can be promised."
+    },
+    {
+      "q": "Should I ask for a patch test before laser hair removal?",
+      "a": "It is a reasonable precaution and many clinics offer one, but it is not a guarantee and Indian guideline documents do not treat it as a mandatory requirement. A patch tells you how one small area responded to one setting on one day; it does not predict the response of a different area at a different fluence."
+    }
+  ],
+  "related_services": [
+    {
+      "label": "Laser Hair Removal in Mumbai",
+      "url": "/services/laser-hair-removal-mumbai"
+    },
+    {
+      "label": "Tattoo Removal",
+      "url": "/services/tattoo-removal"
+    },
+    {
+      "label": "Pigmentation and Melasma",
+      "url": "/concerns/pigmentation-melasma"
+    }
+  ],
+  "see_also": [
+    {
+      "label": "Laser Hair Removal Side Effects by Skin Type",
+      "url": "/blog/laser-hair-removal-side-effects-by-skin-type"
+    },
+    {
+      "label": "Fitzpatrick Skin Type and Indian Skin: Laser Safety Explained",
+      "url": "/blog/fitzpatrick-skin-type-indian-skin-laser-safety"
+    },
+    {
+      "label": "Is Laser Hair Removal Painful? What the Pain Scores Show",
+      "url": "/blog/is-laser-hair-removal-painful-pain-scores"
+    }
+  ],
+  "image_source": "laser-hair-removal-side-effects-by-skin-type"
+}

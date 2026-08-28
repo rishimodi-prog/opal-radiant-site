@@ -1,0 +1,173 @@
+{
+  "slug": "cellulite-treatment-evidence-review",
+  "title": "Cellulite Treatment, Graded by Evidence: What Holds Up",
+  "meta_description": "Every cellulite treatment graded against its published trials: what the evidence supports, what it does not, and what none of it has tested in Indian skin.",
+  "category": "Body Contouring",
+  "publish_date": "2026-09-09",
+  "read_time": "12 min read",
+  "primary_keyword": "cellulite treatment",
+  "image_prompt": "Editorial clinical photograph, soft natural window light, close crop of the back of a woman's upper thigh and hip resting against a neutral linen backdrop, warm medium-brown skin tone, subtle natural dimpling visible in raking light, shallow depth of field, muted sand and clay palette, no visible faces, no text, no device, no clinical branding, documentary tone rather than advertising gloss",
+  "image_alt": "A HIFEM electromagnetic muscle toning applicator on a clinic treatment bed, illustrating cellulite treatments, graded by evidence",
+  "quick_facts": [
+    {
+      "label": "How common cellulite is",
+      "value": "Present in 80-90% of post-pubertal women (Luebberding 2015)"
+    },
+    {
+      "label": "Overall verdict of the largest review",
+      "value": "\"No clear evidence of good efficacy\" for any treatment, across 67 studies"
+    },
+    {
+      "label": "How long results were followed",
+      "value": "Mean follow-up across 24 randomised trials: 3.33 ± 13.4 weeks (Lim 2025)"
+    },
+    {
+      "label": "Quality of device studies",
+      "value": "2 of 32 electrophysical-agent studies rated strong or good methodology (Longano 2024)"
+    },
+    {
+      "label": "Best drug result ever recorded",
+      "value": "Two-grade improvement in 5.6-10.6% vs 0.5-1.9% on placebo; product withdrawn Dec 2022"
+    },
+    {
+      "label": "Cellulite trials conducted in India",
+      "value": "None located in this evidence review"
+    }
+  ],
+  "intro": "<p>Cellulite treatment is one of the few areas in aesthetic medicine where the most thorough review ever conducted reached a flatly negative conclusion and said so in one sentence. Luebberding and colleagues analysed 67 published studies in 2015 for design, control group, randomisation, blinding and statistical method. Only 19 were randomised and placebo-controlled. Their conclusion, verbatim: <strong>\"No clear evidence of good efficacy could be identified in any of the evaluated cellulite treatments.\"</strong> The first author of that review is himself a prolific cellulite-device investigator, which makes the negative finding harder to dismiss, not easier.</p><p>That does not mean nothing changes anything. It means the honest question is not \"does it work\" but \"how good is the evidence, how large is the effect, and how long did anyone bother to look\". This article grades each option against those three questions, states plainly which claims the published record contradicts, and sets out what none of this literature can tell a woman with Fitzpatrick type IV to VI skin in Mumbai, because not one cellulite trial has been run in India.</p>",
+  "sections": [
+    {
+      "heading": "Cellulite is a normal finding in most women, and its cause is still contested",
+      "html": "<p>Cellulite is present in <strong>80-90% of post-pubertal women</strong> according to the 2015 evidence review by Luebberding and colleagues, and a 2022 review from a New Delhi dermatology practice puts it at up to 90%. A finding this common in healthy women is an anatomical variant, not a disease.</p><p>Three structural features are broadly agreed to be involved: fibrous, collagen-rich septae tethering the skin down through the subcutaneous fat; herniation of fat lobules upward into the dermis between those septae; and sex-specific differences in septal architecture, skin thickness and hormonal influence. What is not agreed is which comes first. Bass and Kaminer's 2020 review opens with the sentence <strong>\"The etiology of cellulite is unclear\"</strong> and then argues backwards from treatment durability that the fibrous septae must be central, since septum-targeting approaches hold up better than treatments aimed at fat or dermis. Both authors appear as investigators and consultants on the collagenase trials discussed below, and the septal hypothesis is also the commercial rationale for the products they study. Treat it as a well-argued hypothesis, not settled fact.</p><p>One properly matched case-control study is worth knowing because of what it rules out. Emanuele and colleagues in 2011 compared 15 lean women (BMI under 25) with cellulite against 15 age- and BMI-matched women without it. Gluteal subcutaneous adiponectin mRNA was significantly lower in the cellulite-affected group (<strong>12.6 ± 3.1 vs 16.6 ± 4.1 AU, p = 0.006</strong>), but <strong>plasma adiponectin did not differ at all</strong> (20.3 ± 7.3 vs 19.3 ± 6.1 μg/mL, p = 0.69). Whatever cellulite is, it is a local tissue phenomenon in the fat immediately under the skin, not a systemic one. That single negative plasma result argues directly against every \"detox\", \"toxin\" and oral supplement framing of the condition.</p>"
+    },
+    {
+      "heading": "How the evidence for cellulite treatment was graded",
+      "html": "<p>Three systematic reviews define what is actually known about cellulite treatment, and reading them together is more useful than reading any one trial.</p><p><strong>Luebberding 2015</strong> (PRISMA systematic review, 67 studies) found that most evaluated studies, including laser and light-based modalities and radiofrequency, had important methodological flaws; some did not use cellulite severity as an endpoint at all. Only 19 of the 67 were placebo-controlled with randomisation, and the authors identified some evidence of potential benefit for exactly two modalities: acoustic wave therapy and the 1440 nm Nd:YAG laser.</p><p><strong>Longano 2024</strong> narrowed the question to electrophysical agents: electrical currents, radiofrequency, ultrasound and photobiomodulation. From 556 articles retrieved across five databases, 32 met inclusion criteria, and when scored with the QualSyst instrument, <strong>only 2 of those 32 studies (6.2%) were rated as having strong and good methodology</strong>. Thirty-two studies, two of acceptable quality, is the cleanest statement of how thin this field is.</p><p><strong>Lim 2025</strong> is the strongest current synthesis: PROSPERO-registered, restricted to randomised controlled trials, GRADE-rated, from a UK NHS plastic surgery unit declaring no conflict of interest. It screened 753 studies and included <strong>24 RCTs covering 2,084 patients</strong>, rating the overall quality of evidence moderate. Its most important number is not an efficacy figure. <strong>The mean follow-up across all 24 randomised trials was 3.33 ± 13.4 weeks.</strong> The average randomised cellulite trial stops looking at the patient inside a month. Any statement about how long a cellulite result lasts is therefore extrapolation, not measurement.</p>"
+    },
+    {
+      "heading": "Injectable collagenase: the best evidence ever produced, for a product that no longer exists",
+      "html": "<p>Injectable collagenase clostridium histolyticum (CCH-aaes, sold as QWO) generated the only genuinely rigorous efficacy dataset in this field, and it shows how modest a real effect looks against placebo.</p><p>Sadick and colleagues in 2019 randomised <strong>375 women</strong> (mean age 46.5, 86.4% white) to up to three injection sessions, with the endpoint at Day 71. A two-level composite improvement was achieved by <strong>10.6% on the drug versus 1.6% on placebo</strong>, a one-level improvement by 44.6% versus 17.9% (p &lt; .001 for both). The two Phase 3 trials that followed, RELEASE-1 and RELEASE-2, randomised <strong>843 women</strong> and reported two-level composite responses of <strong>7.6% versus 1.9% (p = .006)</strong> and <strong>5.6% versus 0.5% (p = .002)</strong>. Read that carefully: after three rounds of buttock injections, between five and eleven women in a hundred achieved a two-grade improvement. The Phase 3 conflict statement lists shareholders, investigators, consultants and employees of the manufacturer among the authors.</p><p>Then the decisive fact. On <strong>6 December 2022 the manufacturer, Endo, announced it would cease production and sale of QWO</strong>, citing in its investor press release market concerns about the extent and variability of bruising after initial treatment and the potential for prolonged skin discoloration, and noting that <strong>84% of trial subjects experienced injection-site bruising</strong>. This was a commercial withdrawal rather than a safety recall, and the product retained its US approval. But the stated reasons were bruising and prolonged discoloration, and it was never approved in India. <strong>There is currently no injectable cellulite treatment available anywhere in the world.</strong> A clinic advertising one in 2026 is not offering the product that generated this evidence.</p>"
+    },
+    {
+      "heading": "Subcision: the longest follow-up in the field, and no control group at all",
+      "html": "<p>Subcision means passing a small blade or needle under the skin to release the fibrous septae that tether individual dimples. Tissue-stabilised guided subcision is the version with published long-term data. Kaminer and colleagues reported in 2017 on <strong>45 patients followed for three years</strong> after a single treatment, with a blinded physician panel scoring improvement from baseline photographs. Benefit was maintained without reduction to the three-year mark, supporting regulatory clearance for long-term reduction in the appearance of cellulite.</p><p>That is by a wide margin the best durability data in cellulite, and it still has a structural weakness the paper states outright: <strong>\"In this open-label study, subjects served as their own controls.\"</strong> A patient's own baseline photograph controls for nothing: not regression to the mean, not photographic technique, lighting or posture, not the expectation of a woman who paid for a procedure and is then asked whether it helped. There is no sham-controlled trial of subcision. The modality with the most plausible mechanism has the weakest trial design.</p><p>Durability claims here collapse under their denominators. The collagenase open-label extension is often quoted as showing effect maintained at two years; the number of women still being followed at Day 720 was seven. That is not a durability finding.</p>"
+    },
+    {
+      "heading": "Acoustic wave therapy: the strongest non-invasive signal, on a very low bar",
+      "html": "<p>Acoustic wave therapy, also called radial shock wave therapy, delivers pressure pulses into the tissue and is the only non-invasive modality that comes out of both major reviews with anything positive. Luebberding 2015 named it as one of only two treatments across 67 studies with some evidence of potential benefit, and Lim 2025 found it the most consistent modality in the randomised evidence, with a cellulite reduction score of <strong>2.07 ± 0.39 across four studies</strong>.</p><p>If you want the non-invasive option with the least bad evidence, this is it. The bar is low: four small randomised trials, inside a literature whose mean follow-up is 3.33 weeks. No trial has compared acoustic wave therapy head to head against subcision, radiofrequency or a structured exercise programme; none has been conducted in India; and none reports outcomes stratified by Fitzpatrick skin type. It may modestly improve the appearance of dimpling over a course of sessions, no published trial claims it removes cellulite, and no clinic can tell you how long an improvement holds, because nobody has measured beyond a few weeks.</p>"
+    },
+    {
+      "heading": "Radiofrequency and energy devices: measuring the wrong thing",
+      "html": "<p>Radiofrequency is the most widely offered in-clinic option for cellulite in India, usually combined with vacuum suction, infrared or rolling. Lim 2025 found that across the randomised evidence it produced a thigh circumference reduction of <strong>2.09 cm</strong> and a subcutaneous tissue thickness reduction of <strong>2.23 cm</strong>, both p &lt; 0.001. Those look meaningful until you ask what they measure, because <em>circumference is not cellulite severity</em>, and two studies demonstrate the gap inside their own data.</p><p>Manuskiatti and colleagues in 2009 treated <strong>39 Thai women of Fitzpatrick types III to IV</strong> with eight weekly sessions of a tripolar radiofrequency device, an uncontrolled pilot in which 37 completed. Circumference fell significantly at the abdomen (<strong>3.5 cm, p = 0.002</strong>) and thigh (<strong>1.7 cm, p = 0.002</strong>), with quartile grading corresponding to roughly 50% improvement in appearance. But there was <strong>no significant reduction at the buttocks (p = 0.138) or arms (p = 0.152)</strong> in the same patients with the same device. Hexsel and colleagues in 2011 ran a nine-patient pilot of a combined bipolar radiofrequency, infrared, vacuum and massage device over twelve sessions and found significant hip circumference reduction (p = 0.001) but <strong>no change in thigh circumference (p = 0.4)</strong>, while cellulite severity improved on the buttocks only.</p><p>Inside a single nine-patient study, circumference and cellulite severity moved in different directions at different sites. A tape measure around a thigh records fluid shifts, post-treatment swelling and its resolution, posture and garment compression. When a device study reports centimetres and no validated severity score, it has not demonstrated an effect on dimpling. Both studies are uncontrolled pilots worth reading because their internal negative results are reported honestly, and the Thai cohort is the closest published proxy to Indian skin in the cellulite device literature.</p>"
+    },
+    {
+      "heading": "What the evidence does not support",
+      "html": "<p>Each claim below is paired with the study that found nothing.</p><p><strong>Creams do not reduce dimpling.</strong> Turati and colleagues published a 2014 meta-analysis covering 21 original studies, of which 7 controlled trials with more than ten patients per arm qualified for pooling. The result was a thigh circumference difference of <strong>0.46 cm (95% CI 0.85 to 0.08 cm) in favour of active cream</strong>, with significant heterogeneity (p &lt; 0.001). The outcome measured was <em>thigh circumference</em>, not cellulite severity. This is the usual evidence behind \"clinically proven to reduce cellulite\" on a tube, and it shows a 4.6 mm average difference in a measurement that is not cellulite.</p><p><strong>Oral collagen has no isolable cellulite effect.</strong> The 2019 systematic review by Choi and colleagues pooled 11 randomised placebo-controlled trials and 805 patients, but those patients were spread across pressure ulcers, xerosis, skin ageing and cellulite combined. No cellulite-specific effect size can be extracted, and the authors note that regulations are lacking on quality, absorption and efficacy.</p><p><strong>Cellulite is not caused by toxins and cannot be detoxed.</strong> Emanuele 2011 found the adiponectin abnormality confined to local subcutaneous tissue (p = 0.006) with no difference in plasma (p = 0.69), and Bass and Kaminer 2020 state the aetiology is unclear. No published study supports a toxin mechanism or a dietary cure.</p><p><strong>Massage, endermologie and lymphatic drainage have no reliable demonstrated effect.</strong> They fall inside Longano 2024's 32 studies, of which 2 were methodologically sound.</p><p><strong>Carboxytherapy is consensus, not evidence.</strong> The 2025 systematic review covered 41 articles, of which 17 concerned cellulite, scars and fat deposits combined, and framed its conclusions as \"appears to have promising indications\". No pooled effect size for cellulite exists.</p><p><strong>Laser and light-based devices have no clear efficacy evidence.</strong> Luebberding 2015 assessed them and found methodological flaws throughout, the sole exception being the minimally invasive 1440 nm Nd:YAG.</p><p>And the point underneath all of it: nothing here cures cellulite, which is not a disease to be cured. It is a structural feature of skin and subcutaneous fat in most adult women, and every honest description of a treatment describes an appearance change of uncertain size and unknown duration.</p>"
+    },
+    {
+      "heading": "What none of this tells us about Indian skin",
+      "html": "<p>No cellulite trial conducted in India was located in this review of the literature. Not one. The closest published proxy is the 39 Thai women of Fitzpatrick types III to IV in the 2009 radiofrequency pilot above, and the 2022 Indian-authored review contains no primary Indian cohort either.</p><p>The one skin-type analysis in the cellulite literature comes from the pooled collagenase Phase 3 data, which reported no apparent impact of Fitzpatrick skin type on efficacy. Two caveats make it less reassuring than it sounds: the comparable randomised cohort was <strong>86.4% white</strong>, so the subgroup for types IV to VI is almost certainly underpowered, and the analysis examined <em>efficacy</em>, not pigmentary adverse events, which is the outcome that actually differs in deeper skin.</p><p>That distinction matters most for the withdrawal itself. The stated commercial reason for pulling the only approved cellulite drug included <strong>the potential for prolonged skin discoloration</strong>, in a trial population that was overwhelmingly light-skinned. In Fitzpatrick IV to VI skin, post-inflammatory hyperpigmentation risk after an inflammatory insult is materially higher. The best-quantified comparison in Indian skin comes from a different procedure: Vemula and colleagues reviewed <strong>473 superficial chemical peels</strong> in Fitzpatrick III to VI patients in 2018 and found an overall complication rate of <strong>3.8%</strong>, with <strong>Fitzpatrick VI carrying an odds ratio of 5.14 (95% CI 1.21-21.8)</strong> for any adverse event. Post-inflammatory hyperpigmentation and erythema were tied at 1.9%, and all complications resolved within eight months. That is peels, not cellulite devices, and the closest measured analogue rather than a substitute. If you are being counselled about an energy device over the thighs or buttocks, ask about pigmentation risk and the practitioner's experience in your skin type; our page on <a href=\"/concerns/pigmentation-melasma\">pigmentation and melasma</a> covers why deeper skin behaves differently.</p>"
+    },
+    {
+      "heading": "A realistic way to think about a cellulite plan",
+      "html": "<p>The grading, compressed. <strong>Injectable collagenase</strong> had the best evidence ever generated and is no longer available anywhere. <strong>Subcision</strong> has the longest follow-up and no control group. <strong>Acoustic wave therapy</strong> is the most consistent non-invasive signal, across four small randomised trials. <strong>Radiofrequency and combination energy devices</strong> move a tape measure and have not been shown to move a validated severity score. <strong>Creams, oral collagen, carboxytherapy and manual massage</strong> show trivial or no demonstrated effect on dimpling.</p><p>Three questions are worth asking any clinic, including ours. Which outcome are you measuring: centimetres, or a validated severity score photographed under matched lighting? What is the published evidence for this specific device, with its sample size and whether a control group existed? And what happens at six months? A clinic that cannot answer the last one honestly is guessing, because the literature is guessing too.</p><p>Body-contouring devices are studied in people already at or near a stable weight with discrete, localised concerns; they are not weight-reduction procedures. Where the goal is firmer contour rather than dimple reduction, muscle-stimulation and vacuum-radiofrequency approaches address a different problem and are graded separately, in our reviews of <a href=\"/services/hifem-body-toning\">HIFEM body toning</a> and <a href=\"/services/jordi-shape\">Jordi Shape contouring</a>. If skin texture rather than fat architecture is the real concern, <a href=\"/services/mnrf\">microneedling radiofrequency</a> is a separate conversation with its own evidence base.</p><p><em>This article is educational and is not medical advice. Cellulite is a normal anatomical finding in most adult women, no treatment described here is a cure, and individual response varies widely. Consult a qualified dermatologist about your own skin before starting any treatment, and <a href=\"/book-appointment\">book a consultation</a> if you would like your options assessed in person.</em></p>"
+    }
+  ],
+  "sources": [
+    {
+      "text": "Luebberding S, Krueger N, Sadick NS. \"Cellulite: an evidence-based review.\" Am J Clin Dermatol. 2015;16(4):243-256.",
+      "url": "https://doi.org/10.1007/s40257-015-0129-5"
+    },
+    {
+      "text": "Lim SK, Gultekin G, Suresan S, et al. \"Comparative Analysis of Cellulite Treatment Modalities: A Systematic Review.\" Aesthetic Plast Surg. 2025;49(7):2051-2075.",
+      "url": "https://doi.org/10.1007/s00266-024-04365-8"
+    },
+    {
+      "text": "Longano C, de Faria Coelho C, Buslik SA, et al. \"Does electrophysical agents work for cellulite treatment? A systematic review of clinical trials.\" Lasers Med Sci. 2024;39(1):120.",
+      "url": "https://doi.org/10.1007/s10103-024-04068-1"
+    },
+    {
+      "text": "Bass LS, Kaminer MS. \"Insights Into the Pathophysiology of Cellulite: A Review.\" Dermatol Surg. 2020;46 Suppl 1(1):S77-S85.",
+      "url": "https://doi.org/10.1097/DSS.0000000000002388"
+    },
+    {
+      "text": "Emanuele E, Minoretti P, Altabas K, Gaeta E, Altabas V. \"Adiponectin expression in subcutaneous adipose tissue is reduced in women with cellulite.\" Int J Dermatol. 2011;50(4):412-416.",
+      "url": "https://doi.org/10.1111/j.1365-4632.2010.04713.x"
+    },
+    {
+      "text": "Sadick NS, Goldman MP, Liu G, et al. \"Collagenase Clostridium Histolyticum for the Treatment of Edematous Fibrosclerotic Panniculopathy (Cellulite): A Randomized Trial.\" Dermatol Surg. 2019;45(8):1047-1056.",
+      "url": "https://doi.org/10.1097/DSS.0000000000001803"
+    },
+    {
+      "text": "Kaufman-Janette J, Joseph JH, Kaminer MS, et al. \"Collagenase Clostridium Histolyticum-aaes for the Treatment of Cellulite in Women: Results From Two Phase 3 Randomized, Placebo-Controlled Trials.\" Dermatol Surg. 2021;47(5):649-656.",
+      "url": "https://doi.org/10.1097/DSS.0000000000002952"
+    },
+    {
+      "text": "Kaminer MS, Coleman WP 3rd, Weiss RA, et al. \"A Multicenter Pivotal Study to Evaluate Tissue Stabilized-Guided Subcision Using the Cellfina Device for the Treatment of Cellulite With 3-Year Follow-Up.\" Dermatol Surg. 2017;43(10):1240-1248.",
+      "url": "https://doi.org/10.1097/DSS.0000000000001218"
+    },
+    {
+      "text": "Turati F, Pelucchi C, Marzatico F, et al. \"Efficacy of cosmetic products in cellulite reduction: systematic review and meta-analysis.\" Journal of the European Academy of Dermatology and Venereology. 2014;28(1):1-15.",
+      "url": "https://doi.org/10.1111/jdv.12193"
+    },
+    {
+      "text": "Manuskiatti W, Wachirakaphan C, Lektrakul N, Varothai S. \"Circumference reduction and cellulite treatment with a TriPollar radiofrequency device: a pilot study.\" Journal of the European Academy of Dermatology and Venereology. 2009;23(7):820-827.",
+      "url": "https://doi.org/10.1111/j.1468-3083.2009.03254.x"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there any cellulite treatment with strong evidence behind it?",
+      "a": "No treatment has clear evidence of good efficacy. The 2015 systematic review of 67 studies concluded exactly that, and the 2025 review of 24 randomised trials in 2,084 patients found a mean follow-up of only 3.33 weeks. The best-evidenced option ever produced was injectable collagenase, which achieved a two-grade improvement in 5.6-10.6% of women versus 0.5-1.9% on placebo, and that product was withdrawn from sale in December 2022."
+    },
+    {
+      "q": "Do cellulite creams work?",
+      "a": "The 2014 meta-analysis of seven controlled trials found a pooled thigh circumference difference of 0.46 cm in favour of active creams, with significant heterogeneity. The outcome measured was circumference, not cellulite severity, so the review does not demonstrate that creams reduce dimpling. A 4.6 mm average difference in a tape measurement is the evidence usually cited as \"clinically proven\"."
+    },
+    {
+      "q": "Can cellulite be removed permanently?",
+      "a": "No published trial reports elimination of cellulite, and none supports a permanence claim. The longest follow-up in the field is a 45-patient open-label subcision study at three years in which patients served as their own controls, with no comparator group. Across randomised trials the mean follow-up is under a month, so nobody has measured what happens at six months, let alone permanently."
+    },
+    {
+      "q": "Does losing weight get rid of cellulite?",
+      "a": "Cellulite occurs in lean women too. The 2011 case-control study specifically recruited women with a BMI under 25 who had cellulite and matched them to women of the same age and BMI who did not, which means body weight alone does not explain it. Body-contouring treatments are studied in people already at or near a stable weight, and none of this is a weight-reduction approach."
+    },
+    {
+      "q": "Is radiofrequency effective for cellulite on Indian skin?",
+      "a": "No cellulite trial has been conducted in India. The closest published data is a 2009 uncontrolled pilot in 39 Thai women of Fitzpatrick types III to IV, which found significant circumference reduction at the abdomen and thigh but none at the buttocks or arms. Because circumference and cellulite severity moved independently in that and other studies, radiofrequency has not been shown to reduce dimpling itself, and pigmentation risk in deeper skin has not been separately quantified for these devices."
+    },
+    {
+      "q": "Are injectable cellulite treatments available in India?",
+      "a": "No. The only injectable ever approved for cellulite, collagenase clostridium histolyticum-aaes, ceased production and sale worldwide on 6 December 2022 after the manufacturer cited bruising and the potential for prolonged skin discoloration, with 84% of trial subjects reporting injection-site bruising. It was never approved in India. Any clinic advertising an injectable cellulite treatment is not offering that product."
+    }
+  ],
+  "related_services": [
+    {
+      "label": "HIFEM body toning",
+      "url": "/services/hifem-body-toning"
+    },
+    {
+      "label": "Jordi Shape body contouring",
+      "url": "/services/jordi-shape"
+    },
+    {
+      "label": "Microneedling radiofrequency (MNRF)",
+      "url": "/services/mnrf"
+    }
+  ],
+  "see_also": [
+    {
+      "label": "Stretch marks: what actually works",
+      "url": "/blog/stretch-marks-treatment-what-works"
+    },
+    {
+      "label": "HIFEM body toning: the evidence",
+      "url": "/blog/hifem-body-toning-evidence"
+    },
+    {
+      "label": "How dermatologists evaluate evidence",
+      "url": "/blog/how-dermatologists-evaluate-evidence-guide"
+    }
+  ],
+  "image_source": "hifem-body-toning-evidence"
+}

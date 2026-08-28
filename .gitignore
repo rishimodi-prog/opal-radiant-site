@@ -7,3 +7,15 @@ site-audit.json
 _to_delete/
 .DS_Store
 .DS_Store
+
+# Working files for the 60-post batch. This repo is deployed verbatim by
+# Cloudflare Pages, so anything committed here is publicly served -- the
+# research briefs would sit at opalradiant.com/research/*.md and get crawled.
+# They are delivered separately rather than published.
+research/
+cite.py
+psearch.py
+dmr.pdf
+scripts/__pycache__/
+*.patch
+_to_delete/

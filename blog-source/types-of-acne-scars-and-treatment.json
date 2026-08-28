@@ -1,0 +1,173 @@
+{
+  "slug": "types-of-acne-scars-and-treatment",
+  "title": "Types of Acne Scars and Treatment: What the Evidence Supports for Each of the Four",
+  "meta_description": "The four types of acne scars — ice pick, rolling, boxcar and keloid — what treats each, the trial evidence behind it, and what it does not support.",
+  "category": "Acne Scars",
+  "publish_date": "2026-09-02",
+  "read_time": "12 min read",
+  "primary_keyword": "types of acne scars",
+  "image_prompt": "Editorial clinical photograph, soft natural light, a dermatology treatment room at a modern women-only aesthetic clinic in Mumbai. Close-up composition of a clinician's gloved hands arranging fine-gauge needles, a blunt cannula and a small glass dish on a sterile stainless tray, warm beige and muted gold tones, no visible faces, no text, calm and clinical, high-end minimalist aesthetic, shallow depth of field.",
+  "image_alt": "A dermatoscope and skincare ampoules on a clinic tray, illustrating the four types of acne scar, and what treats each",
+  "quick_facts": [
+    {
+      "label": "The four types",
+      "value": "Ice pick (narrow, deep, under 2 mm), rolling (wide, shallow, tethered), boxcar (round or oval with sharp vertical walls) — all atrophic — plus raised hypertrophic and keloid scars."
+    },
+    {
+      "label": "Best-evidenced match",
+      "value": "Ice pick: TCA CROSS. Rolling: subcision. Boxcar: fractional ablative laser or punch techniques, on the weakest evidence base. Hypertrophic/keloid: intralesional injection."
+    },
+    {
+      "label": "Realistic improvement",
+      "value": "Around 40–60% on validated grading scales after a full course in controlled studies. The published range for subcision alone spans 10–100%, which shows how variable the data is."
+    },
+    {
+      "label": "Session counts in published protocols",
+      "value": "TCA CROSS 4 sessions at 2-week intervals; subcision 2–5 sessions at 4-week intervals; fractional CO2 or radiofrequency microneedling 1–3 sessions, up to 8 weeks apart."
+    },
+    {
+      "label": "Indian skin risk",
+      "value": "A meta-analysis of 8 randomised trials (n=249) found a 4.44-fold higher relative risk of post-inflammatory hyperpigmentation with fractional CO2 than with radiofrequency microneedling (95% CI 2.39–8.26)."
+    },
+    {
+      "label": "What no study shows",
+      "value": "No published study of any modality reports complete resolution of atrophic acne scarring, and one small study documented loss of improvement three months after TCA CROSS."
+    }
+  ],
+  "intro": "<p>Acne scars are not one problem with one fix. The four types of acne scars — ice pick, rolling, boxcar, and hypertrophic or keloid — differ in shape, in depth, in the tissue change that produced them, and in what the trial evidence says will actually shift them. A procedure with reasonable support for rolling scars can do very little for the ice pick scars a centimetre away on the same cheek. That is the most useful thing to understand before committing to a course of treatment.</p><p>What follows is each of the four types of acne scars, the intervention with the most direct evidence behind it, and how good that evidence actually is. Some of it is thinner than clinic marketing implies: the best-designed subcision trial ever published enrolled five patients, and no study in this literature reports complete clearance of atrophic acne scarring. This article is educational information and not medical advice; scar assessment needs an in-person examination by a qualified dermatologist.</p>",
+  "sections": [
+    {
+      "heading": "The Four Types of Acne Scars, and Where the Classification Comes From",
+      "html": "<p>The four types of acne scars split into two families. Three are <strong>atrophic</strong> — depressed, caused by a net loss of collagen after an inflammatory lesion resolves. Ice pick scars are narrow (usually under 2 mm), steep-walled and deep, extending into the dermis like a puncture; they look like enlarged, pitted pores. Rolling scars are wide (4 mm or more), shallow, with sloping edges and an undulating surface, produced by fibrous strands tethering the skin down to deeper tissue. Boxcar scars sit between the two: round or oval depressions with sharply defined vertical walls, most often on the cheeks and temples. The fourth family is <strong>raised</strong> — hypertrophic scars and keloids, formed by excess collagen rather than loss of it, and far more common on the chest, shoulders, back and jawline than on the face.</p><p>This classification is clinical convention rather than a trial-derived system, and that matters when reading treatment claims. A 2019 narrative review in <em>Dermatologic Surgery</em> that set out to map treatments onto the classification concluded that “there were few high-quality evidence-based studies evaluating the management of acne scarring” and that “the acne scar type was frequently undefined, making comparison between them difficult” (Boen and Jacob, 2019). Most published trials do not report results separated by scar subtype, so when a clinic says a particular laser is best for boxcar scars, that is usually an inference from mechanism rather than a finding. Assessment of <a href=\"/concerns/acne-scars\">acne scarring</a> is therefore a matter of identifying which subtypes are present and in what proportion, because almost every real face carries a mixture.</p>"
+    },
+    {
+      "heading": "Ice Pick Scars: Narrow, Deep, and Resistant to General Resurfacing",
+      "html": "<p>Ice pick scars respond poorly to anything that works by generalised dermal remodelling — one of the better-supported statements in this field. In a randomised two-arm pilot of 30 patients at an Indian centre treating grade 4 atrophic scars with subcision plus needling, the authors reported that “substantial improvement was noticed in rolling and boxcar scars with only a mild change in icepick scars” (Bhargava et al., 2019). Because the scar is a narrow vertical tract, spreading energy or micro-injury across the whole surface does not reach it. Ice pick scars need a focally destructive or reconstructive technique applied into each individual scar.</p><p>The technique with the most direct evidence is TCA CROSS — chemical reconstruction of skin scars, in which a high concentration of trichloroacetic acid is deposited into the base of each scar with a fine applicator, deliberately triggering localised collagen formation. The most relevant study for Indian skin used 100% TCA applied with a wooden toothpick in 30 patients with Fitzpatrick IV and V skin, over four sessions at two-week intervals, with two weeks of pre-treatment priming using hydroquinone 4% each morning and tretinoin 0.025% at night plus sunscreen throughout. Excellent improvement (over 70%) was recorded in 73.3% of patients, good improvement (50–70%) in 20%, and fair improvement in 6.7%; three of the thirty developed transient pigmentary change (Khunger et al., 2011). The protocol detail is useful; the design is not. It was open, prospective and uncontrolled, with no randomisation and no blinding of the treating physician. The 73.3% figure should be read as “in one uncontrolled study of 30 patients”, not as a success rate.</p>"
+    },
+    {
+      "heading": "Rolling Scars: Tethering, and the Case for Subcision",
+      "html": "<p>Rolling scars are the one subtype where mechanism and treatment line up neatly. The depression exists because fibrous bands anchor the dermis to underlying tissue; subcision releases those bands with a needle or blunt cannula passed under the scar, and the skin lifts. The only subcision study with a true untreated control gave five sequential treatments four weeks apart and found a greater decrease in global scarring score on the treated side. It enrolled <strong>five patients</strong> (Chen et al., 2024). It is the cleanest demonstration that subcision does something beyond natural history, and nowhere near robust proof.</p><p>That rolling scars are the subtype that responds best has been shown directly. In a single-blinded split-face randomised trial using ultrasound-measured scar depth alongside blinded observers, the best-responding morphology in both study arms was rolling (p = 0.001 in the subcision arm, p = 0.029 in the other) (Dastgheib et al., 2024). The most transferable outcome numbers for a Mumbai patient come from a blinded-observer split-face trial run at a Mumbai hospital in 30 patients with Goodman and Baron grade 2–4 scars: three sittings a month apart, subcision to the whole face followed by a dermaroller on one half and a cryoroller on the other, gave 57% improvement on the cryoroller side and 40% on the dermaroller side at six months, with transient post-inflammatory hyperpigmentation — darkening of the skin after inflammation — seen on the cryoroller side, plus transient erythema, oedema and haematoma from the subcision itself (Gadkari and Nayak, 2014). Set against that, a systematic review of ten subcision studies reported a published improvement range of <strong>10–100%</strong> (Kravvas and Al-Niaimi, 2017). That range is so wide it is close to uninformative, and it is the honest counterweight to any advertised fixed percentage.</p>"
+    },
+    {
+      "heading": "Boxcar Scars: The Thinnest Evidence of the Four",
+      "html": "<p>Boxcar scars have the weakest dedicated evidence base of the four, and it is worth saying so before describing any treatment for them. Punch excision and punch elevation — cutting out or lifting a small disc of scarred tissue — are widely taught, but no modern randomised trial of these techniques for acne scarring was identified in the research reviewed here. Fractional ablative laser is the usual default, but fractional laser trials report a whole-face score rather than results broken down by morphology — precisely the reporting gap the 2019 <em>Dermatologic Surgery</em> review complained about.</p><p>What can be said is narrower. Boxcar scars do improve with dermal remodelling in a way ice pick scars do not: the Indian pilot study above recorded substantial improvement in both rolling and boxcar scars from subcision with needling, while ice pick scars barely moved (Bhargava et al., 2019). The improvement is not uniform, though — investigators using radiofrequency-assisted subcision described it as only mildly effective on boxcar lesions even while it worked on ice pick and rolling scars. Response is less predictable than for rolling scars, and any boxcar-specific improvement percentage you are quoted is not something the published literature contains.</p>"
+    },
+    {
+      "heading": "Hypertrophic and Keloid Scars: A Different Problem Entirely",
+      "html": "<p>Hypertrophic and keloid scars are raised, firm and often symptomatic — itchy, tender or growing beyond the original lesion border in the case of keloids. They are managed by injection rather than resurfacing, and treating them with an atrophic-scar device is the wrong operation. The anchor evidence is a systematic review and meta-analysis of 15 randomised controlled trials of intralesional triamcinolone acetonide for keloids and hypertrophic scars, and its message is not the one most patients expect. Triamcinolone alone was better than verapamil in the short term for vascularity (MD −0.22, 95% CI −0.42 to −0.02) and pliability (MD −0.25, −0.44 to −0.06). Over the medium and long term, 5-fluorouracil outperformed triamcinolone on scar height (SMD 0.95, 0.15–1.75; MD 0.55, 0.17–0.93 long term), and the two combined beat triamcinolone alone on height (MD 1.50, 1.12–1.88), pliability (0.45, 0.10–0.80) and pigmentation (0.55, 0.24–0.86). Triamcinolone at 20–40 mg/ml was also more likely than the comparators to cause skin atrophy and telangiectasia (Zhuang et al., 2021). Steroid alone is the weakest long-term option, not the best one, and the pigmentation advantage of the combination is relevant to deeper skin.</p><p>One hard limitation must be stated. Essentially all of this trial evidence comes from non-acne keloids — surgical, burn and ear-piercing scars. No acne-keloid-specific randomised controlled trial was identified. Acne keloids on the chest, shoulders and back, which are common and often severe in South Asian skin, are currently treated by direct extrapolation from other scar types. That is a reasonable clinical decision; it is not the same as evidence.</p>"
+    },
+    {
+      "heading": "Fractional CO2 Versus Radiofrequency Microneedling in Deeper Skin",
+      "html": "<p>Once the subtype question is settled, most Indian patients face a device choice between fractional ablative CO2 laser and radiofrequency microneedling, in which fine needles deliver radiofrequency energy into the dermis. Genuine head-to-head randomised data exists here. A meta-analysis of eight randomised controlled trials totalling 249 patients found fractional CO2 slightly better on acne scar improvement (MD 0.31, 95% CI 0.13–0.48, p = 0.0005) and on patient satisfaction (MD 0.32, 0.10–0.44, p = 0.005). It also found CO2 substantially worse on tolerability: pain scores 2.14 points higher (p &lt; 0.00001), erythema lasting 1.72 days longer (p &lt; 0.00001), and a <strong>relative risk of post-inflammatory hyperpigmentation of 4.44 (95% CI 2.39–8.26, p &lt; 0.00001)</strong> — a 4.4-fold higher pigmentation risk with the laser (Argobi et al., 2026).</p><p>The asymmetry is the clinically decisive point. The efficacy advantage of CO2 is small; the pigmentary penalty is large. In Fitzpatrick IV–VI skin, which covers most Indian patients, that trade-off runs against aggressive ablative settings, and it is why <a href=\"/services/mnrf\">radiofrequency microneedling</a> is often preferred here even though it is not the more powerful modality. Two caveats belong in the same breath. Two large network meta-analyses — one of 24 randomised trials in 1,546 patients, one of 68 randomised trials in 4,480 patients — found no significant difference in hyperpigmentation risk between any modality they compared; that conflict is unresolved and should not be presented as settled. And the claim that radiofrequency microneedling is the more comfortable option is inconsistent: in a blinded split-face randomised trial, patients rated it significantly <em>more</em> painful than fractional CO2 (VAS 7.0 versus 5.5, p = 0.009) (Hendel et al., 2023).</p>"
+    },
+    {
+      "heading": "Sessions and Realistic Improvement, by Scar Type",
+      "html": "<p>Published protocols cluster tightly. TCA CROSS for ice pick scars used four sessions at two-week intervals. Subcision protocols ranged from two to five sessions at roughly four-week intervals. Fractional CO2 and radiofrequency microneedling trials used one to three sessions, the most recent randomised split-face comparison spacing three sessions eight weeks apart. A realistic planning assumption for atrophic scarring is three to five sessions, two to eight weeks apart depending on modality, with individual requirements varying considerably.</p><p>Improvement in controlled studies clusters around 40–60% on validated grading scales after a full course. The systematic review cited earlier reported microneedling improvement of 31–62% with all patients achieving some improvement, subcision spanning 10–100%, and greater than 70% improvement in 73.3% of patients for TCA CROSS — that last figure derived from the uncontrolled 30-patient study of ice pick scars (Kravvas and Al-Niaimi, 2017; Khunger et al., 2011). The Mumbai split-face data gave 40% and 57% at six months (Gadkari and Nayak, 2014). Against those numbers, the sobering one: in a blinded randomised trial, a <em>single</em> session of either fractional CO2 or radiofrequency microneedling produced a median improvement of one point on a ten-point texture scale, best responders reaching three points in only 10% of treated areas, median satisfaction 6 out of 10 (Hendel et al., 2023). The most reproducible finding across four network meta-analyses is that combination therapy outperforms any single modality repeated — which is why a sensible plan for mixed scarring pairs a focal technique for ice pick scars with subcision for rolling scars and a resurfacing device for overall texture.</p>"
+    },
+    {
+      "heading": "What the Evidence Does Not Support",
+      "html": "<p>Several claims that circulate widely in aesthetic marketing are either unsupported or actively contradicted by the studies cited above.</p><ul><li><strong>Complete scar clearance.</strong> No study located in this literature reports complete resolution of atrophic acne scarring by any modality. Treatments improve the appearance of scars; they do not erase them.</li><li><strong>Dramatic single-session results.</strong> A blinded randomised trial measured a median one-point change on a ten-point scale after one session of either leading energy device, with median satisfaction of 6/10 (Hendel et al., 2023).</li><li><strong>Microdermabrasion for acne scars.</strong> In pooled review data it produced “the least significant results” of any modality assessed: 27.3% of patients got no benefit despite eight sessions, and only 9.1% achieved good results. Twenty per cent glycolic acid produced no improvement in 25% of patients (Kravvas and Al-Niaimi, 2017).</li><li><strong>Injectable skin boosters added to subcision.</strong> A split-face randomised trial with blinded observers and ultrasound-measured depth found every objective endpoint null when a hyaluronic-acid mesogel was added: total scar reduction p = 0.56, sonographic depth p = 0.4, global improvement p = 0.89. Only subjective satisfaction differed, yet the authors still concluded in favour of the addition — an over-claim relative to their own data (Dastgheib et al., 2024).</li><li><strong>“Painless” or “zero downtime” scar treatment.</strong> Every controlled trial reviewed reported erythema, oedema, pain or scab formation. Erythema differences between devices are measured in days, not eliminated — 1.72 days in the pooled meta-analysis (Argobi et al., 2026).</li><li><strong>Guaranteed percentage improvement.</strong> The published range for subcision alone spans 10–100%. Any advertised fixed figure is not derived from this literature.</li></ul><p>Two evidence gaps deserve equal prominence. Fitzpatrick VI skin is barely represented: the 937-patient pooled review of TCA CROSS covered skin types I to V only, and reviews of energy-based devices in skin of colour state explicitly that type VI data are scarce. Durability is also unestablished — in the precursor study to the Fitzpatrick IV–V TCA CROSS trial, one patient lost improvement three months after the final treatment, with no recovery by six months.</p>"
+    },
+    {
+      "heading": "Sequencing: What Comes Before Scar Work, and the Bottom Line",
+      "html": "<p>Scar revision starts with the acne. Active inflammatory acne must be controlled before resurfacing or subcision, because new lesions produce new scars faster than treatment can improve old ones; in dermatology guidelines the strongest recommendations for acne with scarring aim at preventing further scars, not treating existing ones. Pigmentation is the second ordering question: in Fitzpatrick IV–VI skin the brown marks left behind are frequently what the patient is actually seeing, and <a href=\"/blog/post-inflammatory-hyperpigmentation-acne-treatment-ladder\">post-inflammatory hyperpigmentation</a> is treated differently from textural scarring — often with topicals or a <a href=\"/services/chemical-peel\">superficial chemical peel</a> rather than an energy device. How long to wait for a scar to mature before revising it is a genuine unknown: no trial identified in this literature defines the correct interval, and any specific number you are quoted is convention, not data.</p><p>The bottom line across the four types of acne scars is consistent. Ice pick scars need focal reconstruction, and TCA CROSS has the most direct evidence including in Fitzpatrick IV–V skin, from uncontrolled studies of 12 to 30 patients. Rolling scars need release, and subcision has the most direct evidence, from randomised trials as small as five patients. Boxcar scars have the thinnest evidence of the four and respond least predictably. Hypertrophic and keloid scars need intralesional therapy, where combination injection outperforms steroid alone long term but no acne-specific trial exists. Realistic improvement after a full course sits around 40–60% on validated scales, combination approaches outperform repeating one modality, and in deeper skin the pigmentation trade-off should drive device choice more than raw power does. A subtype-by-subtype assessment of your own scarring requires an examination rather than an article — you can <a href=\"/book-appointment\">book a consultation</a> with a qualified dermatologist. This article is educational information and is not a substitute for medical advice; outcomes vary between individuals.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "text": "Boen M, Jacob C. \"A Review and Update of Treatment Options Using the Acne Scar Classification System.\" <em>Dermatologic Surgery</em>. 2019 Mar;45(3):411-422.",
+      "url": "https://doi.org/10.1097/DSS.0000000000001765"
+    },
+    {
+      "text": "Bhargava S, Kroumpouzos G, Varma K, Kumar U. \"Combination therapy using subcision, needling, and platelet-rich plasma in the management of grade 4 atrophic acne scars: A pilot study.\" <em>Journal of Cosmetic Dermatology</em>. 2019 Aug;18(4):1092-1097.",
+      "url": "https://doi.org/10.1111/jocd.12935"
+    },
+    {
+      "text": "Khunger N, Bhardwaj D, Khunger M. \"Evaluation of CROSS technique with 100% TCA in the management of ice pick acne scars in darker skin types.\" <em>Journal of Cosmetic Dermatology</em>. 2011 Mar;10(1):51-57.",
+      "url": "https://doi.org/10.1111/j.1473-2165.2010.00526.x"
+    },
+    {
+      "text": "Chen B, Haq M, Ma MS, Ahmed A, Shi VJ, Koza E, Brieva JC, Yoo SS, Lucas J, Alam M. \"Split face randomized, evaluator blinded study on the effect of multiple subcisions on rolling acne scars.\" <em>Archives of Dermatological Research</em>. 2024 Jun 8;316(7):364.",
+      "url": "https://doi.org/10.1007/s00403-024-03142-6"
+    },
+    {
+      "text": "Dastgheib M, Heidari S, Azizipour A, Kavyani M, Lajevardi V, Ehsani AH, Teimourpour A, Daneshpazhooh M, Kashani MN, Balighi K. \"Investigating the impact of added Profhilo mesogel to subcision versus subcision monotherapy in treating acne scars; a single-blinded, split-face randomized trial.\" <em>Journal of Cosmetic Dermatology</em>. 2024 Jun;23(6):1992-2000.",
+      "url": "https://doi.org/10.1111/jocd.16258"
+    },
+    {
+      "text": "Gadkari R, Nayak C. \"A split-face comparative study to evaluate efficacy of combined subcision and dermaroller against combined subcision and cryoroller in treatment of acne scars.\" <em>Journal of Cosmetic Dermatology</em>. 2014 Mar;13(1):38-43.",
+      "url": "https://doi.org/10.1111/jocd.12071"
+    },
+    {
+      "text": "Kravvas G, Al-Niaimi F. \"A systematic review of treatments for acne scarring. Part 1: Non-energy-based techniques.\" <em>Scars, Burns &amp; Healing</em>. 2017 Mar 30;3:2059513117695312.",
+      "url": "https://doi.org/10.1177/2059513117695312"
+    },
+    {
+      "text": "Argobi Y, Tobeigei F, Alasiri FI. \"Fractional CO2 Laser Versus Micro Needling Radiofrequency for Post Acne Scarring: A Meta-Analysis of RCTs.\" <em>Journal of Cosmetic Dermatology</em>. 2026 Mar;25(3):e70765.",
+      "url": "https://doi.org/10.1111/jocd.70765"
+    },
+    {
+      "text": "Hendel K, Karmisholt K, Hedelund L, Haedersdal M. \"Fractional CO2-laser versus microneedle radiofrequency for acne scars: A randomized, single treatment, split-face trial.\" <em>Lasers in Surgery and Medicine</em>. 2023 Apr;55(4):335-343.",
+      "url": "https://doi.org/10.1002/lsm.23655"
+    },
+    {
+      "text": "Zhuang Z, Li Y, Wei X. \"The safety and efficacy of intralesional triamcinolone acetonide for keloids and hypertrophic scars: A systematic review and meta-analysis.\" <em>Burns</em>. 2021 Aug;47(5):987-998.",
+      "url": "https://doi.org/10.1016/j.burns.2021.02.013"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are the four types of acne scars?",
+      "a": "Ice pick, rolling and boxcar scars — all atrophic, meaning depressed from collagen loss — plus raised hypertrophic and keloid scars. Ice pick scars are narrow and deep, usually under 2 mm across. Rolling scars are wide and shallow with sloping edges, caused by fibrous tethering to deeper tissue. Boxcar scars are round or oval with sharply defined vertical walls. Hypertrophic and keloid scars are raised from excess collagen and are more common on the chest, shoulders and back than on the face. Most people have a mixture of subtypes on the same face."
+    },
+    {
+      "q": "Which acne scar type is hardest to treat?",
+      "a": "Ice pick scars are the least responsive to treatments that work by general dermal remodelling. In one randomised Indian pilot study of 30 patients, subcision with needling produced substantial improvement in rolling and boxcar scars but \"only a mild change in icepick scars\". They need a focal technique applied into each individual scar, such as TCA CROSS. Boxcar scars have the thinnest dedicated evidence base of the four types, with no modern randomised trial of punch excision or punch elevation identified."
+    },
+    {
+      "q": "How many sessions do acne scar treatments take?",
+      "a": "Published protocols cluster at three to five sessions. TCA CROSS studies used four sessions at two-week intervals; subcision trials used two to five sessions about four weeks apart; fractional CO2 and radiofrequency microneedling trials used one to three sessions spaced up to eight weeks apart. Individual requirements vary with scar type, severity and skin response, and these are the intervals studies used rather than a guideline-backed schedule."
+    },
+    {
+      "q": "Is laser or radiofrequency microneedling better for acne scars in Indian skin?",
+      "a": "A meta-analysis of eight randomised trials in 249 patients found fractional CO2 slightly more effective (mean difference 0.31, p = 0.0005) but carrying a 4.44-fold higher relative risk of post-inflammatory hyperpigmentation than radiofrequency microneedling, along with more pain and 1.72 days more erythema. The efficacy gap is small and the pigmentation gap is large, which is why the calculus often runs against aggressive ablative settings in Fitzpatrick IV–VI skin. Two large network meta-analyses, however, found no significant pigmentation difference between modalities, so this remains a trade-off supported by some evidence rather than a settled fact."
+    },
+    {
+      "q": "How much improvement can acne scar treatment realistically achieve?",
+      "a": "Controlled studies cluster around 40–60% improvement on validated grading scales after a full course. A Mumbai split-face trial in 30 patients recorded 40% and 57% improvement at six months for two subcision combinations. A single session of even an aggressive energy device produced a median one-point improvement on a ten-point texture scale under blinded assessment. No published study of any modality reports complete resolution of atrophic acne scarring, so treatments may improve the appearance of scars rather than remove them."
+    },
+    {
+      "q": "Should active acne be treated before scar treatment?",
+      "a": "Yes. Active inflammatory acne produces new scars while old ones are being treated, and dermatology guidelines place their strongest recommendations for acne with scarring on preventing further scarring rather than on scar revision. Post-inflammatory hyperpigmentation is also a separate issue from textural scarring and is often what is most visible in deeper skin; it is usually managed with topicals or superficial peels rather than resurfacing devices. How long to wait for a scar to mature before revising it is not defined by any trial identified in this literature."
+    }
+  ],
+  "related_services": [
+    {
+      "label": "Acne Scars",
+      "url": "/concerns/acne-scars"
+    },
+    {
+      "label": "MNRF (Radiofrequency Microneedling)",
+      "url": "/services/mnrf"
+    },
+    {
+      "label": "Chemical Peel",
+      "url": "/services/chemical-peel"
+    }
+  ],
+  "see_also": [
+    {
+      "label": "Post-Inflammatory Hyperpigmentation After Acne: An Evidence-Based Treatment Ladder",
+      "url": "/blog/post-inflammatory-hyperpigmentation-acne-treatment-ladder"
+    },
+    {
+      "label": "MNRF and Microneedling RF: What the Collagen Research Actually Shows",
+      "url": "/blog/mnrf-microneedling-rf-collagen-research"
+    },
+    {
+      "label": "Chemical Peel Purging vs. a Genuine Breakout: How to Tell the Difference",
+      "url": "/blog/chemical-peel-purging-vs-breakout"
+    }
+  ],
+  "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder"
+}

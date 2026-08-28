@@ -1,0 +1,173 @@
+{
+  "slug": "laser-hair-removal-tattoo-moles-safety",
+  "title": "Laser Hair Removal Over Tattoo, Moles and Scars: What Is Actually Unsafe",
+  "meta_description": "Laser hair removal over tattoo ink, moles and scars: what the published evidence shows, where it is absent, and the rules clinics actually follow.",
+  "category": "Laser Hair Removal",
+  "publish_date": "2026-10-21",
+  "read_time": "12 min read",
+  "primary_keyword": "laser hair removal over tattoo",
+  "image_prompt": "Editorial clinical photograph, soft natural light, a treatment room in a modern women-only aesthetic clinic in Mumbai. Close-up of a forearm resting on a clean white treatment sheet with a small dark tattoo covered by an opaque white protective patch and a mole marked with a white dermatological pencil, a laser handpiece and wavelength-specific safety goggles resting nearby, warm beige and muted gold tones, no visible faces, calm and clinical, high-end minimalist aesthetic, shallow depth of field",
+  "image_alt": "A Q-switched laser handpiece positioned over a fading tattoo, illustrating lasering over tattoos, moles and scars: what's unsafe",
+  "quick_facts": [
+    {
+      "label": "Tattoo evidence",
+      "value": "One published case report: a second-degree burn confined precisely to tattooed skin after intense pulsed light epilation. n=1, the lowest tier of evidence. No trial has tested settings that make it acceptable."
+    },
+    {
+      "label": "Mole evidence",
+      "value": "A PubMed search for laser hair removal safety over melanocytic naevi returns two records in total. The risk has never been quantified in either direction."
+    },
+    {
+      "label": "Deliberate exception",
+      "value": "Hair-removal lasers are used on Becker's naevus by specialists: a 12-patient case series (mean 5.3 treatments, 51-75% improvement) and a 15-patient prospective study (8 low-fluence sessions). Combined n=27."
+    },
+    {
+      "label": "Isotretinoin",
+      "value": "A 2024 systematic review of 34 studies and 1,563 isotretinoin-treated patients found insufficient evidence to support delaying laser hair removal, while confirming ablative lasers and dermabrasion are contraindicated."
+    },
+    {
+      "label": "Baseline epidermal injury",
+      "value": "Epidermolysis in 5 of 40 Indian women (12.5%) treated with 810 nm diode at 16-29 J/cm2, Fitzpatrick III-V, on ordinary untattooed skin."
+    },
+    {
+      "label": "Where injuries happen",
+      "value": "In a 10-year review of Turkish Supreme Court decisions, laser epilation was 85.7% of litigated cases, burns were the complication in 77.6%, and 36 of 38 burns (94.7%) occurred in beauty centres rather than medical clinics."
+    }
+  ],
+  "intro": "<p>Laser hair removal over tattoo ink, moles or scars has an unusual evidence profile: the rules clinics follow are firm, and the published evidence behind them is almost absent. There is one case report of a second-degree burn confined precisely to tattooed skin after intense pulsed light epilation. A PubMed search for laser hair removal safety over melanocytic naevi returns two records in total. No trial has randomised anyone to being treated over ink, a mole or a scar, and none will, because the physics makes the likely outcome predictable enough that the experiment would be indefensible.</p><p>That gap is worth stating plainly rather than papering over with the word <em>contraindicated</em>. What follows separates three things usually blurred together: the mechanism, which is certain; the published evidence, which amounts to case reports and series of a dozen patients; and the clinical rule, which is consensus and medico-legal caution rather than a trial finding. It also covers where the blanket refusal is wrong: the deliberate specialist use of hair-removal lasers on pigmented hairy birthmarks, and the isotretinoin waiting period that a 34-study systematic review does not support. For Fitzpatrick IV to VI skin, which describes most patients at our Mumbai branches, every one of these margins is narrower.</p>",
+  "sections": [
+    {
+      "heading": "Why tattoo ink, a mole and a scar are three different problems",
+      "html": "<p>A hair-removal laser does not target hair. It targets <strong>melanin</strong> &mdash; a chromophore, meaning a molecule that absorbs a particular wavelength of light &mdash; inside the hair shaft and the follicular epithelium. The governing principle is selective photothermolysis, published by Anderson and Parrish in <em>Science</em> in 1983: brief pulses of selectively absorbed light damage pigmented structures without precise aiming, because the tissue's own optical and thermal properties do the targeting. That was a laboratory physics paper rather than a therapeutic trial, but every hair, tattoo and vascular laser in existence rests on it.</p><p>The beam is therefore indiscriminate about <em>which</em> dark thing in its path absorbs the pulse. Three distinct problems follow, needing three different rules:</p><ul><li><strong>A tattoo</strong> introduces an exogenous chromophore &mdash; pigment that does not belong to the body, deposited densely in the dermis. It absorbs the pulse far more efficiently than either follicular or epidermal melanin, and converts that energy to heat exactly where the ink sits, below the epidermis.</li><li><strong>A mole</strong>, or melanocytic naevus, is a dense local concentration of the body's own pigment cells. It absorbs more energy than the skin around it, and it is also a lesion whose appearance carries diagnostic information that thermal injury can alter.</li><li><strong>A scar or keloid</strong> is mostly not a pigment problem at all, but a tissue-architecture one: disorganised collagen, altered blood supply, unpredictable heat dissipation, and in keloid-prone skin a healing response that over-reacts to injury of any kind.</li></ul><p>Listing all three together as &quot;contraindications&quot; on a consent form therefore tells a patient little. The reason to avoid each is different, and so is the strength of the evidence behind it.</p>"
+    },
+    {
+      "heading": "Laser hair removal over tattoo ink: what the published evidence shows",
+      "html": "<p>Laser hair removal over tattoo ink has, in the published literature, one documented outcome. In 2013 Riml and colleagues reported in <em>Photodermatology, Photoimmunology and Photomedicine</em> a second-degree burn confined precisely to tattooed skin after intense pulsed light epilation &mdash; the injury stopped at the border of the ink. That is a single case report, n=1, the lowest tier of clinical evidence. It is not an incidence rate and it is not a trial.</p><p>What it does is confirm, in a patient, what the optics predict. Tattoo pigment is a dense competing chromophore in the dermis: energy meant for a follicle is intercepted by ink and released as heat in a layer with no quick way to shed it. The 2023 adverse-event review by Mallat and colleagues, which screened 358 references and included 104 publications, lists burns among documented cutaneous complications of light-assisted hair removal, alongside blistering, folliculitis, pigmentary change, leukotrichia and paradoxical hypertrichosis. That review deliberately reports no denominators, so it tells you what can happen and never how often.</p><p>Riml's group made two further points that transfer to India. They insisted complications be distinguished from professional errors, and noted that IPL use &quot;depicts a legal grey area in most countries and is not bound to physicians' supervision&quot;, recommending against IPL for a worse risk-benefit profile than laser. IPL is a broad-spectrum flashlamp rather than a single tuned wavelength, so more of its output is available to whatever is in the field &mdash; the opposite of what you want near ink.</p><p>The working rule is stated confidently and sourced honestly: do not fire over a tattoo. Shield it, or leave a margin of untreated skin around it. The mechanism is not in dispute; the evidence is one case report; no study has tested a setting that makes it acceptable.</p>"
+    },
+    {
+      "heading": "If you have a tattoo and still want the area treated",
+      "html": "<p>Having a tattoo does not disqualify the limb, back or bikini line it sits on. It disqualifies the ink and a margin around it. A clinic has three options, and should tell you which it is using before the session, not after.</p><p>The first is <strong>shielding</strong>: the tattoo is covered with an opaque barrier and surrounding skin treated normally. The second is a <strong>margin</strong> of untreated skin around the ink, which means hair bordering the tattoo keeps growing and needs shaving or threading indefinitely. The third is <strong>sequence</strong>: if the tattoo itself is unwanted, <a href=\"/services/tattoo-removal\">tattoo removal</a> is a separate treatment with different devices, pulse durations and endpoint &mdash; fragmenting ink for clearance rather than heating a follicle. No published evidence supports incidental fading as a side benefit of hair removal; the one published outcome of firing a hair-removal light source over ink was a burn.</p><p>Two related situations follow the same pigment logic with no published evidence at all: skin still healing after tattoo removal or any other laser should not receive a second thermal insult, and cosmetic or semi-permanent tattooing &mdash; microbladed brows, lip or eyeliner pigment &mdash; is dermal pigment by another name. Both are mechanical reasoning rather than trial findings, as is the answer to the assumption that a faded, decades-old tattoo is safe: faded ink is still ink, and nobody has measured how much less it absorbs.</p>"
+    },
+    {
+      "heading": "Moles and melanocytic naevi: an evidence base of two records",
+      "html": "<p>Moles are where honesty is most necessary. A PubMed search for laser hair removal safety over melanocytic naevi returns two records. That is not a weak evidence base; it is an absent one. Nobody has measured the risk of treating over an ordinary mole, in either direction.</p><p>What is documented is narrow. The 2023 Mallat review lists &quot;changes in nevi&quot; among recognised complications of light-assisted hair removal &mdash; a phenomenon, with no incidence attached. Two concerns follow. A pigment-dense target absorbs more energy than the skin around it, an ordinary thermal injury risk. And a naevus whose appearance heat has altered is harder to assess later. Whether laser exposure can do anything more than that to a mole is a separate question with its own literature.</p><p>The clinical rule &mdash; mark and shield moles with an opaque covering, never treat over an undiagnosed or atypical pigmented lesion, and refer for dermoscopic assessment before treating around one &mdash; is pure consensus and medico-legal prudence. It has no trial behind it. It is conservative precisely <em>because</em> nobody has quantified the hazard &mdash; a better reason for caution than a measured small risk, not a worse one. Patients are entitled to that distinction rather than the word &quot;unsafe&quot; with an implied number behind it.</p>"
+    },
+    {
+      "heading": "The exception: lasers used deliberately on pigmented hairy birthmarks",
+      "html": "<p>The blanket instruction &quot;never fire near pigment&quot; is not quite right. Hair-removal lasers are used deliberately, by specialists, on Becker's naevus &mdash; a pigmented birthmark that often grows coarse terminal hair. Two published series describe it.</p><p>Kubicki and colleagues reported a retrospective series of 12 patients with skin types III to VI, four of them Fitzpatrick V or VI, treated with combined 1550 nm non-ablative fractional resurfacing and laser hair removal. Mean 5.3 treatments; mean improvement recorded in the 51 to 75 percent band; follow-up 6 to 40 weeks, mean 10.5 weeks; no long-term adverse events. The authors' own stated limitations &mdash; small sample, no long-term follow-up &mdash; are decisive: 12 patients followed for a mean of two and a half months is a signal, not a safety profile. Lapidoth and colleagues ran a prospective multicentre study of 15 patients using low-fluence, high-repetition-rate 808 to 810 nm diode over 8 sessions, reporting significant hair reduction at 6 and 12 months with no adverse events.</p><p>Read together, those studies say something specific and limited: a diagnosed lesion, treated at deliberately conservative settings, in a combined 27 patients. They do not say that firing over pigment is generally fine, and they say nothing about undiagnosed moles. The operative difference is diagnosis first, low fluence second, specialist hands third &mdash; not the machine.</p>"
+    },
+    {
+      "heading": "Scars, keloids and the isotretinoin question",
+      "html": "<p>Scars are treated cautiously for reasons that have little to do with melanin. Blood supply and collagen architecture in scar tissue are disorganised, so heat does not dissipate as it does in normal skin, and in keloid-prone patients any thermal injury can trigger a disproportionate healing response. No trial has tested laser hair removal over an existing keloid or hypertrophic scar. Avoiding active and hypertrophic scars, and approaching keloid-prone skin conservatively with a small trial area, is consensus practice, unsupported and uncontradicted by evidence.</p><p>Isotretinoin is the more interesting case, because the usual advice appears to be wrong. The widely repeated rule is to wait six to twelve months after finishing isotretinoin before any laser. A 2024 systematic review by Latifaltojar and colleagues covering <strong>34 studies and 1,563 isotretinoin-treated patients</strong> found that fully ablative lasers, mechanical dermabrasion and ablative radiofrequency are contraindicated &mdash; and that there is <em>insufficient evidence to support delaying laser hair removal</em> in patients on or recently on the drug. Hair-removal lasers were not among the procedures the review found reason to postpone.</p><p>Read that carefully. &quot;Insufficient evidence to support delaying&quot; means no demonstrated harm, which is not demonstrated safety. The defensible statement is that the blanket six-month rule is not evidence-based for hair-removal lasers specifically, and that the decision belongs to the dermatologist treating you, who knows the dose you took, when you stopped and how your skin is behaving now.</p>"
+    },
+    {
+      "heading": "Fitzpatrick IV to VI skin: why the margin around any of this is smaller",
+      "html": "<p>Everything above becomes tighter in Fitzpatrick IV to VI skin, which covers most Indian patients. The comprehensive 2018 review by Fayne and colleagues of laser and light treatment in skin types IV to VI states the problem directly: higher melanin content in the skin interferes with the mechanism of selective photothermolysis, because the epidermis competes with the follicle for the same light. The same review makes the field's most uncomfortable admission &mdash; that most studies exclude patients with darkly pigmented skin as a high-risk group. Longer wavelengths, which epidermal melanin absorbs less, are the safer choice, but the trials to prove it in the darkest skin have largely not been done.</p><p>The consequence for tattoos, moles and scars is arithmetic: if the epidermis already absorbs a substantial share of every pulse, the extra load from ink or a pigment-dense naevus arrives on skin with less headroom left. The most rigorous Indian study of diode hair removal &mdash; Pai and colleagues at Manipal, 40 women, 108 sites, Fitzpatrick III to V, blinded algorithmic hair counting at 16 to 29 J/cm&sup2; &mdash; recorded <strong>epidermolysis in 5 of 40 patients, 12.5%</strong>, on ordinary untattooed skin. That is the baseline rate of epidermal splitting in the skin type being asked to tolerate an additional competing chromophore.</p><p>The downstream problem is pigment. Post-inflammatory hyperpigmentation is the melanocyte's response to epidermal inflammation rather than the injury itself, which is why it is largely a consequence of overtreatment and largely preventable. In deeper skin a burn around a tattoo or a mole is rarely just a burn; it is a burn followed by months of <a href=\"/concerns/pigmentation-melasma\">pigmentation</a> in the shape of the laser spot. Our <a href=\"/services/laser-hair-removal-mumbai\">laser hair removal</a> assessments start with skin typing for exactly this reason.</p>"
+    },
+    {
+      "heading": "What the evidence does not support",
+      "html": "<p>Several claims made routinely in this category are unmeasured, overstated or contradicted.</p><ul><li><strong>&quot;It is safe over tattoos with the right settings.&quot;</strong> No study has identified settings that make it acceptable. The one published outcome of firing a light source over ink was a second-degree burn confined to the tattooed skin. Absence of a trial is not permission.</li><li><strong>&quot;Treating over moles is dangerous&quot; &mdash; stated as a measured fact.</strong> Equally unsupported. Two PubMed records exist. Shielding moles is precaution in the face of an unmeasured hazard, and anyone quoting you a percentage risk for it is inventing one.</li><li><strong>&quot;You must wait six months after isotretinoin.&quot;</strong> A systematic review of 34 studies and 1,563 patients found insufficient evidence to support delaying laser hair removal, while confirming that ablative lasers and dermabrasion are a different matter. The blanket rule is convention, not evidence &mdash; though insufficient evidence of harm is not proof of safety either.</li><li><strong>&quot;The laser will fade the tattoo a little as a bonus.&quot;</strong> Nothing in the published literature supports incidental fading. Tattoo clearance uses different devices and pulse durations aimed at fragmenting ink, and a hair-removal pulse absorbed by ink produces heat, not clearance.</li><li><strong>&quot;A patch test proves your tattoo or mole will be fine.&quot;</strong> A test area tells you how one piece of skin responded to one setting on one day. It is a reasonable precaution, not a guarantee, least of all about a target it did not include.</li><li><strong>&quot;Scar tissue is numb, so treating it is safer.&quot;</strong> Sensation is not the risk pathway. Heat dissipation, blood supply and healing response are, and none of them has been studied in this context.</li></ul><p>The honest summary: mechanism certain, evidence minimal, rules conservative. Anyone quoting a confident risk percentage for lasering over tattoos, moles or scars is not reading from the literature, because it does not contain one.</p>"
+    },
+    {
+      "heading": "What to raise with your clinic before the first session",
+      "html": "<p>Because the rules here are operator-dependent rather than device-dependent, the most useful question is who will hold the handpiece. A retrospective review of Turkish Supreme Court decisions between 2013 and 2023 found laser epilation was the most frequently litigated minimally invasive cosmetic procedure at <strong>85.7%</strong> of cases; burns were the complication in <strong>77.6%</strong>; <strong>36 of 38 burns (94.7%)</strong> occurred in beauty centres rather than medical clinics; and <strong>26.5%</strong> of the procedures were performed by an unauthorised person. That is a court record rather than self-reported clinical data, which makes it more persuasive than most safety statistics in this field. The dominant modifiable risk factor is not the wavelength but who is operating, and where.</p><p>India has its own published description of that environment. A 2025 editorial in <em>CosmoDerma</em> on unregulated cosmetology clinics reports at least five deaths and numerous cases of disfigurement and psychological trauma nationwide documented by dermatology association members, and states that no dedicated bodies regularly inspect these centres and enforcement is virtually non-existent. An editorial carries no data and no denominator &mdash; a professional alarm, not a measurement &mdash; but it is the most direct published account of the setting these decisions get made in.</p><p>Practically, before anyone switches a machine on: have every tattoo, mole and scar in the treatment field pointed out and documented; ask what will shield them and how wide a margin will be left; ask for any atypical or changing pigmented lesion to be assessed before it is treated around, not after; disclose isotretinoin use, keloid history and recent tanning; and expect the first pass over a difficult area to be deliberately conservative.</p><p>Side effects from laser hair reduction are usually mild and temporary, and serious complications are uncommon but possible &mdash; which is a different statement from safe. If you would like the tattoos, moles or scars on an area assessed before starting a course, you can <a href=\"/book-appointment\">book a consultation</a> at one of our four Mumbai branches. This article is general information and not medical advice; decisions about your skin belong with a qualified dermatologist who has examined it.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "text": "Anderson RR, Parrish JA. \"Selective photothermolysis: precise microsurgery by selective absorption of pulsed radiation.\" <em>Science</em>. 1983;220(4596):524-527.",
+      "url": "https://doi.org/10.1126/science.6836297"
+    },
+    {
+      "text": "Riml S, Larcher L, Grohmann M, Kompatscher P. \"Second-degree burn within a tattoo after intense-pulsed-light epilation.\" <em>Photodermatology, Photoimmunology &amp; Photomedicine</em>. 2013;29(4):218-220.",
+      "url": "https://doi.org/10.1111/phpp.12039"
+    },
+    {
+      "text": "Mallat F, Chaaya C, Aoun M, Soutou B, Helou J. \"Adverse Events of Light-Assisted Hair Removal: An Updated Review.\" <em>Journal of Cutaneous Medicine and Surgery</em>. 2023;27(4):375-387.",
+      "url": "https://doi.org/10.1177/12034754231174852"
+    },
+    {
+      "text": "Kubicki SL, Guo EL, Sodha P, Richmond H, Friedman PM. \"Combination 1550 nm non-ablative fractional resurfacing and laser hair removal for treatment of Becker's nevi in skin types III-VI.\" <em>Lasers in Surgery and Medicine</em>. 2022;55(1):99-104.",
+      "url": "https://doi.org/10.1002/lsm.23599"
+    },
+    {
+      "text": "Lapidoth M, Adatto M, Cohen S, Ben-Amitai D, Halachmi S. \"Hypertrichosis in Becker's nevus: effective low-fluence laser hair removal.\" <em>Lasers in Medical Science</em>. 2013;29(1):191-193.",
+      "url": "https://doi.org/10.1007/s10103-013-1314-5"
+    },
+    {
+      "text": "Latifaltojar R, Pour Mohammad A, Goodarzi A. \"Keloid Formation and Any Skin Complications in Patients Treated With Isotretinoin and Undergone Any Skin-Related Procedures.\" <em>Journal of Cosmetic Dermatology</em>. 2024;24(2):e16680.",
+      "url": "https://doi.org/10.1111/jocd.16680"
+    },
+    {
+      "text": "Fayne RA, Perper M, Eber AE, Aldahan AS, Nouri K. \"Laser and Light Treatments for Hair Reduction in Fitzpatrick Skin Types IV-VI: A Comprehensive Review of the Literature.\" <em>American Journal of Clinical Dermatology</em>. 2018;19(2):237-252.",
+      "url": "https://doi.org/10.1007/s40257-017-0316-7"
+    },
+    {
+      "text": "Pai SB, Suvarna P, Shetty VM, Pathan S. \"Efficacy of 810 nm diode laser in hair reduction in Indian subpopulation using a novel Gabor filter-based detection software and hair algorithm.\" <em>Journal of Cosmetic Dermatology</em>. 2021;21(3):1004-1012.",
+      "url": "https://doi.org/10.1111/jocd.14671"
+    },
+    {
+      "text": "Yıldırım MŞ, Koç Yıldırım S. \"Insights From the Supreme Court Decisions: Undesirable Consequences After Minimally Invasive Cosmetic Interventions in Türkiye.\" <em>Journal of Cosmetic Dermatology</em>. 2024;24(1):e16588.",
+      "url": "https://doi.org/10.1111/jocd.16588"
+    },
+    {
+      "text": "Thappa DM. \"Unregulated cosmetology clinics in India.\" <em>CosmoDerma</em>. 2025.",
+      "url": "https://doi.org/10.25259/CSDM_151_2025"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you have laser hair removal over a tattoo?",
+      "a": "No. Tattoo pigment is a dense chromophore sitting in the dermis and absorbs the pulse far more efficiently than follicular or epidermal melanin, releasing that energy as heat where the ink sits. The one published outcome is a case report of a second-degree burn confined precisely to tattooed skin after IPL epilation. Clinics shield the tattoo with an opaque covering or leave a margin of untreated skin around it, which means hair bordering the ink continues to need shaving or threading."
+    },
+    {
+      "q": "How wide a margin should be left around a tattoo?",
+      "a": "No study has established a number, and any clinic quoting an exact millimetre figure is quoting convention rather than evidence. What matters is that the ink and the immediately adjacent skin are excluded from the treatment field, that the shield is genuinely opaque, and that the operator can see the boundary clearly while treating. Ask what will be used and check the shielding is in place before each pass."
+    },
+    {
+      "q": "Is laser hair removal safe over moles?",
+      "a": "Nobody knows, and that is the accurate answer. A PubMed search for laser hair removal safety over melanocytic naevi returns two records in total, so the risk has never been measured. A 2023 review of 104 publications lists changes in nevi among documented complications without an incidence figure. The standard practice is to mark and shield moles and never treat over an undiagnosed or atypical pigmented lesion, which is medico-legal prudence rather than a trial finding."
+    },
+    {
+      "q": "Can hair be removed from a mole or a hairy birthmark at all?",
+      "a": "By a specialist, after diagnosis, sometimes yes. Hair-removal lasers have been used deliberately on Becker's naevus, a pigmented birthmark that grows coarse hair: a 12-patient retrospective series reported 51 to 75 percent mean improvement over a mean of 5.3 treatments, and a 15-patient prospective study using low-fluence 808 to 810 nm diode over 8 sessions reported reduction at 6 and 12 months. Twenty-seven patients in total is a signal, not a safety profile, and none of it applies to an unassessed mole."
+    },
+    {
+      "q": "Do I have to wait six months after isotretinoin before laser hair removal?",
+      "a": "The blanket six-month rule is not evidence-based for hair-removal lasers specifically. A 2024 systematic review of 34 studies and 1,563 isotretinoin-treated patients concluded there is insufficient evidence to support delaying laser hair removal, while confirming that fully ablative lasers, mechanical dermabrasion and ablative radiofrequency are contraindicated. Insufficient evidence of harm is not proof of safety, so disclose your isotretinoin history and let the treating dermatologist decide."
+    },
+    {
+      "q": "What about scars and keloid-prone skin?",
+      "a": "No trial has tested laser hair removal over an existing keloid or hypertrophic scar. The concern is not pigment but tissue behaviour: disorganised collagen and altered blood supply change how heat disperses, and keloid-prone skin can over-respond to any thermal injury. Avoiding active and hypertrophic scars, and approaching keloid-prone skin conservatively with a small trial area first, is consensus practice with no evidence for or against it."
+    }
+  ],
+  "related_services": [
+    {
+      "label": "Laser Hair Removal in Mumbai",
+      "url": "/services/laser-hair-removal-mumbai"
+    },
+    {
+      "label": "Tattoo Removal",
+      "url": "/services/tattoo-removal"
+    },
+    {
+      "label": "Pigmentation and Melasma",
+      "url": "/concerns/pigmentation-melasma"
+    }
+  ],
+  "see_also": [
+    {
+      "label": "Laser Hair Removal Burns: Why They Happen and How to Avoid One",
+      "url": "/blog/laser-hair-removal-burns-causes-prevention"
+    },
+    {
+      "label": "Laser Hair Removal Side Effects by Skin Type",
+      "url": "/blog/laser-hair-removal-side-effects-by-skin-type"
+    },
+    {
+      "label": "Tattoo Removal: How Many Sessions the Science Supports",
+      "url": "/blog/tattoo-removal-how-many-sessions-science"
+    }
+  ],
+  "image_source": "tattoo-removal-how-many-sessions-science"
+}
