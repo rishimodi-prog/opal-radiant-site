@@ -163,3 +163,31 @@
 /fat-freeze-cost-mumbai/ /services/fat-freeze-cost-mumbai 301
 /hifu-face-lift-cost-mumbai /services/hifu-face-lift-cost-mumbai 301
 /hifu-face-lift-cost-mumbai/ /services/hifu-face-lift-cost-mumbai 301
+
+# Capitalised legacy Squarespace paths. Cloudflare Pages matches paths
+# case-sensitively, so every one of these 404s. /Treatments was still
+# ranking #17 for "laser hair removal mumbai" (1,000/mo) while dead.
+/Treatments /services/ 301
+/Treatments/ /services/ 301
+/treatments /services/ 301
+/treatments/ /services/ 301
+/Treatment /services/ 301
+/Treatment/ /services/ 301
+/our-services /services/ 301
+/our-services/ /services/ 301
+/Services /services/ 301
+/Services/ /services/ 301
+/Blog /blog/ 301
+/Blog/ /blog/ 301
+/Contact /contact 301
+/Contact/ /contact 301
+/About /about 301
+/About/ /about 301
+/Pricing /pricing 301
+/Pricing/ /pricing 301
+/Book-Appointment /book-appointment 301
+/Book-Appointment/ /book-appointment 301
+/Laser-Hair-Removal /services/laser-hair-removal-mumbai 301
+/Laser-Hair-Removal/ /services/laser-hair-removal-mumbai 301
+/Locations /services/ 301
+/Locations/ /services/ 301
