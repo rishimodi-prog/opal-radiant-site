@@ -329,8 +329,9 @@
       "category": "Pigmentation",
       "meta_description": "Pigmentation meaning in Hindi — पिगमेंटेशन यानी त्वचा पर गहरे धब्बे। झाइयां, PIH और टैन का फ़र्क़, वजहें, और इलाज पर रिसर्च क्या कहती है।",
       "image_alt": "क्लिनिक ट्रे पर डर्मेटोस्कोप और स्किनकेयर एम्प्यूल — पिगमेंटेशन के इलाज की जानकारी",
-      "published": false,
-      "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder"
+      "published": true,
+      "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder",
+      "published_at": "2026-08-28"
     },
     {
       "slug": "open-pores-treatment-what-works",
