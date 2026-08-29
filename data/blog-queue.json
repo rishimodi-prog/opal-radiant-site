@@ -340,8 +340,9 @@
       "category": "Pigmentation",
       "meta_description": "Open pores treatment, graded by evidence: what lasers, radiofrequency and toxin trials measured, and why no study shows pores shrink permanently.",
       "image_alt": "A radiofrequency microneedling handpiece on a sterile clinic tray, illustrating open pores: what actually shrinks them and what can't",
-      "published": false,
-      "image_source": "mnrf-microneedling-rf-collagen-research"
+      "published": true,
+      "image_source": "mnrf-microneedling-rf-collagen-research",
+      "published_at": "2026-08-29"
     },
     {
       "slug": "laser-hair-removal-cost-india-full-breakdown",
