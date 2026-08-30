@@ -351,8 +351,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "What laser hair removal cost really looks like in India: published per-area price bands, package discounts, hidden add-ons and what the evidence supports.",
       "image_alt": "A laser hair removal treatment bed with the handpiece resting on it, illustrating what laser hair removal actually costs in India, area by area",
-      "published": false,
-      "image_source": "laser-hair-removal-how-many-sessions-science"
+      "published": true,
+      "image_source": "laser-hair-removal-how-many-sessions-science",
+      "published_at": "2026-08-30"
     },
     {
       "slug": "hair-fall-kaise-roke-evidence",
