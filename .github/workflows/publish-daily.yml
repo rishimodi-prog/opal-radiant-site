@@ -10,8 +10,9 @@ name: Publish daily blog post
 
 on:
   schedule:
-    # 02:30 UTC = 08:00 IST, every day.
-    - cron: '30 2 * * *'
+    # 02:00 UTC = 07:30 IST, every day. Deliberately 30 min before the
+    # 08:00 IST status report, so the report never races an in-flight publish.
+    - cron: '0 2 * * *'
   workflow_dispatch: {}  # allows manually triggering a run from the Actions tab
 
 permissions:
