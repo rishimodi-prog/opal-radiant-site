@@ -362,8 +362,9 @@
       "category": "Hair Loss",
       "meta_description": "Hair fall kaise roke — बाल झड़ने की वजह, मिनॉक्सिडिल और पीआरपी पर ट्रायल के आंकड़े, और कौन-से आम दावे सबूत से साबित नहीं होते।",
       "image_alt": "क्लिनिक में सेंट्रीफ्यूज्ड पीआरपी वायल और स्टेराइल इंजेक्शन ट्रे — हेयर फॉल के इलाज की जानकारी",
-      "published": false,
-      "image_source": "hair-prp-for-hair-fall-evidence"
+      "published": true,
+      "image_source": "hair-prp-for-hair-fall-evidence",
+      "published_at": "2026-08-31"
     },
     {
       "slug": "lip-pigmentation-treatment-causes",
