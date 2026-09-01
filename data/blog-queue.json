@@ -373,8 +373,9 @@
       "category": "Pigmentation",
       "meta_description": "Dark lips have several causes. What lip pigmentation treatment achieves in the published trials, what it does not, and when a lip needs a diagnosis.",
       "image_alt": "A dermatoscope and skincare ampoules on a clinic tray, illustrating dark lips: causes and what treatment can realistically do",
-      "published": false,
-      "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder"
+      "published": true,
+      "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder",
+      "published_at": "2026-09-01"
     },
     {
       "slug": "pigmentation-around-mouth-causes",
