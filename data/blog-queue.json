@@ -384,8 +384,9 @@
       "category": "Pigmentation",
       "meta_description": "Pigmentation around mouth: the real causes, what the published trials show about treating it, what they do not, and when it needs a diagnosis.",
       "image_alt": "A vial and syringe on a clinical tray, illustrating darkness around the mouth: causes and treatment",
-      "published": false,
-      "image_source": "skin-whitening-injections-safety-data"
+      "published": true,
+      "image_source": "skin-whitening-injections-safety-data",
+      "published_at": "2026-09-02"
     },
     {
       "slug": "laser-hair-removal-machine-types-explained",
