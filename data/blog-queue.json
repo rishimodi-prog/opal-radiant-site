@@ -395,8 +395,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Every laser hair removal machine is defined by its wavelength. What alexandrite, diode, Nd:YAG and IPL do in Indian skin, and what the trials measured.",
       "image_alt": "Two different laser handpieces side by side on a clinic treatment bed, illustrating the machines behind the treatment, and why the type matters",
-      "published": false,
-      "image_source": "underarm-laser-whitening-evidence"
+      "published": true,
+      "image_source": "underarm-laser-whitening-evidence",
+      "published_at": "2026-09-03"
     },
     {
       "slug": "full-body-laser-hair-removal-cost-what-you-get",
