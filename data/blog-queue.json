@@ -406,8 +406,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Full body laser hair removal cost in India runs about ₹40,000 to ₹1,60,000. What a package covers, what it leaves out, and what the trials really show.",
       "image_alt": "A calm, empty aesthetic clinic treatment room in warm beige tones, illustrating full body laser: what the package actually includes",
-      "published": false,
-      "image_source": "laser-hair-removal-and-pregnancy-safety"
+      "published": true,
+      "image_source": "laser-hair-removal-and-pregnancy-safety",
+      "published_at": "2026-09-04"
     },
     {
       "slug": "types-of-acne-scars-and-treatment",
