@@ -417,8 +417,9 @@
       "category": "Acne Scars",
       "meta_description": "The four types of acne scars — ice pick, rolling, boxcar and keloid — what treats each, the trial evidence behind it, and what it does not support.",
       "image_alt": "A dermatoscope and skincare ampoules on a clinic tray, illustrating the four types of acne scar, and what treats each",
-      "published": false,
-      "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder"
+      "published": true,
+      "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder",
+      "published_at": "2026-09-05"
     },
     {
       "slug": "best-treatment-for-melasma-on-face",
