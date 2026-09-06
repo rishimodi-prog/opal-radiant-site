@@ -428,8 +428,9 @@
       "category": "Melasma",
       "meta_description": "The best treatment for melasma on face, ranked by trial evidence: what 113 controlled studies put first, and the two-year relapse data on lasers.",
       "image_alt": "A dermatology assessment chart and sunscreen on a clinic counter, illustrating melasma on the face: the treatment ladder, ranked by evidence",
-      "published": false,
-      "image_source": "can-melasma-be-cured-permanently"
+      "published": true,
+      "image_source": "can-melasma-be-cured-permanently",
+      "published_at": "2026-09-06"
     },
     {
       "slug": "acne-scars-hindi-treatment",
