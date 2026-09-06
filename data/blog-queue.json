@@ -340,8 +340,9 @@
       "category": "Pigmentation",
       "meta_description": "Open pores treatment, graded by evidence: what lasers, radiofrequency and toxin trials measured, and why no study shows pores shrink permanently.",
       "image_alt": "A radiofrequency microneedling handpiece on a sterile clinic tray, illustrating open pores: what actually shrinks them and what can't",
-      "published": false,
-      "image_source": "mnrf-microneedling-rf-collagen-research"
+      "published": true,
+      "image_source": "mnrf-microneedling-rf-collagen-research",
+      "published_at": "2026-08-29"
     },
     {
       "slug": "laser-hair-removal-cost-india-full-breakdown",
@@ -350,8 +351,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "What laser hair removal cost really looks like in India: published per-area price bands, package discounts, hidden add-ons and what the evidence supports.",
       "image_alt": "A laser hair removal treatment bed with the handpiece resting on it, illustrating what laser hair removal actually costs in India, area by area",
-      "published": false,
-      "image_source": "laser-hair-removal-how-many-sessions-science"
+      "published": true,
+      "image_source": "laser-hair-removal-how-many-sessions-science",
+      "published_at": "2026-08-30"
     },
     {
       "slug": "hair-fall-kaise-roke-evidence",
@@ -360,8 +362,9 @@
       "category": "Hair Loss",
       "meta_description": "Hair fall kaise roke — बाल झड़ने की वजह, मिनॉक्सिडिल और पीआरपी पर ट्रायल के आंकड़े, और कौन-से आम दावे सबूत से साबित नहीं होते।",
       "image_alt": "क्लिनिक में सेंट्रीफ्यूज्ड पीआरपी वायल और स्टेराइल इंजेक्शन ट्रे — हेयर फॉल के इलाज की जानकारी",
-      "published": false,
-      "image_source": "hair-prp-for-hair-fall-evidence"
+      "published": true,
+      "image_source": "hair-prp-for-hair-fall-evidence",
+      "published_at": "2026-08-31"
     },
     {
       "slug": "lip-pigmentation-treatment-causes",
@@ -370,8 +373,9 @@
       "category": "Pigmentation",
       "meta_description": "Dark lips have several causes. What lip pigmentation treatment achieves in the published trials, what it does not, and when a lip needs a diagnosis.",
       "image_alt": "A dermatoscope and skincare ampoules on a clinic tray, illustrating dark lips: causes and what treatment can realistically do",
-      "published": false,
-      "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder"
+      "published": true,
+      "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder",
+      "published_at": "2026-09-01"
     },
     {
       "slug": "pigmentation-around-mouth-causes",
@@ -380,8 +384,9 @@
       "category": "Pigmentation",
       "meta_description": "Pigmentation around mouth: the real causes, what the published trials show about treating it, what they do not, and when it needs a diagnosis.",
       "image_alt": "A vial and syringe on a clinical tray, illustrating darkness around the mouth: causes and treatment",
-      "published": false,
-      "image_source": "skin-whitening-injections-safety-data"
+      "published": true,
+      "image_source": "skin-whitening-injections-safety-data",
+      "published_at": "2026-09-02"
     },
     {
       "slug": "laser-hair-removal-machine-types-explained",
@@ -390,8 +395,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Every laser hair removal machine is defined by its wavelength. What alexandrite, diode, Nd:YAG and IPL do in Indian skin, and what the trials measured.",
       "image_alt": "Two different laser handpieces side by side on a clinic treatment bed, illustrating the machines behind the treatment, and why the type matters",
-      "published": false,
-      "image_source": "underarm-laser-whitening-evidence"
+      "published": true,
+      "image_source": "underarm-laser-whitening-evidence",
+      "published_at": "2026-09-03"
     },
     {
       "slug": "full-body-laser-hair-removal-cost-what-you-get",
@@ -400,8 +406,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Full body laser hair removal cost in India runs about ₹40,000 to ₹1,60,000. What a package covers, what it leaves out, and what the trials really show.",
       "image_alt": "A calm, empty aesthetic clinic treatment room in warm beige tones, illustrating full body laser: what the package actually includes",
-      "published": false,
-      "image_source": "laser-hair-removal-and-pregnancy-safety"
+      "published": true,
+      "image_source": "laser-hair-removal-and-pregnancy-safety",
+      "published_at": "2026-09-04"
     },
     {
       "slug": "types-of-acne-scars-and-treatment",
@@ -410,8 +417,9 @@
       "category": "Acne Scars",
       "meta_description": "The four types of acne scars — ice pick, rolling, boxcar and keloid — what treats each, the trial evidence behind it, and what it does not support.",
       "image_alt": "A dermatoscope and skincare ampoules on a clinic tray, illustrating the four types of acne scar, and what treats each",
-      "published": false,
-      "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder"
+      "published": true,
+      "image_source": "post-inflammatory-hyperpigmentation-acne-treatment-ladder",
+      "published_at": "2026-09-05"
     },
     {
       "slug": "best-treatment-for-melasma-on-face",
@@ -420,8 +428,9 @@
       "category": "Melasma",
       "meta_description": "The best treatment for melasma on face, ranked by trial evidence: what 113 controlled studies put first, and the two-year relapse data on lasers.",
       "image_alt": "A dermatology assessment chart and sunscreen on a clinic counter, illustrating melasma on the face: the treatment ladder, ranked by evidence",
-      "published": false,
-      "image_source": "can-melasma-be-cured-permanently"
+      "published": true,
+      "image_source": "can-melasma-be-cured-permanently",
+      "published_at": "2026-09-06"
     },
     {
       "slug": "acne-scars-hindi-treatment",
