@@ -439,8 +439,9 @@
       "category": "Acne & Scars",
       "meta_description": "Pimple ke daag kaise hataye — सपाट दाग और गड्ढों में फ़र्क़, कौन-सा इलाज क्या करता है, और अध्ययनों में दर्ज असली आंकड़े।",
       "image_alt": "क्लिनिक ट्रे पर कार्बन लोशन और क्यू-स्विच्ड लेज़र हैंडपीस — मुंहासों के दाग का इलाज",
-      "published": false,
-      "image_source": "carbon-laser-facial-science-explained"
+      "published": true,
+      "image_source": "carbon-laser-facial-science-explained",
+      "published_at": "2026-09-07"
     },
     {
       "slug": "hair-fall-vs-hair-loss-when-to-worry",
