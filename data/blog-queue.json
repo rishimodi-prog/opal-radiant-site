@@ -450,8 +450,9 @@
       "category": "Hair Loss",
       "meta_description": "Hair fall reasons split into shedding and true hair loss. What the evidence shows about when daily hair fall stops being normal, and when to get checked.",
       "image_alt": "A trichoscope and a hairbrush on a clinic consultation desk, illustrating hair fall vs hair loss: when it stops being normal",
-      "published": false,
-      "image_source": "pcos-hair-loss-evidence-based-guide"
+      "published": true,
+      "image_source": "pcos-hair-loss-evidence-based-guide",
+      "published_at": "2026-09-08"
     },
     {
       "slug": "stretch-marks-treatment-what-works",
