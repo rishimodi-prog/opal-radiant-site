@@ -461,8 +461,9 @@
       "category": "Body Contouring",
       "meta_description": "An evidence-led look at stretch marks treatment: what Cochrane found on prevention, what lasers and microneedling achieve, and the PIH risk.",
       "image_alt": "A radiofrequency microneedling handpiece on a sterile clinic tray, illustrating stretch marks: what treatment can and cannot do",
-      "published": false,
-      "image_source": "mnrf-microneedling-rf-collagen-research"
+      "published": true,
+      "image_source": "mnrf-microneedling-rf-collagen-research",
+      "published_at": "2026-09-09"
     },
     {
       "slug": "skin-tightening-treatment-options-compared",
