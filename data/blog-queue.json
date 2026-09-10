@@ -472,8 +472,9 @@
       "category": "Anti-Ageing",
       "meta_description": "A skin tightening treatment comparison by the numbers: what HIFU, monopolar radiofrequency and RF microneedling have each actually been measured to do.",
       "image_alt": "A HIFU ultrasound handpiece and transducer on a clinic treatment bed, illustrating non-surgical skin tightening: HIFU, RF and what each does",
-      "published": false,
-      "image_source": "is-hifu-safe-clinical-evidence"
+      "published": true,
+      "image_source": "is-hifu-safe-clinical-evidence",
+      "published_at": "2026-09-10"
     },
     {
       "slug": "permanent-laser-hair-removal-cost-is-it-permanent",
