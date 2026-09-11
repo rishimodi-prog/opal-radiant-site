@@ -483,8 +483,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Permanent laser hair removal cost in India, area by area, plus the FDA definition of “permanent” and what the published trials really measured.",
       "image_alt": "A laser hair removal handpiece on a clinic treatment bed, illustrating 'Permanent' laser hair removal: cost and the honest definition",
-      "published": false,
-      "image_source": "laser-hair-removal-regrowth-after-pregnancy-hormonal-change"
+      "published": true,
+      "image_source": "laser-hair-removal-regrowth-after-pregnancy-hormonal-change",
+      "published_at": "2026-09-11"
     },
     {
       "slug": "cellulite-treatment-evidence-review",
