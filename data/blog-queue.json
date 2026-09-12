@@ -494,8 +494,9 @@
       "category": "Body Contouring",
       "meta_description": "Every cellulite treatment graded against its published trials: what the evidence supports, what it does not, and what none of it has tested in Indian skin.",
       "image_alt": "A HIFEM electromagnetic muscle toning applicator on a clinic treatment bed, illustrating cellulite treatments, graded by evidence",
-      "published": false,
-      "image_source": "hifem-body-toning-evidence"
+      "published": true,
+      "image_source": "hifem-body-toning-evidence",
+      "published_at": "2026-09-12"
     },
     {
       "slug": "underarm-laser-hair-removal-cost-sessions",
