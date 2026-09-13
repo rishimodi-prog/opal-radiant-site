@@ -334,6 +334,14 @@ async function forwardLeadToCrm(env, lead) {
       branch:   VALID_BRANCHES.includes(lead.location) ? lead.location : undefined,
       source:   lead.source,                 // "Google Ads" | "Organic Search" | ...
       campaign: lead.utm_campaign || undefined,
+      // Preserve Google click attribution all the way into the CRM. The site
+      // already captures these values at landing time; omitting them here made
+      // later offline consult/sale conversions fall back to phone/email-only
+      // matching even when a click id was available.
+      gclid:      lead.gclid || undefined,
+      gbraid:     lead.gbraid || undefined,
+      wbraid:     lead.wbraid || undefined,
+      utm_source: lead.utm_source || undefined,
       // Treatment as a TAG so it shows as a chip on the lead card in the CRM
       // (and is filterable under Groups) — e.g. "Laser Hair Removal", "HIFU
       // Face Lift", "Fat Freeze". Also kept in notes below for the full story.

@@ -33,3 +33,25 @@ function T(){var m={"laser-hair-removal-mumbai":"Laser Hair Removal","laser-hair
 document.addEventListener("click",function(e){var a=e.target&&e.target.closest?e.target.closest("a"):null;if(!a)return;var h=a.getAttribute("href")||"";if(-1===h.indexOf("wa.me")&&-1===h.indexOf("whatsapp.com"))return;if(-1!==h.indexOf("Ref:"))return;var ref=R(),at=window.__opalAttribution||{};
 try{var body=JSON.stringify({ref:ref,gclid:at.gclid,gbraid:at.gbraid,wbraid:at.wbraid,utm_source:at.utm_source,utm_medium:at.utm_medium,utm_campaign:at.utm_campaign,treatment:T(),page:location.pathname});navigator.sendBeacon?navigator.sendBeacon("https://crm.opalradiant.com/api/webhooks/whatsapp-click",body):fetch("https://crm.opalradiant.com/api/webhooks/whatsapp-click",{method:"POST",body:body,keepalive:!0})}catch(x){}
 try{var u=new URL(a.href),t=u.searchParams.get("text")||"Hi, I would like to book a consultation";u.searchParams.set("text",t+" (Ref: "+ref+")"),a.href=u.toString()}catch(x){}},!0)}();
+/* OPAL_GOOGLE_ENHANCED_LEADS_V2
+ * Register the browser-hashed form identifiers with the account-level Google
+ * tag before the existing labelled Form Submit conversion is dispatched.
+ * Google Ads' enhanced-conversions-for-leads setup expects user_data to be set
+ * on the tag and a form_submit event sent to the AW account id. The existing
+ * conversion event remains unchanged, so this does not add a second labelled
+ * conversion or alter conversion values.
+ */
+;(function () {
+  var buildUserData = window.__opalBuildEnhancedUserData;
+  if (typeof buildUserData !== "function") return;
+
+  window.__opalBuildEnhancedUserData = function (email, phone, name) {
+    return buildUserData(email, phone, name).then(function (userData) {
+      if (userData && typeof gtag !== "undefined") {
+        gtag("set", "user_data", userData);
+        gtag("event", "form_submit", { send_to: "AW-18204959421" });
+      }
+      return userData;
+    });
+  };
+})();
