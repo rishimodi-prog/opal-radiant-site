@@ -505,8 +505,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Underarm laser hair removal cost in India: published price ranges, how many sessions the axilla really needs, and what the evidence does not support.",
       "image_alt": "Two different laser handpieces side by side on a clinic treatment bed, illustrating underarm laser: cost, sessions and what changes",
-      "published": false,
-      "image_source": "underarm-laser-whitening-evidence"
+      "published": true,
+      "image_source": "underarm-laser-whitening-evidence",
+      "published_at": "2026-09-13"
     },
     {
       "slug": "back-acne-body-acne-treatment",
