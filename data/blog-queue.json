@@ -516,8 +516,9 @@
       "category": "Acne",
       "meta_description": "Back acne treatment differs from facial acne in surface area, scarring and pigment risk — and in how thin the trial evidence is. What studies show.",
       "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating back and body acne: why it's treated differently",
-      "published": false,
-      "image_source": "chemical-peel-purging-vs-breakout"
+      "published": true,
+      "image_source": "chemical-peel-purging-vs-breakout",
+      "published_at": "2026-09-14"
     },
     {
       "slug": "glass-skin-treatment-what-is-achievable",
