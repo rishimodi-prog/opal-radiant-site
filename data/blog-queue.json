@@ -527,8 +527,9 @@
       "category": "Skin Science",
       "meta_description": "Glass skin treatment has no clinical definition and no published trial. What peels and facials measurably change in Indian skin, and what they do not.",
       "image_alt": "A skin-assessment form and a sealed serum vial on a clinic counter, illustrating 'Glass skin': what a clinic can and cannot deliver",
-      "published": false,
-      "image_source": "hydra-facial-price-in-india-what-it-actually-costs"
+      "published": true,
+      "image_source": "hydra-facial-price-in-india-what-it-actually-costs",
+      "published_at": "2026-09-15"
     },
     {
       "slug": "double-chin-reduction-options",
