@@ -538,8 +538,9 @@
       "category": "Body Contouring",
       "meta_description": "A double chin treatment guide graded by study design: deoxycholic acid injections, submental fat freezing, HIFU, and what none of them can do.",
       "image_alt": "A cryolipolysis applicator on a treatment bed beside a calendar, illustrating double chin: what actually reduces it",
-      "published": false,
-      "image_source": "fat-freeze-results-1-month-timeline"
+      "published": true,
+      "image_source": "fat-freeze-results-1-month-timeline",
+      "published_at": "2026-09-16"
     },
     {
       "slug": "ipl-vs-laser-hair-removal-difference",
