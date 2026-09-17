@@ -549,8 +549,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "IPL laser hair removal is a contradiction: IPL is a filtered flashlamp, not a laser. What the trials measured, and what it means for Indian skin.",
       "image_alt": "A professional diode laser handpiece beside a compact at-home IPL device, illustrating iPL vs laser hair removal: not the same technology",
-      "published": false,
-      "image_source": "laser-hair-removal-vs-ipl-at-home-science"
+      "published": true,
+      "image_source": "laser-hair-removal-vs-ipl-at-home-science",
+      "published_at": "2026-09-17"
     },
     {
       "slug": "chemical-peel-cost-india-types",
