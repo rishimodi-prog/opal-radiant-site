@@ -560,8 +560,9 @@
       "category": "Chemical Peel",
       "meta_description": "Chemical peel cost in India has no independent data source. The peel types, session counts and measured downtime for Fitzpatrick IV-VI skin, graded.",
       "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating chemical peels in India: types, cost and downtime",
-      "published": false,
-      "image_source": "chemical-peel-purging-vs-breakout"
+      "published": true,
+      "image_source": "chemical-peel-purging-vs-breakout",
+      "published_at": "2026-09-18"
     },
     {
       "slug": "hormonal-acne-adult-women-india",
