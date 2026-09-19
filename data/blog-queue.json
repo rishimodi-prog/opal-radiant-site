@@ -571,8 +571,9 @@
       "category": "Acne",
       "meta_description": "Hormonal acne treatment in adult women: what the SAFA and FASCE trials, the PCOS guideline and the Cochrane pill review actually show, with effect sizes.",
       "image_alt": "A trichoscope and a hairbrush on a clinic consultation desk, illustrating adult hormonal acne in Indian women: what's driving it",
-      "published": false,
-      "image_source": "pcos-hair-loss-evidence-based-guide"
+      "published": true,
+      "image_source": "pcos-hair-loss-evidence-based-guide",
+      "published_at": "2026-09-19"
     },
     {
       "slug": "laser-hair-removal-cost-mumbai-2026",
