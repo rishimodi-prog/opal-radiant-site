@@ -582,8 +582,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "What laser hair removal in Mumbai costs in 2026: published per-area price bands, package discounts, hidden add-ons and what the evidence actually supports.",
       "image_alt": "A calm, empty aesthetic clinic treatment room in warm beige tones, illustrating laser hair removal cost in Mumbai, 2026",
-      "published": false,
-      "image_source": "laser-hair-removal-and-pregnancy-safety"
+      "published": true,
+      "image_source": "laser-hair-removal-and-pregnancy-safety",
+      "published_at": "2026-09-20"
     },
     {
       "slug": "laser-hair-removal-burns-causes-prevention",
