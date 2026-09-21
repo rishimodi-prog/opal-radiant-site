@@ -593,8 +593,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Laser hair removal burns: what causes them, why Fitzpatrick IV-VI skin carries more risk, and what the published evidence does and does not show.",
       "image_alt": "A diode laser handpiece and cooling gel on a clinic treatment bed, illustrating laser hair removal burns: why they happen and how to avoid one",
-      "published": false,
-      "image_source": "laser-hair-removal-side-effects-by-skin-type"
+      "published": true,
+      "image_source": "laser-hair-removal-side-effects-by-skin-type",
+      "published_at": "2026-09-21"
     },
     {
       "slug": "bikini-laser-hair-removal-what-to-expect",
