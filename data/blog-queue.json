@@ -604,8 +604,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Bikini laser hair removal: what the evidence shows, what it does not, pain and numbing data, risk in Indian skin, and the questions people don't ask aloud.",
       "image_alt": "A laser handpiece with a cooling tip beside topical anaesthetic cream on a treatment bed, illustrating bikini laser hair removal: the questions people don't ask aloud",
-      "published": false,
-      "image_source": "is-laser-hair-removal-painful-pain-scores"
+      "published": true,
+      "image_source": "is-laser-hair-removal-painful-pain-scores",
+      "published_at": "2026-09-22"
     },
     {
       "slug": "bikini-laser-hair-removal-cost-india",
