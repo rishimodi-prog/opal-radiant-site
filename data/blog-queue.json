@@ -626,8 +626,9 @@
       "category": "Pigmentation",
       "meta_description": "Jhaiyan treatment in hindi: झाइयां क्यों होती हैं, किस इलाज के पीछे सबसे मज़बूत सबूत है, और दोबारा होने की दर क्या है — आंकड़ों के साथ।",
       "image_alt": "क्लिनिक में ब्रॉड-स्पेक्ट्रम सनस्क्रीन की शेल्फ — झाइयों (मेलास्मा) की देखभाल",
-      "published": false,
-      "image_source": "melasma-in-pregnancy-chloasma"
+      "published": true,
+      "image_source": "melasma-in-pregnancy-chloasma",
+      "published_at": "2026-09-24"
     },
     {
       "slug": "diode-laser-hair-removal-how-it-works",
