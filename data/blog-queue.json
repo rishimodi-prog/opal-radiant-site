@@ -637,8 +637,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Diode laser hair removal explained — the 810 nm physics, what Indian studies actually measured in Fitzpatrick IV–V skin, and where the evidence stops.",
       "image_alt": "A diode laser hair removal handpiece and protective eyewear on a clinic treatment bed, illustrating diode laser: how it works and why clinics use it on Indian skin",
-      "published": false,
-      "image_source": "does-laser-hair-removal-cause-cancer"
+      "published": true,
+      "image_source": "does-laser-hair-removal-cause-cancer",
+      "published_at": "2026-09-25"
     },
     {
       "slug": "fat-freeze-cost-india-per-area",
