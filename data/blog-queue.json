@@ -648,8 +648,9 @@
       "category": "Body Contouring",
       "meta_description": "Fat freezing cost in India is quoted per area or per applicator cycle. What that unit buys, how many sessions the evidence supports, and the hidden costs.",
       "image_alt": "A cryolipolysis fat-freezing applicator on a treatment bed beside a consent form, illustrating fat freeze in India: cost per area and session count",
-      "published": false,
-      "image_source": "cryolipolysis-safety-fda-clinical-data"
+      "published": true,
+      "image_source": "cryolipolysis-safety-fda-clinical-data",
+      "published_at": "2026-09-26"
     },
     {
       "slug": "tan-removal-treatment-vs-home-remedies",
