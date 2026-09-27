@@ -659,8 +659,9 @@
       "category": "Pigmentation",
       "meta_description": "No controlled trial has measured a tan removal treatment against no treatment. What the evidence on tanning, peels, lemon juice and sunscreen shows.",
       "image_alt": "Tinted mineral sunscreen and a UV reference card on a clinic desk, illustrating tan removal: clinic treatment vs the home remedies",
-      "published": false,
-      "image_source": "sunscreen-for-indian-skin-spf-guide"
+      "published": true,
+      "image_source": "sunscreen-for-indian-skin-spf-guide",
+      "published_at": "2026-09-27"
     },
     {
       "slug": "hifu-cost-india-sessions",
