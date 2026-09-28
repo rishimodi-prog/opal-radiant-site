@@ -670,8 +670,9 @@
       "category": "HIFU",
       "meta_description": "HIFU treatment cost in India runs about ₹3,500 to ₹50,000 a session. What drives the price, how many sessions, and what blinded trials measured.",
       "image_alt": "A HIFU ultrasound handpiece and an injection tray side by side, illustrating hIFU in India: cost, sessions and how long it lasts",
-      "published": false,
-      "image_source": "hifu-vs-botox-evidence-comparison"
+      "published": true,
+      "image_source": "hifu-vs-botox-evidence-comparison",
+      "published_at": "2026-09-28"
     },
     {
       "slug": "bridal-skin-treatment-timeline",
