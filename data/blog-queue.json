@@ -681,8 +681,9 @@
       "category": "Bridal",
       "meta_description": "A bridal skin treatment timeline built backwards from published data: what 6 months can change, and why 6 weeks out is the hard stop for anything new.",
       "image_alt": "A dermatology assessment chart and sunscreen on a clinic counter, illustrating bridal skin: a realistic six-month timeline",
-      "published": false,
-      "image_source": "can-melasma-be-cured-permanently"
+      "published": true,
+      "image_source": "can-melasma-be-cured-permanently",
+      "published_at": "2026-09-29"
     },
     {
       "slug": "female-pattern-hair-loss-india",
