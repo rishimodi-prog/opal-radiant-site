@@ -1,0 +1,29 @@
+.video-testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  max-width: 720px;
+  margin: 0 auto 1rem;
+}
+.video-testimonial {
+  margin: 0;
+  overflow: hidden;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+}
+.video-testimonial video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
+  object-fit: contain;
+  background: #181614;
+}
+.video-testimonial figcaption { padding: 1.25rem; }
+.video-testimonial h3 { font-size: 1.3rem; margin: 0 0 .35rem; }
+.video-testimonial p { margin: 0; color: var(--color-text-light); font-size: .9rem; }
+.video-testimonials-note { text-align: center; color: var(--color-text-light); font-size: .85rem; margin-bottom: 2rem; }
+@media (max-width: 540px) {
+  .video-testimonials { grid-template-columns: 1fr; max-width: 340px; gap: 1.5rem; }
+}
