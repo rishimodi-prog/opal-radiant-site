@@ -692,8 +692,9 @@
       "category": "Hair Loss",
       "meta_description": "Female pattern hair loss staged and treated by the evidence: Ludwig and Sinclair scales, minoxidil trial data, and what finasteride and PRP did not do.",
       "image_alt": "A trichoscope and a hairbrush on a clinic consultation desk, illustrating female pattern hair loss: staging and treatment",
-      "published": false,
-      "image_source": "pcos-hair-loss-evidence-based-guide"
+      "published": true,
+      "image_source": "pcos-hair-loss-evidence-based-guide",
+      "published_at": "2026-09-30"
     },
     {
       "slug": "microneedling-vs-laser-acne-scars",
