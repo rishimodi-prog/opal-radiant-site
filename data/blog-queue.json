@@ -703,8 +703,9 @@
       "category": "Acne Scars",
       "meta_description": "Microneedling for acne scars versus laser: the head-to-head RCT numbers, pigmentation risk in Indian skin, session counts, and what neither can do.",
       "image_alt": "Carbon lotion and a Q-switched Nd:YAG laser handpiece on a clinic tray, illustrating microneedling vs laser for acne scars",
-      "published": false,
-      "image_source": "carbon-laser-facial-science-explained"
+      "published": true,
+      "image_source": "carbon-laser-facial-science-explained",
+      "published_at": "2026-10-01"
     },
     {
       "slug": "laser-hair-removal-hindi-guide",
