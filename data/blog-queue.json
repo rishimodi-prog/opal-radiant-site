@@ -714,8 +714,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Laser hair removal in Hindi — लेज़र हेयर रिमूवल कैसे काम करता है, कितनी सिटिंग लगती हैं, साइड इफ़ेक्ट क्या हैं और रिसर्च असल में क्या कहती है।",
       "image_alt": "क्लिनिक ट्रीटमेंट बेड पर डायोड लेज़र हेयर रिमूवल हैंडपीस और सुरक्षा चश्मा",
-      "published": false,
-      "image_source": "does-laser-hair-removal-cause-cancer"
+      "published": true,
+      "image_source": "does-laser-hair-removal-cause-cancer",
+      "published_at": "2026-10-02"
     },
     {
       "slug": "acne-scar-treatment-cost-india",
