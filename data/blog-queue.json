@@ -725,8 +725,9 @@
       "category": "Acne Scars",
       "meta_description": "Acne scar treatment cost in India, broken down by published session counts, 2026 clinic price bands and what trials show a session actually delivers.",
       "image_alt": "A radiofrequency microneedling handpiece on a sterile clinic tray, illustrating acne scar treatment: cost and realistic session counts",
-      "published": false,
-      "image_source": "mnrf-microneedling-rf-collagen-research"
+      "published": true,
+      "image_source": "mnrf-microneedling-rf-collagen-research",
+      "published_at": "2026-10-03"
     },
     {
       "slug": "prp-vs-gfc-vs-minoxidil",
