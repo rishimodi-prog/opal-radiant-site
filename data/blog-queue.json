@@ -736,8 +736,9 @@
       "category": "Hair PRP",
       "meta_description": "PRP, GFC treatment for hair and minoxidil compared against the actual trial data: where the evidence is strong, where it is weak, and where it is absent.",
       "image_alt": "A centrifuged platelet-rich plasma vial and a sterile injection tray, illustrating pRP, GFC or minoxidil: comparing the evidence",
-      "published": false,
-      "image_source": "hair-prp-for-hair-fall-evidence"
+      "published": true,
+      "image_source": "hair-prp-for-hair-fall-evidence",
+      "published_at": "2026-10-04"
     },
     {
       "slug": "sun-spots-vs-melasma-vs-pih",
