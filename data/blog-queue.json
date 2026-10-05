@@ -747,8 +747,9 @@
       "category": "Pigmentation",
       "meta_description": "Sun spots, melasma and PIH are the types of pigmentation on face most often confused in Indian skin. How to tell them apart and why the label matters.",
       "image_alt": "A skin-tone reference chart and a colorimeter on a clinic desk, illustrating sun spots, melasma or PIH? Telling them apart matters",
-      "published": false,
-      "image_source": "fitzpatrick-skin-type-indian-skin-laser-safety"
+      "published": true,
+      "image_source": "fitzpatrick-skin-type-indian-skin-laser-safety",
+      "published_at": "2026-10-05"
     },
     {
       "slug": "open-pores-hindi-treatment",
