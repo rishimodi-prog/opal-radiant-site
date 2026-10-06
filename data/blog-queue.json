@@ -758,8 +758,9 @@
       "category": "Pigmentation",
       "meta_description": "Open pores in hindi: खुले रोमछिद्र क्यों दिखते हैं, किस इलाज के पीछे मापा हुआ सबूत है, और कौन-से दावे टिकते नहीं — आंकड़ों के साथ।",
       "image_alt": "स्टेराइल क्लिनिक ट्रे पर रेडियोफ्रीक्वेंसी माइक्रोनीडलिंग हैंडपीस — खुले रोमछिद्रों का इलाज",
-      "published": false,
-      "image_source": "mnrf-microneedling-rf-collagen-research"
+      "published": true,
+      "image_source": "mnrf-microneedling-rf-collagen-research",
+      "published_at": "2026-10-06"
     },
     {
       "slug": "underarm-darkness-causes-treatment",
