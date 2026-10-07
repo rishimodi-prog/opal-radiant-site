@@ -769,8 +769,9 @@
       "category": "Pigmentation",
       "meta_description": "Dark underarms treatment rests on just ten published studies. What causes axillary pigmentation, what topicals and lasers do, and what they cannot do.",
       "image_alt": "Two different laser handpieces side by side on a clinic treatment bed, illustrating dark underarms: why it happens and what clears it",
-      "published": false,
-      "image_source": "underarm-laser-whitening-evidence"
+      "published": true,
+      "image_source": "underarm-laser-whitening-evidence",
+      "published_at": "2026-10-07"
     },
     {
       "slug": "under-eye-hollows-vs-dark-circles",
