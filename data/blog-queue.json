@@ -780,8 +780,9 @@
       "category": "Dark Circles",
       "meta_description": "Under eye hollows treatment is not the same as treating pigment or vascular dark circles. What Indian studies measured, and what creams and lasers deliver.",
       "image_alt": "Iron-rich foods and a dermatologist's loupe on a clinic counter, illustrating hollows, pigment or shadow? The three dark-circle types",
-      "published": false,
-      "image_source": "what-deficiency-causes-dark-circles"
+      "published": true,
+      "image_source": "what-deficiency-causes-dark-circles",
+      "published_at": "2026-10-08"
     },
     {
       "slug": "subcision-for-rolling-scars-evidence",
