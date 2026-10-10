@@ -802,8 +802,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Face laser hair removal cost in India: published price bands by zone, which facial areas respond, session maths and what the evidence does not support.",
       "image_alt": "A diode laser handpiece and cooling gel on a clinic treatment bed, illustrating facial laser hair removal: cost and what's treatable",
-      "published": false,
-      "image_source": "laser-hair-removal-side-effects-by-skin-type"
+      "published": true,
+      "image_source": "laser-hair-removal-side-effects-by-skin-type",
+      "published_at": "2026-10-10"
     },
     {
       "slug": "neck-pigmentation-acanthosis-nigricans",
