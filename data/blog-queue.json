@@ -813,8 +813,9 @@
       "category": "Pigmentation",
       "meta_description": "Dark neck treatment explained: what acanthosis nigricans is, what Indian studies show about insulin resistance, and what the evidence does not support.",
       "image_alt": "Iron-rich foods and a dermatologist's loupe on a clinic counter, illustrating dark neck: when it's cosmetic and when it's a health signal",
-      "published": false,
-      "image_source": "what-deficiency-causes-dark-circles"
+      "published": true,
+      "image_source": "what-deficiency-causes-dark-circles",
+      "published_at": "2026-10-11"
     },
     {
       "slug": "collagen-loss-by-age-indian-skin",
