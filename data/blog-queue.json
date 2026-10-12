@@ -824,8 +824,9 @@
       "category": "Anti-Ageing",
       "meta_description": "Collagen loss by age, in measured numbers: when dermal collagen actually declines, what accelerates it, and which interventions have biopsy evidence.",
       "image_alt": "A radiofrequency microneedling handpiece on a sterile clinic tray, illustrating when collagen actually starts declining, and what slows it",
-      "published": false,
-      "image_source": "mnrf-microneedling-rf-collagen-research"
+      "published": true,
+      "image_source": "mnrf-microneedling-rf-collagen-research",
+      "published_at": "2026-10-12"
     },
     {
       "slug": "hair-transplant-vs-prp-when",
