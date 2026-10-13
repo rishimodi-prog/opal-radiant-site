@@ -835,8 +835,9 @@
       "category": "Hair PRP",
       "meta_description": "PRP vs hair transplant on the evidence: where PRP raises density, where it was tested in advanced baldness and found nothing, and who is not a candidate.",
       "image_alt": "A centrifuged platelet-rich plasma vial and a sterile injection tray, illustrating when PRP is enough and when it isn't",
-      "published": false,
-      "image_source": "hair-prp-for-hair-fall-evidence"
+      "published": true,
+      "image_source": "hair-prp-for-hair-fall-evidence",
+      "published_at": "2026-10-13"
     },
     {
       "slug": "laser-hair-removal-for-men-what-differs",
