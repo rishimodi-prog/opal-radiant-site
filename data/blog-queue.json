@@ -846,8 +846,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Laser hair removal for men: denser hair, bigger areas, a different protocol — and a near-empty evidence base. What the trials measured for beard and back.",
       "image_alt": "A laser hair removal treatment bed with the handpiece resting on it, illustrating laser hair removal for men: denser hair, different protocol",
-      "published": false,
-      "image_source": "laser-hair-removal-how-many-sessions-science"
+      "published": true,
+      "image_source": "laser-hair-removal-how-many-sessions-science",
+      "published_at": "2026-10-14"
     },
     {
       "slug": "laser-hair-removal-at-home-vs-clinic",
