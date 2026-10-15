@@ -857,8 +857,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Laser hair removal at home versus clinic treatment: the fluence gap, who funded the home-device studies, and what the evidence shows for Indian skin.",
       "image_alt": "A professional diode laser handpiece beside a compact at-home IPL device, illustrating at-home laser devices vs clinic treatment: the real gap",
-      "published": false,
-      "image_source": "laser-hair-removal-vs-ipl-at-home-science"
+      "published": true,
+      "image_source": "laser-hair-removal-vs-ipl-at-home-science",
+      "published_at": "2026-10-15"
     },
     {
       "slug": "inch-loss-vs-fat-loss-difference",
