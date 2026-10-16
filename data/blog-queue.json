@@ -868,8 +868,9 @@
       "category": "Body Contouring",
       "meta_description": "An inch loss treatment moves a tape measure. Measured fat reduction is 39.6 cc per cryolipolysis cycle, with body weight unchanged.",
       "image_alt": "A cryolipolysis fat-freezing applicator on a treatment bed beside a consent form, illustrating inch loss vs fat loss: what body treatments actually change",
-      "published": false,
-      "image_source": "cryolipolysis-safety-fda-clinical-data"
+      "published": true,
+      "image_source": "cryolipolysis-safety-fda-clinical-data",
+      "published_at": "2026-10-16"
     },
     {
       "slug": "dermatologist-vs-salon-facial",
