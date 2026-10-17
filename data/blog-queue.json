@@ -879,8 +879,9 @@
       "category": "Skin Science",
       "meta_description": "A dermatologist facial and a salon facial differ in operator training, depth control and consent, not in proven results. What the evidence shows.",
       "image_alt": "A skin-assessment clipboard and a serum vial on a clinic counter, illustrating clinic facial vs salon facial: the actual differences",
-      "published": false,
-      "image_source": "hydrafacial-side-effects-who-should-avoid"
+      "published": true,
+      "image_source": "hydrafacial-side-effects-who-should-avoid",
+      "published_at": "2026-10-17"
     },
     {
       "slug": "upper-lip-laser-hair-removal-cost-safety",
