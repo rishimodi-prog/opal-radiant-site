@@ -890,8 +890,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Upper lip laser hair removal cost in India, the pigmentation and paradoxical hair risks in deeper skin, and what the published evidence does not support.",
       "image_alt": "A laser handpiece with a cooling tip beside topical anaesthetic cream on a treatment bed, illustrating upper lip laser: cost, safety and pigmentation risk",
-      "published": false,
-      "image_source": "is-laser-hair-removal-painful-pain-scores"
+      "published": true,
+      "image_source": "is-laser-hair-removal-painful-pain-scores",
+      "published_at": "2026-10-18"
     },
     {
       "slug": "salicylic-vs-glycolic-vs-mandelic",
