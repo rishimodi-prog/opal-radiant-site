@@ -901,8 +901,9 @@
       "category": "Chemical Peel",
       "meta_description": "Mandelic acid for Indian skin compared with salicylic and glycolic peels, using the Indian trial data: effect sizes, tolerability and what stays unproven.",
       "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating salicylic, glycolic or mandelic: choosing an acid for Indian skin",
-      "published": false,
-      "image_source": "chemical-peel-purging-vs-breakout"
+      "published": true,
+      "image_source": "chemical-peel-purging-vs-breakout",
+      "published_at": "2026-10-19"
     },
     {
       "slug": "laser-hair-removal-vs-electrolysis",
