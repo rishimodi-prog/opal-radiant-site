@@ -912,8 +912,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Electrolysis vs laser hair removal, on the evidence: what “permanent” actually means, what the trials measured, and what neither method can promise.",
       "image_alt": "A diode laser hair removal handpiece and protective eyewear on a clinic treatment bed, illustrating laser vs electrolysis: which is genuinely permanent",
-      "published": false,
-      "image_source": "does-laser-hair-removal-cause-cancer"
+      "published": true,
+      "image_source": "does-laser-hair-removal-cause-cancer",
+      "published_at": "2026-10-20"
     },
     {
       "slug": "laser-hair-removal-skin-lightening-myth",
