@@ -923,8 +923,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Does laser hair removal lighten skin? No controlled trial shows it does. What the evidence says about clearing, bleaching and pigment change.",
       "image_alt": "A skin-tone reference chart and a colorimeter on a clinic desk, illustrating does laser lighten skin? Separating bleaching from clearing",
-      "published": false,
-      "image_source": "fitzpatrick-skin-type-indian-skin-laser-safety"
+      "published": true,
+      "image_source": "fitzpatrick-skin-type-indian-skin-laser-safety",
+      "published_at": "2026-10-21"
     },
     {
       "slug": "thread-lift-vs-hifu-vs-fillers",
