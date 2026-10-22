@@ -934,8 +934,9 @@
       "category": "Anti-Ageing",
       "meta_description": "Thread lift vs HIFU vs fillers: what each is measured to do, where the evidence is thin, and how to choose by the problem rather than the treatment name.",
       "image_alt": "A HIFU ultrasound handpiece and an injection tray side by side, illustrating thread lift, HIFU or fillers: how to choose",
-      "published": false,
-      "image_source": "hifu-vs-botox-evidence-comparison"
+      "published": true,
+      "image_source": "hifu-vs-botox-evidence-comparison",
+      "published_at": "2026-10-22"
     },
     {
       "slug": "laser-hair-removal-summer-vs-monsoon-mumbai",
