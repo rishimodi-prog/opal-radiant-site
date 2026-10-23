@@ -945,8 +945,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "The best time for laser hair removal is decided by your hair cycle, not Mumbai's weather. What the evidence shows about seasons, sun and sweat.",
       "image_alt": "A laser hair removal treatment bed with the handpiece resting on it, illustrating sun, sweat and Mumbai seasons: when to run a laser course",
-      "published": false,
-      "image_source": "laser-hair-removal-how-many-sessions-science"
+      "published": true,
+      "image_source": "laser-hair-removal-how-many-sessions-science",
+      "published_at": "2026-10-23"
     },
     {
       "slug": "laser-hair-removal-tattoo-moles-safety",
