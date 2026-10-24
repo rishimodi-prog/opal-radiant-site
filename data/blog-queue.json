@@ -956,8 +956,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Laser hair removal over tattoo ink, moles and scars: what the published evidence shows, where it is absent, and the rules clinics actually follow.",
       "image_alt": "A Q-switched laser handpiece positioned over a fading tattoo, illustrating lasering over tattoos, moles and scars: what's unsafe",
-      "published": false,
-      "image_source": "tattoo-removal-how-many-sessions-science"
+      "published": true,
+      "image_source": "tattoo-removal-how-many-sessions-science",
+      "published_at": "2026-10-24"
     },
     {
       "slug": "laser-hair-removal-hormonal-conditions",
