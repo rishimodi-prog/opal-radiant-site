@@ -967,8 +967,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Laser hair removal hormonal imbalance: PCOS patients averaged 31% reduction after six sessions in one study. What the evidence shows, and what to check.",
       "image_alt": "A clinical chart and a laser hair removal handpiece on a consultation desk, illustrating when hormones make laser fail, and what to do first",
-      "published": false,
-      "image_source": "pcos-hirsutism-hair-growth-evidence"
+      "published": true,
+      "image_source": "pcos-hirsutism-hair-growth-evidence",
+      "published_at": "2026-10-25"
     },
     {
       "slug": "laser-hair-removal-maintenance-after-course",
