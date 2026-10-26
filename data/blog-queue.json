@@ -978,8 +978,9 @@
       "category": "Laser Hair Removal",
       "meta_description": "Laser hair removal maintenance sessions: how much reduction slips after a course, which sites relapse first, and what no trial has ever tested.",
       "image_alt": "A laser hair removal handpiece on a clinic treatment bed, illustrating after the course: maintenance sessions and what actually returns",
-      "published": false,
-      "image_source": "laser-hair-removal-regrowth-after-pregnancy-hormonal-change"
+      "published": true,
+      "image_source": "laser-hair-removal-regrowth-after-pregnancy-hormonal-change",
+      "published_at": "2026-10-26"
     }
   ],
   "batch_2_generated": "2026-08-25"
