@@ -1,0 +1,79 @@
+name: Ingest content-intake into the publish queue
+
+# Automated counterpart to the manual queue step. Finished blog-post JSON files
+# dropped into content-intake/ are validated, rendered, dated and appended to
+# the publish queue (data/blog-queue.json) by scripts/ingest_batch.py — then
+# committed, so the existing "Publish daily blog post" workflow picks one up
+# per day. No LLM/AI work happens here: the posts are already written; this
+# only does the mechanical validate-render-date-queue step you used to run by
+# hand, with no local scripts and no date-wrangling.
+#
+# The one manual touchpoint that remains is getting the JSON files INTO the
+# repo in the first place (a push, or uploading them in the GitHub web UI).
+# Once they land in content-intake/ on main, everything below is automatic.
+
+on:
+  # Fires the moment finished posts are pushed into the intake folder.
+  push:
+    branches: [main]
+    paths:
+      - 'content-intake/**.json'
+  # Lets you run it by hand from the Actions tab (e.g. after uploading files
+  # via the web UI, which does not always trigger the push event above).
+  workflow_dispatch: {}
+  # Safety net: sweep the intake folder once a day in case a drop ever landed
+  # without triggering the push event. 01:00 UTC = 06:30 IST, an hour before
+  # the 02:00 UTC daily publish, so anything swept in is queued before publish.
+  schedule:
+    - cron: '0 1 * * *'
+
+permissions:
+  contents: write
+
+# Share the publish workflow's concurrency group so ingest and the daily
+# publish never touch data/blog-queue.json at the same time — they run one
+# after the other instead of racing.
+concurrency:
+  group: publish-daily
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Configure git identity
+        run: |
+          git config user.name "opal-content-bot"
+          git config user.email "actions@opalradiant.com"
+
+      - name: Ingest content-intake
+        id: ingest
+        run: python3 scripts/ingest_batch.py
+
+      - name: Commit queued posts
+        if: success()
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing to commit — content-intake was empty or all posts were already queued."
+            exit 0
+          fi
+          git add -A
+          COUNT="${{ steps.ingest.outputs.ingested }}"
+          SLUGS="${{ steps.ingest.outputs.slugs }}"
+          if [ -n "$SLUGS" ]; then
+            MSG="Ingest ${COUNT} queued post(s): ${SLUGS}"
+          else
+            MSG="Ingest content-intake into publish queue"
+          fi
+          git commit -m "$MSG"
+          git push
