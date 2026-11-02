@@ -981,7 +981,278 @@
       "published": true,
       "image_source": "laser-hair-removal-regrowth-after-pregnancy-hormonal-change",
       "published_at": "2026-10-26"
+    },
+    {
+      "slug": "instant-glow-before-event-what-works",
+      "publish_date": "2026-11-02",
+      "title": "Instant Glow Before an Event: What Actually Works in 24–72 Hours",
+      "category": "Skin Science",
+      "meta_description": "A dermatologist-reviewed guide to glowing skin before a wedding, party or shoot — what genuinely works in 1–3 days, and which \"glow\" treatments are hype.",
+      "image_alt": "A skin-assessment form and a sealed serum vial on a clinic counter, illustrating how a clinic plans a safe pre-event glow treatment",
+      "published": false
+    },
+    {
+      "slug": "wedding-week-glow-treatments-evidence",
+      "publish_date": "2026-11-03",
+      "title": "Wedding-Week Glow: Which Facials and Treatments Actually Help",
+      "category": "Bridal",
+      "meta_description": "A dermatologist's guide to the final week before a wedding — which facials genuinely help, what to avoid last-minute, and how to look like yourself.",
+      "image_alt": "A skin-assessment clipboard and a serum vial on a clinic counter, illustrating how a clinic plans a safe wedding-week facial",
+      "published": false
+    },
+    {
+      "slug": "pre-bridal-skin-timeline-6-months",
+      "publish_date": "2026-11-04",
+      "title": "The 6-Month Pre-Bridal Skin Timeline: What to Start, and When",
+      "category": "Bridal",
+      "meta_description": "A dermatologist's month-by-month pre-bridal skin plan — what to start at 6, 3 and 1 month before the wedding, and what to leave for the final week.",
+      "image_alt": "A dermatology assessment chart and sunscreen on a clinic counter, illustrating a structured month-by-month pre-bridal skin plan",
+      "published": false
+    },
+    {
+      "slug": "laser-hair-removal-before-wedding-timeline",
+      "publish_date": "2026-11-05",
+      "title": "Laser Hair Removal Before Your Wedding: How Early to Start",
+      "category": "Laser Hair Removal",
+      "meta_description": "How many months before your wedding to start laser hair removal, how sessions are spaced, and why finishing a full course early matters.",
+      "image_alt": "A laser hair removal treatment bed with the handpiece resting on it, illustrating planning a full course of sessions before a wedding",
+      "published": false
+    },
+    {
+      "slug": "winter-skincare-indian-skin-guide",
+      "publish_date": "2026-11-06",
+      "title": "Winter Skincare for Indian Skin: Barrier, Dullness and What Clinics Add",
+      "category": "Skin Science",
+      "meta_description": "Why Indian skin dulls and dries in winter, the evidence-based routine that fixes it, and the clinic treatments that help — a dermatologist's guide.",
+      "image_alt": "A skin-tone reference chart and a colorimeter on a clinic desk, illustrating winter skincare guidance tailored to Indian skin types",
+      "published": false
+    },
+    {
+      "slug": "dull-skin-causes-treatments-glow",
+      "publish_date": "2026-11-07",
+      "title": "Dull Skin: Why It Happens and the Treatments That Restore Glow",
+      "category": "Skin Science",
+      "meta_description": "What causes dull skin — dead-cell buildup, dehydration, glycation, sun and tan — and the evidence-based home and clinic treatments that actually restore glow.",
+      "image_alt": "A skin-assessment form and a sealed serum vial on a clinic counter, illustrating in-clinic treatments that restore glow to dull skin",
+      "published": false
+    },
+    {
+      "slug": "dry-vs-dehydrated-skin-winter",
+      "publish_date": "2026-11-08",
+      "title": "Dry vs Dehydrated Skin in Winter: How to Tell and How to Treat Each",
+      "category": "Skin Science",
+      "meta_description": "Dry skin and dehydrated skin are not the same — one lacks oil, the other lacks water. How to tell them apart and treat each, especially in winter.",
+      "image_alt": "A skincare shelf with broad-spectrum products in a clinic setting, illustrating the right products for dry versus dehydrated winter skin",
+      "published": false
+    },
+    {
+      "slug": "chemical-peel-for-pigmentation-indian-skin",
+      "publish_date": "2026-11-09",
+      "title": "Chemical Peels for Pigmentation: Which Acids Work for Indian Skin",
+      "category": "Chemical Peel",
+      "meta_description": "Which chemical peels help melasma and pigmentation on Indian skin, the evidence behind them, and how to avoid the post-peel pigmentation that darker skin risks.",
+      "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating peel treatment for pigmentation on Indian skin",
+      "published": false
+    },
+    {
+      "slug": "chemical-peel-for-acne-scars-evidence",
+      "publish_date": "2026-11-10",
+      "title": "Chemical Peels for Acne Scars: What They Fix and What They Can't",
+      "category": "Acne Scars",
+      "meta_description": "Which acne scars chemical peels genuinely improve, which need microneedling, MNRF or subcision instead, and what the evidence shows — a dermatologist's guide.",
+      "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating chemical peel treatment for acne scars",
+      "published": false
+    },
+    {
+      "slug": "chemical-peel-downtime-day-by-day",
+      "publish_date": "2026-11-11",
+      "title": "Chemical Peel Downtime, Day by Day: Peeling, Redness and Aftercare",
+      "category": "Chemical Peel",
+      "meta_description": "Exactly what happens each day after a chemical peel — redness, flaking and peeling — by peel depth, plus the aftercare that protects your result and your skin.",
+      "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating the stages of recovery after a chemical peel",
+      "published": false
+    },
+    {
+      "slug": "salicylic-vs-glycolic-vs-tca-peel",
+      "publish_date": "2026-11-12",
+      "title": "Salicylic vs Glycolic vs TCA: Choosing the Right Peel for Your Skin",
+      "category": "Chemical Peel",
+      "meta_description": "How salicylic, glycolic and TCA peels differ, which skin concern each suits best, and how to choose the right peel for Indian skin — a dermatologist's guide.",
+      "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating the choice between salicylic, glycolic and TCA peels",
+      "published": false
+    },
+    {
+      "slug": "q-switch-laser-for-pigmentation",
+      "publish_date": "2026-11-13",
+      "title": "Q-Switch Laser: How It Treats Pigmentation, Tan and Dull Skin",
+      "category": "Pigmentation",
+      "meta_description": "How a Q-switched Nd:YAG laser treats pigmentation, tan and dullness, what it does well, its limits on melasma, and how safe it is for Indian skin.",
+      "image_alt": "Carbon lotion and a Q-switched Nd:YAG laser handpiece on a clinic tray, illustrating Q-switch laser treatment for pigmentation and tan",
+      "published": false
+    },
+    {
+      "slug": "laser-toning-for-melasma-evidence",
+      "publish_date": "2026-11-14",
+      "title": "Laser Toning for Melasma and Pigmentation: Does It Really Work?",
+      "category": "Melasma",
+      "meta_description": "Does laser toning work for melasma? The real evidence on low-fluence Q-switched Nd:YAG, its benefits, the rebound and hypopigmentation risks, and where it fits.",
+      "image_alt": "A dermatology assessment chart and sunscreen on a clinic counter, illustrating laser toning as one part of melasma management",
+      "published": false
+    },
+    {
+      "slug": "laser-toning-q-switch-cost-mumbai",
+      "publish_date": "2026-11-15",
+      "title": "Laser Toning and Q-Switch Cost in Mumbai: What to Budget",
+      "category": "Pigmentation",
+      "meta_description": "What laser toning and Q-switch laser treatments cost in Mumbai, how many sessions you need, what drives the price, and how to judge value over a course.",
+      "image_alt": "Carbon lotion and a Q-switched Nd:YAG laser handpiece on a clinic tray, illustrating what laser toning and Q-switch sessions cost",
+      "published": false
+    },
+    {
+      "slug": "carbon-laser-facial-vs-hydrafacial",
+      "publish_date": "2026-11-16",
+      "title": "Carbon Laser Facial vs HydraFacial: Which Glow Treatment Is Right for You?",
+      "category": "Carbon Laser Facial",
+      "meta_description": "Carbon laser facial vs HydraFacial — how they differ in mechanism, who each suits, downtime and results — so you choose the right glow treatment for your skin.",
+      "image_alt": "Carbon lotion and a Q-switched Nd:YAG laser handpiece on a clinic tray, illustrating how a carbon laser facial compares with a HydraFacial",
+      "published": false
+    },
+    {
+      "slug": "hifu-results-how-long-they-last",
+      "publish_date": "2026-11-17",
+      "title": "HIFU Results: How Long They Last and When You'll See Them",
+      "category": "HIFU",
+      "meta_description": "When HIFU results appear, how long the lift and tightening last, what the evidence shows, and who's a good candidate — a realistic dermatologist's guide.",
+      "image_alt": "A HIFU ultrasound handpiece and transducer on a clinic treatment bed, illustrating when HIFU results appear and how long they last",
+      "published": false
+    },
+    {
+      "slug": "profhilo-skin-boosters-evidence",
+      "publish_date": "2026-11-18",
+      "title": "Profhilo and Injectable Skin Boosters: What They Are and Do They Work?",
+      "category": "Anti-Ageing",
+      "meta_description": "What injectable skin boosters like Profhilo actually are, how they differ from fillers, what the evidence shows, and how they compare to HIFU and microneedling.",
+      "image_alt": "A vial and syringe on a clinical tray, illustrating injectable skin boosters such as Profhilo",
+      "published": false
+    },
+    {
+      "slug": "exosome-therapy-skin-hair-evidence",
+      "publish_date": "2026-11-19",
+      "title": "Exosome Therapy for Skin and Hair: The Evidence in 2026",
+      "category": "Skin Science",
+      "meta_description": "What exosome therapy is, the early evidence for skin rejuvenation and hair loss, the real regulatory and safety caveats, and how to judge the hype honestly.",
+      "image_alt": "A centrifuged platelet-rich plasma vial and a sterile injection tray, illustrating regenerative injectables such as exosome therapy for skin and hair",
+      "published": false
+    },
+    {
+      "slug": "mesotherapy-for-hair-loss-vs-prp",
+      "publish_date": "2026-11-20",
+      "title": "Mesotherapy for Hair Loss: How It Compares to PRP and GFC",
+      "category": "Hair PRP",
+      "meta_description": "What hair mesotherapy actually is, what the evidence shows, how it compares to PRP, GFC, minoxidil and finasteride, and whether it's worth it for hair loss.",
+      "image_alt": "A centrifuged platelet-rich plasma vial and a sterile injection tray, illustrating mesotherapy for hair loss compared with PRP",
+      "published": false
+    },
+    {
+      "slug": "laser-tattoo-removal-cost-india",
+      "publish_date": "2026-11-21",
+      "title": "Laser Tattoo Removal Cost in India: What Drives the Price",
+      "category": "Tattoo Removal",
+      "meta_description": "What laser tattoo removal costs in India, why price depends on size, colour, ink and sessions, and how to budget realistically for a full course.",
+      "image_alt": "A Q-switched laser handpiece positioned over a fading tattoo, illustrating what drives the cost of laser tattoo removal",
+      "published": false
+    },
+    {
+      "slug": "does-laser-tattoo-removal-scar",
+      "publish_date": "2026-11-22",
+      "title": "Does Laser Tattoo Removal Leave a Scar? What to Expect",
+      "category": "Tattoo Removal",
+      "meta_description": "Does laser tattoo removal scar? Usually not when done properly — here's what actually raises the risk, how to avoid it, and what to expect on Indian skin.",
+      "image_alt": "A Q-switched laser handpiece positioned over a fading tattoo, illustrating whether laser tattoo removal leaves a scar",
+      "published": false
+    },
+    {
+      "slug": "mnrf-vs-microneedling-acne-scars",
+      "publish_date": "2026-11-23",
+      "title": "MNRF vs Microneedling for Acne Scars: Which Goes Deeper?",
+      "category": "Acne Scars",
+      "meta_description": "How RF microneedling (MNRF) differs from standard microneedling for acne scars, which goes deeper, what the evidence shows, and which suits your skin.",
+      "image_alt": "A radiofrequency microneedling handpiece on a sterile clinic tray, illustrating MNRF versus microneedling for acne scars",
+      "published": false
+    },
+    {
+      "slug": "mnrf-cost-sessions-mumbai",
+      "publish_date": "2026-11-24",
+      "title": "MNRF Treatment Cost in Mumbai and How Many Sessions You Need",
+      "category": "MNRF",
+      "meta_description": "What MNRF (RF microneedling) costs in Mumbai, how many sessions acne scars vs rejuvenation need, what drives the price, and how to judge value.",
+      "image_alt": "A radiofrequency microneedling handpiece on a sterile clinic tray, illustrating MNRF treatment cost and session planning",
+      "published": false
+    },
+    {
+      "slug": "coolsculpting-vs-fat-freeze-cost",
+      "publish_date": "2026-11-25",
+      "title": "CoolSculpting vs Fat Freeze: Are They the Same, and What Does It Cost?",
+      "category": "Fat Freeze",
+      "meta_description": "Is CoolSculpting the same as fat freezing? How cryolipolysis works, what the evidence shows, realistic results, costs in India, and who it suits.",
+      "image_alt": "A cryolipolysis fat-freezing applicator on a treatment bed beside a consent form, illustrating how CoolSculpting and fat freeze compare and what they cost",
+      "published": false
+    },
+    {
+      "slug": "emsculpt-hifem-body-toning-evidence",
+      "publish_date": "2026-11-26",
+      "title": "Emsculpt and HIFEM Body Toning: Building Muscle Without the Gym?",
+      "category": "Body Contouring",
+      "meta_description": "What HIFEM body toning (Emsculpt) does to muscle and fat, what the evidence shows, who it suits, and why it complements rather than replaces exercise.",
+      "image_alt": "A HIFEM electromagnetic muscle toning applicator on a clinic treatment bed, illustrating how Emsculpt and HIFEM body toning work",
+      "published": false
+    },
+    {
+      "slug": "non-surgical-double-chin-removal",
+      "publish_date": "2026-11-27",
+      "title": "Non-Surgical Double Chin Removal: Fat Freeze, Injections and What Works",
+      "category": "Body Contouring",
+      "meta_description": "Non-surgical double chin options — cryolipolysis, deoxycholic acid injections, energy devices — the evidence, and why chin exercises fall short.",
+      "image_alt": "A cryolipolysis applicator on a treatment bed beside a calendar, illustrating non-surgical double chin reduction options and timelines",
+      "published": false
+    },
+    {
+      "slug": "medi-facial-vs-facial-vs-hydrafacial",
+      "publish_date": "2026-11-28",
+      "title": "Medi-Facial vs Regular Facial vs HydraFacial: What's the Difference?",
+      "category": "Hydra Facial",
+      "meta_description": "What separates a medi-facial from a salon facial and a HydraFacial — the real differences in results, who does them, and which is worth it for your skin.",
+      "image_alt": "A skin-assessment form and a sealed serum vial on a clinic counter, illustrating the difference between a medi-facial, a salon facial and a HydraFacial",
+      "published": false
+    },
+    {
+      "slug": "hydrafacial-for-acne-congestion",
+      "publish_date": "2026-11-29",
+      "title": "Does HydraFacial Help Acne and Congestion? The Evidence",
+      "category": "Hydra Facial",
+      "meta_description": "Where HydraFacial genuinely helps acne and congestion, where it won't fix inflammatory or cystic acne, and how it fits around a real acne plan.",
+      "image_alt": "A skin-assessment clipboard and a serum vial on a clinic counter, illustrating whether HydraFacial helps acne and congestion",
+      "published": false
+    },
+    {
+      "slug": "pcos-and-skin-acne-pigmentation",
+      "publish_date": "2026-11-30",
+      "title": "PCOS and Your Skin: Acne, Pigmentation and the Treatments That Help",
+      "category": "PCOS",
+      "meta_description": "How PCOS drives acne, hirsutism, hair loss and pigmentation, and the combined medical and dermatological treatments that actually help.",
+      "image_alt": "A dermatoscope and skincare ampoules on a clinic tray, illustrating PCOS-related skin concerns such as acne and pigmentation",
+      "published": false
+    },
+    {
+      "slug": "dark-circles-treatments-what-works",
+      "publish_date": "2026-12-01",
+      "title": "Dark Circles: Why Under-Eye Treatments Fail and What Actually Works",
+      "category": "Dark Circles",
+      "meta_description": "Dark circles have several causes — pigment, blood vessels, volume loss, laxity. Why treatments fail when they target the wrong cause, and what works.",
+      "image_alt": "Iron-rich foods and a dermatologist's loupe on a clinic counter, illustrating the causes and treatments of under-eye dark circles",
+      "published": false
     }
   ],
-  "batch_2_generated": "2026-08-25"
+  "batch_2_generated": "2026-08-25",
+  "last_ingest": "2026-11-02"
 }
