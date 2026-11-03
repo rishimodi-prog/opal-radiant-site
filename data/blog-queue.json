@@ -999,7 +999,8 @@
       "category": "Bridal",
       "meta_description": "A dermatologist's guide to the final week before a wedding — which facials genuinely help, what to avoid last-minute, and how to look like yourself.",
       "image_alt": "A skin-assessment clipboard and a serum vial on a clinic counter, illustrating how a clinic plans a safe wedding-week facial",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-03"
     },
     {
       "slug": "pre-bridal-skin-timeline-6-months",
