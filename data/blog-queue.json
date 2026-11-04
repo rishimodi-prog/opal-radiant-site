@@ -1009,7 +1009,8 @@
       "category": "Bridal",
       "meta_description": "A dermatologist's month-by-month pre-bridal skin plan — what to start at 6, 3 and 1 month before the wedding, and what to leave for the final week.",
       "image_alt": "A dermatology assessment chart and sunscreen on a clinic counter, illustrating a structured month-by-month pre-bridal skin plan",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-04"
     },
     {
       "slug": "laser-hair-removal-before-wedding-timeline",
