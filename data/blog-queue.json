@@ -1019,7 +1019,8 @@
       "category": "Laser Hair Removal",
       "meta_description": "How many months before your wedding to start laser hair removal, how sessions are spaced, and why finishing a full course early matters.",
       "image_alt": "A laser hair removal treatment bed with the handpiece resting on it, illustrating planning a full course of sessions before a wedding",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-05"
     },
     {
       "slug": "winter-skincare-indian-skin-guide",
