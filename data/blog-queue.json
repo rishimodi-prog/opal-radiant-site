@@ -1029,7 +1029,8 @@
       "category": "Skin Science",
       "meta_description": "Why Indian skin dulls and dries in winter, the evidence-based routine that fixes it, and the clinic treatments that help — a dermatologist's guide.",
       "image_alt": "A skin-tone reference chart and a colorimeter on a clinic desk, illustrating winter skincare guidance tailored to Indian skin types",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-06"
     },
     {
       "slug": "dull-skin-causes-treatments-glow",
