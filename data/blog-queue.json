@@ -1039,7 +1039,8 @@
       "category": "Skin Science",
       "meta_description": "What causes dull skin — dead-cell buildup, dehydration, glycation, sun and tan — and the evidence-based home and clinic treatments that actually restore glow.",
       "image_alt": "A skin-assessment form and a sealed serum vial on a clinic counter, illustrating in-clinic treatments that restore glow to dull skin",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-07"
     },
     {
       "slug": "dry-vs-dehydrated-skin-winter",
