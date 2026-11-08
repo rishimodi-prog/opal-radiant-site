@@ -1049,7 +1049,8 @@
       "category": "Skin Science",
       "meta_description": "Dry skin and dehydrated skin are not the same — one lacks oil, the other lacks water. How to tell them apart and treat each, especially in winter.",
       "image_alt": "A skincare shelf with broad-spectrum products in a clinic setting, illustrating the right products for dry versus dehydrated winter skin",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-08"
     },
     {
       "slug": "chemical-peel-for-pigmentation-indian-skin",
