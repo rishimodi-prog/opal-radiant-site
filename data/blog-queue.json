@@ -1059,7 +1059,8 @@
       "category": "Chemical Peel",
       "meta_description": "Which chemical peels help melasma and pigmentation on Indian skin, the evidence behind them, and how to avoid the post-peel pigmentation that darker skin risks.",
       "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating peel treatment for pigmentation on Indian skin",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-09"
     },
     {
       "slug": "chemical-peel-for-acne-scars-evidence",
