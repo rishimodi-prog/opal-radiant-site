@@ -1069,7 +1069,8 @@
       "category": "Acne Scars",
       "meta_description": "Which acne scars chemical peels genuinely improve, which need microneedling, MNRF or subcision instead, and what the evidence shows — a dermatologist's guide.",
       "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating chemical peel treatment for acne scars",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-10"
     },
     {
       "slug": "chemical-peel-downtime-day-by-day",
