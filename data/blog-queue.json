@@ -1079,7 +1079,8 @@
       "category": "Chemical Peel",
       "meta_description": "Exactly what happens each day after a chemical peel — redness, flaking and peeling — by peel depth, plus the aftercare that protects your result and your skin.",
       "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating the stages of recovery after a chemical peel",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11"
     },
     {
       "slug": "salicylic-vs-glycolic-vs-tca-peel",
