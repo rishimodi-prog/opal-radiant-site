@@ -186,6 +186,7 @@ FOOTER_HTML = '''  <footer class="footer" role="contentinfo">
             <li><a href="/pricing">Pricing</a></li>
             <li><a href="/privacy-policy">Privacy Policy</a></li>
             <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/refund-policy">Refund Policy</a></li>
           </ul>
         </div>
 
@@ -305,6 +306,8 @@ FOOTER_HTML = '''  <footer class="footer" role="contentinfo">
           <a href="/privacy-policy">Privacy Policy</a>
           <span style="margin:0 0.5rem;">|</span>
           <a href="/terms">Terms of Service</a>
+          <span style="margin:0 0.5rem;">|</span>
+          <a href="/refund-policy">Refund Policy</a>
           <span style="margin:0 0.5rem;">|</span>
           <a href="/sitemap.xml">Sitemap</a>
         </p>
