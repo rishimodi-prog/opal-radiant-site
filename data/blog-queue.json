@@ -1089,7 +1089,8 @@
       "category": "Chemical Peel",
       "meta_description": "How salicylic, glycolic and TCA peels differ, which skin concern each suits best, and how to choose the right peel for Indian skin — a dermatologist's guide.",
       "image_alt": "Chemical peel solution and an applicator brush on a clinic treatment tray, illustrating the choice between salicylic, glycolic and TCA peels",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-12"
     },
     {
       "slug": "q-switch-laser-for-pigmentation",
