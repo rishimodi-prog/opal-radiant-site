@@ -1099,7 +1099,8 @@
       "category": "Pigmentation",
       "meta_description": "How a Q-switched Nd:YAG laser treats pigmentation, tan and dullness, what it does well, its limits on melasma, and how safe it is for Indian skin.",
       "image_alt": "Carbon lotion and a Q-switched Nd:YAG laser handpiece on a clinic tray, illustrating Q-switch laser treatment for pigmentation and tan",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-13"
     },
     {
       "slug": "laser-toning-for-melasma-evidence",
