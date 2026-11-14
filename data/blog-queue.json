@@ -1109,7 +1109,8 @@
       "category": "Melasma",
       "meta_description": "Does laser toning work for melasma? The real evidence on low-fluence Q-switched Nd:YAG, its benefits, the rebound and hypopigmentation risks, and where it fits.",
       "image_alt": "A dermatology assessment chart and sunscreen on a clinic counter, illustrating laser toning as one part of melasma management",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-14"
     },
     {
       "slug": "laser-toning-q-switch-cost-mumbai",
