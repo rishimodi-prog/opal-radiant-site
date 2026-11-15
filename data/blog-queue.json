@@ -1119,7 +1119,8 @@
       "category": "Pigmentation",
       "meta_description": "What laser toning and Q-switch laser treatments cost in Mumbai, how many sessions you need, what drives the price, and how to judge value over a course.",
       "image_alt": "Carbon lotion and a Q-switched Nd:YAG laser handpiece on a clinic tray, illustrating what laser toning and Q-switch sessions cost",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-15"
     },
     {
       "slug": "carbon-laser-facial-vs-hydrafacial",
