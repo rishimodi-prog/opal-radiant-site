@@ -1129,7 +1129,8 @@
       "category": "Carbon Laser Facial",
       "meta_description": "Carbon laser facial vs HydraFacial — how they differ in mechanism, who each suits, downtime and results — so you choose the right glow treatment for your skin.",
       "image_alt": "Carbon lotion and a Q-switched Nd:YAG laser handpiece on a clinic tray, illustrating how a carbon laser facial compares with a HydraFacial",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-16"
     },
     {
       "slug": "hifu-results-how-long-they-last",
