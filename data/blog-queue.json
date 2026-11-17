@@ -1139,7 +1139,8 @@
       "category": "HIFU",
       "meta_description": "When HIFU results appear, how long the lift and tightening last, what the evidence shows, and who's a good candidate — a realistic dermatologist's guide.",
       "image_alt": "A HIFU ultrasound handpiece and transducer on a clinic treatment bed, illustrating when HIFU results appear and how long they last",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-17"
     },
     {
       "slug": "profhilo-skin-boosters-evidence",
