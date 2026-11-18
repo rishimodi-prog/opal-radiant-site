@@ -1149,7 +1149,8 @@
       "category": "Anti-Ageing",
       "meta_description": "What injectable skin boosters like Profhilo actually are, how they differ from fillers, what the evidence shows, and how they compare to HIFU and microneedling.",
       "image_alt": "A vial and syringe on a clinical tray, illustrating injectable skin boosters such as Profhilo",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-18"
     },
     {
       "slug": "exosome-therapy-skin-hair-evidence",
