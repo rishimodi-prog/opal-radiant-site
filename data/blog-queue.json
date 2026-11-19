@@ -1159,7 +1159,8 @@
       "category": "Skin Science",
       "meta_description": "What exosome therapy is, the early evidence for skin rejuvenation and hair loss, the real regulatory and safety caveats, and how to judge the hype honestly.",
       "image_alt": "A centrifuged platelet-rich plasma vial and a sterile injection tray, illustrating regenerative injectables such as exosome therapy for skin and hair",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-19"
     },
     {
       "slug": "mesotherapy-for-hair-loss-vs-prp",
