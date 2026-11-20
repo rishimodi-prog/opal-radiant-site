@@ -1169,7 +1169,8 @@
       "category": "Hair PRP",
       "meta_description": "What hair mesotherapy actually is, what the evidence shows, how it compares to PRP, GFC, minoxidil and finasteride, and whether it's worth it for hair loss.",
       "image_alt": "A centrifuged platelet-rich plasma vial and a sterile injection tray, illustrating mesotherapy for hair loss compared with PRP",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-20"
     },
     {
       "slug": "laser-tattoo-removal-cost-india",
