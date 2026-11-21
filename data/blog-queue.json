@@ -1179,7 +1179,8 @@
       "category": "Tattoo Removal",
       "meta_description": "What laser tattoo removal costs in India, why price depends on size, colour, ink and sessions, and how to budget realistically for a full course.",
       "image_alt": "A Q-switched laser handpiece positioned over a fading tattoo, illustrating what drives the cost of laser tattoo removal",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-21"
     },
     {
       "slug": "does-laser-tattoo-removal-scar",
