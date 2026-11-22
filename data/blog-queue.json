@@ -1189,7 +1189,8 @@
       "category": "Tattoo Removal",
       "meta_description": "Does laser tattoo removal scar? Usually not when done properly — here's what actually raises the risk, how to avoid it, and what to expect on Indian skin.",
       "image_alt": "A Q-switched laser handpiece positioned over a fading tattoo, illustrating whether laser tattoo removal leaves a scar",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-22"
     },
     {
       "slug": "mnrf-vs-microneedling-acne-scars",
