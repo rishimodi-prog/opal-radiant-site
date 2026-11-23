@@ -1199,7 +1199,8 @@
       "category": "Acne Scars",
       "meta_description": "How RF microneedling (MNRF) differs from standard microneedling for acne scars, which goes deeper, what the evidence shows, and which suits your skin.",
       "image_alt": "A radiofrequency microneedling handpiece on a sterile clinic tray, illustrating MNRF versus microneedling for acne scars",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-23"
     },
     {
       "slug": "mnrf-cost-sessions-mumbai",
