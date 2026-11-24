@@ -1209,7 +1209,8 @@
       "category": "MNRF",
       "meta_description": "What MNRF (RF microneedling) costs in Mumbai, how many sessions acne scars vs rejuvenation need, what drives the price, and how to judge value.",
       "image_alt": "A radiofrequency microneedling handpiece on a sterile clinic tray, illustrating MNRF treatment cost and session planning",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-24"
     },
     {
       "slug": "coolsculpting-vs-fat-freeze-cost",
