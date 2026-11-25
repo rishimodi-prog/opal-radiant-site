@@ -1219,7 +1219,8 @@
       "category": "Fat Freeze",
       "meta_description": "Is CoolSculpting the same as fat freezing? How cryolipolysis works, what the evidence shows, realistic results, costs in India, and who it suits.",
       "image_alt": "A cryolipolysis fat-freezing applicator on a treatment bed beside a consent form, illustrating how CoolSculpting and fat freeze compare and what they cost",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-25"
     },
     {
       "slug": "emsculpt-hifem-body-toning-evidence",
