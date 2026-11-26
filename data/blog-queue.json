@@ -1229,7 +1229,8 @@
       "category": "Body Contouring",
       "meta_description": "What HIFEM body toning (Emsculpt) does to muscle and fat, what the evidence shows, who it suits, and why it complements rather than replaces exercise.",
       "image_alt": "A HIFEM electromagnetic muscle toning applicator on a clinic treatment bed, illustrating how Emsculpt and HIFEM body toning work",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-26"
     },
     {
       "slug": "non-surgical-double-chin-removal",
