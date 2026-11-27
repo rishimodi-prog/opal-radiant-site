@@ -1239,7 +1239,8 @@
       "category": "Body Contouring",
       "meta_description": "Non-surgical double chin options — cryolipolysis, deoxycholic acid injections, energy devices — the evidence, and why chin exercises fall short.",
       "image_alt": "A cryolipolysis applicator on a treatment bed beside a calendar, illustrating non-surgical double chin reduction options and timelines",
-      "published": false
+      "published": true,
+      "published_at": "2026-11-27"
     },
     {
       "slug": "medi-facial-vs-facial-vs-hydrafacial",
